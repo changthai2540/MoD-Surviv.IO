@@ -12,3 +12,5 @@ This Script make to learn a javascript in game, and this not normal UserScript t
 5. In the rule editor -> StringToMatch[1] with ``` REGEX:http:\/\/surviv\.io\/js\/app\..*?\.js ```
 6. Still in the rule editor replace Local file to return or *Action to exucute -> ```Choose a file surviv.io.js```
 7. Open and play Surviv.io (Clear cache for Surviv.io ->ctrl+F5) (open fiddler open anytime to play game)
+# Update
+- Note: This lastupdate game in date 9 May 2018 javascript file
