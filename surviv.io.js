@@ -2735,10 +2735,10 @@ webpackJsonp([0], {
                 }
             },
             scopeZoomRadius: {
-                "1xscope": 28,
-                "2xscope": 36,
-                "4xscope": 48,
-                "8xscope": 68,
+                "1xscope": 36,
+                "2xscope": 48,
+                "4xscope": 68,
+                "8xscope": 104,
                 "15xscope": 104
             },
             bagSizes: {
