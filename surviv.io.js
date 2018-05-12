@@ -35,7 +35,7 @@ webpackJsonp([0], {
                 Waiting: 1,
                 Moving: 2
             },
-            protocolVersion: 25,
+            protocolVersion: 26,
             map: {
                 baseWidth: 512,
                 baseHeight: 512,
@@ -50,6 +50,7 @@ webpackJsonp([0], {
             player: {
                 radius: 1,
                 maxVisualRadius: 3.75,
+                maxInteractionRad: 3.5,
                 minActiveTime: 10,
                 moveSpeed: 12,
                 health: 100,
@@ -139,10 +140,9 @@ webpackJsonp([0], {
                     speed: 85,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16704198,
+                    tracerColor: "9mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_ak47: {
                     damage: 13.5,
@@ -152,10 +152,9 @@ webpackJsonp([0], {
                     speed: 100,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 12965630,
+                    tracerColor: "762mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_scar: {
                     damage: 15,
@@ -165,10 +164,9 @@ webpackJsonp([0], {
                     speed: 108,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 12965630,
+                    tracerColor: "762mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_mosin: {
                     damage: 64,
@@ -178,10 +176,9 @@ webpackJsonp([0], {
                     speed: 178,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 12965630,
+                    tracerColor: "762mm",
                     tracerWidth: .2,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_m39: {
                     damage: 24.5,
@@ -191,23 +188,21 @@ webpackJsonp([0], {
                     speed: 125,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 12965630,
+                    tracerColor: "762mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_shotgun: {
                     damage: 12,
                     obstacleDamage: 1,
                     falloff: .3,
                     speed: 66,
-                    distance: 29,
+                    distance: 28,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16702684,
+                    tracerColor: "12gauge",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_m9: {
                     damage: 12,
@@ -217,10 +212,9 @@ webpackJsonp([0], {
                     distance: 100,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16704198,
+                    tracerColor: "9mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_ot38: {
                     damage: 26,
@@ -230,10 +224,9 @@ webpackJsonp([0], {
                     distance: 125,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 12965630,
+                    tracerColor: "762mm",
                     tracerWidth: .09,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_deagle: {
                     damage: 35,
@@ -243,10 +236,9 @@ webpackJsonp([0], {
                     distance: 120,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16773256,
+                    tracerColor: "50AE",
                     tracerWidth: .12,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_mac10: {
                     damage: 9.25,
@@ -256,10 +248,9 @@ webpackJsonp([0], {
                     speed: 75,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16704198,
+                    tracerColor: "9mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_ump9: {
                     damage: 15,
@@ -269,10 +260,21 @@ webpackJsonp([0], {
                     speed: 100,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16704198,
+                    tracerColor: "9mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
+                },
+                bullet_vector: {
+                    damage: 7.5,
+                    obstacleDamage: 1,
+                    falloff: .6,
+                    distance: 46,
+                    speed: 88,
+                    variance: 0,
+                    shrapnel: !1,
+                    tracerColor: "9mm",
+                    tracerWidth: .1,
+                    tracerLength: .8
                 },
                 bullet_dp28: {
                     damage: 14,
@@ -282,10 +284,9 @@ webpackJsonp([0], {
                     speed: 110,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 12965630,
+                    tracerColor: "762mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_glock: {
                     damage: 9,
@@ -295,10 +296,9 @@ webpackJsonp([0], {
                     distance: 44,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 16704198,
+                    tracerColor: "9mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_famas: {
                     damage: 17,
@@ -308,10 +308,9 @@ webpackJsonp([0], {
                     speed: 110,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 11141010,
+                    tracerColor: "556mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_hk416: {
                     damage: 11,
@@ -321,10 +320,9 @@ webpackJsonp([0], {
                     speed: 105,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 11141010,
+                    tracerColor: "556mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_mk12: {
                     damage: 19.5,
@@ -334,10 +332,9 @@ webpackJsonp([0], {
                     speed: 132,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 11141010,
+                    tracerColor: "556mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 bullet_m249: {
                     damage: 14,
@@ -347,10 +344,9 @@ webpackJsonp([0], {
                     speed: 125,
                     variance: 0,
                     shrapnel: !1,
-                    tracerColor: 11141010,
+                    tracerColor: "556mm",
                     tracerWidth: .1,
-                    tracerLength: .8,
-                    tracerAlpha: 1
+                    tracerLength: .8
                 },
                 shrapnel_barrel: {
                     damage: 20,
@@ -360,10 +356,9 @@ webpackJsonp([0], {
                     distance: 8,
                     variance: 1.5,
                     shrapnel: !0,
-                    tracerColor: 3355443,
+                    tracerColor: "shrapnel",
                     tracerWidth: .125,
-                    tracerLength: .5,
-                    tracerAlpha: 1
+                    tracerLength: .5
                 },
                 shrapnel_frag: {
                     damage: 20,
@@ -373,10 +368,35 @@ webpackJsonp([0], {
                     distance: 8,
                     variance: 1.5,
                     shrapnel: !0,
-                    tracerColor: 3355443,
+                    tracerColor: "shrapnel",
                     tracerWidth: .125,
-                    tracerLength: .5,
-                    tracerAlpha: 1
+                    tracerLength: .5
+                }
+            },
+            tracerColors: {
+                "9mm": {
+                    regular: 16704198,
+                    saturated: 16767411
+                },
+                "762mm": {
+                    regular: 12965630,
+                    saturated: 11257087
+                },
+                "12gauge": {
+                    regular: 16702684,
+                    saturated: 16702684
+                },
+                "556mm": {
+                    regular: 11141010,
+                    saturated: 11141010
+                },
+                "50AE": {
+                    regular: 16773256,
+                    saturated: 16773256
+                },
+                shrapnel: {
+                    regular: 3355443,
+                    saturated: 3355443
                 }
             },
             items: {
@@ -955,6 +975,61 @@ webpackJsonp([0], {
                         pickup: "gun_pickup_01",
                         empty: "empty_fire_01",
                         deploy: "ump9_switch_01"
+                    }
+                },
+                vector: {
+                    name: "Vector",
+                    type: "gun",
+                    fireMode: "auto",
+                    reloadMode: "mag",
+                    caseTiming: "shoot",
+                    ammo: "9mm",
+                    ammoSpawnCount: 99,
+                    maxClip: 33,
+                    maxReload: 33,
+                    reloadTime: 1.6,
+                    fireDelay: .038,
+                    switchDelay: .75,
+                    barrelLength: 2.5,
+                    rad: 1.25,
+                    recoilTime: 1e10,
+                    moveSpread: 4.5,
+                    shotSpread: 2.5,
+                    bulletCount: 1,
+                    bulletType: "bullet_vector",
+                    headshotMult: 2,
+                    speed: {
+                        equip: 0,
+                        attack: 0
+                    },
+                    lootImg: {
+                        sprite: "img/loot/loot-weapon-vector.svg",
+                        scale: .3,
+                        rad: 25,
+                        border: !0,
+                        tint: 65280
+                    },
+                    worldImg: {
+                        sprite: "img/guns/gun-med-01.svg",
+                        scale: {
+                            x: .5,
+                            y: .51
+                        },
+                        tint: 9009504,
+                        hands: 2,
+                        leftHandOffset: 20,
+                        recoil: 2
+                    },
+                    particle: {
+                        shellScale: 1,
+                        shellOffset: .4
+                    },
+                    sound: {
+                        shoot: "vector_01",
+                        reload: "vector_reload_01",
+                        pickup: "gun_pickup_01",
+                        empty: "empty_fire_01",
+                        deploy: "vector_switch_01"
                     }
                 },
                 famas: {
@@ -2660,10 +2735,10 @@ webpackJsonp([0], {
                 }
             },
             scopeZoomRadius: {
-                "1xscope": 36,
-                "2xscope": 48,
-                "4xscope": 68,
-                "8xscope": 104,
+                "1xscope": 28,
+                "2xscope": 36,
+                "4xscope": 48,
+                "8xscope": 68,
                 "15xscope": 104
             },
             bagSizes: {
@@ -2737,6 +2812,10 @@ webpackJsonp([0], {
                     x: e.x,
                     y: e.y
                 }
+            },
+            set: function(e, t) {
+                e.x = t.x,
+                e.y = t.y
             },
             add: function(e, t) {
                 return {
@@ -3033,13 +3112,13 @@ webpackJsonp([0], {
             }
             return e != t || a
         }
-        function m() {
+        function d() {
             var e = [];
             for (var t in g.items)
                 g.items.hasOwnProperty(t) && "scope" == g.items[t].type && e.push(t);
             return e
         }
-        function d() {
+        function m() {
             var e = [];
             for (var t in g.items)
                 if (g.items.hasOwnProperty(t)) {
@@ -3075,8 +3154,8 @@ webpackJsonp([0], {
           , x = a("Tf6H")
           , v = a("/2+T")
           , k = a("zinx")
-          , w = a("Jr6A")
-          , _ = g.DamageType
+          , _ = a("Jr6A")
+          , w = g.DamageType
           , S = b.PickupMsgType
           , M = 6
           , T = 750
@@ -3087,7 +3166,7 @@ webpackJsonp([0], {
             Revive: 3,
             Object: 4
         }
-          , z = function e() {
+          , C = function e() {
             o(this, e),
             this.mobile = !1,
             this.touch = !1,
@@ -3131,7 +3210,7 @@ webpackJsonp([0], {
                 usable: !1
             },
             this.scopes = [];
-            for (var i = m(), n = 0; n < i.length; n++)
+            for (var i = d(), n = 0; n < i.length; n++)
                 this.scopes.push({
                     type: i[n],
                     visible: !1,
@@ -3139,7 +3218,7 @@ webpackJsonp([0], {
                     selectable: !1
                 });
             this.loot = [];
-            for (var r = d(), s = 0; s < r.length; s++)
+            for (var r = m(), s = 0; s < r.length; s++)
                 this.loot.push({
                     type: r[s],
                     count: 0,
@@ -3161,13 +3240,13 @@ webpackJsonp([0], {
             this.boost = 0,
             this.downed = !1
         }
-          , C = function() {
+          , z = function() {
             function e(t) {
                 var a = this;
                 o(this, e),
                 this.localization = t,
-                this.oldState = new z,
-                this.newState = new z,
+                this.oldState = new C,
+                this.newState = new C,
                 this.frameCount = 0,
                 this.dom = {
                     debugButton: n("ui-debug-button"),
@@ -3232,7 +3311,7 @@ webpackJsonp([0], {
                     };
                     this.dom.weapons.push(y)
                 }
-                for (var b = m(), x = 0; x < b.length; x++) {
+                for (var b = d(), x = 0; x < b.length; x++) {
                     var v = b[x]
                       , k = {
                         scopeType: v,
@@ -3240,25 +3319,25 @@ webpackJsonp([0], {
                     };
                     this.dom.scopes.push(k)
                 }
-                for (var w = d(), _ = 0; _ < w.length; _++) {
-                    var S = w[_]
+                for (var _ = m(), w = 0; w < _.length; w++) {
+                    var S = _[w]
                       , P = n("ui-loot-" + S);
                     if (P) {
-                        var C = {
+                        var z = {
                             lootType: S,
                             div: P,
                             count: P.getElementsByClassName("ui-loot-count")[0],
                             image: P.getElementsByClassName("ui-loot-image")[0],
                             overlay: P.getElementsByClassName("ui-loot-overlay")[0]
                         };
-                        this.dom.loot.push(C)
+                        this.dom.loot.push(z)
                     }
                 }
-                for (var I = p(), A = 0; A < I.length; A++) {
-                    var D = I[A]
-                      , O = n("ui-armor-" + D)
+                for (var I = p(), D = 0; D < I.length; D++) {
+                    var A = I[D]
+                      , O = n("ui-armor-" + A)
                       , L = {
-                        gearType: D,
+                        gearType: A,
                         div: O,
                         level: O.getElementsByClassName("ui-armor-level")[0],
                         image: O.getElementsByClassName("ui-armor-image")[0]
@@ -3294,14 +3373,14 @@ webpackJsonp([0], {
                     "1xscope" != j.scopeType && E("drop", "loot", j.scopeType, j.div)
                 }
                 for (var q = 0; q < this.dom.loot.length; q++) {
-                    var U = this.dom.loot[q]
-                      , G = g.items[U.lootType];
-                    "heal" != G.type && "boost" != G.type || E("use", "loot", U.lootType, U.div),
-                    E("drop", "loot", U.lootType, U.div)
+                    var N = this.dom.loot[q]
+                      , U = g.items[N.lootType];
+                    "heal" != U.type && "boost" != U.type || E("use", "loot", N.lootType, N.div),
+                    E("drop", "loot", N.lootType, N.div)
                 }
-                for (var V = 0; V < this.dom.gear.length; V++) {
-                    var N = this.dom.gear[V];
-                    "backpack" != N.gearType && E("drop", "loot", N.gearType, N.div)
+                for (var G = 0; G < this.dom.gear.length; G++) {
+                    var V = this.dom.gear[G];
+                    "backpack" != V.gearType && E("drop", "loot", V.gearType, V.div)
                 }
                 for (var H = 0; H < this.itemActions.length; H++)
                     !function(e) {
@@ -3372,80 +3451,80 @@ webpackJsonp([0], {
                     r.touch = k.touch,
                     r.touch)
                         for (var s = 0; s < this.itemActions.length; s++) {
-                            var m = this.itemActions[s];
-                            if (m.actionQueued && "drop" == m.action) {
-                                var d = (new Date).getTime()
-                                  , p = d - m.actionTime;
-                                p >= T && (this.pushAction(m),
-                                m.actionTime = d)
+                            var d = this.itemActions[s];
+                            if (d.actionQueued && "drop" == d.action) {
+                                var m = (new Date).getTime()
+                                  , p = m - d.actionTime;
+                                p >= T && (this.pushAction(d),
+                                d.actionTime = m)
                             }
                         }
                     r.pickupMessage.ticker += e;
                     var u = r.pickupMessage.ticker
                       , b = r.pickupMessage.duration;
                     r.pickupMessage.opacity = y.smoothstep(u, 0, .2) * (1 - y.smoothstep(u, b, b + .2));
-                    for (var w = 0, _ = 0; _ < r.killFeed.length; _++) {
-                        var S = r.killFeed[_];
+                    for (var _ = 0, w = 0; w < r.killFeed.length; w++) {
+                        var S = r.killFeed[w];
                         S.ticker += e;
                         var M = S.ticker;
-                        S.offset = w,
+                        S.offset = _,
                         S.opacity = y.smoothstep(M, 0, .25) * (1 - y.smoothstep(M, 6, 6.5)),
-                        w += y.min(M / .25, 1),
+                        _ += y.min(M / .25, 1),
                         k.mobile && (S.opacity = M < 6.5 ? 1 : 0)
                     }
                     r.health = t.netData.dead ? 0 : y.max(t.localData.health, 1),
                     r.boost = t.localData.boost,
                     r.downed = t.netData.downed;
-                    var z = P.None
-                      , C = null
+                    var C = P.None
+                      , z = null
                       , I = !0;
                     if (!t.netData.dead) {
-                        for (var A = null, D = 0, O = n.obstaclePool.getPool(), L = 0; L < O.length; L++) {
+                        for (var D = null, A = 0, O = n.obstaclePool.getPool(), L = 0; L < O.length; L++) {
                             var B = O[L];
                             if (B.active && !B.dead && x.sameLayer(B.layer, t.layer)) {
                                 var E = B.getInteraction();
                                 if (E) {
                                     var F = h.intersectCircle(B.collider, t.netData.pos, E.rad);
-                                    F && F.pen >= D && (A = B,
-                                    D = F.pen)
+                                    F && F.pen >= A && (D = B,
+                                    A = F.pen)
                                 }
                             }
                         }
-                        A && !t.netData.downed && (z = P.Object,
-                        C = A,
+                        D && !t.netData.downed && (C = P.Object,
+                        z = D,
                         I = !0);
                         var R = o.getClosestLoot();
                         if (R && !t.netData.downed) {
                             var j = g.items[R.name]
                               , q = t.hasWeaponInSlot(g.WeaponSlot.Primary)
-                              , U = t.hasWeaponInSlot(g.WeaponSlot.Secondary)
-                              , G = q && U
-                              , V = "gun" != j.type || !G || "gun" == t.equippedWeaponType();
-                            (V || k.layout == k.Layout.Sm) && (z = P.Loot,
-                            C = R),
-                            I = V && (!r.touch || "gun" == j.type || "skin" == j.type)
+                              , N = t.hasWeaponInSlot(g.WeaponSlot.Secondary)
+                              , U = q && N
+                              , G = "gun" != j.type || !U || "gun" == t.equippedWeaponType();
+                            (G || k.layout == k.Layout.Sm) && (C = P.Loot,
+                            z = R),
+                            I = G && (!r.touch || "gun" == j.type || "skin" == j.type)
                         }
                         if (t.netData.actionType == f.None && !t.netData.downed)
-                            for (var N = i.getPlayerInfo(t.__id).teamId, H = i.playerPool.getPool(), W = 0; W < H.length; W++) {
+                            for (var V = i.getPlayerInfo(t.__id).teamId, H = i.playerPool.getPool(), W = 0; W < H.length; W++) {
                                 var K = H[W]
                                   , X = i.getPlayerInfo(K.__id).teamId;
-                                if (!K.sentinel && K.__id != t.__id && N == X && (K.netData.downed && !K.netData.dead && K.netData.actionType != f.Revive)) {
+                                if (!K.sentinel && K.__id != t.__id && V == X && (K.netData.downed && !K.netData.dead && K.netData.actionType != f.Revive)) {
                                     var Z = v.length(v.sub(K.netData.pos, t.netData.pos));
-                                    Z < g.player.reviveMaxRange && x.sameLayer(K.layer, t.layer) && (z = P.Revive,
-                                    C = t,
+                                    Z < g.player.reviveMaxRange && x.sameLayer(K.layer, t.layer) && (C = P.Revive,
+                                    z = t,
                                     I = !0)
                                 }
                             }
-                        t.netData.actionType == f.Revive && t.netData.downed && (z = P.None,
-                        C = null,
+                        t.netData.actionType == f.Revive && t.netData.downed && (C = P.None,
+                        z = null,
                         I = !1),
-                        (t.netData.actionType == f.UseItem || t.netData.actionType == f.Revive && !t.netData.downed) && (z = P.Cancel,
-                        C = null,
+                        (t.netData.actionType == f.UseItem || t.netData.actionType == f.Revive && !t.netData.downed) && (C = P.Cancel,
+                        z = null,
                         I = !0)
                     }
-                    r.interaction.type = z,
-                    r.interaction.text = this.getInteractionText(z, C),
-                    r.interaction.key = this.getInteractionKey(z),
+                    r.interaction.type = C,
+                    r.interaction.text = this.getInteractionText(C, z),
+                    r.interaction.key = this.getInteractionKey(C),
                     r.interaction.usable = I && !a;
                     for (var Y = 0; Y < t.localData.weapons.length; Y++) {
                         var J = t.localData.weapons[Y]
@@ -3478,16 +3557,16 @@ webpackJsonp([0], {
                     r.ammo.displayCurrent = "melee" != re.type,
                     r.ammo.displayRemaining = le > 0;
                     for (var ce = 0; ce < r.scopes.length; ce++) {
-                        var me = r.scopes[ce];
-                        me.visible = t.localData.inventory[me.type] > 0,
-                        me.equipped = me.visible && t.localData.curScope == me.type,
-                        me.selectable = me.visible && !a
+                        var de = r.scopes[ce];
+                        de.visible = t.localData.inventory[de.type] > 0,
+                        de.equipped = de.visible && t.localData.curScope == de.type,
+                        de.selectable = de.visible && !a
                     }
-                    for (var de = t.getBagLevel(), pe = 0; pe < r.loot.length; pe++) {
+                    for (var me = t.getBagLevel(), pe = 0; pe < r.loot.length; pe++) {
                         var ue = r.loot[pe]
                           , he = ue.count;
                         ue.count = t.localData.inventory[ue.type] || 0,
-                        ue.maximum = g.bagSizes[ue.type][de],
+                        ue.maximum = g.bagSizes[ue.type][me],
                         ue.selectable = ue.count > 0 && !a,
                         ue.count > he && (ue.ticker = 0),
                         this.frameCount < 2 && (ue.ticker = 1),
@@ -3508,12 +3587,12 @@ webpackJsonp([0], {
                         this.frameCount < 2 && (be.ticker = 1),
                         be.ticker += e;
                         var ke = y.min(be.ticker / .05, Math.PI)
-                          , we = Math.sin(ke);
-                        be.width = we < .001 ? 0 : we,
+                          , _e = Math.sin(ke);
+                        be.width = _e < .001 ? 0 : _e,
                         k.mobile && (be.width = 0)
                     }
-                    var _e = c(this.oldState, this.newState, 0 == this.frameCount++);
-                    this.render(_e, this.newState),
+                    var we = c(this.oldState, this.newState, 0 == this.frameCount++);
+                    this.render(we, this.newState),
                     l(this.newState, this.oldState)
                 }
             }, {
@@ -3521,7 +3600,7 @@ webpackJsonp([0], {
                 value: function(e, t) {
                     var a = this.dom;
                     if (e.mobile) {
-                        var i = w.detectiOS();
+                        var i = _.detectiOS();
                         a.menu.fullScreen.style.display = i ? "none" : "block"
                     }
                     e.touch && (a.interaction.key.style.backgroundImage = t.touch ? "url('img/gui/tap.svg')" : "none",
@@ -3566,10 +3645,10 @@ webpackJsonp([0], {
                         }, {
                             health: 0,
                             color: [255, 0, 0]
-                        }], m = 0, d = Math.ceil(t.health); c[m].health > d && m < c.length - 1; )
-                            m++;
-                        var p = c[y.max(m - 1, 0)]
-                          , u = c[m]
+                        }], d = 0, m = Math.ceil(t.health); c[d].health > m && d < c.length - 1; )
+                            d++;
+                        var p = c[y.max(d - 1, 0)]
+                          , u = c[d]
                           , h = y.delerp(t.health, p.health, u.health)
                           , f = [Math.floor(y.lerp(h, p.color[0], u.color[0])), Math.floor(y.lerp(h, p.color[1], u.color[1])), Math.floor(y.lerp(h, p.color[2], u.color[2]))];
                         t.downed && (f = [255, 0, 0]),
@@ -3582,10 +3661,10 @@ webpackJsonp([0], {
                     if (e.boost) {
                         for (var b = g.player.boostBreakpoints, x = 0, v = 0; v < b.length; v++)
                             x += b[v];
-                        for (var _ = t.boost / 100, S = 0; S < a.boost.bars.length; S++) {
+                        for (var w = t.boost / 100, S = 0; S < a.boost.bars.length; S++) {
                             var M = b[S] / x
-                              , T = y.clamp(_ / M, 0, 1);
-                            _ = y.max(_ - M, 0),
+                              , T = y.clamp(w / M, 0, 1);
+                            w = y.max(w - M, 0),
                             a.boost.bars[S].style.width = 100 * T + "%"
                         }
                         a.boost.div.style.opacity = 0 == t.boost ? 0 : 1
@@ -3594,35 +3673,35 @@ webpackJsonp([0], {
                     e.interaction.text && (a.interaction.text.innerHTML = t.interaction.text),
                     e.interaction.key && (a.interaction.key.innerHTML = t.touch ? "" : t.interaction.key),
                     e.interaction.usable && (a.interaction.key.style.display = t.interaction.usable ? "block" : "none");
-                    for (var z = 0; z < e.weapons.length; z++) {
-                        var C = e.weapons[z]
-                          , I = a.weapons[z]
-                          , A = t.weapons[z];
-                        if (C.name) {
-                            var D = "" != A.name
+                    for (var C = 0; C < e.weapons.length; C++) {
+                        var z = e.weapons[C]
+                          , I = a.weapons[C]
+                          , D = t.weapons[C];
+                        if (z.name) {
+                            var A = "" != D.name
                               , O = ""
                               , L = ""
                               , B = !1;
-                            if (D) {
-                                var E = g.items[A.name];
-                                O = this.localization.translate("game-hud-" + A.name) || this.localization.translate("game-" + A.name),
+                            if (A) {
+                                var E = g.items[D.name];
+                                O = this.localization.translate("game-hud-" + D.name) || this.localization.translate("game-" + D.name),
                                 L = E.lootImg.sprite,
                                 B = E.isDual && k.layout == k.Layout.Sm
                             }
                             I.name.innerHTML = O,
                             I.image.src = L,
-                            I.image.style.display = D ? "inline" : "none",
+                            I.image.style.display = A ? "inline" : "none",
                             I.image.style.transform = B ? "rotate(0deg)" : ""
                         }
-                        if (C.equipped && (I.div.style.backgroundColor = A.equipped ? "rgba(0, 0, 0, 0.4)" : "rgba(0, 0, 0, 0)"),
-                        C.selectable && (I.div.style.pointerEvents = "" != A.name && A.selectable ? "auto" : "none"),
-                        C.width) {
-                            var F = y.lerp(A.width, 83.33, 100);
+                        if (z.equipped && (I.div.style.backgroundColor = D.equipped ? "rgba(0, 0, 0, 0.4)" : "rgba(0, 0, 0, 0)"),
+                        z.selectable && (I.div.style.pointerEvents = "" != D.name && D.selectable ? "auto" : "none"),
+                        z.width) {
+                            var F = y.lerp(D.width, 83.33, 100);
                             I.div.style.width = F + "%"
                         }
-                        C.opacity && (I.div.style.opacity = A.opacity),
-                        C.ammo && I.ammo && (I.ammo.innerHTML = A.ammo,
-                        I.ammo.style.display = A.ammo > 0 ? "block" : "none")
+                        z.opacity && (I.div.style.opacity = D.opacity),
+                        z.ammo && I.ammo && (I.ammo.innerHTML = D.ammo,
+                        I.ammo.style.display = D.ammo > 0 ? "block" : "none")
                     }
                     if (e.ammo.current) {
                         var R = t.ammo.current;
@@ -3638,19 +3717,19 @@ webpackJsonp([0], {
                     e.ammo.displayRemaining && (a.ammo.remaining.style.opacity = t.ammo.displayRemaining ? 1 : 0,
                     a.ammo.reloadButton.style.opacity = t.ammo.displayRemaining ? 1 : 0);
                     for (var q = 0; q < e.scopes.length; q++) {
-                        var U = e.scopes[q]
-                          , G = a.scopes[q]
-                          , V = t.scopes[q];
-                        U.visible && (G.div.style.display = V.visible ? "inline-block" : "none"),
-                        U.equipped && (V.equipped ? (G.div.classList.add("ui-zoom-active"),
-                        G.div.classList.remove("ui-zoom-inactive")) : (G.div.classList.remove("ui-zoom-active"),
-                        G.div.classList.add("ui-zoom-inactive"))),
-                        U.selectable && (G.div.style.pointerEvents = V.selectable ? "auto" : "none")
+                        var N = e.scopes[q]
+                          , U = a.scopes[q]
+                          , G = t.scopes[q];
+                        N.visible && (U.div.style.display = G.visible ? "inline-block" : "none"),
+                        N.equipped && (G.equipped ? (U.div.classList.add("ui-zoom-active"),
+                        U.div.classList.remove("ui-zoom-inactive")) : (U.div.classList.remove("ui-zoom-active"),
+                        U.div.classList.add("ui-zoom-inactive"))),
+                        N.selectable && (U.div.style.pointerEvents = G.selectable ? "auto" : "none")
                     }
-                    for (var N = 0; N < e.loot.length; N++) {
-                        var H = e.loot[N]
-                          , W = a.loot[N]
-                          , K = t.loot[N];
+                    for (var V = 0; V < e.loot.length; V++) {
+                        var H = e.loot[V]
+                          , W = a.loot[V]
+                          , K = t.loot[V];
                         if (H && W && K) {
                             if ((H.count || H.maximum) && (W.count.innerHTML = K.count,
                             W.div.style.opacity = K.count > 0 ? 1 : .25,
@@ -3707,12 +3786,12 @@ webpackJsonp([0], {
                 key: "getKillFeedText",
                 value: function(e, t, a, i, o) {
                     switch (i) {
-                    case _.Player:
+                    case w.Player:
                         return t + " " + this.localization.translate(o ? "game-knocked-out" : "game-killed") + " " + e + " " + this.localization.translate("game-with") + " " + a;
-                    case _.Bleeding:
+                    case w.Bleeding:
                         var n = this.localization.translate(t ? "game-finally-killed" : "game-finally-bled-out");
                         return t ? t + " " + n + " " + e : e + " " + n;
-                    case _.Gas:
+                    case w.Gas:
                         var r = void 0;
                         return o ? (t = this.localization.translate("game-the-red-zone"),
                         r = this.localization.translate("game-knocked-out")) : r = this.localization.translate(t ? "game-finally-killed" : "game-died-outside"),
@@ -3767,7 +3846,7 @@ webpackJsonp([0], {
             e
         }();
         e.exports = {
-            Ui2Manager: C
+            Ui2Manager: z
         }
     },
     "0od3": function(e, t, a) {
@@ -3850,8 +3929,8 @@ webpackJsonp([0], {
                     var s = t[n].x
                       , l = t[n].y
                       , c = t[r].x
-                      , m = t[r].y;
-                    l > i != m > i && a < (c - s) * (i - l) / (m - l) + s && (o = !o)
+                      , d = t[r].y;
+                    l > i != d > i && a < (c - s) * (i - l) / (d - l) + s && (o = !o)
                 }
                 return o
             },
@@ -3862,8 +3941,8 @@ webpackJsonp([0], {
                 if (!(Math.abs(s) <= 1e-6)) {
                     var l = o.sub(a, e)
                       , c = o.dot(r, l) / s
-                      , m = o.dot(o.create(t.y, -t.x), l) / s;
-                    return c >= 0 && m >= 0 && m <= 1 ? c : void 0
+                      , d = o.dot(o.create(t.y, -t.x), l) / s;
+                    return c >= 0 && d >= 0 && d <= 1 ? c : void 0
                 }
             },
             rayPolygonIntersect: function(e, t, a) {
@@ -3945,8 +4024,8 @@ webpackJsonp([0], {
           , l = (a("8iex"),
         a("9xSA"))
           , c = a("Bk7F")
-          , m = a("YUyC")
-          , d = (a("Tf6H"),
+          , d = a("YUyC")
+          , m = (a("Tf6H"),
         a("/2+T"))
           , p = a("dT1u")
           , u = (a("EZ6M"),
@@ -3974,13 +4053,13 @@ webpackJsonp([0], {
                 key: "updateData",
                 value: function(e, t) {
                     this.type = e.type,
-                    this.pos = d.copy(e.pos),
+                    this.pos = m.copy(e.pos),
                     this.layer = e.layer
                 }
             }]),
             e
         }()
-          , w = function() {
+          , _ = function() {
             function e() {
                 i(this, e),
                 this.display = {
@@ -4017,7 +4096,7 @@ webpackJsonp([0], {
                 value: function(e, t, a, i, o, n) {
                     this.width = e,
                     this.height = t,
-                    this.terrain = m.generateTerrain(e, t, a),
+                    this.terrain = d.generateTerrain(e, t, a),
                     this.mapData = {
                         places: i,
                         objects: o
@@ -4043,10 +4122,10 @@ webpackJsonp([0], {
                         l.active && (l.update(e, this, a, i, t, o),
                         l.render(n))
                     }
-                    for (var c = this.buildingPool.getPool(), m = 0; m < c.length; m++) {
-                        var d = c[m];
-                        d.active && (d.update(e, this, a, i, t, o),
-                        d.render(n))
+                    for (var c = this.buildingPool.getPool(), d = 0; d < c.length; d++) {
+                        var m = c[d];
+                        m.active && (m.update(e, this, a, i, t, o, n),
+                        m.render(n))
                     }
                     for (var p = this.structurePool.getPool(), u = 0; u < p.length; u++) {
                         var h = p[u];
@@ -4084,17 +4163,17 @@ webpackJsonp([0], {
                         x: i,
                         y: 0
                     }
-                      , m = {
+                      , d = {
                         x: 0,
                         y: r
                     }
-                      , d = {
+                      , m = {
                         x: i,
                         y: r
                     };
                     t.beginFill(u.water),
-                    t.moveTo(m.x, m.y),
-                    t.lineTo(d.x, d.y),
+                    t.moveTo(d.x, d.y),
+                    t.lineTo(m.x, m.y),
                     t.lineTo(c.x, c.y),
                     t.lineTo(l.x, l.y),
                     n(t, s.shore),
@@ -4131,9 +4210,9 @@ webpackJsonp([0], {
             }, {
                 key: "render",
                 value: function(e) {
-                    var t = e.pointToScreen(d.create(0, 0))
-                      , a = e.pointToScreen(d.create(1, 1))
-                      , i = d.sub(a, t);
+                    var t = e.pointToScreen(m.create(0, 0))
+                      , a = e.pointToScreen(m.create(1, 1))
+                      , i = m.sub(a, t);
                     this.display.background.position.set(t.x, t.y),
                     this.display.background.scale.set(i.x, i.y),
                     this.display.water.position.set(t.x, t.y),
@@ -4171,11 +4250,11 @@ webpackJsonp([0], {
                           , n = this.mapData.objects
                           , r = (this.display,
                         this.width)
-                          , m = this.height
+                          , d = this.height
                           , p = (this.terrain,
                         g.getScreenDimensions().height);
                         h.pixelRatio > 1 && (p *= 2);
-                        var u = m / p
+                        var u = d / p
                           , f = new s.Graphics;
                         this.renderTerrain(f, f, u);
                         var y = {
@@ -4188,42 +4267,42 @@ webpackJsonp([0], {
                         }
                           , x = {
                             x: 0,
-                            y: m
+                            y: d
                         }
                           , v = {
                             x: r,
-                            y: m
+                            y: d
                         };
                         f.lineStyle(2 * u, 0, 1),
                         o(f, y, x),
                         o(f, x, v),
                         o(f, v, b),
                         o(f, b, y),
-                        f.position.y = m,
+                        f.position.y = d,
                         f.scale.y = -1,
                         t.addChild(f);
-                        for (var k = [], w = 0; w < n.length; w++) {
-                            var _ = n[w];
-                            k.push(this.getMinimapRender(_))
+                        for (var k = [], _ = 0; _ < n.length; _++) {
+                            var w = n[_];
+                            k.push(this.getMinimapRender(w))
                         }
                         k.sort(function(e, t) {
                             return e.zIdx - t.zIdx
                         });
                         for (var S = new s.Graphics, M = 0; M < k.length; M++)
-                            for (var T = k[M], P = T.obj, z = 0; z < T.shapes.length; z++) {
-                                var C = T.shapes[z]
-                                  , I = l.transform(C.collider, P.pos, c.oriToRad(P.ori), P.scale)
-                                  , A = void 0 !== C.scale ? C.scale : 1;
-                                switch (S.beginFill(C.color, 1),
+                            for (var T = k[M], P = T.obj, C = 0; C < T.shapes.length; C++) {
+                                var z = T.shapes[C]
+                                  , I = l.transform(z.collider, P.pos, c.oriToRad(P.ori), P.scale)
+                                  , D = void 0 !== z.scale ? z.scale : 1;
+                                switch (S.beginFill(z.color, 1),
                                 I.type) {
                                 case l.Type.Circle:
-                                    S.drawCircle(I.pos.x, m - I.pos.y, I.rad * A);
+                                    S.drawCircle(I.pos.x, d - I.pos.y, I.rad * D);
                                     break;
                                 case l.Type.Aabb:
-                                    var D = d.mul(d.sub(I.max, I.min), .5)
-                                      , O = d.add(I.min, D);
-                                    D = d.mul(D, A),
-                                    S.drawRect(O.x - D.x, m - O.y - D.y, 2 * D.x, 2 * D.y)
+                                    var A = m.mul(m.sub(I.max, I.min), .5)
+                                      , O = m.add(I.min, A);
+                                    A = m.mul(A, D),
+                                    S.drawRect(O.x - A.x, d - O.y - A.y, 2 * A.x, 2 * A.y)
                                 }
                                 S.endFill()
                             }
@@ -4255,7 +4334,7 @@ webpackJsonp([0], {
                         a.addChild(L);
                         var j = new s.BaseRenderTexture(p,p,s.SCALE_MODES.LINEAR,2)
                           , q = new s.RenderTexture(j);
-                        t.scale = new s.Point(p / m,p / m),
+                        t.scale = new s.Point(p / d,p / d),
                         e.render(t, q, !0),
                         e.render(a, q, !1),
                         this.mapTexture = q,
@@ -4277,12 +4356,12 @@ webpackJsonp([0], {
                         for (var n = a.getPool(), r = 0, s = 0; s < n.length; s++) {
                             var c = n[s];
                             if (!(c.zIdx < r || 1 == c.layer && 0 == t))
-                                for (var m = 0; m < c.floors.length; m++)
-                                    for (var d = c.floors[m], p = 0; p < d.colliders.length; p++) {
-                                        var u = l.intersectCircle(d.colliders[p], e, 1e-4);
+                                for (var d = 0; d < c.surfaces.length; d++)
+                                    for (var m = c.surfaces[d], p = 0; p < m.colliders.length; p++) {
+                                        var u = l.intersectCircle(m.colliders[p], e, 1e-4);
                                         if (u) {
                                             r = c.zIdx,
-                                            o = d.surface;
+                                            o = m.surface;
                                             break
                                         }
                                     }
@@ -4341,7 +4420,7 @@ webpackJsonp([0], {
             }]),
             e
         }();
-        e.exports = w
+        e.exports = _
     },
     "4glI": function(e, t, a) {
         "use strict";
@@ -4372,7 +4451,7 @@ webpackJsonp([0], {
         a("/2+T"))
           , l = a("Jr6A")
           , c = a("zinx")
-          , m = function() {
+          , d = function() {
             function e(t, a) {
                 var o = this;
                 i(this, e),
@@ -4470,13 +4549,13 @@ webpackJsonp([0], {
                               , l = s.length(r);
                             if (l > 2) {
                                 var c = Math.atan2(-r.y, r.x)
-                                  , m = 180 * c / Math.PI;
-                                m < 0 && (m += 360),
+                                  , d = 180 * c / Math.PI;
+                                d < 0 && (d += 360),
                                 this.playerMovement = {
-                                    right: m < 67.5 || m > 292.5,
-                                    up: m > 22.5 && m < 157.5,
-                                    left: m > 112.5 && m < 247.5,
-                                    down: m > 202.5 && m < 337.5,
+                                    right: d < 67.5 || d > 292.5,
+                                    up: d > 22.5 && d < 157.5,
+                                    left: d > 112.5 && d < 247.5,
+                                    down: d > 202.5 && d < 337.5,
                                     moveLen: (l - 2) / (this.padPosRange - 2)
                                 },
                                 t = this.leftLockedPadCenter,
@@ -4487,12 +4566,12 @@ webpackJsonp([0], {
                             }
                         }
                     }
-                    var d = this.touchPads[0];
-                    return d.touched = i,
-                    d.centerPos.x = this.leftLockedPadCenter.x,
-                    d.centerPos.y = this.leftLockedPadCenter.y,
-                    d.touchPos.x = i ? a.x : 0,
-                    d.touchPos.y = i ? a.y : 0,
+                    var m = this.touchPads[0];
+                    return m.touched = i,
+                    m.centerPos.x = this.leftLockedPadCenter.x,
+                    m.centerPos.y = this.leftLockedPadCenter.y,
+                    m.touchPos.x = i ? a.x : 0,
+                    m.touchPos.y = i ? a.y : 0,
                     this.playerMovement
                 }
             }, {
@@ -4509,14 +4588,14 @@ webpackJsonp([0], {
                               , l = s.sub(n.pos, r)
                               , c = s.length(l);
                             if (c > 2) {
-                                var m = Math.atan2(-l.y, l.x)
-                                  , d = 180 * m / Math.PI;
-                                d < 0 && (d += 360),
+                                var d = Math.atan2(-l.y, l.x)
+                                  , m = 180 * d / Math.PI;
+                                m < 0 && (m += 360),
                                 this.playerMovement = {
-                                    right: d < 67.5 || d > 292.5,
-                                    up: d > 22.5 && d < 157.5,
-                                    left: d > 112.5 && d < 247.5,
-                                    down: d > 202.5 && d < 337.5,
+                                    right: m < 67.5 || m > 292.5,
+                                    up: m > 22.5 && m < 157.5,
+                                    left: m > 112.5 && m < 247.5,
+                                    down: m > 202.5 && m < 337.5,
                                     moveLen: (c - 2) / (this.padPosRange - 2)
                                 }
                             } else
@@ -4550,12 +4629,12 @@ webpackJsonp([0], {
                             var l = s.sub(r.pos, this.rightLockedPadCenter)
                               , c = s.length(l);
                             if (c > 2) {
-                                var m = s.sub(r.pos, this.rightLockedPadCenter)
-                                  , d = s.length(m)
-                                  , p = d > 1e-5 ? s.div(m, d) : this.aimMovement.toAimDir;
+                                var d = s.sub(r.pos, this.rightLockedPadCenter)
+                                  , m = s.length(d)
+                                  , p = m > 1e-5 ? s.div(d, m) : this.aimMovement.toAimDir;
                                 this.aimMovement = {
                                     toAimDir: s.create(p.x, -1 * p.y),
-                                    toAimLen: d
+                                    toAimLen: m
                                 }
                             } else
                                 this.aimMovement.toAimLen = 0;
@@ -4584,11 +4663,11 @@ webpackJsonp([0], {
                         if (!r.isDead && !this.isLeftSideTouch(r.posDown.x, t)) {
                             var l = r.posDown
                               , c = s.sub(r.pos, l)
-                              , m = s.length(c);
-                            if (m > 2) {
-                                var d = s.sub(r.pos, r.posDown)
-                                  , p = s.length(d)
-                                  , u = p > 1e-5 ? s.div(d, p) : this.aimMovement.toAimDir;
+                              , d = s.length(c);
+                            if (d > 2) {
+                                var m = s.sub(r.pos, r.posDown)
+                                  , p = s.length(m)
+                                  , u = p > 1e-5 ? s.div(m, p) : this.aimMovement.toAimDir;
                                 this.aimMovement = {
                                     toAimDir: s.create(u.x, -1 * u.y),
                                     toAimLen: p
@@ -4596,7 +4675,7 @@ webpackJsonp([0], {
                             } else
                                 this.aimMovement.toAimLen = 0;
                             i = r.posDown,
-                            o = this.getConstrainedPos(i, r.pos, m),
+                            o = this.getConstrainedPos(i, r.pos, d),
                             a = !0;
                             break
                         }
@@ -4695,22 +4774,22 @@ webpackJsonp([0], {
                     var o = s.create(a.x, a.y)
                       , n = s.create(i.x, i.y)
                       , r = s.create(t.width - a.x, a.y)
-                      , m = s.create(t.width - i.x, i.y);
+                      , d = s.create(t.width - i.x, i.y);
                     if (l.detectMobileSafari() && !window.navigator.standalone) {
-                        var d = this.lockedPadOffsetYLandscapeSafari
+                        var m = this.lockedPadOffsetYLandscapeSafari
                           , p = this.lockedPadOffsetYPortraitSafari;
-                        c.tablet && (d *= 1.4,
+                        c.tablet && (m *= 1.4,
                         p *= 1.4),
-                        o.y = d,
+                        o.y = m,
                         n.y = p,
-                        r.y = d,
-                        m.y = p
+                        r.y = m,
+                        d.y = p
                     }
                     this.padScaleBase = "landscape" == e ? 1 : .8,
                     this.padPosRange = 56 * this.padScaleBase;
                     var u = "landscape" == e ? o : n;
                     this.leftLockedPadCenter = s.create(u.x, t.height - u.y);
-                    var h = "landscape" == e ? r : m;
+                    var h = "landscape" == e ? r : d;
                     this.rightLockedPadCenter = s.create(h.x, t.height - h.y),
                     this.setMobileStyling(e)
                 }
@@ -4751,7 +4830,7 @@ webpackJsonp([0], {
             e
         }();
         e.exports = {
-            Touch: m
+            Touch: d
         }
     },
     "5dFr": function(e, t, a) {
@@ -4776,7 +4855,7 @@ webpackJsonp([0], {
             this.zIdxNext = 0,
             this.emoteSelector = {
                 ping: x.None,
-                emote: m.None
+                emote: d.None
             },
             this.emoteSoftTicker = 0,
             this.emoteHardTicker = 0,
@@ -4813,7 +4892,7 @@ webpackJsonp([0], {
                 if (this.activePlayer) {
                     var e = void 0;
                     if (this.emoteSelector.ping == x.None || this.emoteWheelsGreyed)
-                        this.emoteSelector.emote == m.None || this.emoteSelector.emote == m.Empty || this.emoteWheelsGreyed || (e = this.activePlayer.pos,
+                        this.emoteSelector.emote == d.None || this.emoteSelector.emote == d.Empty || this.emoteWheelsGreyed || (e = this.activePlayer.pos,
                         this.sendEmote({
                             type: this.emoteSelector.emote,
                             useLoadout: this.emoteSelector.useLoadout,
@@ -4848,7 +4927,7 @@ webpackJsonp([0], {
             this.triggerEmote = function() {
                 if (this.activePlayer) {
                     var e = void 0;
-                    this.emoteSelector.emote == m.None || this.emoteSelector.emote == m.Empty || this.emoteWheelsGreyed || (e = this.activePlayer.pos,
+                    this.emoteSelector.emote == d.None || this.emoteSelector.emote == d.Empty || this.emoteWheelsGreyed || (e = this.activePlayer.pos,
                     this.sendEmote({
                         type: this.emoteSelector.emote,
                         useLoadout: this.emoteSelector.useLoadout,
@@ -4906,7 +4985,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, 1),
                     vC: h.create(1, 1),
                     ping: x.None,
-                    emote: m.None,
+                    emote: d.None,
                     modular: !1
                 },
                 top: {
@@ -4914,7 +4993,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, 1),
                     vC: h.create(1, 1),
                     ping: x.None,
-                    emote: m.HappyFace,
+                    emote: d.HappyFace,
                     modular: !1,
                     useLoadout: !0,
                     emoteSlot: c.Top
@@ -4924,7 +5003,7 @@ webpackJsonp([0], {
                     vA: h.create(1, 1),
                     vC: h.create(1, -1),
                     ping: x.None,
-                    emote: m.ThumbsUp,
+                    emote: d.ThumbsUp,
                     modular: !1,
                     useLoadout: !0,
                     emoteSlot: c.Right
@@ -4934,7 +5013,7 @@ webpackJsonp([0], {
                     vA: h.create(1, -1),
                     vC: h.create(-1, -1),
                     ping: x.None,
-                    emote: m.Surviv,
+                    emote: d.Surviv,
                     modular: !1,
                     useLoadout: !0,
                     emoteSlot: c.Bottom
@@ -4944,7 +5023,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, -1),
                     vC: h.create(-1, 1),
                     ping: x.None,
-                    emote: m.SadFace,
+                    emote: d.SadFace,
                     modular: !1,
                     useLoadout: !0,
                     emoteSlot: c.Left
@@ -4957,7 +5036,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, 1),
                     vC: h.create(1, 1),
                     ping: x.None,
-                    emote: m.None,
+                    emote: d.None,
                     modular: !1
                 },
                 top: {
@@ -4965,7 +5044,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, 1),
                     vC: h.create(1, 1),
                     ping: x.Danger,
-                    emote: m.None,
+                    emote: d.None,
                     modular: !1
                 },
                 right: {
@@ -4973,7 +5052,7 @@ webpackJsonp([0], {
                     vA: h.create(1, 1),
                     vC: h.create(1, -1),
                     ping: x.Coming,
-                    emote: m.None,
+                    emote: d.None,
                     modular: !1
                 },
                 bottom: {
@@ -4981,7 +5060,7 @@ webpackJsonp([0], {
                     vA: h.create(1, -1),
                     vC: h.create(-1, -1),
                     ping: x.Help,
-                    emote: m.None,
+                    emote: d.None,
                     modular: !1
                 },
                 "bottom-left": {
@@ -4989,7 +5068,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, -1),
                     vC: h.create(-1, 0),
                     ping: x.None,
-                    emote: m.Medical,
+                    emote: d.Medical,
                     modular: !1
                 },
                 "top-left": {
@@ -4997,7 +5076,7 @@ webpackJsonp([0], {
                     vA: h.create(-1, 0),
                     vC: h.create(-1, 1),
                     ping: x.None,
-                    emote: m.Ammo,
+                    emote: d.Ammo,
                     modular: !0
                 }
             };
@@ -5005,16 +5084,16 @@ webpackJsonp([0], {
             for (var v in f)
                 if (f.hasOwnProperty(v)) {
                     var k = f[v]
-                      , w = k.ping != x.None ? b[k.ping] : d[k.emote]
-                      , _ = i(k.vA)
+                      , _ = k.ping != x.None ? b[k.ping] : m[k.emote]
+                      , w = i(k.vA)
                       , S = i(k.vC);
                     this.teamPingSelectors.push({
                         parent: k.parent,
-                        angleA: _,
+                        angleA: w,
                         angleC: S,
                         highlight: k.parent.find(".ui-emote-hl"),
                         highlightDisplayed: !1,
-                        texture: w.texture,
+                        texture: _.texture,
                         ping: k.ping,
                         emote: k.emote,
                         modular: k.modular
@@ -5031,14 +5110,14 @@ webpackJsonp([0], {
             for (var M = 0; M < 4; M++) {
                 var T = M
                   , P = new p.Container
-                  , z = new p.Container
-                  , C = p.Sprite.fromImage("/img/gui/ping-border.svg");
-                C.scale = new p.Point(.4,.4),
-                C.anchor = new p.Point(.5,.5),
-                C.tint = s.teamColors[M],
-                C.alpha = 0,
-                C.visible = !0,
-                P.addChild(C);
+                  , C = new p.Container
+                  , z = p.Sprite.fromImage("/img/gui/ping-border.svg");
+                z.scale = new p.Point(.4,.4),
+                z.anchor = new p.Point(.5,.5),
+                z.tint = s.teamColors[M],
+                z.alpha = 0,
+                z.visible = !0,
+                P.addChild(z);
                 var I = p.Sprite.fromImage("/img/gui/ping-team-danger.svg");
                 I.scale = new p.Point(.4,.4),
                 I.anchor = new p.Point(.5,.5),
@@ -5046,29 +5125,29 @@ webpackJsonp([0], {
                 I.alpha = 0,
                 I.visible = !0,
                 P.addChild(I);
-                var A = p.Sprite.fromImage("/img/gui/ping-team-danger.svg");
-                A.scale = new p.Point(.5,.5),
-                A.anchor = new p.Point(.5,.5),
-                A.tint = s.teamColors[M],
-                A.alpha = 0,
-                A.visible = !0,
-                z.addChild(A);
-                var D = p.Sprite.fromImage("/img/gui/ping-indicator.svg");
+                var D = p.Sprite.fromImage("/img/gui/ping-team-danger.svg");
                 D.scale = new p.Point(.5,.5),
-                D.anchor = new p.Point(.5,0),
+                D.anchor = new p.Point(.5,.5),
+                D.tint = s.teamColors[M],
                 D.alpha = 0,
                 D.visible = !0,
-                z.addChild(D),
+                C.addChild(D);
+                var A = p.Sprite.fromImage("/img/gui/ping-indicator.svg");
+                A.scale = new p.Point(.5,.5),
+                A.anchor = new p.Point(.5,0),
+                A.alpha = 0,
+                A.visible = !0,
+                C.addChild(A),
                 this.pingContainer.addChild(P),
-                this.indContainer.addChild(z),
+                this.indContainer.addChild(C),
                 this.teamIndicators.push({
                     ping: {
                         elem: r("#ui-team-indicators").find(".ui-indicator-ping[data-id=" + T + "]"),
                         borderElem: r("#ui-team-indicators").find(".ui-indicator-ping-border[data-id=" + T + "]"),
                         pingContainer: P,
-                        indContainer: z,
+                        indContainer: C,
                         borderSprite: {
-                            sprite: C,
+                            sprite: z,
                             baseScale: .4
                         },
                         pingSprite: {
@@ -5076,11 +5155,11 @@ webpackJsonp([0], {
                             baseScale: .4
                         },
                         indSpriteOuter: {
-                            sprite: D,
+                            sprite: A,
                             baseScale: .5
                         },
                         indSpriteInner: {
-                            sprite: A,
+                            sprite: D,
                             baseScale: .5
                         },
                         displayed: !1,
@@ -5115,8 +5194,8 @@ webpackJsonp([0], {
           , s = a("+0OL")
           , l = a("v8aM")
           , c = l.EmoteSlot
-          , m = l.EmoteType
-          , d = l.EmoteData
+          , d = l.EmoteType
+          , m = l.EmoteData
           , p = a("gKxX")
           , u = a("8iex")
           , h = a("/2+T")
@@ -5162,7 +5241,7 @@ webpackJsonp([0], {
                 this.bigmapPingPos = null;
                 for (var e = 0; e < this.displayedSelectors.length; e++) {
                     var t = this.displayedSelectors[e]
-                      , a = d[t.emote];
+                      , a = m[t.emote];
                     this.teamEmotesGreyed && a.teamOnly ? t.parent.css("opacity", this.teamEmoteOpacityReset) : t.parent.css("opacity", this.wedgeOpacityReset),
                     t.highlight.css("display", "none"),
                     t.highlightDisplayed = !1
@@ -5214,7 +5293,7 @@ webpackJsonp([0], {
                 this.incrementEmote()
             },
             addEmote: function(e) {
-                var t = d[e.type];
+                var t = m[e.type];
                 if (t) {
                     for (var a = null, i = 0; i < this.emotes.length; i++)
                         this.emotes[i].alive || a ? this.emotes[i].alive && this.emotes[i].playerId == e.playerId && (this.emotes[i].alive = !1) : a = this.emotes[i];
@@ -5262,8 +5341,8 @@ webpackJsonp([0], {
                 !this.disable) {
                     var b = a.localData.weapons[a.localData.curWeapIdx]
                       , v = s.items[b.name]
-                      , w = "";
-                    if (v && (w = v.ammo ? v.ammo : w),
+                      , _ = "";
+                    if (v && (_ = v.ammo ? v.ammo : _),
                     this.wheelKeyTriggered = this.pingKeyTriggered || this.emoteMouseTriggered,
                     this.emoteSoftTicker -= e,
                     this.emoteCounter >= s.player.emoteThreshold && this.emoteHardTicker > 0 ? (this.emoteHardTicker -= e,
@@ -5285,51 +5364,51 @@ webpackJsonp([0], {
                         this.emoteWheelsGreyed = !1),
                         this.teamEmotesGreyed || 1 != n || (this.teamEmotes.css("opacity", this.teamEmoteOpacityReset),
                         this.teamEmotesGreyed = !0);
-                        var _ = null;
+                        var w = null;
                         if (x.None,
                         y.touch && (o = this.emoteTouchedPos),
                         o) {
                             var S = h.sub(o, this.emoteScreenPos);
                             S.y *= -1;
                             for (var M = h.length(S), T = i(S), P = 0; P < this.displayedSelectors.length; P++) {
-                                var z = this.displayedSelectors[P];
-                                if (z.modular) {
-                                    var C = z.emote;
-                                    switch (w) {
+                                var C = this.displayedSelectors[P];
+                                if (C.modular) {
+                                    var z = C.emote;
+                                    switch (_) {
                                     case "9mm":
-                                        z.emote = m.Ammo9mm,
-                                        z.texture = d[m.Ammo9mm].texture;
+                                        C.emote = d.Ammo9mm,
+                                        C.texture = m[d.Ammo9mm].texture;
                                         break;
                                     case "12gauge":
-                                        z.emote = m.Ammo12Gauge,
-                                        z.texture = d[m.Ammo12Gauge].texture;
+                                        C.emote = d.Ammo12Gauge,
+                                        C.texture = m[d.Ammo12Gauge].texture;
                                         break;
                                     case "762mm":
-                                        z.emote = m.Ammo762mm,
-                                        z.texture = d[m.Ammo762mm].texture;
+                                        C.emote = d.Ammo762mm,
+                                        C.texture = m[d.Ammo762mm].texture;
                                         break;
                                     case "556mm":
-                                        z.emote = m.Ammo556mm,
-                                        z.texture = d[m.Ammo556mm].texture;
+                                        C.emote = d.Ammo556mm,
+                                        C.texture = m[d.Ammo556mm].texture;
                                         break;
                                     default:
-                                        z.emote = m.Ammo,
-                                        z.texture = d[m.Ammo].texture
+                                        C.emote = d.Ammo,
+                                        C.texture = m[d.Ammo].texture
                                     }
-                                    C != z.emote && z.parent.find(".ui-emote-image").css("background-image", "url(" + z.texture + ")")
+                                    z != C.emote && C.parent.find(".ui-emote-image").css("background-image", "url(" + C.texture + ")")
                                 }
-                                var I = z.ping != x.None || z.emote != m.None
-                                  , A = d[z.emote]
-                                  , D = A.teamOnly && 1 == n;
-                                M <= 35 && !I && this.emoteHardTicker <= 0 && !D ? _ = z : g.isAngleBetween(T, z.angleC, z.angleA) && M > 35 && I && this.emoteHardTicker <= 0 && !D ? _ = z : z.highlightDisplayed && (z.parent.css("opacity", this.wedgeOpacityReset),
-                                z.highlight.css("display", "none"),
-                                z.highlightDisplayed = !1)
+                                var I = C.ping != x.None || C.emote != d.None
+                                  , D = m[C.emote]
+                                  , A = D.teamOnly && 1 == n;
+                                M <= 35 && !I && this.emoteHardTicker <= 0 && !A ? w = C : g.isAngleBetween(T, C.angleC, C.angleA) && M > 35 && I && this.emoteHardTicker <= 0 && !A ? w = C : C.highlightDisplayed && (C.parent.css("opacity", this.wedgeOpacityReset),
+                                C.highlight.css("display", "none"),
+                                C.highlightDisplayed = !1)
                             }
                         }
-                        _ && (this.emoteSelector = _,
-                        _.highlightDisplayed || (_.parent.css("opacity", 1),
-                        _.highlight.css("display", "block"),
-                        _.highlightDisplayed = !0),
+                        w && (this.emoteSelector = w,
+                        w.highlightDisplayed || (w.parent.css("opacity", 1),
+                        w.highlight.css("display", "block"),
+                        w.highlightDisplayed = !0),
                         y.touch && this.emoteTouchedPos && (this.pingMouseTriggered ? this.triggerPing() : this.triggerEmote()))
                     }
                 }
@@ -5351,7 +5430,7 @@ webpackJsonp([0], {
                         }
                         if (B) {
                             if (L.isNew) {
-                                var q = d[L.type];
+                                var q = m[L.type];
                                 this.audioManager.playSound(q.sound, {
                                     channel: "ui",
                                     soundPos: E,
@@ -5361,22 +5440,22 @@ webpackJsonp([0], {
                             L.isNew = !1,
                             L.pos = E,
                             L.lifeIn > 0 ? L.lifeIn -= e : L.life > 0 ? L.life -= e : L.lifeOut > 0 && (L.lifeOut -= e);
-                            var U = f.sameLayer(F, this.activePlayer.layer) ? 3 : F;
-                            l.addPIXIObj(L.container, k.World, U, 1e3, L.zIdx),
+                            var N = f.sameLayer(F, this.activePlayer.layer) ? 3 : F;
+                            l.addPIXIObj(L.container, k.World, N, 1e3, L.zIdx),
                             L.alive = L.alive && L.lifeOut > 0
                         } else
                             L.alive = !1
                     }
                 }
-                var G = h.create(.5 * p.screenWidth / p.z(), .5 * p.screenHeight / p.z())
-                  , V = {
-                    min: h.sub(p.pos, G),
-                    max: h.add(p.pos, G)
+                var U = h.create(.5 * p.screenWidth / p.z(), .5 * p.screenHeight / p.z())
+                  , G = {
+                    min: h.sub(p.pos, U),
+                    max: h.add(p.pos, U)
                 };
                 this.teamId = c.getPlayerInfo(a.__id).teamId;
-                for (var N = c.getTeamInfo(this.teamId), H = N.playerIds.length, W = 0; W < H; W++) {
+                for (var V = c.getTeamInfo(this.teamId), H = V.playerIds.length, W = 0; W < H; W++) {
                     var K = this.teamIndicators[W]
-                      , X = N.playerIds[W]
+                      , X = V.playerIds[W]
                       , Z = (c.getPlayerInfo(X),
                     X == this.activePlayer.__id)
                       , Y = c.getTeammateData(X);
@@ -5397,18 +5476,18 @@ webpackJsonp([0], {
                                 Q.fadeOut > 0) {
                                     var re = Q.pos
                                       , se = h.normalizeSafe(h.sub(re, p.pos), h.create(1, 0))
-                                      , le = u.intersectRayAabb(p.pos, se, V.min, V.max)
+                                      , le = u.intersectRayAabb(p.pos, se, G.min, G.max)
                                       , ce = Math.atan2(se.y, -se.x) + .5 * Math.PI
-                                      , me = p.pointToScreen(le)
-                                      , de = u.testCircleAabb(re, s.player.radius, V.min, V.max)
+                                      , de = p.pointToScreen(le)
+                                      , me = u.testCircleAabb(re, s.player.radius, G.min, G.max)
                                       , pe = p.pixels(Q.borderSprite.baseScale)
                                       , ue = p.pixels(Q.pingSprite.baseScale);
                                     if (te.scale.set(pe, pe),
                                     ae.scale.set(ue, ue),
                                     !Y.dead) {
                                         ne = Q.fadeOut < 0;
-                                        var he = de ? p.pointToScreen(re).x : g.clamp(me.x, 64, p.screenWidth - 64)
-                                          , ge = de ? p.pointToScreen(re).y : g.clamp(me.y, 64, p.screenHeight - 64)
+                                        var he = me ? p.pointToScreen(re).x : g.clamp(de.x, 64, p.screenWidth - 64)
+                                          , ge = me ? p.pointToScreen(re).y : g.clamp(de.y, 64, p.screenHeight - 64)
                                           , fe = p.pointToScreen(re).x
                                           , ye = p.pointToScreen(re).y;
                                         ae.position.x = fe,
@@ -5424,15 +5503,15 @@ webpackJsonp([0], {
                                         te.alpha = be;
                                         var xe = p.pixels(Q.borderSprite.baseScale * (2 - be));
                                         if (te.scale.set(xe, xe),
-                                        oe.alpha = de ? 0 : be,
+                                        oe.alpha = me ? 0 : be,
                                         Q.fadeIn > 0) {
                                             var ve = 1 - Q.fadeIn / this.pingFadeIn;
                                             $.alpha = 1,
                                             ee.alpha = 1,
                                             ae.alpha = 1,
-                                            ie.alpha = de ? 0 : ve
+                                            ie.alpha = me ? 0 : ve
                                         } else
-                                            ie.alpha = de ? 0 : 1;
+                                            ie.alpha = me ? 0 : 1;
                                         if (Q.life < 0) {
                                             var ke = Q.fadeOut / this.pingFadeOut;
                                             $.alpha = ke,
@@ -5461,9 +5540,9 @@ webpackJsonp([0], {
                 };
                 for (var a in t)
                     if (t.hasOwnProperty(a)) {
-                        var o = d[t[a]];
+                        var o = m[t[a]];
                         if (this.emoteWheelData[a] && void 0 != o) {
-                            var r = d[t[a]];
+                            var r = m[t[a]];
                             r.teamOnly || (this.emoteWheelData[a].emote = t[a])
                         }
                     }
@@ -5471,7 +5550,7 @@ webpackJsonp([0], {
                 for (var s in this.emoteWheelData)
                     if (this.emoteWheelData.hasOwnProperty(s)) {
                         var l = this.emoteWheelData[s]
-                          , m = d[l.emote]
+                          , d = m[l.emote]
                           , p = i(l.vA)
                           , u = i(l.vC);
                         this.emoteWheelSelectors.push(n({
@@ -5479,10 +5558,10 @@ webpackJsonp([0], {
                             angleC: u,
                             highlight: l.parent.find(".ui-emote-hl"),
                             highlightDisplayed: !1,
-                            texture: m.texture
+                            texture: d.texture
                         }, l));
                         var h = l.parent.find(".ui-emote-image");
-                        h.css("background-image", "url(" + m.texture + ")")
+                        h.css("background-image", "url(" + d.texture + ")")
                     }
             },
             render: function(e, t) {
@@ -5709,7 +5788,7 @@ webpackJsonp([0], {
             "game-painkiller": "鎮痛剤",
             "game-painkiller-tooltip": "左クリックでアドレナリンを50増加させます",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "M9, MP5, MAC-10, UMP9用の弾薬",
+            "game-9mm-tooltip": "M9, MP5, MAC-10, UMP9, Vector用の弾薬",
             "game-12gauge": "12 gauge",
             "game-12gauge-tooltip": "M870, Saiga-12, MP220用の弾薬",
             "game-762mm": "7.62mm",
@@ -5779,7 +5858,7 @@ webpackJsonp([0], {
     "6YQA": function(e, t, a) {
         "use strict";
         function i() {
-            return JSON.parse(localStorage.getItem(d)) || {}
+            return JSON.parse(localStorage.getItem(m)) || {}
         }
         function o(e, t) {
             var a = i();
@@ -5788,7 +5867,7 @@ webpackJsonp([0], {
         function n(e, t) {
             var a = i();
             a[e] = t,
-            localStorage.setItem(d, JSON.stringify(a))
+            localStorage.setItem(m, JSON.stringify(a))
         }
         function r() {
             this.enabled = !1,
@@ -5801,9 +5880,10 @@ webpackJsonp([0], {
           , l = (a("gKxX"),
         a("+0OL"))
           , c = a("0od3")
-          , m = (a("/2+T"),
+          , d = (a("/2+T"),
+        a("r4ug"),
         a("S40U"))
-          , d = "surviv_editor";
+          , m = "surviv_editor";
         r.prototype = {
             free: function() {},
             setEnabled: function(e) {
@@ -5843,15 +5923,16 @@ webpackJsonp([0], {
                 i.append(s("<li/>").append(r.append(this.uiDebug)))
             },
             update: function(e, t, a, i) {
-                t.keyPressed(m.Key.Plus) && (this.zoom -= 8),
-                t.keyPressed(m.Key.Minus) && (this.zoom += 8),
-                t.keyPressed(m.Key.Zero) && (this.zoom = a.getScopeZoom()),
+                t.keyPressed(d.Key.Plus) && (this.zoom -= 8),
+                t.keyPressed(d.Key.Minus) && (this.zoom += 8),
+                t.keyPressed(d.Key.Zero) && (this.zoom = a.getScopeZoom()),
                 this.zoom = c.clamp(this.zoom, .5, 400);
                 var o = a.netData.pos.x.toFixed(2)
                   , n = a.netData.pos.y.toFixed(2);
                 this.uiPos.html("Pos:  " + o + ", " + n),
                 this.uiZoom.html("Zoom: " + this.zoom)
-            }
+            },
+            renderCamera: function(e) {}
         },
         e.exports = r
     },
@@ -6041,12 +6122,12 @@ webpackJsonp([0], {
                   , c = o.dot(s, s) - i * i;
                 if (c > 0 && l > 0)
                     return null;
-                var m = l * l - c;
-                if (m < 0)
+                var d = l * l - c;
+                if (d < 0)
                     return null;
-                var d = Math.sqrt(m)
-                  , p = -l - d;
-                if (p < 0 && (p = -l + d),
+                var m = Math.sqrt(d)
+                  , p = -l - m;
+                if (p < 0 && (p = -l + m),
                 p <= r) {
                     var u = o.add(e, o.mul(n, p));
                     return {
@@ -6066,10 +6147,10 @@ webpackJsonp([0], {
                 Math.abs(l.x) < 1e-5 && (l.x = 2e-5),
                 Math.abs(l.y) < 1e-5 && (l.y = 2e-5),
                 Math.abs(l.x) > 1e-5) {
-                    var m = (a.x - s.x) / l.x
-                      , d = (i.x - s.x) / l.x;
-                    if (n = Math.max(n, Math.min(m, d)),
-                    r = Math.min(r, Math.max(m, d)),
+                    var d = (a.x - s.x) / l.x
+                      , m = (i.x - s.x) / l.x;
+                    if (n = Math.max(n, Math.min(d, m)),
+                    r = Math.min(r, Math.max(d, m)),
                     n > r)
                         return null
                 }
@@ -6108,9 +6189,8 @@ webpackJsonp([0], {
                   , s = o.lengthSqr(r);
                 if (s < n * n) {
                     var l = Math.sqrt(s);
-                    return r = l > 1e-5 ? o.div(r, l) : o.create(1, 0),
-                    {
-                        dir: r,
+                    return {
+                        dir: l > 1e-5 ? o.div(r, l) : o.create(1, 0),
                         pen: n - l
                     }
                 }
@@ -6122,17 +6202,17 @@ webpackJsonp([0], {
                       , s = o.add(e, r)
                       , l = o.sub(a, s)
                       , c = Math.abs(l.x) - r.x - n
-                      , m = Math.abs(l.y) - r.y - n;
-                    return c > m ? {
+                      , d = Math.abs(l.y) - r.y - n;
+                    return c > d ? {
                         dir: o.create(l.x > 0 ? 1 : -1, 0),
                         pen: -c
                     } : {
                         dir: o.create(0, l.y > 0 ? 1 : -1),
-                        pen: -m
+                        pen: -d
                     }
                 }
-                var d = o.create(i.clamp(a.x, e.x, t.x), i.clamp(a.y, e.y, t.y))
-                  , p = o.sub(a, d)
+                var m = o.create(i.clamp(a.x, e.x, t.x), i.clamp(a.y, e.y, t.y))
+                  , p = o.sub(a, m)
                   , u = o.lengthSqr(p);
                 if (u < n * n) {
                     var h = Math.sqrt(u);
@@ -6149,16 +6229,16 @@ webpackJsonp([0], {
                   , s = o.mul(o.sub(i, a), .5)
                   , l = o.add(a, s)
                   , c = o.sub(l, r)
-                  , m = n.x + s.x - Math.abs(c.x);
-                if (m > 0) {
-                    var d = n.y + s.y - Math.abs(c.y);
-                    if (d > 0)
-                        return m > d ? {
+                  , d = n.x + s.x - Math.abs(c.x);
+                if (d > 0) {
+                    var m = n.y + s.y - Math.abs(c.y);
+                    if (m > 0)
+                        return d > m ? {
                             dir: c.x < 0 ? o.create(-1, 0) : o.create(1, 0),
-                            pen: m
+                            pen: d
                         } : {
                             dir: c.y < 0 ? o.create(0, -1) : o.create(0, 1),
-                            pen: d
+                            pen: m
                         }
                 }
                 return null
@@ -6345,7 +6425,7 @@ webpackJsonp([0], {
             "game-painkiller": "Таблетки",
             "game-painkiller-tooltip": "Левый Щелчок, чтобы увеличить адреналин на 50.",
             "game-9mm": "9мм",
-            "game-9mm-tooltip": "Патроны для M9, Glock, MP5, MAC-10 и UMP9.",
+            "game-9mm-tooltip": "Патроны для M9, Glock, MP5, MAC-10, UMP9 и Vector.",
             "game-12gauge": "12 калибр",
             "game-12gauge-tooltip": "Патроны для M870, Сайга-12 и MP220.",
             "game-762mm": "7.62мм",
@@ -6406,7 +6486,15 @@ webpackJsonp([0], {
             if (!(e instanceof t))
                 throw new TypeError("Cannot call a class as a function")
         }
-        var o = function() {
+        function o(e) {
+            try {
+                return e.createGain().disconnect(e.destination),
+                !1
+            } catch (e) {
+                return !0
+            }
+        }
+        var n = function() {
             function e(e, t) {
                 for (var a = 0; a < t.length; a++) {
                     var i = t[a];
@@ -6422,35 +6510,35 @@ webpackJsonp([0], {
                 t
             }
         }()
-          , n = window.navigator.userAgent.indexOf("iPod") > -1 || window.navigator.userAgent.indexOf("iPhone") > -1 || window.navigator.userAgent.indexOf("iPad") > -1
-          , r = null
-          , s = 256
-          , l = function() {
-            function e(t, a, o) {
+          , r = window.navigator.userAgent.indexOf("iPod") > -1 || window.navigator.userAgent.indexOf("iPhone") > -1 || window.navigator.userAgent.indexOf("iPad") > -1
+          , s = null
+          , l = !1
+          , c = 128
+          , d = function() {
+            function e(t) {
                 i(this, e),
                 this.ctx = t,
-                this.dryOut = a,
-                this.muffleOut = o,
                 this.sound = null,
                 this.id = 0,
                 this.volume = 1,
                 this.volumeOld = this.volume,
                 this.pan = 0,
                 this.panOld = this.pan,
-                this.muffled = !1,
                 this.sourceNode = null,
                 this.gainNode = this.ctx.createGain(),
                 this.pannerNode = this.ctx.createPanner(),
-                this.pannerNode.connect(this.gainNode),
+                this.pannerNode.panningModel = "equalpower",
+                this.gainNode.connect(this.pannerNode),
+                this.destination = null,
                 this.paramEvents = 0,
                 this.stopTime = 0,
                 this.stopping = !1,
                 this.playState = "playFinished"
             }
-            return o(e, [{
+            return n(e, [{
                 key: "setGain",
                 value: function(e) {
-                    this.stopping || (n ? this.gainNode.gain.value = e : (this.gainNode.gain.setTargetAtTime(e, this.ctx.currentTime, .02),
+                    this.stopping || (r ? this.gainNode.gain.value = e : (this.gainNode.gain.setTargetAtTime(e, this.ctx.currentTime, .02),
                     ++this.paramEvents))
                 }
             }, {
@@ -6461,20 +6549,20 @@ webpackJsonp([0], {
                 }
             }, {
                 key: "start",
-                value: function(e, t, a, i, o, r) {
-                    this.volume = this.volumeOld = t,
-                    this.pan = this.panOld = a,
-                    this.muffled = i,
+                value: function(e, t, a, i, o, n) {
+                    this.volume = this.volumeOld = a,
+                    this.pan = this.panOld = i,
+                    this.destination = e,
                     this.sourceNode = this.ctx.createBufferSource(),
-                    this.sourceNode.buffer = e,
-                    this.sourceNode.connect(this.pannerNode),
-                    this.gainNode.connect(i ? this.muffleOut : this.dryOut),
+                    this.sourceNode.buffer = t,
+                    this.sourceNode.connect(this.gainNode),
+                    this.pannerNode.connect(this.destination),
                     this.sourceNode.loop = o,
-                    n ? this.gainNode.gain.value = t : (this.gainNode.gain.setValueAtTime(t, this.ctx.currentTime),
+                    r ? this.gainNode.gain.value = a : (this.gainNode.gain.setValueAtTime(a, this.ctx.currentTime),
                     ++this.paramEvents),
-                    this.setPan(a),
-                    this.sourceNode.start(this.ctx.currentTime + r),
-                    this.stopTime = o ? 1e100 : this.ctx.currentTime + r + e.duration,
+                    this.setPan(i),
+                    this.sourceNode.start(this.ctx.currentTime + n),
+                    this.stopTime = o ? 1e100 : this.ctx.currentTime + n + t.duration,
                     this.stopping = !1,
                     this.playState = "playSucceeded"
                 }
@@ -6492,39 +6580,41 @@ webpackJsonp([0], {
                     if (this.sound.instances.splice(this.sound.instances.indexOf(this), 1),
                     this.sound = null,
                     this.sourceNode.stop(),
-                    this.sourceNode.disconnect(this.pannerNode),
-                    this.gainNode.disconnect(this.muffled ? this.muffleOut : this.dryOut),
-                    n)
+                    this.sourceNode.disconnect(this.gainNode),
+                    this.pannerNode.disconnect(this.destination),
+                    r)
                         try {
-                            this.sourceNode.buffer = r
+                            this.sourceNode.buffer = s
                         } catch (e) {}
+                    this.destination = null,
                     this.sourceNode = null,
                     this.playState = "playFinished"
                 }
             }, {
                 key: "reallocNodes",
                 value: function() {
-                    this.pannerNode.disconnect(this.gainNode),
+                    this.gainNode.disconnect(this.pannerNode),
                     this.gainNode = this.ctx.createGain(),
                     this.pannerNode = this.ctx.createPanner(),
-                    this.pannerNode.connect(this.gainNode),
+                    this.pannerNode.panningModel = "equalpower",
+                    this.gainNode.connect(this.pannerNode),
                     this.paramEvents = 0
                 }
             }]),
             e
         }()
-          , c = null
-          , m = function() {
+          , m = null
+          , p = function() {
             function e(t) {
                 i(this, e),
                 this.instance = t,
                 this.id = t.id
             }
-            return o(e, [{
+            return n(e, [{
                 key: "check",
                 value: function(e) {
-                    this.id != this.instance.id && (this.instance = c,
-                    this.id = c.id)
+                    this.id != this.instance.id && (this.instance = m,
+                    this.id = m.id)
                 }
             }, {
                 key: "stop",
@@ -6561,55 +6651,165 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , d = null
-          , p = function() {
+          , u = null
+          , h = function() {
+            function e(t, a, o, n, r) {
+                if (i(this, e),
+                this.ctx = t,
+                this.inNode = a,
+                this.outNode = o,
+                this.name = n,
+                this.volume = void 0 != r.volume ? r.volume : 1,
+                this.echoVolume = r.echoVolume || 0,
+                this.echoDelay = r.echoDelay || 0,
+                this.echoLowPass = r.echoLowPass || 3e3,
+                this.stereoSpread = r.stereoSpread || 0,
+                !l) {
+                    var s = this.ctx.createGain();
+                    this.inNode.connect(s),
+                    this.inNode = s
+                }
+                this.gainNode = null,
+                this.convolverNode = null,
+                this.echoGainNode = null,
+                this.echoLowPassNode = null,
+                this.echoDelayNode = null,
+                this.stereoDelayNode = null,
+                this.mergerNode = null,
+                this.convolverNode = this.ctx.createConvolver(),
+                this.echoVolume && (this.echoLowPassNode = this.ctx.createBiquadFilter(),
+                this.echoLowPassNode.type = "lowpass",
+                this.echoLowPassNode.frequency.setValueAtTime(this.echoLowPass, 0),
+                this.echoLowPassNode.Q.setValueAtTime(-3.0102999566398125, 0),
+                this.echoDelayNode = this.ctx.createDelay(this.echoDelay || .01),
+                this.echoDelayNode.delayTime.setValueAtTime(this.echoDelay, 0)),
+                this.stereoSpread && (this.stereoDelayNode = this.ctx.createDelay(this.stereoSpread),
+                this.stereoDelayNode.delayTime.setValueAtTime(this.stereoSpread, 0),
+                this.mergerNode = this.ctx.createChannelMerger(2)),
+                this.targetLevel = 0,
+                this.gain = 0,
+                this.drainEndTime = 0,
+                this.active = !1
+            }
+            return n(e, [{
+                key: "connect",
+                value: function() {
+                    if (this.gainNode = this.ctx.createGain(),
+                    this.gainNode.channelCount = 1,
+                    this.gainNode.channelCountMode = "explicit",
+                    this.gainNode.gain.setValueAtTime(0, 0),
+                    this.echoVolume && (this.echoGainNode = this.ctx.createGain(),
+                    this.echoGainNode.channelCount = 1,
+                    this.echoGainNode.channelCountMode = "explicit",
+                    this.echoGainNode.gain.setValueAtTime(this.echoVolume, 0)),
+                    this.inNode.connect(this.gainNode),
+                    this.gainNode.connect(this.convolverNode),
+                    this.echoVolume && (this.convolverNode.connect(this.echoGainNode),
+                    this.echoGainNode.connect(this.echoLowPassNode),
+                    this.echoLowPassNode.connect(this.echoDelayNode),
+                    this.echoDelayNode.connect(this.convolverNode)),
+                    this.stereoSpread) {
+                        var e = this.convolverNode.buffer;
+                        e && 1 != e.numberOfChannels && console.error("stereoSpread can only be applied to mono IRs"),
+                        this.convolverNode.connect(this.stereoDelayNode),
+                        this.convolverNode.connect(this.mergerNode, 0, 0),
+                        this.stereoDelayNode.connect(this.mergerNode, 0, 1),
+                        this.mergerNode.connect(this.outNode)
+                    } else
+                        this.convolverNode.connect(this.outNode)
+                }
+            }, {
+                key: "disconnect",
+                value: function() {
+                    this.inNode.disconnect(this.gainNode),
+                    this.gainNode.disconnect(this.convolverNode),
+                    this.echoVolume && (this.convolverNode.disconnect(this.echoGainNode),
+                    this.echoGainNode.disconnect(this.echoLowPassNode),
+                    this.echoLowPassNode.disconnect(this.echoDelayNode),
+                    this.echoDelayNode.disconnect(this.convolverNode)),
+                    this.stereoSpread ? (this.convolverNode.disconnect(this.stereoDelayNode),
+                    this.convolverNode.disconnect(this.mergerNode, 0, 0),
+                    this.stereoDelayNode.disconnect(this.mergerNode, 0, 1),
+                    this.mergerNode.disconnect(this.outNode)) : this.convolverNode.disconnect(this.outNode),
+                    this.gainNode = null,
+                    this.echoGainNode = null
+                }
+            }, {
+                key: "setGain",
+                value: function(e, t, a) {
+                    if (e *= this.volume,
+                    this.gain != e) {
+                        if (0 == e || this.gainNode || this.connect(),
+                        0 == e) {
+                            this.echoGainNode && this.echoGainNode.gain.setValueAtTime(0, a);
+                            var i = this.convolverNode.buffer
+                              , o = i ? i.duration : 0;
+                            this.drainEndTime = a + o + this.echoDelay + this.stereoSpread
+                        }
+                        0 == this.gain && this.echoGainNode && this.echoGainNode.gain.setValueAtTime(this.echoVolume, t),
+                        this.gainNode.gain.setValueAtTime(this.gain, t),
+                        this.gainNode.gain.linearRampToValueAtTime(e, a),
+                        this.gain = e
+                    }
+                }
+            }]),
+            e
+        }()
+          , g = function() {
             function e() {
                 var t = this;
                 if (i(this, e),
                 this.ctx = new (window.AudioContext || window.webkitAudioContext),
-                n) {
+                r) {
                     var a = this.ctx.createBuffer(1, 1, 44100)
-                      , o = this.ctx.createBufferSource();
-                    o.buffer = a,
-                    o.connect(this.ctx.destination),
-                    o.start(),
-                    o.disconnect(this.ctx.destination),
+                      , n = this.ctx.createBufferSource();
+                    n.buffer = a,
+                    n.connect(this.ctx.destination),
+                    n.start(),
+                    n.disconnect(this.ctx.destination),
                     this.ctx.close(),
                     this.ctx = new (window.AudioContext || window.webkitAudioContext)
                 }
+                l = o(this.ctx),
+                window.audioEngine = this,
                 this.masterGainNode = this.ctx.createGain(),
                 this.compressorNode = this.ctx.createDynamicsCompressor(),
                 this.masterGainNode.connect(this.compressorNode),
                 this.compressorNode.connect(this.ctx.destination),
+                this.reverbNode = this.ctx.createGain(),
+                this.reverbNode.connect(this.masterGainNode),
                 this.muffleNode = this.ctx.createGain(),
-                this.muffleNode.gain.setValueAtTime(16, this.ctx.currentTime);
-                for (var p = [[10, 1.4142, -6], [20, 1.4142, -6], [40, 1.4142, -7], [80, 1.4142, -10], [160, 1.4142, -13], [320, 1.4142, -22], [640, 1.4142, -18], [1280, 1.4142, -25], [2560, 1.4142, -10], [5120, 1.4142, -30], [10240, 1.4142, -25]], u = this.muffleNode, h = 0; h < p.length; h++) {
-                    var g = this.ctx.createBiquadFilter();
-                    u.connect(g),
-                    u = g,
-                    g.type = "peaking",
-                    g.frequency.setValueAtTime(p[h][0], this.ctx.currentTime),
-                    g.Q.setValueAtTime(p[h][1], this.ctx.currentTime),
-                    g.gain.setValueAtTime(p[h][2], this.ctx.currentTime)
+                this.muffleNode.gain.setValueAtTime(16, 0);
+                for (var h = [[20, 1.4142, -6], [40, 1.4142, -7], [80, 1.4142, -10], [160, 1.4142, -13], [320, 1.4142, -22], [640, 1.4142, -18], [1280, 1.4142, -25], [2560, 1.4142, -10], [5120, 1.4142, -30], [10240, 1.4142, -25]], g = this.muffleNode, f = 0; f < h.length; f++) {
+                    var y = this.ctx.createBiquadFilter();
+                    g.connect(y),
+                    g = y,
+                    y.type = "peaking",
+                    y.frequency.setValueAtTime(h[f][0], 0),
+                    y.Q.setValueAtTime(h[f][1], 0),
+                    y.gain.setValueAtTime(h[f][2], 0)
                 }
-                u.connect(this.masterGainNode),
+                g.connect(this.reverbNode),
                 this.files = {},
                 this.sounds = {},
                 this.instances = [];
-                for (var f = 0; f < s; f++) {
-                    var y = new l(this.ctx,this.masterGainNode,this.muffleNode);
-                    this.instances[f] = y
+                for (var b = 0; b < c; b++) {
+                    var x = new d(this.ctx);
+                    this.instances[b] = x
                 }
                 if (this.instanceId = 0,
                 this.playingInstances = [],
-                c = new l(this.ctx,null,null),
-                d = new m(c),
+                m = new d(this.ctx),
+                u = new p(m),
+                this.reverbs = {},
+                this.activeReverbs = [],
+                this.reverbFadeEndTime = 0,
                 this.volume = 1,
                 this.volumeOld = this.volume,
                 this.muted = !1,
                 this.mutedOld = this.muted,
                 "suspended" == this.ctx.state) {
-                    var b = function e() {
+                    var v = function e() {
                         t.ctx.resume();
                         var a = t.ctx.createBufferSource();
                         a.buffer = t.ctx.createBuffer(1, 1, 22050),
@@ -6620,10 +6820,10 @@ webpackJsonp([0], {
                             document.body.removeEventListener("touchend", e, !1))
                         }, 0)
                     };
-                    document.body.addEventListener("mousedown", b, !1),
-                    document.body.addEventListener("touchend", b, !1)
+                    document.body.addEventListener("mousedown", v, !1),
+                    document.body.addEventListener("touchend", v, !1)
                 }
-                n && (r = this.ctx.createBuffer(1, 1, 22050)),
+                r && (s = this.ctx.createBuffer(1, 1, 22050)),
                 this.onfileload = function() {}
                 ,
                 this.PLAY_INITED = "playInited",
@@ -6634,47 +6834,53 @@ webpackJsonp([0], {
                 this.INTERRUPT_LATE = "late",
                 this.defaultInterruptBehavior = this.INTERRUPT_LATE
             }
-            return o(e, [{
+            return n(e, [{
                 key: "initializeDefaultPlugins",
                 value: function() {}
             }, {
-                key: "registerSound",
-                value: function(e, t, a) {
-                    var i = this
-                      , o = void 0 == this.files[e];
-                    o && (this.files[e] = {
+                key: "loadFile",
+                value: function(e, t) {
+                    var a = this;
+                    if (void 0 != this.files[e])
+                        return t(e),
+                        this.files[e];
+                    this.files[e] = {
                         buffer: null
-                    });
-                    var n = this.files[e];
-                    this.sounds[t] = {
-                        file: n,
-                        canCoalesce: !!a.canCoalesce,
-                        maxInstances: a.channels || 16,
-                        instances: []
                     };
-                    if (!o)
-                        return void this.onfileload(e);
-                    var r = new XMLHttpRequest;
-                    r.open("GET", e),
-                    r.responseType = "arraybuffer";
-                    var s = function(t) {
-                        console.error("Failed loading sound: " + e)
+                    var i = new XMLHttpRequest;
+                    i.open("GET", e),
+                    i.responseType = "arraybuffer";
+                    var o = function(t) {
+                        console.error("Failed loading sound file: " + e)
                     };
-                    r.addEventListener("load", function(t) {
-                        var a = r.response;
-                        if (!a)
-                            return void s();
-                        i.ctx.decodeAudioData(a, function(t) {
-                            i.files[e].buffer = t,
-                            i.onfileload(e)
+                    return i.addEventListener("load", function(n) {
+                        var r = i.response;
+                        if (!r)
+                            return void o();
+                        a.ctx.decodeAudioData(r, function(i) {
+                            a.files[e].buffer = i,
+                            t(e)
                         }, function() {
                             console.error("Failed decoding sound: " + e)
                         })
                     }),
-                    r.addEventListener("abort", s),
-                    r.addEventListener("error", s),
-                    r.addEventListener("timeout", s),
-                    r.send()
+                    i.addEventListener("abort", o),
+                    i.addEventListener("error", o),
+                    i.addEventListener("timeout", o),
+                    i.send(),
+                    this.files[e]
+                }
+            }, {
+                key: "registerSound",
+                value: function(e, t, a) {
+                    var i = this.loadFile(e, this.onfileload.bind(this))
+                      , o = {
+                        file: i,
+                        canCoalesce: !!a.canCoalesce,
+                        maxInstances: a.channels || 16,
+                        instances: []
+                    };
+                    this.sounds[t] = o
                 }
             }, {
                 key: "play",
@@ -6682,49 +6888,79 @@ webpackJsonp([0], {
                     var a = this.sounds[e];
                     if (!a)
                         return console.error("No sound named: " + e),
-                        d;
-                    var i = void 0 != t.volume ? t.volume : 1;
-                    i = this.muted ? 0 : i;
-                    var o = t.pan || 0
-                      , n = !!t.muffled
+                        u;
+                    var i = t.filter || "none"
+                      , o = void 0 != t.volume ? t.volume : 1;
+                    o = this.muted ? 0 : o;
+                    var n = t.pan || 0
                       , r = !!t.loop
-                      , l = t.delay ? .001 * t.delay : 0;
+                      , s = t.delay ? .001 * t.delay : 0;
                     if (!a.file.buffer)
-                        return d;
+                        return u;
                     if (this.muted && !t.loop)
-                        return d;
+                        return u;
+                    if ("none" !== i && "reverb" !== i && "muffled" !== i)
+                        return console.error("Invalid filter: " + i + ". Only valid filters are 'none', 'reverb' and 'muffled'."),
+                        u;
                     if (a.canCoalesce)
-                        for (var c = this.ctx.currentTime + a.file.buffer.duration, p = 0; p < a.instances.length; p++) {
-                            var u = a.instances[p];
-                            if (!(Math.abs(c - u.stopTime) > .03)) {
-                                var h = u.volume * u.volume + i * i
-                                  , g = u.volume * u.pan + i * o
-                                  , f = u.volume + i;
-                                return u.volume = Math.sqrt(h),
-                                u.pan = g / Math.max(.001, f),
-                                d
+                        for (var l = this.ctx.currentTime + a.file.buffer.duration, d = 0; d < a.instances.length; d++) {
+                            var m = a.instances[d];
+                            if (!(Math.abs(l - m.stopTime) > .03)) {
+                                var h = m.volume * m.volume + o * o
+                                  , g = m.volume * m.pan + o * n
+                                  , f = m.volume + o;
+                                return m.volume = Math.sqrt(h),
+                                m.pan = g / Math.max(.001, f),
+                                u
                             }
                         }
-                    for (var y = 0; y < s && (++this.instanceId,
-                    this.instances[this.instanceId % s].sound); y++)
+                    for (var y = 0; y < c && (++this.instanceId,
+                    this.instances[this.instanceId % c].sound); y++)
                         ;
-                    var b = this.instances[this.instanceId % s];
+                    var b = this.instances[this.instanceId % c];
                     if (b.sound)
-                        return console.error("All " + s + " sound instances in use. You are using way too many sounds!"),
-                        d;
+                        return console.error("All " + c + " sound instances in use. You are using way too many sounds!"),
+                        u;
                     b.id = this.instanceId;
                     var x = b.paramEvents > 150
                       , v = b.paramEvents > 20 && !(this.instanceId % 7);
                     for ((x || v) && b.reallocNodes(); a.instances.length >= a.maxInstances; ) {
-                        for (var k = a.instances[0], w = 1; w < a.instances.length; w++)
-                            k.stopTime > a.instances[w].stopTime && (k = a.instances[w]);
+                        for (var k = a.instances[0], _ = 1; _ < a.instances.length; _++)
+                            k.stopTime > a.instances[_].stopTime && (k = a.instances[_]);
                         k.disconnect()
                     }
-                    return b.sound = a,
-                    a.instances.push(b),
-                    b.start(a.file.buffer, i, o, n, r, l),
+                    b.sound = a,
+                    a.instances.push(b);
+                    var w = "none" === i ? this.masterGainNode : "reverb" === i ? this.reverbNode : this.muffleNode;
+                    return b.start(w, a.file.buffer, o, n, r, s),
                     -1 == this.playingInstances.indexOf(b) && this.playingInstances.push(b),
-                    new m(b)
+                    new p(b)
+                }
+            }, {
+                key: "registerReverb",
+                value: function(e, t, a) {
+                    var i = this
+                      , o = new h(this.ctx,this.reverbNode,this.masterGainNode,t,a);
+                    this.loadFile(e, function(e) {
+                        o.convolverNode.buffer = i.files[e].buffer,
+                        i.onfileload(e)
+                    }),
+                    this.reverbs[t] = o
+                }
+            }, {
+                key: "setReverbs",
+                value: function(e) {
+                    for (var t = 0; t < this.activeReverbs.length; t++) {
+                        var a = this.activeReverbs[t];
+                        e[a.name] || (a.targetLevel = 0)
+                    }
+                    for (var i in e)
+                        if (e[i]) {
+                            var o = this.reverbs[i];
+                            o ? (this.reverbs[i].active || (this.activeReverbs.push(o),
+                            o.active = !0),
+                            o.targetLevel = e[i]) : console.error("No reverb named " + i)
+                        }
                 }
             }, {
                 key: "stop",
@@ -6747,6 +6983,25 @@ webpackJsonp([0], {
                         o.sound && this.ctx.currentTime > o.stopTime && o.disconnect(),
                         o.sound || this.playingInstances.splice(i, 1)
                     }
+                    if (this.ctx.currentTime > this.reverbFadeEndTime) {
+                        var n = this.ctx.currentTime + .006;
+                        this.reverbFadeEndTime = n + .025;
+                        for (var r = 0, s = 0; s < this.activeReverbs.length; s++) {
+                            r += this.activeReverbs[s].targetLevel
+                        }
+                        for (var l = r > 1 ? 1 / r : 1, c = 0; c < this.activeReverbs.length; c++) {
+                            var d = this.activeReverbs[c]
+                              , m = Math.sqrt(l * d.targetLevel);
+                            d.setGain(m, n, this.reverbFadeEndTime)
+                        }
+                        for (var p = this.activeReverbs.length - 1; p >= 0; p--) {
+                            var u = this.activeReverbs[p]
+                              , h = this.ctx.currentTime > u.drainEndTime;
+                            0 == u.gain && h && (u.disconnect(),
+                            u.active = !1,
+                            this.activeReverbs.splice(p, 1))
+                        }
+                    }
                 }
             }, {
                 key: "_setMute",
@@ -6760,13 +7015,81 @@ webpackJsonp([0], {
                         return void console.error('Only "fileload" event supported');
                     this.onfileload = t.bind(a)
                 }
+            }, {
+                key: "updatePerformanceTest",
+                value: function() {
+                    var e = this;
+                    if (this.runningOfflineTest = void 0 != this.runningOfflineTest && this.runningOfflineTest,
+                    !this.runningOfflineTest) {
+                        this.runningOfflineTest = !0;
+                        this.offlineCtx = new OfflineAudioContext(2,10 * this.ctx.sampleRate,this.ctx.sampleRate);
+                        for (var t = this.offlineCtx.createBuffer(2, 10 * this.ctx.sampleRate, this.ctx.sampleRate), a = 0; a < t.numberOfChannels; a++)
+                            for (var i = t.getChannelData(a), o = 0; o < i.length; o++)
+                                i[o] = Math.sin(o / 2333) * Math.sin(o / 5741) * 2 * Math.random() - 1;
+                        var n = this.offlineCtx.createBufferSource();
+                        n.buffer = t;
+                        for (var r = this.offlineCtx.createConvolver(), s = this.offlineCtx.createBuffer(1, 4 * this.ctx.sampleRate, this.ctx.sampleRate), l = 0; l < s.numberOfChannels; l++)
+                            for (var c = s.getChannelData(l), d = 0; d < c.length; d++)
+                                c[d] = 2 * Math.random() - 1;
+                        r.buffer = s;
+                        var m = {
+                            volume: .7,
+                            echoVolume: .5,
+                            echoLowPass: 800,
+                            echoDelay: .25,
+                            stereoSpread: .004
+                        };
+                        if (m.convolverNode = r,
+                        m.echoLowPassNode = this.offlineCtx.createBiquadFilter(),
+                        m.echoLowPassNode.type = "lowpass",
+                        m.echoLowPassNode.frequency.setValueAtTime(m.echoLowPass, 0),
+                        m.echoLowPassNode.Q.setValueAtTime(-3.0102999566398125, 0),
+                        m.echoDelayNode = this.offlineCtx.createDelay(m.echoDelay || .01),
+                        m.echoDelayNode.delayTime.setValueAtTime(m.echoDelay, 0),
+                        m.stereoSpread && (m.stereoDelayNode = this.offlineCtx.createDelay(m.stereoSpread),
+                        m.stereoDelayNode.delayTime.setValueAtTime(m.stereoSpread, 0),
+                        m.mergerNode = this.offlineCtx.createChannelMerger(2)),
+                        m.gainNode = this.offlineCtx.createGain(),
+                        m.gainNode.channelCount = 1,
+                        m.gainNode.channelCountMode = "explicit",
+                        m.gainNode.gain.setValueAtTime(1, 0),
+                        m.echoGainNode = this.offlineCtx.createGain(),
+                        m.echoGainNode.channelCount = 1,
+                        m.echoGainNode.channelCountMode = "explicit",
+                        m.echoGainNode.gain.setValueAtTime(m.echoVolume, 0),
+                        m.outNode = this.offlineCtx.createGain(),
+                        m.gainNode.connect(m.convolverNode),
+                        m.stereoSpread) {
+                            var p = m.convolverNode.buffer;
+                            p && 1 != p.numberOfChannels && console.error("stereoSpread can only be applied to mono IRs"),
+                            m.convolverNode.connect(m.stereoDelayNode),
+                            m.convolverNode.connect(m.mergerNode, 0, 0),
+                            m.stereoDelayNode.connect(m.mergerNode, 0, 1),
+                            m.mergerNode.connect(m.outNode)
+                        } else
+                            m.convolverNode.connect(m.outNode);
+                        this.offlineCtx.createDynamicsCompressor();
+                        console.log("starting convolver"),
+                        n.connect(m.gainNode),
+                        m.outNode.connect(this.offlineCtx.destination),
+                        n.start(),
+                        this.startTime = performance.now(),
+                        this.offlineCtx.oncomplete = function(t) {
+                            var a = performance.now();
+                            console.log("Offline render time: ", a - e.startTime),
+                            e.runningOfflineTest = !1
+                        }
+                        ,
+                        this.offlineCtx.startRendering()
+                    }
+                }
             }]),
             e
         }()
-          , u = {
-            Sound: new p
+          , f = {
+            Sound: new g
         };
-        e.exports = u
+        e.exports = f
     },
     "9xSA": function(e, t, a) {
         "use strict";
@@ -6822,14 +7145,14 @@ webpackJsonp([0], {
             },
             transform: function(e, t, a, i) {
                 if (e.type == n.Type.Aabb) {
-                    for (var r = o.mul(o.sub(e.max, e.min), .5), s = o.add(e.min, r), l = [o.create(s.x - r.x, s.y - r.y), o.create(s.x - r.x, s.y + r.y), o.create(s.x + r.x, s.y - r.y), o.create(s.x + r.x, s.y + r.y)], c = o.create(Number.MAX_VALUE, Number.MAX_VALUE), m = o.create(-Number.MAX_VALUE, -Number.MAX_VALUE), d = 0; d < l.length; d++) {
-                        var p = o.add(o.rotate(o.mul(l[d], i), a), t);
+                    for (var r = o.mul(o.sub(e.max, e.min), .5), s = o.add(e.min, r), l = [o.create(s.x - r.x, s.y - r.y), o.create(s.x - r.x, s.y + r.y), o.create(s.x + r.x, s.y - r.y), o.create(s.x + r.x, s.y + r.y)], c = o.create(Number.MAX_VALUE, Number.MAX_VALUE), d = o.create(-Number.MAX_VALUE, -Number.MAX_VALUE), m = 0; m < l.length; m++) {
+                        var p = o.add(o.rotate(o.mul(l[m], i), a), t);
                         c.x = Math.min(c.x, p.x),
                         c.y = Math.min(c.y, p.y),
-                        m.x = Math.max(m.x, p.x),
-                        m.y = Math.max(m.y, p.y)
+                        d.x = Math.max(d.x, p.x),
+                        d.y = Math.max(d.y, p.y)
                     }
-                    return n.createAabb(c, m, e.height)
+                    return n.createAabb(c, d, e.height)
                 }
                 return n.createCircle(o.add(o.rotate(o.mul(e.pos, i), a), t), e.rad * i, e.height)
             },
@@ -6863,71 +7186,84 @@ webpackJsonp([0], {
             return e % 4 * .5 * Math.PI
         }
         function n(e) {
-            var t = I[e];
+            var t = E[e];
             if ("structure" == t.type) {
                 for (var a = [], i = 0; i < t.layers.length; i++) {
                     var r = t.layers[i]
                       , s = o(r.ori)
-                      , l = T.transform(n(r.type), r.pos, s, 1);
-                    a.push(T.toAabb(l))
+                      , l = A.transform(n(r.type), r.pos, s, 1);
+                    a.push(A.toAabb(l))
                 }
-                var c = M.boundingAabb(a);
-                return T.createAabb(c.min, c.max)
+                var c = D.boundingAabb(a);
+                return A.createAabb(c.min, c.max)
             }
             if ("building" == t.type) {
-                for (var m = [], d = 0; d < t.floors.length; d++)
-                    m = m.concat(t.floors[d].collision);
-                m = m.concat(t.ceiling.scopeIn),
-                m = m.concat(t.ceiling.scopeOut);
+                for (var d = [], m = 0; m < t.floor.surfaces.length; m++)
+                    d = d.concat(t.floor.surfaces[m].collision);
+                //d = d.concat(t.ceiling.scopeIn),
+                //d = d.concat(t.ceiling.scopeOut);
                 for (var p = 0; p < t.mapObjects.length; p++) {
                     var u = t.mapObjects[p]
                       , h = u.type;
                     if ("function" == typeof h && (h = h()),
                     "" != h) {
                         var g = o(u.ori)
-                          , f = T.transform(n(h), u.pos, g, u.scale);
-                        m.push(T.toAabb(f))
+                          , f = A.transform(n(h), u.pos, g, u.scale);
+                        d.push(A.toAabb(f))
                     }
                 }
-                var y = M.boundingAabb(m);
-                return T.createAabb(y.min, y.max)
+                var y = D.boundingAabb(d);
+                return A.createAabb(y.min, y.max)
             }
-            return S(t.collision),
+            return I(t.collision),
             t.collision
         }
-        function r(e) {
-            return e && "object" === (void 0 === e ? "undefined" : _(e)) && !Array.isArray(e)
+        function r(e, t, a) {
+            return {
+                tier: e,
+                min: t,
+                max: a
+            }
         }
-        function s(e) {
+        function s(e, t) {
+            return {
+                name: e,
+                count: t
+            }
+        }
+        function l(e) {
+            return e && "object" === (void 0 === e ? "undefined" : z(e)) && !Array.isArray(e)
+        }
+        function c(e) {
             for (var t = arguments.length, a = Array(t > 1 ? t - 1 : 0), o = 1; o < t; o++)
                 a[o - 1] = arguments[o];
             if (!a.length)
                 return e;
             var n = a.shift();
-            if (r(e) && r(n))
-                for (var l in n)
-                    r(n[l]) ? (e[l] || Object.assign(e, i({}, l, {})),
-                    s(e[l], n[l])) : Object.assign(e, i({}, l, n[l]));
-            return s.apply(void 0, [e].concat(a))
+            if (l(e) && l(n))
+                for (var r in n)
+                    l(n[r]) ? (e[r] || Object.assign(e, i({}, r, {})),
+                    c(e[r], n[r])) : Object.assign(e, i({}, r, n[r]));
+            return c.apply(void 0, [e].concat(a))
         }
-        function l(e) {
+        function d(e) {
             var t = [];
             for (var a in e)
                 e.hasOwnProperty(a) && t.push({
                     type: a,
                     weight: e[a]
                 });
-            S(t.length > 0);
+            I(t.length > 0);
             for (var i = 0, o = 0; o < t.length; o++)
                 i += t[o].weight;
             return function() {
-                for (var e = P.random(0, i), a = 0; e > t[a].weight; )
+                for (var e = O.random(0, i), a = 0; e > t[a].weight; )
                     e -= t[a].weight,
                     a++;
                 return t[a].type
             }
         }
-        function c(e, t) {
+        function m(e, t) {
             return {
                 sprite: e,
                 scale: .5,
@@ -6936,15 +7272,15 @@ webpackJsonp([0], {
                 zIdx: 10
             }
         }
-        function m(e) {
-            return s({
+        function p(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .8
                 },
-                collision: T.createCircle(z.create(0, 0), 1.75),
+                collision: A.createCircle(L.create(0, 0), 1.75),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -6952,13 +7288,7 @@ webpackJsonp([0], {
                 hitParticle: "outhouseChip",
                 explodeParticle: "barrelPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_world"
-                },
+                loot: [r("tier_world", 1, 1)],
                 map: {
                     display: !0,
                     color: 6697728,
@@ -6984,15 +7314,15 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function d(e) {
-            return s({
+        function u(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(3.5, 1)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(3.5, 1)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -7000,13 +7330,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: ["woodPlank", "book"],
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_world"
-                },
+                loot: [r("tier_world", 1, 1)],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -7032,15 +7356,15 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function p(e) {
-            return s({
+        function h(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1.05,
                     createMax: 1.2,
                     destroy: 1
                 },
-                collision: T.createCircle(z.create(0, 0), 1.4),
+                collision: A.createCircle(L.create(0, 0), 1.4),
                 height: 10,
                 collidable: !1,
                 destructible: !0,
@@ -7049,9 +7373,7 @@ webpackJsonp([0], {
                 explodeParticle: "leaf",
                 reflectBullets: !1,
                 isBush: !0,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !0,
                     color: 24320,
@@ -7077,15 +7399,15 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function u(e) {
-            return s({
+        function g(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .9
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.25, 1.6)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.25, 1.6)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -7093,13 +7415,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 0,
-                    max: 0,
-                    tier: "tier_world"
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -7111,7 +7427,7 @@ webpackJsonp([0], {
                 },
                 img: {
                     sprite: "img/map/map-case-deagle-01.svg",
-                    residue: "img/map/map-crate-res.svg",
+                    residue: "img/map/map-crate-res-01.svg",
                     scale: .5,
                     alpha: 1,
                     tint: 16777215,
@@ -7125,29 +7441,23 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function h(e) {
-            return s({
+        function f(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.25, 1.6)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.25, 1.6)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
-                health: 150,
+                health: 140,
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 3,
-                    max: 4,
-                    tier: "tier_chest"
-                },
+                loot: [r("tier_chest", 3, 4)],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -7159,7 +7469,7 @@ webpackJsonp([0], {
                 },
                 img: {
                     sprite: "img/map/map-chest-01.svg",
-                    residue: "img/map/map-crate-res.svg",
+                    residue: "img/map/map-crate-res-01.svg",
                     scale: .5,
                     alpha: 1,
                     tint: 16777215,
@@ -7173,57 +7483,57 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function g(e) {
+        function y(e) {
             var t = [{
                 type: "container_wall_top",
-                pos: z.create(0, 7.95),
+                pos: L.create(0, 7.95),
                 scale: 1,
                 ori: 0
             }, {
                 type: "container_wall_side",
-                pos: z.create(2.35, 2.1),
+                pos: L.create(2.35, 2.1),
                 scale: 1,
                 ori: 0
             }, {
                 type: "container_wall_side",
-                pos: z.create(-2.35, 2.1),
+                pos: L.create(-2.35, 2.1),
                 scale: 1,
                 ori: 0
             }, {
                 type: "loot_tier_2",
-                pos: z.create(0, 3.25),
+                pos: L.create(0, 3.25),
                 scale: 1,
                 ori: 0
             }, {
-                type: l({
+                type: d({
                     loot_tier_1: 2,
                     "": 1
                 }),
-                pos: z.create(0, .05),
+                pos: L.create(0, .05),
                 scale: 1,
                 ori: 0
             }]
               , a = [{
                 type: "container_wall_side_open",
-                pos: z.create(2.35, 0),
+                pos: L.create(2.35, 0),
                 scale: 1,
                 ori: 0
             }, {
                 type: "container_wall_side_open",
-                pos: z.create(-2.35, 0),
+                pos: L.create(-2.35, 0),
                 scale: 1,
                 ori: 0
             }, {
                 type: "loot_tier_2",
-                pos: z.create(0, -.05),
+                pos: L.create(0, -.05),
                 scale: 1,
                 ori: 0
             }, {
-                type: l({
+                type: d({
                     loot_tier_1: 1,
                     "": 1
                 }),
-                pos: z.create(0, .05),
+                pos: L.create(0, .05),
                 scale: 1,
                 ori: 0
             }];
@@ -7238,38 +7548,40 @@ webpackJsonp([0], {
                     grass: !0,
                     beach: !0
                 },
-                floors: [{
-                    collision: [e.open ? T.createAabbExtents(z.create(0, 0), z.create(2.5, 11)) : T.createAabbExtents(z.create(0, 0), z.create(2.5, 8))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "container",
+                        collision: [e.open ? A.createAabbExtents(L.create(0, 0), L.create(2.5, 11)) : A.createAabbExtents(L.create(0, 0), L.create(2.5, 8))]
+                    }],
+                    imgs: [{
                         sprite: e.open ? "img/map/map-building-container-open-floor.svg" : "img/map/map-building-container-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: e.tint
-                    },
-                    surface: "container"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [e.open ? T.createAabbExtents(z.create(0, 0), z.create(2.5, 5.75)) : T.createAabbExtents(z.create(0, 2.25), z.create(2.5, 5.5))],
-                    scopeOut: [e.open ? T.createAabbExtents(z.create(0, 0), z.create(2.5, 11)) : T.createAabbExtents(z.create(0, -.5), z.create(2.5, 8.75))],
-                    img: {
-                        sprite: "img/map/" + e.ceilingSprite,
+                    scopeIn: [e.open ? A.createAabbExtents(L.create(0, 0), L.create(2.5, 5.75)) : A.createAabbExtents(L.create(0, 2.25), L.create(2.5, 5.5))],
+                    scopeOut: [e.open ? A.createAabbExtents(L.create(0, 0), L.create(2.5, 11)) : A.createAabbExtents(L.create(0, -.5), L.create(2.5, 8.75))],
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: e.tint
-                    }
+                    }]
                 },
                 mapObjects: e.open ? a : t
             }
         }
-        function f(e) {
-            return s({
+        function b(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .5
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.25, 2.25)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.25, 2.25)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -7277,13 +7589,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_world"
-                },
+                loot: [r("tier_world", 1, 1)],
                 map: {
                     display: !0,
                     color: 6697728,
@@ -7295,7 +7601,7 @@ webpackJsonp([0], {
                 },
                 img: {
                     sprite: "img/map/map-crate-01.svg",
-                    residue: "img/map/map-crate-res.svg",
+                    residue: "img/map/map-crate-res-01.svg",
                     scale: .5,
                     alpha: 1,
                     tint: 16777215,
@@ -7309,15 +7615,15 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function y(e) {
-            return s({
+        function x(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(2.5, 1)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(2.5, 1)),
                 height: 10,
                 collidable: !0,
                 destructible: !0,
@@ -7325,14 +7631,8 @@ webpackJsonp([0], {
                 hitParticle: "barrelChip",
                 explodeParticle: "depositBoxGreyFrag",
                 reflectBullets: !0,
-                loot: {
-                    spawn: !0,
-                    spawnOffset: z.create(0, -.5),
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_world"
-                },
+                loot: [r("tier_world", 1, 1)],
+                lootSpawnOffset: L.create(0, -.75),
                 map: {
                     display: !1,
                     color: 6697728,
@@ -7358,7 +7658,7 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function b(e) {
+        function v(e) {
             var t = {
                 type: "obstacle",
                 scale: {
@@ -7366,7 +7666,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createAabbExtents(e.hinge, e.extents),
+                collision: A.createAabbExtents(e.hinge, e.extents),
                 height: 10,
                 collidable: !0,
                 destructible: !0,
@@ -7378,20 +7678,23 @@ webpackJsonp([0], {
                     interactionRad: 1.75,
                     canUse: !0,
                     openSpeed: 2,
-                    openHeight: .75,
                     openOneWay: 0,
                     openDelay: 0,
                     openOnce: !1,
-                    spriteAnchor: z.create(.5, 1),
+                    autoOpen: !1,
+                    autoClose: !1,
+                    autoCloseDelay: 1,
+                    slideToOpen: !1,
+                    slideOffset: 3.5,
+                    spriteAnchor: L.create(.5, 1),
                     sound: {
                         open: e.soundOpen || "door_open_01",
                         close: e.soundClose || "door_close_01",
-                        change: ""
+                        change: "",
+                        error: ""
                     }
                 },
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 img: {
                     sprite: "img/map/map-door-01.svg",
                     residue: "none",
@@ -7407,18 +7710,51 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             };
-            return S(C[e.material]),
-            s(t, C[e.material], e || {})
+            return I(B[e.material]),
+            c(t, B[e.material], e || {})
         }
-        function x(e) {
-            return s({
+        function k(e) {
+            return c(v({
+                material: "concrete",
+                hinge: L.create(0, 2),
+                extents: L.create(.3, 2),
+                door: {
+                    interactionRad: 3,
+                    openOneWay: !1,
+                    openSpeed: 7,
+                    autoOpen: !0,
+                    autoClose: !0,
+                    autoCloseDelay: 1,
+                    slideToOpen: !0,
+                    slideOffset: 3.75,
+                    sound: {
+                        open: "door_open_03",
+                        close: "door_close_03",
+                        error: "door_error_01"
+                    },
+                    casingImg: {
+                        sprite: "img/map/map-door-slot-01.svg",
+                        pos: L.create(-2, 0),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 1316379,
+                        zIdx: 60
+                    }
+                },
+                img: {
+                    tint: 5373952
+                }
+            }), e || {})
+        }
+        function _(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(2.5, 1.25)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(2.5, 1.25)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -7426,13 +7762,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_container"
-                },
+                loot: [r("tier_container", 1, 1)],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -7458,15 +7788,15 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function v(e) {
-            return s({
+        function w(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(1.5, .6)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(1.5, .6)),
                 height: 10,
                 collidable: !0,
                 destructible: !0,
@@ -7474,14 +7804,8 @@ webpackJsonp([0], {
                 hitParticle: "barrelChip",
                 explodeParticle: "lockerFrag",
                 reflectBullets: !0,
-                loot: {
-                    spawn: !0,
-                    spawnOffset: z.create(0, -.35),
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_world"
-                },
+                loot: [r("tier_world", 1, 1)],
+                lootSpawnOffset: L.create(0, -.5),
                 map: {
                     display: !1,
                     color: 6697728,
@@ -7507,15 +7831,56 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function k(e) {
-            return s({
+        function S(e) {
+            return c({
                 type: "obstacle",
                 scale: {
                     createMin: 1,
                     createMax: 1,
                     destroy: .8
                 },
-                collision: T.createCircle(z.create(0, .25), 1.18),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(1, 1)),
+                height: .5,
+                collidable: !0,
+                destructible: !0,
+                explosion: "explosion_barrel",
+                health: 250,
+                hitParticle: "barrelChip",
+                explodeParticle: "depositBoxGreyFrag",
+                reflectBullets: !0,
+                loot: [],
+                map: {
+                    display: !1
+                },
+                terrain: {
+                    grass: !1,
+                    beach: !0
+                },
+                img: {
+                    sprite: "img/map/map-power-box-01.svg",
+                    residue: "",
+                    scale: .5,
+                    alpha: 1,
+                    tint: 16777215,
+                    zIdx: 10
+                },
+                sound: {
+                    bullet: "wall_bullet",
+                    punch: "metal_punch",
+                    explode: "deposit_box_break_01",
+                    enter: "none"
+                }
+            }, e || {})
+        }
+        function M(e) {
+            return c({
+                type: "obstacle",
+                scale: {
+                    createMin: 1,
+                    createMax: 1,
+                    destroy: .8
+                },
+                collision: A.createCircle(L.create(0, .25), 1.18),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -7523,13 +7888,7 @@ webpackJsonp([0], {
                 reflectBullets: !1,
                 hitParticle: "whiteChip",
                 explodeParticle: "toiletFrag",
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 2,
-                    max: 3,
-                    tier: "tier_toilet"
-                },
+                loot: [r("tier_toilet", 2, 3)],
                 map: {
                     display: !1,
                     color: 11776947,
@@ -7555,7 +7914,7 @@ webpackJsonp([0], {
                 }
             }, e || {})
         }
-        function w(e) {
+        function T(e) {
             var t = {
                 type: "obstacle",
                 scale: {
@@ -7563,7 +7922,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.copy(e.extents)),
+                collision: A.createAabbExtents(L.create(0, 0), L.copy(e.extents)),
                 height: 10,
                 isWall: !0,
                 collidable: !0,
@@ -7572,9 +7931,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1
                 },
@@ -7586,21 +7943,88 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             };
-            return S(C[e.material]),
-            s(t, C[e.material], e || {})
+            return I(B[e.material]),
+            c(t, B[e.material], e || {})
         }
-        var _ = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
+        function P(e) {
+            return c({
+                type: "obstacle",
+                scale: {
+                    createMin: 1,
+                    createMax: 1,
+                    destroy: 1
+                },
+                collision: A.createAabbExtents(L.create(0, 0), L.create(.4, 2)),
+                height: 10,
+                collidable: !0,
+                destructible: !0,
+                isWindow: !0,
+                health: 1,
+                hitParticle: "glassChip",
+                explodeParticle: "windowFrag",
+                reflectBullets: !1,
+                loot: [],
+                destroyType: "house_window_broken_01",
+                img: {
+                    sprite: "img/map/map-building-house-window-01.svg",
+                    residue: "none",
+                    scale: .5,
+                    alpha: 1,
+                    tint: 16777215,
+                    zIdx: 10
+                },
+                sound: {
+                    bullet: "glass_bullet",
+                    punch: "glass_bullet",
+                    explode: "window_break_01",
+                    enter: "none"
+                }
+            }, e || {})
+        }
+        function C(e) {
+            return c({
+                type: "obstacle",
+                scale: {
+                    createMin: 1,
+                    createMax: 1,
+                    destroy: 1
+                },
+                collision: A.createAabbExtents(L.create(0, 0), L.create(.4, 2)),
+                height: .2,
+                collidable: !0,
+                destructible: !1,
+                health: 100,
+                hitParticle: "woodChip",
+                explodeParticle: "woodPlank",
+                reflectBullets: !1,
+                loot: [],
+                img: {
+                    sprite: "img/map/map-building-house-window-res-01.svg",
+                    scale: .5,
+                    alpha: 1,
+                    tint: 4456448,
+                    zIdx: 10
+                },
+                sound: {
+                    bullet: "wall_wood_bullet",
+                    punch: "wall_wood_bullet",
+                    explode: "wall_wood_break_01",
+                    enter: "none"
+                }
+            }, e || {})
+        }
+        var z = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
             return typeof e
         }
         : function(e) {
             return e && "function" == typeof Symbol && e.constructor === Symbol && e !== Symbol.prototype ? "symbol" : typeof e
         }
-          , S = a("DlZn")
-          , M = a("8iex")
-          , T = a("9xSA")
-          , P = a("Tf6H")
-          , z = a("/2+T")
-          , C = {
+          , I = a("DlZn")
+          , D = a("8iex")
+          , A = a("9xSA")
+          , O = a("Tf6H")
+          , L = a("/2+T")
+          , B = {
             metal: {
                 destructible: !1,
                 reflectBullets: !0,
@@ -7658,7 +8082,7 @@ webpackJsonp([0], {
                 }
             }
         }
-          , I = {
+          , E = {
             barrel_01: {
                 type: "obstacle",
                 name: "a barrel",
@@ -7667,7 +8091,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .6
                 },
-                collision: T.createCircle(z.create(0, 0), 1.75),
+                collision: A.createCircle(L.create(0, 0), 1.75),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -7676,9 +8100,7 @@ webpackJsonp([0], {
                 hitParticle: "barrelChip",
                 explodeParticle: "barrelFrag",
                 reflectBullets: !0,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !0,
                     color: 6447714,
@@ -7702,11 +8124,11 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             },
-            barrel_02: m({
+            barrel_02: p({
                 health: 60
             }),
-            barrel_03: m({
-                collision: T.createAabbExtents(z.create(0, 0), z.create(1.25, .5)),
+            barrel_03: p({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(1.25, .5)),
                 health: 20,
                 img: {
                     sprite: "img/map/map-barrel-03.svg",
@@ -7714,155 +8136,99 @@ webpackJsonp([0], {
                     scale: .45
                 }
             }),
-            barrel_04: m({
-                collision: T.createAabbExtents(z.create(0, 0), z.create(1.25, .5)),
+            barrel_04: p({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(1.25, .5)),
                 health: 20,
-                loot: {
-                    tier: "tier_soviet",
-                    min: 2,
-                    max: 3
-                },
+                loot: [r("tier_soviet", 2, 3)],
                 img: {
                     sprite: "img/map/map-barrel-04.svg",
                     residue: "img/map/map-barrel-res-03.svg",
                     scale: .45
                 }
             }),
-            bookshelf_01: d({
+            bookshelf_01: u({
                 img: {
                     sprite: "img/map/map-bookshelf-01.svg"
                 },
-                loot: {
-                    tier: "tier_world",
-                    min: 1,
-                    max: 1
-                }
+                loot: [r("tier_world", 1, 1)]
             }),
-            bookshelf_02: d({
+            bookshelf_02: u({
                 img: {
                     sprite: "img/map/map-bookshelf-02.svg"
                 },
-                loot: {
-                    tier: "tier_soviet",
-                    min: 2,
-                    max: 3
-                }
+                loot: [r("tier_soviet", 2, 3)]
             }),
-            bush_01: p({}),
-            bush_02: p({
+            bush_01: h({}),
+            bush_02: h({
                 img: {
                     residue: "img/map/map-bush-res-02.svg"
                 }
             }),
-            bush_03: p({
+            bush_03: h({
                 img: {
                     sprite: "img/map/map-bush-03.svg",
                     alpha: 1
                 }
             }),
-            case_01: u({
-                loot: {
-                    automatic: [{
-                        name: "deagle",
-                        count: 1
-                    }]
-                }
+            case_01: g({
+                loot: [s("deagle", 1)]
             }),
-            case_02: u({
+            case_02: g({
                 img: {
                     sprite: "img/map/map-case-deagle-02.svg"
                 },
-                loot: {
-                    automatic: [{
-                        name: "deagle",
-                        count: 1
-                    }, {
-                        name: "deagle",
-                        count: 1
-                    }]
-                }
+                loot: [s("deagle", 1), s("deagle", 1)]
             }),
-            chest_01: h({
-                loot: {
-                    min: 3,
-                    max: 4,
-                    tier: "tier_chest",
-                    automatic: [{
-                        name: "outfitRoyalFortune",
-                        count: 1
-                    }]
-                }
+            case_03: g({
+                health: 140,
+                img: {
+                    sprite: "img/map/map-case-hatchet-01.svg",
+                    residue: "img/map/map-crate-res-02.svg"
+                },
+                loot: [r("tier_hatchet", 1, 1)]
             }),
-            chest_02: h({
+            chest_01: f({
+                loot: [r("tier_chest", 3, 4), s("outfitRoyalFortune", 1)]
+            }),
+            chest_02: f({
                 img: {
                     sprite: "img/map/map-chest-02.svg"
                 },
-                loot: {
-                    min: 2,
-                    max: 2,
-                    tier: "tier_chest"
-                }
+                loot: [r("tier_chest", 2, 2)]
             }),
-            control_panel_01: {
-                type: "obstacle",
-                scale: {
-                    createMin: 1,
-                    createMax: 1,
-                    destroy: .75
-                },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.25, 1.7)),
-                height: .5,
-                collidable: !0,
-                destructible: !0,
-                explosion: "explosion_barrel",
-                health: 250,
-                hitParticle: "barrelChip",
-                explodeParticle: "depositBoxGreyFrag",
-                reflectBullets: !0,
+            control_panel_01: S({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.25, 1.7)),
                 button: {
                     interactionRad: 1.75,
                     useOnce: !0,
                     useType: "cell_door_01",
                     useDelay: 1.1,
-                    useDir: z.create(-1, 0),
+                    useDir: L.create(-1, 0),
                     useImg: "img/map/map-control-panel-02.svg",
                     sound: "cell_control_01"
                 },
-                loot: {
-                    spawn: !1
-                },
-                map: {
-                    display: !1,
-                    color: 6697728,
-                    scale: .875
-                },
-                terrain: {
-                    grass: !1,
-                    beach: !0
-                },
                 img: {
-                    sprite: "img/map/map-control-panel-01.svg",
-                    residue: "",
-                    scale: .5,
-                    alpha: 1,
-                    tint: 16777215,
-                    zIdx: 10
-                },
-                sound: {
-                    bullet: "wall_bullet",
-                    punch: "metal_punch",
-                    explode: "deposit_box_break_01",
-                    enter: "none"
+                    sprite: "img/map/map-control-panel-01.svg"
                 }
-            },
-            crate_01: f(),
-            crate_02: f({
+            }),
+            control_panel_02: S({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.25, 1.7)),
+                health: 175,
+                img: {
+                    sprite: "img/map/map-control-panel-02.svg"
+                }
+            }),
+            control_panel_03: S({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(1.25, 1.2)),
                 health: 150,
-                loot: {
-                    min: 3,
-                    max: 5,
-                    tier: "tier_soviet"
-                },
+                img: {
+                    sprite: "img/map/map-control-panel-03.svg"
+                }
+            }),
+            crate_01: b(),
+            crate_02: b({
+                health: 140,
+                loot: [r("tier_soviet", 3, 5)],
                 map: {
                     display: !1
                 },
@@ -7877,14 +8243,10 @@ webpackJsonp([0], {
                     explode: "crate_break_01"
                 }
             }),
-            crate_03: f({
+            crate_03: b({
                 health: 100,
-                collision: T.createAabbExtents(z.create(0, 0), z.create(1.575, 1.575)),
-                loot: {
-                    min: 2,
-                    max: 4,
-                    tier: "tier_throwables"
-                },
+                collision: A.createAabbExtents(L.create(0, 0), L.create(1.575, 1.575)),
+                loot: [r("tier_throwables", 2, 4)],
                 map: {
                     color: 5066014,
                     scale: .875
@@ -7901,12 +8263,10 @@ webpackJsonp([0], {
                     explode: "crate_break_01"
                 }
             }),
-            crate_04: f({
+            crate_04: b({
                 destructible: !1,
                 hitParticle: "greenChip",
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1
                 },
@@ -7918,13 +8278,11 @@ webpackJsonp([0], {
                     punch: "ammo_crate_bullet"
                 }
             }),
-            crate_05: f({
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2, 2)),
+            crate_05: b({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2, 2)),
                 destructible: !1,
                 hitParticle: "goldChip",
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1
                 },
@@ -7936,13 +8294,11 @@ webpackJsonp([0], {
                     punch: "wall_brick_bullet"
                 }
             }),
-            crate_06: f({
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.25, 1.1)),
+            crate_06: b({
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.25, 1.1)),
                 destructible: !1,
                 hitParticle: "greenChip",
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1
                 },
@@ -7954,29 +8310,19 @@ webpackJsonp([0], {
                     punch: "ammo_crate_bullet"
                 }
             }),
-            crate_07: f({
-                health: 150,
-                loot: {
-                    min: 2,
-                    max: 3,
-                    tier: "tier_surviv",
-                    automatic: [{
-                        name: "ak47",
-                        count: 1
-                    }, {
-                        name: "outfitKhaki",
-                        count: 1
-                    }, {
-                        name: "outfitKhaki",
-                        count: 1
-                    }, {
-                        name: "outfitKhaki",
-                        count: 1
-                    }, {
-                        name: "outfitKhaki",
-                        count: 1
-                    }]
+            crate_07: b({
+                health: 140,
+                loot: [r("tier_surviv", 2, 3), s("ak47", 1), s("outfitKhaki", 1), s("outfitKhaki", 1), s("outfitKhaki", 1), s("outfitKhaki", 1)],
+                img: {
+                    sprite: "img/map/map-crate-07.svg"
                 },
+                sound: {
+                    explode: "crate_break_01"
+                }
+            }),
+            crate_08: b({
+                health: 140,
+                loot: [r("tier_surviv", 2, 3), s("outfitKhaki", 1)],
                 map: {
                     display: !1
                 },
@@ -7985,72 +8331,54 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 img: {
-                    sprite: "img/map/map-crate-07.svg"
+                    sprite: "img/map/map-crate-08.svg"
                 },
                 sound: {
                     explode: "crate_break_01"
                 }
             }),
-            deposit_box_01: y({
+            deposit_box_01: x({
                 img: {
                     sprite: "img/map/map-deposit-box-01.svg"
                 },
-                loot: {
-                    tier: "tier_world",
-                    min: 1,
-                    max: 1
-                }
+                loot: [r("tier_world", 1, 1)]
             }),
-            deposit_box_02: y({
+            deposit_box_02: x({
                 explodeParticle: "depositBoxGoldFrag",
                 img: {
                     sprite: "img/map/map-deposit-box-02.svg"
                 },
-                loot: {
-                    tier: "tier_soviet",
-                    min: 2,
-                    max: 3
-                }
+                loot: [r("tier_soviet", 2, 3)]
             }),
-            drawers_01: x({
+            drawers_01: _({
                 img: {
                     sprite: "img/map/map-drawers-01.svg"
                 },
-                loot: {
-                    tier: "tier_container",
-                    min: 1,
-                    max: 1
-                }
+                loot: [r("tier_container", 1, 1)]
             }),
-            drawers_02: x({
+            drawers_02: _({
                 img: {
                     sprite: "img/map/map-drawers-02.svg"
                 },
-                loot: {
-                    tier: "tier_soviet",
-                    min: 2,
-                    max: 3
-                }
+                loot: [r("tier_soviet", 2, 3)]
             }),
-            locker_01: v({
+            locker_01: w({
                 img: {
                     sprite: "img/map/map-locker-01.svg"
                 },
-                loot: {
-                    tier: "tier_world",
-                    min: 1,
-                    max: 1
-                }
+                loot: [r("tier_world", 1, 1)]
             }),
-            locker_02: v({
+            locker_02: w({
                 img: {
                     sprite: "img/map/map-locker-02.svg"
                 },
-                loot: {
-                    tier: "tier_police",
-                    min: 1,
-                    max: 1
-                }
+                loot: [r("tier_police", 1, 1)]
+            }),
+            locker_03: w({
+                img: {
+                    sprite: "img/map/map-locker-02.svg"
+                },
+                loot: [r("tier_surviv", 1, 1), s("outfitKhaki", 1)]
             }),
             oven_01: {
                 type: "obstacle",
@@ -8060,7 +8388,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(1.7, 1.3)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(1.7, 1.3)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -8069,9 +8397,7 @@ webpackJsonp([0], {
                 hitParticle: "barrelChip",
                 explodeParticle: "barrelFrag",
                 reflectBullets: !0,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8095,6 +8421,7 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             },
+            power_box_01: S(),
             refrigerator_01: {
                 type: "obstacle",
                 scale: {
@@ -8102,7 +8429,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(1.7, 1.25)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(1.7, 1.25)),
                 height: .5,
                 collidable: !0,
                 destructible: !1,
@@ -8110,9 +8437,7 @@ webpackJsonp([0], {
                 hitParticle: "redChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !0,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8124,7 +8449,7 @@ webpackJsonp([0], {
                 },
                 img: {
                     sprite: "img/map/map-refrigerator-01.svg",
-                    residue: "img/map/map-crate-res.svg",
+                    residue: "img/map/map-crate-res-01.svg",
                     scale: .5,
                     alpha: 1,
                     tint: 16777215,
@@ -8144,7 +8469,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .5
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(3.1, 1.4)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(3.1, 1.4)),
                 height: .5,
                 collidable: !0,
                 destructible: !1,
@@ -8152,9 +8477,7 @@ webpackJsonp([0], {
                 hitParticle: "goldChip",
                 explodeParticle: "barrelFrag",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 16777215,
@@ -8181,7 +8504,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createCircle(z.create(0, 0), 7.75),
+                collision: A.createCircle(L.create(0, 0), 7.75),
                 height: 10,
                 collidable: !0,
                 destructible: !1,
@@ -8189,9 +8512,7 @@ webpackJsonp([0], {
                 hitParticle: "barrelChip",
                 explodeParticle: "barrelFrag",
                 reflectBullets: !0,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !0,
                     color: 4079166,
@@ -8222,7 +8543,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.5, 2)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.5, 2)),
                 height: .5,
                 collidable: !1,
                 destructible: !0,
@@ -8230,9 +8551,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8264,7 +8583,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(1.25, 1.25)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(1.25, 1.25)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -8272,13 +8591,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 1,
-                    max: 1,
-                    tier: "tier_world"
-                },
+                loot: [r("tier_world", 1, 1)],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8310,7 +8623,7 @@ webpackJsonp([0], {
                     createMax: 1.2,
                     destroy: .5
                 },
-                collision: T.createCircle(z.create(0, 0), 1.6),
+                collision: A.createCircle(L.create(0, 0), 1.6),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -8318,9 +8631,7 @@ webpackJsonp([0], {
                 reflectBullets: !1,
                 hitParticle: "rockChip",
                 explodeParticle: "rockFrag",
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !0,
                     color: 11776947,
@@ -8352,7 +8663,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(2.5, 2)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(2.5, 2)),
                 height: .5,
                 collidable: !1,
                 destructible: !0,
@@ -8360,9 +8671,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8394,7 +8703,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(4.5, 2.5)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(4.5, 2.5)),
                 height: .5,
                 collidable: !1,
                 destructible: !0,
@@ -8402,9 +8711,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodPlank",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8429,27 +8736,19 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             },
-            toilet_01: k({
+            toilet_01: M({
                 img: {
                     sprite: "img/map/map-toilet-01.svg"
                 },
-                loot: {
-                    tier: "tier_toilet",
-                    min: 2,
-                    max: 3
-                }
+                loot: [r("tier_toilet", 2, 3)]
             }),
-            toilet_02: k({
+            toilet_02: M({
                 img: {
                     sprite: "img/map/map-toilet-02.svg"
                 },
-                loot: {
-                    tier: "tier_soviet",
-                    min: 3,
-                    max: 4
-                }
+                loot: [r("tier_soviet", 3, 4)]
             }),
-            toilet_03: k({
+            toilet_03: M({
                 reflectBullets: !0,
                 hitParticle: "barrelChip",
                 explodeParticle: "toiletMetalFrag",
@@ -8457,18 +8756,14 @@ webpackJsonp([0], {
                     sprite: "img/map/map-toilet-03.svg",
                     residue: "img/map/map-toilet-res-02.svg"
                 },
-                loot: {
-                    tier: "tier_world",
-                    min: 1,
-                    max: 2
-                },
+                loot: [r("tier_world", 1, 2)],
                 sound: {
                     bullet: "toilet_metal_bullet",
                     punch: "toilet_metal_bullet",
                     explode: "toilet_break_02"
                 }
             }),
-            toilet_04: k({
+            toilet_04: M({
                 reflectBullets: !0,
                 hitParticle: "barrelChip",
                 explodeParticle: "toiletMetalFrag",
@@ -8476,11 +8771,7 @@ webpackJsonp([0], {
                     sprite: "img/map/map-toilet-04.svg",
                     residue: "img/map/map-toilet-res-02.svg"
                 },
-                loot: {
-                    tier: "tier_soviet",
-                    min: 2,
-                    max: 3
-                },
+                loot: [r("tier_soviet", 2, 3)],
                 sound: {
                     bullet: "toilet_metal_bullet",
                     punch: "toilet_metal_bullet",
@@ -8494,7 +8785,8 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .5
                 },
-                collision: T.createCircle(z.create(0, 0), 1.55),
+                collision: A.createCircle(L.create(0, 0), 1.55),
+                aabb: A.createAabbExtents(L.create(0, 0), L.create(5.75, 5.75)),
                 height: 10,
                 collidable: !0,
                 destructible: !0,
@@ -8502,9 +8794,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodLog",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !0,
                     color: 4083758,
@@ -8536,7 +8826,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .5
                 },
-                collision: T.createCircle(z.create(0, 0), 4.4),
+                collision: A.createCircle(L.create(0, 0), 4.4),
                 height: 10,
                 collidable: !0,
                 destructible: !1,
@@ -8544,9 +8834,7 @@ webpackJsonp([0], {
                 hitParticle: "woodChip",
                 explodeParticle: "woodLog",
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 map: {
                     display: !0,
                     color: 4083758,
@@ -8567,6 +8855,86 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             },
+            vat_01: {
+                type: "obstacle",
+                scale: {
+                    createMin: 1,
+                    createMax: 1,
+                    destroy: .9
+                },
+                collision: A.createCircle(L.create(0, 0), 2),
+                height: .5,
+                collidable: !0,
+                destructible: !0,
+                health: 250,
+                reflectBullets: !1,
+                hitParticle: "glassChip",
+                explodeParticle: "windowFrag",
+                loot: [],
+                map: {
+                    display: !0,
+                    color: 11776947,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !1,
+                    beach: !1
+                },
+                img: {
+                    sprite: "img/map/map-vat-01.svg",
+                    residue: "img/map/map-vat-res.svg",
+                    scale: .5,
+                    alpha: 1,
+                    tint: 16777215,
+                    zIdx: 10
+                },
+                sound: {
+                    bullet: "glass_bullet",
+                    punch: "glass_bullet",
+                    explode: "window_break_01",
+                    enter: "none"
+                }
+            },
+            vat_02: {
+                type: "obstacle",
+                scale: {
+                    createMin: 1,
+                    createMax: 1,
+                    destroy: .95
+                },
+                collision: A.createCircle(L.create(0, 0), 3.1),
+                height: .5,
+                collidable: !0,
+                destructible: !1,
+                health: 1e3,
+                reflectBullets: !1,
+                hitParticle: "glassChip",
+                explodeParticle: "windowFrag",
+                loot: [],
+                map: {
+                    display: !0,
+                    color: 11776947,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                img: {
+                    sprite: "img/map/map-vat-02.svg",
+                    residue: "img/map/map-vat-res.svg",
+                    scale: .5,
+                    alpha: 1,
+                    tint: 16777215,
+                    zIdx: 10
+                },
+                sound: {
+                    bullet: "glass_bullet",
+                    punch: "glass_bullet",
+                    explode: "window_break_01",
+                    enter: "none"
+                }
+            },
             vending_01: {
                 type: "obstacle",
                 scale: {
@@ -8574,7 +8942,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: .75
                 },
-                collision: T.createAabbExtents(z.create(0, .15), z.create(1.7, 1.25)),
+                collision: A.createAabbExtents(L.create(0, .15), L.create(1.7, 1.25)),
                 height: .5,
                 collidable: !0,
                 destructible: !0,
@@ -8582,17 +8950,7 @@ webpackJsonp([0], {
                 hitParticle: "blueChip",
                 explodeParticle: ["windowFrag", "lockerFrag"],
                 reflectBullets: !0,
-                loot: {
-                    spawn: !0,
-                    chance: 1,
-                    min: 1,
-                    max: 3,
-                    tier: "tier_vending_soda",
-                    automatic: [{
-                        name: "soda",
-                        count: 1
-                    }]
-                },
+                loot: [r("tier_vending_soda", 1, 3), s("soda", 1)],
                 map: {
                     display: !1,
                     color: 6697728,
@@ -8624,7 +8982,7 @@ webpackJsonp([0], {
                     createMax: 1,
                     destroy: 1
                 },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(.4, 2)),
+                collision: A.createAabbExtents(L.create(0, 0), L.create(.4, 2)),
                 height: 10,
                 collidable: !0,
                 destructible: !0,
@@ -8633,9 +8991,7 @@ webpackJsonp([0], {
                 hitParticle: "glassChip",
                 explodeParticle: ["windowFrag", "redPlank"],
                 reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
+                loot: [],
                 img: {
                     sprite: "img/map/map-building-bank-window-01.svg",
                     residue: "img/map/map-building-bank-window-res-01.svg",
@@ -8651,15 +9007,15 @@ webpackJsonp([0], {
                     enter: "none"
                 }
             },
-            house_door_01: b({
+            house_door_01: v({
                 material: "wood",
-                hinge: z.create(0, 2),
-                extents: z.create(.3, 2)
+                hinge: L.create(0, 2),
+                extents: L.create(.3, 2)
             }),
-            house_door_02: b({
+            house_door_02: v({
                 material: "metal",
-                hinge: z.create(0, 2),
-                extents: z.create(.3, 2),
+                hinge: L.create(0, 2),
+                extents: L.create(.3, 2),
                 door: {
                     sound: {
                         open: "door_open_02",
@@ -8670,18 +9026,18 @@ webpackJsonp([0], {
                     tint: 4934475
                 }
             }),
-            house_door_03: b({
+            house_door_03: v({
                 material: "wood",
-                hinge: z.create(0, 2),
-                extents: z.create(.5, 1.75),
+                hinge: L.create(0, 2),
+                extents: L.create(.5, 1.75),
                 img: {
                     sprite: "img/map/map-door-03.svg"
                 }
             }),
-            cell_door_01: b({
+            cell_door_01: v({
                 material: "metal",
-                hinge: z.create(0, 2),
-                extents: z.create(.3, 2),
+                hinge: L.create(0, 2),
+                extents: L.create(.3, 2),
                 door: {
                     canUse: !1,
                     openOnce: !0,
@@ -8694,76 +9050,34 @@ webpackJsonp([0], {
                     tint: 1776411
                 }
             }),
-            house_window_01: {
-                type: "obstacle",
-                scale: {
-                    createMin: 1,
-                    createMax: 1,
-                    destroy: 1
-                },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(.4, 2)),
-                height: 10,
-                collidable: !0,
-                destructible: !0,
-                isWindow: !0,
-                health: 1,
-                hitParticle: "glassChip",
-                explodeParticle: "windowFrag",
-                reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
-                destroyType: "house_window_broken_01",
-                img: {
-                    sprite: "img/map/map-building-house-window-01.svg",
-                    residue: "none",
-                    scale: .5,
-                    alpha: 1,
-                    tint: 16777215,
-                    zIdx: 10
-                },
-                sound: {
-                    bullet: "glass_bullet",
-                    punch: "glass_bullet",
-                    explode: "window_break_01",
-                    enter: "none"
+            lab_door_01: k(),
+            lab_door_02: k({
+                door: {
+                    openOneWay: !0,
+                    slideOffset: -3.75,
+                    casingImg: {
+                        pos: L.create(6, 0)
+                    }
                 }
-            },
-            house_window_broken_01: {
-                type: "obstacle",
-                scale: {
-                    createMin: 1,
-                    createMax: 1,
-                    destroy: 1
-                },
-                collision: T.createAabbExtents(z.create(0, 0), z.create(.4, 2)),
-                height: .2,
-                collidable: !0,
-                destructible: !1,
-                health: 100,
-                hitParticle: "woodChip",
-                explodeParticle: "woodPlank",
-                reflectBullets: !1,
-                loot: {
-                    spawn: !1
-                },
-                img: {
-                    sprite: "img/map/map-building-house-window-res-01.svg",
-                    scale: .5,
-                    alpha: 1,
-                    tint: 16777215,
-                    zIdx: 10
-                },
-                sound: {
-                    bullet: "wall_wood_bullet",
-                    punch: "wall_wood_bullet",
-                    explode: "wall_wood_break_01",
-                    enter: "none"
+            }),
+            lab_door_03: k({
+                door: {
+                    openOneWay: !0
                 }
-            },
-            hedgehog_wall: w({
+            }),
+            house_window_01: P(),
+            house_window_broken_01: C(),
+            lab_window_01: P({
+                destroyType: "lab_window_broken_01"
+            }),
+            lab_window_broken_01: C({
+                img: {
+                    tint: 1316379
+                }
+            }),
+            hedgehog_wall: T({
                 material: "metal",
-                extents: z.create(3, .5),
+                extents: L.create(3, .5),
                 height: .5,
                 map: {
                     display: !0,
@@ -8782,58 +9096,55 @@ webpackJsonp([0], {
                     grass: !1,
                     beach: !0
                 },
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 0), z.create(3, 3))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "grass",
+                        collision: [A.createAabbExtents(L.create(0, 0), L.create(3, 3))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-hedgehog-01.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "grass"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 0), z.create(0, 0))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 0), z.create(0, 0))],
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 0,
-                        tint: 16777215
-                    }
+                    scopeIn: [A.createAabbExtents(L.create(0, 0), L.create(0, 0))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 0), L.create(0, 0))],
+                    imgs: []
                 },
                 mapObjects: [{
                     type: "hedgehog_wall",
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "hedgehog_wall",
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     scale: 1,
                     ori: 0
                 }]
             },
-            warehouse_wall_side: w({
+            warehouse_wall_side: T({
                 material: "metal",
-                extents: z.create(25, .6)
+                extents: L.create(25, .6)
             }),
-            warehouse_wall_edge: w({
+            warehouse_wall_edge: T({
                 material: "metal",
-                extents: z.create(.6, 3.2)
+                extents: L.create(.6, 3.2)
             }),
             warehouse_01: {
                 type: "building",
                 map: {
                     display: !0,
                     shapes: [{
-                        collider: T.createAabbExtents(z.create(27, 0), z.create(3, 12.25)),
+                        collider: A.createAabbExtents(L.create(27, 0), L.create(3, 12.25)),
                         color: 10066329
                     }, {
-                        collider: T.createAabbExtents(z.create(-27, 0), z.create(3, 12.25)),
+                        collider: A.createAabbExtents(L.create(-27, 0), L.create(3, 12.25)),
                         color: 10066329
                     }, {
-                        collider: T.createAabbExtents(z.create(0, 0), z.create(24.5, 12.25)),
+                        collider: A.createAabbExtents(L.create(0, 0), L.create(24.5, 12.25)),
                         color: 5915450
                     }]
                 },
@@ -8841,160 +9152,162 @@ webpackJsonp([0], {
                     grass: !0,
                     beach: !1
                 },
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 0), z.create(32, 12.5))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "warehouse",
+                        collision: [A.createAabbExtents(L.create(0, 0), L.create(32, 12.5))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-warehouse-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "warehouse"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 0), z.create(24.5, 12.25))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 0), z.create(32, 12.5))],
+                    scopeIn: [A.createAabbExtents(L.create(0, 0), L.create(24.5, 12.25))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 0), L.create(32, 12.5))],
                     vision: {
                         dist: 8,
                         width: 5
                     },
-                    img: {
-                        sprite: "img/map/map-building-warehouse-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "warehouse_wall_side",
-                    pos: z.create(0, 11.9),
+                    pos: L.create(0, 11.9),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "warehouse_wall_edge",
-                    pos: z.create(-24.4, 8.2),
+                    pos: L.create(-24.4, 8.2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "warehouse_wall_edge",
-                    pos: z.create(24.4, 8.2),
+                    pos: L.create(24.4, 8.2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "warehouse_wall_side",
-                    pos: z.create(0, -11.9),
+                    pos: L.create(0, -11.9),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "warehouse_wall_edge",
-                    pos: z.create(-24.4, -8.2),
+                    pos: L.create(-24.4, -8.2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "warehouse_wall_edge",
-                    pos: z.create(24.4, -8.2),
+                    pos: L.create(24.4, -8.2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "crate_01",
-                    pos: z.create(-21.25, 8.75),
+                    pos: L.create(-21.25, 8.75),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "crate_04",
-                    pos: z.create(-16.25, 8.75),
+                    pos: L.create(-16.25, 8.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "crate_01",
-                    pos: z.create(-21.25, -8.75),
+                    pos: L.create(-21.25, -8.75),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "barrel_01",
-                    pos: z.create(-16.5, -8.75),
+                    pos: L.create(-16.5, -8.75),
                     scale: .9,
                     ori: 0
                 }, {
                     type: "crate_01",
-                    pos: z.create(21.25, 8.75),
+                    pos: L.create(21.25, 8.75),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "barrel_01",
-                    pos: z.create(16.5, 8.75),
+                    pos: L.create(16.5, 8.75),
                     scale: .9,
                     ori: 0
                 }, {
                     type: "crate_04",
-                    pos: z.create(16.25, -8.75),
+                    pos: L.create(16.25, -8.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "crate_01",
-                    pos: z.create(21.25, -8.75),
+                    pos: L.create(21.25, -8.75),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
-                    type: l({
+                    type: d({
                         crate_02: 1,
                         crate_01: 3
                     }),
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "crate_01",
-                    pos: z.create(5, 0),
+                    pos: L.create(5, 0),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "crate_01",
-                    pos: z.create(-5, 0),
+                    pos: L.create(-5, 0),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "crate_04",
-                    pos: z.create(0, 5),
+                    pos: L.create(0, 5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "crate_04",
-                    pos: z.create(0, -5),
+                    pos: L.create(0, -5),
                     scale: 1,
                     ori: 0
                 }]
             },
-            shack_wall_top: w({
+            shack_wall_top: T({
                 material: "wood",
-                extents: z.create(5.6, .35),
+                extents: L.create(5.6, .35),
                 height: 10,
-                img: c("img/map/map-wall-shack-top.svg")
+                img: m("img/map/map-wall-shack-top.svg")
             }),
-            shack_wall_side_left: w({
+            shack_wall_side_left: T({
                 material: "wood",
-                extents: z.create(.35, 3.43),
+                extents: L.create(.35, 3.43),
                 height: 10,
-                img: c("img/map/map-wall-shack-left.svg")
+                img: m("img/map/map-wall-shack-left.svg")
             }),
-            shack_wall_side_right: w({
+            shack_wall_side_right: T({
                 material: "wood",
-                extents: z.create(.35, 3.8),
+                extents: L.create(.35, 3.8),
                 height: 10,
-                img: c("img/map/map-wall-shack-right.svg")
+                img: m("img/map/map-wall-shack-right.svg")
             }),
-            shack_wall_bot: w({
+            shack_wall_bot: T({
                 material: "wood",
-                extents: z.create(3.75, .35),
+                extents: L.create(3.75, .35),
                 height: 10,
-                img: c("img/map/map-wall-shack-bot.svg")
+                img: m("img/map/map-wall-shack-bot.svg")
             }),
             shack_01: {
                 type: "building",
@@ -9007,30 +9320,31 @@ webpackJsonp([0], {
                     grass: !0,
                     beach: !1
                 },
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, .9), z.create(5.6, 3.5)), T.createAabbExtents(z.create(3.75, -4), z.create(2.25, 1.5))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "shack",
+                        collision: [A.createAabbExtents(L.create(0, .9), L.create(5.6, 3.5)), A.createAabbExtents(L.create(3.75, -4), L.create(2.25, 1.5))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-shack-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "shack"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, .9), z.create(5.6, 3.5))],
-                    scopeOut: [T.createAabbExtents(z.create(0, .8), z.create(5.9, 3.8))],
+                    scopeIn: [A.createAabbExtents(L.create(0, .9), L.create(5.6, 3.5))],
+                    scopeOut: [A.createAabbExtents(L.create(0, .8), L.create(5.9, 3.8))],
                     vision: {
                         width: 4
                     },
-                    img: {
-                        sprite: "img/map/map-building-shack-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
+                    }],
                     destroy: {
-                        destructible: !0,
                         wallCount: 2,
                         particle: "shackFrag",
                         particleCount: 25,
@@ -9039,78 +9353,78 @@ webpackJsonp([0], {
                 },
                 mapObjects: [{
                     type: "shack_wall_bot",
-                    pos: z.create(-1.49, -2.4),
+                    pos: L.create(-1.49, -2.4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "shack_wall_side_left",
-                    pos: z.create(-5.55, .69),
+                    pos: L.create(-5.55, .69),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "shack_wall_top",
-                    pos: z.create(-.3, 4.33),
+                    pos: L.create(-.3, 4.33),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "shack_wall_side_right",
-                    pos: z.create(5.55, .95),
+                    pos: L.create(5.55, .95),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "crate_01",
-                    pos: z.create(7.9, 2.85),
+                    pos: L.create(7.9, 2.85),
                     scale: .8,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "barrel_01",
-                    pos: z.create(7.45, -.9),
+                    pos: L.create(7.45, -.9),
                     scale: .85,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_2: 1
                     }),
-                    pos: z.create(-2, .8),
+                    pos: L.create(-2, .8),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1,
                         "": 1
                     }),
-                    pos: z.create(2, .8),
+                    pos: L.create(2, .8),
                     scale: 1,
                     ori: 0
                 }]
             },
-            outhouse_wall_top: w({
+            outhouse_wall_top: T({
                 material: "wood",
-                extents: z.create(3.2, .35),
+                extents: L.create(3.2, .35),
                 height: 10,
                 hitParticle: "outhouseChip",
                 explodeParticle: "outhousePlank",
                 health: 100,
-                img: c("img/map/map-wall-outhouse-top.svg")
+                img: m("img/map/map-wall-outhouse-top.svg")
             }),
-            outhouse_wall_side: w({
+            outhouse_wall_side: T({
                 material: "wood",
-                extents: z.create(.35, 3.1),
+                extents: L.create(.35, 3.1),
                 height: 10,
                 hitParticle: "outhouseChip",
                 explodeParticle: "outhousePlank",
                 health: 100,
-                img: c("img/map/map-wall-outhouse-side.svg")
+                img: m("img/map/map-wall-outhouse-side.svg")
             }),
-            outhouse_wall_bot: w({
+            outhouse_wall_bot: T({
                 material: "wood",
-                extents: z.create(1.15, .35),
+                extents: L.create(1.15, .35),
                 height: 10,
                 hitParticle: "outhouseChip",
                 explodeParticle: "outhousePlank",
                 health: 100,
-                img: c("img/map/map-wall-outhouse-bot.svg")
+                img: m("img/map/map-wall-outhouse-bot.svg")
             }),
             outhouse_01: {
                 type: "building",
@@ -9123,27 +9437,28 @@ webpackJsonp([0], {
                     grass: !0,
                     beach: !1
                 },
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 0), z.create(3.8, 5))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "shack",
+                        collision: [A.createAabbExtents(L.create(0, 0), L.create(3.8, 5))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-outhouse-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "shack"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 1.45), z.create(3.6, 3.2))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 1.4), z.create(3.8, 3.4))],
-                    img: {
-                        sprite: "img/map/map-building-outhouse-ceiling.svg",
+                    scopeIn: [A.createAabbExtents(L.create(0, 1.45), L.create(3.6, 3.2))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 1.4), L.create(3.8, 3.4))],
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
+                    }],
                     destroy: {
-                        destructible: !0,
                         wallCount: 2,
                         particleCount: 15,
                         particle: "outhouseFrag",
@@ -9152,313 +9467,417 @@ webpackJsonp([0], {
                 },
                 mapObjects: [{
                     type: "outhouse_wall_top",
-                    pos: z.create(0, 4.46),
+                    pos: L.create(0, 4.46),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "outhouse_wall_side",
-                    pos: z.create(3.4, 1.73),
+                    pos: L.create(3.4, 1.73),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "outhouse_wall_side",
-                    pos: z.create(-3.4, 1.73),
+                    pos: L.create(-3.4, 1.73),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "outhouse_wall_bot",
-                    pos: z.create(-2.65, -1.52),
+                    pos: L.create(-2.65, -1.52),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "outhouse_wall_bot",
-                    pos: z.create(2.65, -1.52),
+                    pos: L.create(2.65, -1.52),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_01: 5,
                         toilet_02: 1
                     }),
-                    pos: z.create(0, 2),
+                    pos: L.create(0, 2),
                     scale: .95,
                     ori: 0
                 }]
             },
-            brick_wall_ext_1: w({
+            brick_wall_ext_1: T({
                 material: "brick",
-                extents: z.create(.5, .5)
+                extents: L.create(.5, .5)
             }),
-            brick_wall_ext_2: w({
+            brick_wall_ext_2: T({
                 material: "brick",
-                extents: z.create(.5, 1)
+                extents: L.create(.5, 1)
             }),
-            brick_wall_ext_3: w({
+            brick_wall_ext_3: T({
                 material: "brick",
-                extents: z.create(.5, 1.5)
+                extents: L.create(.5, 1.5)
             }),
-            brick_wall_ext_4: w({
+            brick_wall_ext_4: T({
                 material: "brick",
-                extents: z.create(.5, 2)
+                extents: L.create(.5, 2)
             }),
-            brick_wall_ext_5: w({
+            brick_wall_ext_5: T({
                 material: "brick",
-                extents: z.create(.5, 2.5)
+                extents: L.create(.5, 2.5)
             }),
-            brick_wall_ext_6: w({
+            brick_wall_ext_6: T({
                 material: "brick",
-                extents: z.create(.5, 3)
+                extents: L.create(.5, 3)
             }),
-            brick_wall_ext_7: w({
+            brick_wall_ext_7: T({
                 material: "brick",
-                extents: z.create(.5, 3.5)
+                extents: L.create(.5, 3.5)
             }),
-            brick_wall_ext_8: w({
+            brick_wall_ext_8: T({
                 material: "brick",
-                extents: z.create(.5, 4)
+                extents: L.create(.5, 4)
             }),
-            brick_wall_ext_9: w({
+            brick_wall_ext_9: T({
                 material: "brick",
-                extents: z.create(.5, 4.5)
+                extents: L.create(.5, 4.5)
             }),
-            brick_wall_ext_10: w({
+            brick_wall_ext_10: T({
                 material: "brick",
-                extents: z.create(.5, 5)
+                extents: L.create(.5, 5)
             }),
-            brick_wall_ext_11: w({
+            brick_wall_ext_11: T({
                 material: "brick",
-                extents: z.create(.5, 5.5)
+                extents: L.create(.5, 5.5)
             }),
-            brick_wall_ext_12: w({
+            brick_wall_ext_12: T({
                 material: "brick",
-                extents: z.create(.5, 6)
+                extents: L.create(.5, 6)
             }),
-            brick_wall_ext_13: w({
+            brick_wall_ext_13: T({
                 material: "brick",
-                extents: z.create(.5, 6.5)
+                extents: L.create(.5, 6.5)
             }),
-            brick_wall_ext_14: w({
+            brick_wall_ext_14: T({
                 material: "brick",
-                extents: z.create(.5, 7)
+                extents: L.create(.5, 7)
             }),
-            brick_wall_ext_15: w({
+            brick_wall_ext_15: T({
                 material: "brick",
-                extents: z.create(.5, 7.5)
+                extents: L.create(.5, 7.5)
             }),
-            brick_wall_ext_16: w({
+            brick_wall_ext_16: T({
                 material: "brick",
-                extents: z.create(.5, 8)
+                extents: L.create(.5, 8)
             }),
-            brick_wall_ext_17: w({
+            brick_wall_ext_17: T({
                 material: "brick",
-                extents: z.create(.5, 8.5)
+                extents: L.create(.5, 8.5)
             }),
-            brick_wall_ext_18: w({
+            brick_wall_ext_18: T({
                 material: "brick",
-                extents: z.create(.5, 9)
+                extents: L.create(.5, 9)
             }),
-            brick_wall_ext_19: w({
+            brick_wall_ext_19: T({
                 material: "brick",
-                extents: z.create(.5, 9.5)
+                extents: L.create(.5, 9.5)
             }),
-            brick_wall_ext_20: w({
+            brick_wall_ext_20: T({
                 material: "brick",
-                extents: z.create(.5, 10)
+                extents: L.create(.5, 10)
             }),
-            brick_wall_ext_21: w({
+            brick_wall_ext_21: T({
                 material: "brick",
-                extents: z.create(.5, 10.5)
+                extents: L.create(.5, 10.5)
             }),
-            brick_wall_ext_22: w({
+            brick_wall_ext_22: T({
                 material: "brick",
-                extents: z.create(.5, 11)
+                extents: L.create(.5, 11)
             }),
-            brick_wall_ext_23: w({
+            brick_wall_ext_23: T({
                 material: "brick",
-                extents: z.create(.5, 11.5)
+                extents: L.create(.5, 11.5)
             }),
-            brick_wall_ext_33: w({
+            brick_wall_ext_33: T({
                 material: "brick",
-                extents: z.create(.5, 16.5)
+                extents: L.create(.5, 16.5)
             }),
-            brick_wall_ext_41: w({
+            brick_wall_ext_41: T({
                 material: "brick",
-                extents: z.create(.5, 20.5)
+                extents: L.create(.5, 20.5)
             }),
-            brick_wall_ext_short_7: w({
+            brick_wall_ext_short_7: T({
                 material: "brick",
-                extents: z.create(.5, 3.5),
+                extents: L.create(.5, 3.5),
                 height: .5
             }),
-            brick_wall_ext_thick_5: w({
+            brick_wall_ext_thicker_5: T({
                 material: "brick",
-                extents: z.create(1, 2.5)
+                extents: L.create(1.5, 2.5)
             }),
-            brick_wall_ext_thick_6: w({
+            brick_wall_ext_thicker_6: T({
                 material: "brick",
-                extents: z.create(1, 3)
+                extents: L.create(1.5, 3)
             }),
-            brick_wall_ext_thick_7: w({
+            brick_wall_ext_thicker_7: T({
                 material: "brick",
-                extents: z.create(1, 3.5)
+                extents: L.create(1.5, 3.5)
             }),
-            brick_wall_ext_thick_8: w({
+            brick_wall_ext_thicker_8: T({
                 material: "brick",
-                extents: z.create(1, 4)
+                extents: L.create(1.5, 4)
             }),
-            brick_wall_ext_thick_9: w({
+            brick_wall_ext_thicker_9: T({
                 material: "brick",
-                extents: z.create(1, 4.5)
+                extents: L.create(1.5, 4.5)
             }),
-            brick_wall_ext_thick_12: w({
+            brick_wall_ext_thicker_12: T({
                 material: "brick",
-                extents: z.create(1, 6)
+                extents: L.create(1.5, 6)
             }),
-            brick_wall_ext_thick_14: w({
+            brick_wall_ext_thicker_14: T({
                 material: "brick",
-                extents: z.create(1, 7)
+                extents: L.create(1.5, 7)
             }),
-            brick_wall_ext_thick_15: w({
+            brick_wall_ext_thicker_15: T({
                 material: "brick",
-                extents: z.create(1, 7.5)
+                extents: L.create(1.5, 7.5)
             }),
-            brick_wall_ext_thick_24: w({
+            brick_wall_ext_thicker_16: T({
                 material: "brick",
-                extents: z.create(1, 12)
+                extents: L.create(1.5, 8)
             }),
-            metal_wall_ext_1: w({
-                material: "metal",
-                extents: z.create(.5, .5)
+            brick_wall_ext_thicker_24: T({
+                material: "brick",
+                extents: L.create(1.5, 12)
             }),
-            metal_wall_ext_2: w({
+            metal_wall_ext_1: T({
                 material: "metal",
-                extents: z.create(.5, 1)
+                extents: L.create(.5, .5)
             }),
-            metal_wall_ext_3: w({
+            metal_wall_ext_2: T({
                 material: "metal",
-                extents: z.create(.5, 1.5)
+                extents: L.create(.5, 1)
             }),
-            metal_wall_ext_4: w({
+            metal_wall_ext_3: T({
                 material: "metal",
-                extents: z.create(.5, 2)
+                extents: L.create(.5, 1.5)
             }),
-            metal_wall_ext_5: w({
+            metal_wall_ext_4: T({
                 material: "metal",
-                extents: z.create(.5, 2.5)
+                extents: L.create(.5, 2)
             }),
-            metal_wall_ext_6: w({
+            metal_wall_ext_5: T({
                 material: "metal",
-                extents: z.create(.5, 3)
+                extents: L.create(.5, 2.5)
             }),
-            metal_wall_ext_7: w({
+            metal_wall_ext_6: T({
                 material: "metal",
-                extents: z.create(.5, 3.5)
+                extents: L.create(.5, 3)
             }),
-            metal_wall_ext_8: w({
+            metal_wall_ext_7: T({
                 material: "metal",
-                extents: z.create(.5, 4)
+                extents: L.create(.5, 3.5)
             }),
-            metal_wall_ext_9: w({
+            metal_wall_ext_8: T({
                 material: "metal",
-                extents: z.create(.5, 4.5)
+                extents: L.create(.5, 4)
             }),
-            metal_wall_ext_10: w({
+            metal_wall_ext_9: T({
                 material: "metal",
-                extents: z.create(.5, 5)
+                extents: L.create(.5, 4.5)
             }),
-            metal_wall_ext_11: w({
+            metal_wall_ext_10: T({
                 material: "metal",
-                extents: z.create(.5, 5.5)
+                extents: L.create(.5, 5)
             }),
-            metal_wall_ext_12: w({
+            metal_wall_ext_11: T({
                 material: "metal",
-                extents: z.create(.5, 6)
+                extents: L.create(.5, 5.5)
             }),
-            metal_wall_ext_13: w({
+            metal_wall_ext_12: T({
                 material: "metal",
-                extents: z.create(.5, 6.5)
+                extents: L.create(.5, 6)
             }),
-            metal_wall_ext_14: w({
+            metal_wall_ext_13: T({
                 material: "metal",
-                extents: z.create(.5, 7)
+                extents: L.create(.5, 6.5)
             }),
-            metal_wall_ext_15: w({
+            metal_wall_ext_14: T({
                 material: "metal",
-                extents: z.create(.5, 7.5)
+                extents: L.create(.5, 7)
             }),
-            metal_wall_ext_16: w({
+            metal_wall_ext_15: T({
                 material: "metal",
-                extents: z.create(.5, 8)
+                extents: L.create(.5, 7.5)
             }),
-            metal_wall_ext_17: w({
+            metal_wall_ext_16: T({
                 material: "metal",
-                extents: z.create(.5, 8.5)
+                extents: L.create(.5, 8)
             }),
-            metal_wall_ext_18: w({
+            metal_wall_ext_17: T({
                 material: "metal",
-                extents: z.create(.5, 9)
+                extents: L.create(.5, 8.5)
             }),
-            metal_wall_ext_19: w({
+            metal_wall_ext_18: T({
                 material: "metal",
-                extents: z.create(.5, 9.5)
+                extents: L.create(.5, 9)
             }),
-            metal_wall_ext_20: w({
+            metal_wall_ext_19: T({
                 material: "metal",
-                extents: z.create(.5, 10)
+                extents: L.create(.5, 9.5)
             }),
-            metal_wall_ext_short_6: w({
+            metal_wall_ext_20: T({
                 material: "metal",
-                extents: z.create(.5, 3),
+                extents: L.create(.5, 10)
+            }),
+            metal_wall_ext_short_6: T({
+                material: "metal",
+                extents: L.create(.5, 3),
                 height: .5
             }),
-            metal_wall_ext_short_7: w({
+            metal_wall_ext_short_7: T({
                 material: "metal",
-                extents: z.create(.5, 3.5),
+                extents: L.create(.5, 3.5),
                 height: .5
             }),
-            metal_wall_ext_thick_5: w({
+            metal_wall_ext_thick_5: T({
                 material: "metal",
-                extents: z.create(1, 2.5)
+                extents: L.create(1, 2.5)
             }),
-            metal_wall_ext_thick_8: w({
+            metal_wall_ext_thick_20: T({
                 material: "metal",
-                extents: z.create(1, 4)
+                extents: L.create(1, 10)
             }),
-            metal_wall_ext_thick_19: w({
+            metal_wall_ext_thicker_3: T({
                 material: "metal",
-                extents: z.create(1, 9.5)
+                extents: L.create(1.5, 1.5)
             }),
-            metal_wall_ext_thick_20: w({
+            metal_wall_ext_thicker_4: T({
                 material: "metal",
-                extents: z.create(1, 10)
+                extents: L.create(1.5, 2)
             }),
-            metal_wall_ext_thick_22: w({
+            metal_wall_ext_thicker_5: T({
                 material: "metal",
-                extents: z.create(1, 11)
+                extents: L.create(1.5, 2.5)
             }),
-            metal_wall_ext_thicker_10: w({
+            metal_wall_ext_thicker_6: T({
                 material: "metal",
-                extents: z.create(1.5, 5)
+                extents: L.create(1.5, 3)
             }),
-            glass_wall_10: w({
+            metal_wall_ext_thicker_7: T({
+                material: "metal",
+                extents: L.create(1.5, 3.5)
+            }),
+            metal_wall_ext_thicker_8: T({
+                material: "metal",
+                extents: L.create(1.5, 4)
+            }),
+            metal_wall_ext_thicker_9: T({
+                material: "metal",
+                extents: L.create(1.5, 4.5)
+            }),
+            metal_wall_ext_thicker_10: T({
+                material: "metal",
+                extents: L.create(1.5, 5)
+            }),
+            metal_wall_ext_thicker_11: T({
+                material: "metal",
+                extents: L.create(1.5, 5.5)
+            }),
+            metal_wall_ext_thicker_12: T({
+                material: "metal",
+                extents: L.create(1.5, 6)
+            }),
+            metal_wall_ext_thicker_13: T({
+                material: "metal",
+                extents: L.create(1.5, 6.5)
+            }),
+            metal_wall_ext_thicker_14: T({
+                material: "metal",
+                extents: L.create(1.5, 7)
+            }),
+            metal_wall_ext_thicker_15: T({
+                material: "metal",
+                extents: L.create(1.5, 7.5)
+            }),
+            metal_wall_ext_thicker_16: T({
+                material: "metal",
+                extents: L.create(1.5, 8)
+            }),
+            metal_wall_ext_thicker_17: T({
+                material: "metal",
+                extents: L.create(1.5, 8.5)
+            }),
+            metal_wall_ext_thicker_18: T({
+                material: "metal",
+                extents: L.create(1.5, 9)
+            }),
+            metal_wall_ext_thicker_19: T({
+                material: "metal",
+                extents: L.create(1.5, 9.5)
+            }),
+            metal_wall_ext_thicker_20: T({
+                material: "metal",
+                extents: L.create(1.5, 10)
+            }),
+            metal_wall_ext_thicker_21: T({
+                material: "metal",
+                extents: L.create(1.5, 10.5)
+            }),
+            metal_wall_ext_thicker_22: T({
+                material: "metal",
+                extents: L.create(1.5, 11)
+            }),
+            metal_wall_ext_thicker_23: T({
+                material: "metal",
+                extents: L.create(1.5, 11.5)
+            }),
+            metal_wall_ext_thicker_24: T({
+                material: "metal",
+                extents: L.create(1.5, 12)
+            }),
+            metal_wall_ext_thicker_29: T({
+                material: "metal",
+                extents: L.create(1.5, 14.5)
+            }),
+            metal_wall_ext_thicker_42: T({
+                material: "metal",
+                extents: L.create(1.5, 21)
+            }),
+            glass_wall_10: T({
                 material: "glass",
-                extents: z.create(.5, 5),
+                extents: L.create(.5, 5),
                 health: 50,
-                img: c("img/map/map-wall-glass-10.svg")
+                img: m("img/map/map-wall-glass-10.svg")
             }),
-            glass_wall_12: w({
+            glass_wall_12: T({
                 material: "glass",
-                extents: z.create(.5, 6),
+                extents: L.create(.5, 6),
                 health: 50,
-                img: c("img/map/map-wall-glass-12.svg")
+                img: m("img/map/map-wall-glass-12.svg")
             }),
-            concrete_wall_ext_6: w({
+            concrete_wall_ext_2: T({
                 material: "concrete",
-                extents: z.create(.5, 3)
+                extents: L.create(.5, 1)
             }),
-            concrete_wall_ext_7: w({
+            concrete_wall_ext_6: T({
                 material: "concrete",
-                extents: z.create(.5, 3.5)
+                extents: L.create(.5, 3)
+            }),
+            concrete_wall_ext_7: T({
+                material: "concrete",
+                extents: L.create(.5, 3.5)
+            }),
+            concrete_wall_ext_8: T({
+                material: "concrete",
+                extents: L.create(.5, 4)
+            }),
+            concrete_wall_ext_11: T({
+                material: "concrete",
+                extents: L.create(.5, 5.5)
+            }),
+            concrete_wall_ext_13: T({
+                material: "concrete",
+                extents: L.create(.5, 6.5)
+            }),
+            concrete_wall_ext_17: T({
+                material: "concrete",
+                extents: L.create(.5, 8.5)
             }),
             panicroom_01: {
                 type: "building",
@@ -9472,136 +9891,138 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 1,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 0), z.create(4.5, 6))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "container",
+                        collision: [A.createAabbExtents(L.create(0, 0), L.create(4.5, 6))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-panicroom-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 6250335
-                    },
-                    surface: "container"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 0), z.create(4.5, 6))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 0), z.create(4.5, 6))],
-                    img: {
-                        sprite: "img/map/map-building-panicroom-ceiling.svg",
+                    scopeIn: [A.createAabbExtents(L.create(0, 0), L.create(4.5, 6))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 0), L.create(4.5, 6))],
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 6250335
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "metal_wall_ext_12",
-                    pos: z.create(-4, 0),
+                    pos: L.create(-4, 0),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "metal_wall_ext_3",
-                    pos: z.create(-2, 5.5),
+                    pos: L.create(-2, 5.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_7",
-                    pos: z.create(0, -5.5),
+                    pos: L.create(0, -5.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_12",
-                    pos: z.create(4, 0),
+                    pos: L.create(4, 0),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "loot_tier_2",
-                    pos: z.create(0, -.05),
+                    pos: L.create(0, -.05),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1,
                         "": 1
                     }),
-                    pos: z.create(0, .05),
+                    pos: L.create(0, .05),
                     scale: 1,
                     ori: 0
                 }]
             },
-            barn_wall_int_1: w({
+            barn_wall_int_1: T({
                 material: "wood",
-                extents: z.create(.5, .5),
+                extents: L.create(.5, .5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-01-rounded.svg", 7173701)
+                img: m("img/map/map-wall-01-rounded.svg", 7173701)
             }),
-            barn_wall_int_2: w({
+            barn_wall_int_2: T({
                 material: "wood",
-                extents: z.create(.5, 1),
+                extents: L.create(.5, 1),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-02-rounded.svg", 7173701)
+                img: m("img/map/map-wall-02-rounded.svg", 7173701)
             }),
-            barn_wall_int_4: w({
+            barn_wall_int_4: T({
                 material: "wood",
-                extents: z.create(.5, 2),
+                extents: L.create(.5, 2),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-04-rounded.svg", 7173701)
+                img: m("img/map/map-wall-04-rounded.svg", 7173701)
             }),
-            barn_wall_int_5: w({
+            barn_wall_int_5: T({
                 material: "wood",
-                extents: z.create(.5, 2.5),
+                extents: L.create(.5, 2.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-05-rounded.svg", 7173701)
+                img: m("img/map/map-wall-05-rounded.svg", 7173701)
             }),
-            barn_wall_int_6: w({
+            barn_wall_int_6: T({
                 material: "wood",
-                extents: z.create(.5, 3),
+                extents: L.create(.5, 3),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-06-rounded.svg", 7173701)
+                img: m("img/map/map-wall-06-rounded.svg", 7173701)
             }),
-            barn_wall_int_7: w({
+            barn_wall_int_7: T({
                 material: "wood",
-                extents: z.create(.5, 3.5),
+                extents: L.create(.5, 3.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-07-rounded.svg", 7173701)
+                img: m("img/map/map-wall-07-rounded.svg", 7173701)
             }),
-            barn_wall_int_8: w({
+            barn_wall_int_8: T({
                 material: "wood",
-                extents: z.create(.5, 4),
+                extents: L.create(.5, 4),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-08-rounded.svg", 7173701)
+                img: m("img/map/map-wall-08-rounded.svg", 7173701)
             }),
-            barn_wall_int_9: w({
+            barn_wall_int_9: T({
                 material: "wood",
-                extents: z.create(.5, 4.5),
+                extents: L.create(.5, 4.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-09-rounded.svg", 7173701)
+                img: m("img/map/map-wall-09-rounded.svg", 7173701)
             }),
-            barn_wall_int_11: w({
+            barn_wall_int_11: T({
                 material: "wood",
-                extents: z.create(.5, 5.5),
+                extents: L.create(.5, 5.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-11-rounded.svg", 7173701)
+                img: m("img/map/map-wall-11-rounded.svg", 7173701)
             }),
-            barn_wall_int_13: w({
+            barn_wall_int_13: T({
                 material: "wood",
-                extents: z.create(.5, 6.5),
+                extents: L.create(.5, 6.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-13-rounded.svg", 7173701)
+                img: m("img/map/map-wall-13-rounded.svg", 7173701)
             }),
-            barn_column_1: w({
+            barn_column_1: T({
                 material: "concrete",
-                extents: z.create(1, 1),
+                extents: L.create(1, 1),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-column-01.svg", 2764060)
+                img: m("img/map/map-column-01.svg", 2764060)
             }),
             barn_01: {
                 type: "building",
                 map: {
                     display: !0,
                     shapes: [{
-                        collider: T.createAabbExtents(z.create(0, 12), z.create(5, 2)),
+                        collider: A.createAabbExtents(L.create(0, 12), L.create(5, 2)),
                         color: 12300935
                     }, {
-                        collider: T.createAabbExtents(z.create(0, -2), z.create(24.5, 12.8)),
+                        collider: A.createAabbExtents(L.create(0, -2), L.create(24.5, 12.8)),
                         color: 3816739
                     }]
                 },
@@ -9610,409 +10031,408 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 0,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, -2), z.create(25, 13.2)), T.createAabbExtents(z.create(0, 12), z.create(5.5, 2.5))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "house",
+                        collision: [A.createAabbExtents(L.create(0, -2), L.create(25, 13.2)), A.createAabbExtents(L.create(0, 12), L.create(5.5, 2.5))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-barn-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "house"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, -2), z.create(24.5, 12.8)), T.createAabbExtents(z.create(0, 12), z.create(5.5, 2.5))],
-                    scopeOut: [T.createAabbExtents(z.create(0, -14.5), z.create(5.5, 4)), T.createAabbExtents(z.create(0, 14.5), z.create(5.5, 4))],
+                    scopeIn: [A.createAabbExtents(L.create(0, -2), L.create(24.5, 12.8)), A.createAabbExtents(L.create(0, 12), L.create(5.5, 2.5))],
+                    scopeOut: [A.createAabbExtents(L.create(0, -14.5), L.create(5.5, 4)), A.createAabbExtents(L.create(0, 14.5), L.create(5.5, 4))],
                     vision: {
                         dist: 5.5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
                     },
-                    img: {
-                        sprite: "img/map/map-building-barn-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    destroy: {
-                        destructible: !1
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "brick_wall_ext_4",
-                    pos: z.create(-24.5, 9),
+                    pos: L.create(-24.5, 9),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_3",
-                    pos: z.create(-22.5, 10.5),
+                    pos: L.create(-22.5, 10.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_12",
-                    pos: z.create(-24.5, -2),
+                    pos: L.create(-24.5, -2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(-24.5, -13),
+                    pos: L.create(-24.5, -13),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_3",
-                    pos: z.create(-22.5, -14.5),
+                    pos: L.create(-22.5, -14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-24.75, 5.5),
+                    pos: L.create(-24.75, 5.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-24.75, -9.5),
+                    pos: L.create(-24.75, -9.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-19.5, 10.75),
+                    pos: L.create(-19.5, 10.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-19.5, -14.75),
+                    pos: L.create(-19.5, -14.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_16",
-                    pos: z.create(-10, 10.5),
+                    pos: L.create(-10, 10.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_16",
-                    pos: z.create(10, 10.5),
+                    pos: L.create(10, 10.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_16",
-                    pos: z.create(-10, -14.5),
+                    pos: L.create(-10, -14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(5, -14.5),
+                    pos: L.create(5, -14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(-5.5, 13),
+                    pos: L.create(-5.5, 13),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(5.5, 13),
+                    pos: L.create(5.5, 13),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_3",
-                    pos: z.create(-3.5, 14.5),
+                    pos: L.create(-3.5, 14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_3",
-                    pos: z.create(3.5, 14.5),
+                    pos: L.create(3.5, 14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(9.5, -14.75),
+                    pos: L.create(9.5, -14.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(2, 14.75),
+                    pos: L.create(2, 14.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-2, -14.75),
+                    pos: L.create(-2, -14.75),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(24.5, 9),
+                    pos: L.create(24.5, 9),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_3",
-                    pos: z.create(22.5, 10.5),
+                    pos: L.create(22.5, 10.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_13",
-                    pos: z.create(17.5, -14.5),
+                    pos: L.create(17.5, -14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_19",
-                    pos: z.create(24.5, -5.5),
+                    pos: L.create(24.5, -5.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_1",
-                    pos: z.create(23.5, -1.5),
+                    pos: L.create(23.5, -1.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(24.75, 5.5),
+                    pos: L.create(24.75, 5.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(19.5, 10.75),
+                    pos: L.create(19.5, 10.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "panicroom_01",
-                    pos: z.create(19.5, -8),
+                    pos: L.create(19.5, -8),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "barn_wall_int_6",
-                    pos: z.create(-21, .5),
+                    pos: L.create(-21, .5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_wall_int_6",
-                    pos: z.create(-21, -4.5),
+                    pos: L.create(-21, -4.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_wall_int_5",
-                    pos: z.create(-11.5, .5),
+                    pos: L.create(-11.5, .5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_wall_int_2",
-                    pos: z.create(-13, -4.5),
+                    pos: L.create(-13, -4.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_wall_int_7",
-                    pos: z.create(-6.5, -4.5),
+                    pos: L.create(-6.5, -4.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_wall_int_8",
-                    pos: z.create(-11.5, -10),
+                    pos: L.create(-11.5, -10),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "barn_wall_int_8",
-                    pos: z.create(-7.5, 6),
+                    pos: L.create(-7.5, 6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "barn_wall_int_5",
-                    pos: z.create(-3.5, -11.5),
+                    pos: L.create(-3.5, -11.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "barn_wall_int_7",
-                    pos: z.create(10.5, .5),
+                    pos: L.create(10.5, .5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_wall_int_5",
-                    pos: z.create(14.5, 7.5),
+                    pos: L.create(14.5, 7.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "barn_wall_int_13",
-                    pos: z.create(14.5, -7.5),
+                    pos: L.create(14.5, -7.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "barn_wall_int_4",
-                    pos: z.create(17, -1.5),
+                    pos: L.create(17, -1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-18, -4.5),
+                    pos: L.create(-18, -4.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-18, .5),
+                    pos: L.create(-18, .5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-3.5, -5),
+                    pos: L.create(-3.5, -5),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "house_door_01",
-                    pos: z.create(14.5, 1),
+                    pos: L.create(14.5, 1),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_02",
-                    pos: z.create(23, -1.5),
+                    pos: L.create(23, -1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barn_column_1",
-                    pos: z.create(-8, 1),
+                    pos: L.create(-8, 1),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "barn_column_1",
-                    pos: z.create(-11, -5),
+                    pos: L.create(-11, -5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "barn_column_1",
-                    pos: z.create(15, 0),
+                    pos: L.create(15, 0),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_01: 5,
                         toilet_02: 1
                     }),
-                    pos: z.create(-7.5, -12),
+                    pos: L.create(-7.5, -12),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         drawers_01: 7,
                         drawers_02: 1
                     }),
-                    pos: z.create(-12.5, 8.5),
+                    pos: L.create(-12.5, 8.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         drawers_01: 7,
                         drawers_02: 1
                     }),
-                    pos: z.create(-5.5, 7.25),
+                    pos: L.create(-5.5, 7.25),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         drawers_01: 7,
                         drawers_02: 1
                     }),
-                    pos: z.create(-13.5, -9.5),
+                    pos: L.create(-13.5, -9.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "stand_01",
-                    pos: z.create(16.5, 8.5),
+                    pos: L.create(16.5, 8.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "stand_01",
-                    pos: z.create(3.5, 12.5),
+                    pos: L.create(3.5, 12.5),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
                     type: "table_01",
-                    pos: z.create(8, -8),
+                    pos: L.create(8, -8),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "oven_01",
-                    pos: z.create(12.25, -1.5),
+                    pos: L.create(12.25, -1.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "refrigerator_01",
-                    pos: z.create(8.75, -1.5),
+                    pos: L.create(8.75, -1.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "bush_02",
-                    pos: z.create(-22, -2),
+                    pos: L.create(-22, -2),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "bush_02",
-                    pos: z.create(12, 8),
+                    pos: L.create(12, 8),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1,
                         "": 1
                     }),
-                    pos: z.create(-19, -9.5),
+                    pos: L.create(-19, -9.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1,
                         "": 1
                     }),
-                    pos: z.create(-19, 5.5),
+                    pos: L.create(-19, 5.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "loot_tier_1",
-                    pos: z.create(0, 5.5),
+                    pos: L.create(0, 5.5),
                     scale: 1,
                     ori: 0
                 }]
             },
-            bank_wall_int_3: w({
+            bank_wall_int_3: T({
                 material: "wood",
-                extents: z.create(.5, 1.5),
-                img: c("img/map/map-wall-03-rounded.svg", 7951934)
+                extents: L.create(.5, 1.5),
+                img: m("img/map/map-wall-03-rounded.svg", 7951934)
             }),
-            bank_wall_int_4: w({
+            bank_wall_int_4: T({
                 material: "wood",
-                extents: z.create(.5, 2),
-                img: c("img/map/map-wall-04-rounded.svg", 7951934)
+                extents: L.create(.5, 2),
+                img: m("img/map/map-wall-04-rounded.svg", 7951934)
             }),
-            bank_wall_int_5: w({
+            bank_wall_int_5: T({
                 material: "wood",
-                extents: z.create(.5, 2.5),
-                img: c("img/map/map-wall-05-rounded.svg", 7951934)
+                extents: L.create(.5, 2.5),
+                img: m("img/map/map-wall-05-rounded.svg", 7951934)
             }),
-            bank_wall_int_8: w({
+            bank_wall_int_8: T({
                 material: "wood",
-                extents: z.create(.5, 4),
-                img: c("img/map/map-wall-08-rounded.svg", 7951934)
+                extents: L.create(.5, 4),
+                img: m("img/map/map-wall-08-rounded.svg", 7951934)
             }),
             bank_01: {
                 type: "building",
                 map: {
                     display: !0,
                     shapes: [{
-                        collider: T.createAabbExtents(z.create(-16, 7), z.create(10.75, 11)),
+                        collider: A.createAabbExtents(L.create(-16, 7), L.create(10.75, 11)),
                         color: 7820585
                     }, {
-                        collider: T.createAabbExtents(z.create(6, 0), z.create(11.5, 18.25)),
+                        collider: A.createAabbExtents(L.create(6, 0), L.create(11.5, 18.25)),
                         color: 9989427
                     }, {
-                        collider: T.createAabbExtents(z.create(22, 4), z.create(4.5, 7.5)),
+                        collider: A.createAabbExtents(L.create(22, 4), L.create(4.5, 7.5)),
                         color: 7820585
                     }]
                 },
@@ -10021,324 +10441,322 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 0,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(6, -1), z.create(11.25, 18.25)), T.createAabbExtents(z.create(21.5, 4), z.create(4.75, 7.25))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "tile",
+                        collision: [A.createAabbExtents(L.create(6, -1), L.create(11.25, 18.25)), A.createAabbExtents(L.create(21.5, 4), L.create(4.75, 7.25))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-bank-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "tile"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(6, -1), z.create(11.25, 18.25)), T.createAabbExtents(z.create(21.5, 4), z.create(4.75, 7.25)), T.createAabbExtents(z.create(-16, 6), z.create(10.25, 11))],
-                    scopeOut: [T.createAabbExtents(z.create(6, 1.25), z.create(15.25, 20))],
+                    scopeIn: [A.createAabbExtents(L.create(6, -1), L.create(11.25, 18.25)), A.createAabbExtents(L.create(21.5, 4), L.create(4.75, 7.25)), A.createAabbExtents(L.create(-16, 6), L.create(10.25, 11))],
+                    scopeOut: [A.createAabbExtents(L.create(6, 1.25), L.create(15.25, 20))],
                     vision: {
                         dist: 5.5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
                     },
-                    img: {
-                        sprite: "img/map/map-building-bank-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    destroy: {
-                        destructible: !1
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "brick_wall_ext_23",
-                    pos: z.create(-14, 17),
+                    pos: L.create(-14, 17),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_23",
-                    pos: z.create(-25.9, 6),
+                    pos: L.create(-25.9, 6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_20",
-                    pos: z.create(-15.5, -5),
+                    pos: L.create(-15.5, -5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(-5, -7),
+                    pos: L.create(-5, -7),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(-5, -16.5),
+                    pos: L.create(-5, -16.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(-2.5, -19),
+                    pos: L.create(-2.5, -19),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(6, -19),
+                    pos: L.create(6, -19),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(14.5, -19),
+                    pos: L.create(14.5, -19),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(17, -16.5),
+                    pos: L.create(17, -16.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(17, -6),
+                    pos: L.create(17, -6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(1, -19.25),
+                    pos: L.create(1, -19.25),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(11, -19.25),
+                    pos: L.create(11, -19.25),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-5.25, -13.5),
+                    pos: L.create(-5.25, -13.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(17.25, -13.5),
+                    pos: L.create(17.25, -13.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_9",
-                    pos: z.create(22, -3),
+                    pos: L.create(22, -3),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_13",
-                    pos: z.create(26, 4),
+                    pos: L.create(26, 4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_9",
-                    pos: z.create(22, 11),
+                    pos: L.create(22, 11),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(17, 14),
+                    pos: L.create(17, 14),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(14.5, 17),
+                    pos: L.create(14.5, 17),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_8",
-                    pos: z.create(4.5, 17),
+                    pos: L.create(4.5, 17),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-1, 17.25),
+                    pos: L.create(-1, 17.25),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "vault_01",
-                    pos: z.create(-12, 6),
+                    pos: L.create(-12, 6),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "bank_wall_int_4",
-                    pos: z.create(-2.5, -5),
+                    pos: L.create(-2.5, -5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_window_01",
-                    pos: z.create(1, -5),
+                    pos: L.create(1, -5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_wall_int_3",
-                    pos: z.create(4, -5),
+                    pos: L.create(4, -5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_wall_int_4",
-                    pos: z.create(6, -3.5),
+                    pos: L.create(6, -3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "bank_window_01",
-                    pos: z.create(6, 0),
+                    pos: L.create(6, 0),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "bank_wall_int_4",
-                    pos: z.create(6, 3.5),
+                    pos: L.create(6, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "bank_wall_int_4",
-                    pos: z.create(8.5, 5),
+                    pos: L.create(8.5, 5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_window_01",
-                    pos: z.create(12, 5),
+                    pos: L.create(12, 5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_wall_int_3",
-                    pos: z.create(15, 5),
+                    pos: L.create(15, 5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_wall_int_5",
-                    pos: z.create(17, 4),
+                    pos: L.create(17, 4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "bank_wall_int_8",
-                    pos: z.create(21.5, 4),
+                    pos: L.create(21.5, 4),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(17, -2.5),
+                    pos: L.create(17, -2.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(17, 10.5),
+                    pos: L.create(17, 10.5),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "house_door_01",
-                    pos: z.create(12.5, 17.25),
+                    pos: L.create(12.5, 17.25),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "vending_01",
-                    pos: z.create(4.5, -16.9),
+                    pos: L.create(4.5, -16.9),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "stand_01",
-                    pos: z.create(7.65, -17),
+                    pos: L.create(7.65, -17),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         toilet_01: 5,
                         toilet_02: 1
                     }),
-                    pos: z.create(23.5, .5),
+                    pos: L.create(23.5, .5),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_01: 5,
                         toilet_02: 1
                     }),
-                    pos: z.create(23.5, 7.5),
+                    pos: L.create(23.5, 7.5),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
                     type: "stand_01",
-                    pos: z.create(15, 15),
+                    pos: L.create(15, 15),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "bush_02",
-                    pos: z.create(-2.5, -16.25),
+                    pos: L.create(-2.5, -16.25),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "bush_02",
-                    pos: z.create(14.5, -16.25),
+                    pos: L.create(14.5, -16.25),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "crate_01",
-                    pos: z.create(19.75, 13.75),
+                    pos: L.create(19.75, 13.75),
                     scale: .9,
                     ori: 0,
                     inheritOri: !1
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1
                     }),
-                    pos: z.create(12, 0),
+                    pos: L.create(12, 0),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1,
                         "": 1
                     }),
-                    pos: z.create(1, 0),
+                    pos: L.create(1, 0),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(-16.5, -12.5),
+                    pos: L.create(-16.5, -12.5),
                     scale: 1.1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "barrel_01",
-                    pos: z.create(-7.5, -7.25),
+                    pos: L.create(-7.5, -7.25),
                     scale: .85,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "tree_01",
-                    pos: z.create(21, -7),
+                    pos: L.create(21, -7),
                     scale: .55,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "tree_01",
-                    pos: z.create(21, -16.25),
+                    pos: L.create(21, -16.25),
                     scale: .55,
                     ori: 0,
                     inheritOri: !0
                 }]
             },
-            vault_door_main: b({
+            vault_door_main: v({
                 material: "metal",
-                hinge: z.create(1, 3.5),
-                extents: z.create(1, 3.5),
+                hinge: L.create(1, 3.5),
+                extents: L.create(1, 3.5),
                 img: {
                     sprite: "img/map/map-door-02.svg"
                 },
                 door: {
                     interactionRad: 2.5,
                     openSpeed: .23,
-                    openHeight: 10,
                     openOneWay: -1,
                     openDelay: 4.1,
                     openOnce: !0,
-                    spriteAnchor: z.create(.2, 1),
+                    spriteAnchor: L.create(.2, 1),
                     sound: {
                         open: "none",
                         close: "none",
@@ -10358,175 +10776,177 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 1,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(-3.5, 0), z.create(10, 10.5))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "container",
+                        collision: [A.createAabbExtents(L.create(-3.5, 0), L.create(10, 10.5))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-vault-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "container"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(-3.5, 0), z.create(9.25, 10.5))],
-                    scopeOut: [T.createAabbExtents(z.create(-3.5, 0), z.create(10, 10.5))],
-                    img: {
-                        sprite: "img/map/map-building-vault-ceiling.svg",
+                    scopeIn: [A.createAabbExtents(L.create(-3.5, 0), L.create(9.25, 10.5))],
+                    scopeOut: [A.createAabbExtents(L.create(-3.5, 0), L.create(10, 10.5))],
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 6250335
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "metal_wall_ext_thick_20",
-                    pos: z.create(-12.5, 0),
+                    pos: L.create(-12.5, 0),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "metal_wall_ext_thick_20",
-                    pos: z.create(-3.5, -9.5),
+                    pos: L.create(-3.5, -9.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_thick_20",
-                    pos: z.create(-3.5, 9.5),
+                    pos: L.create(-3.5, 9.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_thick_5",
-                    pos: z.create(5.5, -6),
+                    pos: L.create(5.5, -6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "metal_wall_ext_thick_5",
-                    pos: z.create(5.5, 6),
+                    pos: L.create(5.5, 6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "vault_door_main",
-                    pos: z.create(6.5, 3.5),
+                    pos: L.create(6.5, 3.5),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         deposit_box_01: 7,
                         deposit_box_02: 1
                     }),
-                    pos: z.create(-12.3, 5),
+                    pos: L.create(-12.3, 5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         deposit_box_01: 7,
                         deposit_box_02: 1
                     }),
-                    pos: z.create(-12.3, -5),
+                    pos: L.create(-12.3, -5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         deposit_box_01: 7,
                         deposit_box_02: 1
                     }),
-                    pos: z.create(-8, 9.3),
+                    pos: L.create(-8, 9.3),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         deposit_box_01: 7,
                         deposit_box_02: 1
                     }),
-                    pos: z.create(-8, -9.3),
+                    pos: L.create(-8, -9.3),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         deposit_box_01: 7,
                         deposit_box_02: 1
                     }),
-                    pos: z.create(1, 9.3),
+                    pos: L.create(1, 9.3),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         deposit_box_01: 7,
                         deposit_box_02: 1
                     }),
-                    pos: z.create(1, -9.3),
+                    pos: L.create(1, -9.3),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "crate_05",
-                    pos: z.create(-3.5, 6.5),
+                    pos: L.create(-3.5, 6.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "crate_05",
-                    pos: z.create(-3.5, -6.5),
+                    pos: L.create(-3.5, -6.5),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_vault_floor: 1
                     }),
-                    pos: z.create(-3.5, 0),
+                    pos: L.create(-3.5, 0),
                     scale: 1,
                     ori: 0
                 }]
             },
-            police_wall_int_2: w({
+            police_wall_int_2: T({
                 material: "wood",
-                extents: z.create(.5, 1),
-                img: c("img/map/map-wall-02-rounded.svg", 1777447)
+                extents: L.create(.5, 1),
+                img: m("img/map/map-wall-02-rounded.svg", 1777447)
             }),
-            police_wall_int_3: w({
+            police_wall_int_3: T({
                 material: "wood",
-                extents: z.create(.5, 1.5),
-                img: c("img/map/map-wall-03-rounded.svg", 1777447)
+                extents: L.create(.5, 1.5),
+                img: m("img/map/map-wall-03-rounded.svg", 1777447)
             }),
-            police_wall_int_4: w({
+            police_wall_int_4: T({
                 material: "wood",
-                extents: z.create(.5, 2),
-                img: c("img/map/map-wall-04-rounded.svg", 1777447)
+                extents: L.create(.5, 2),
+                img: m("img/map/map-wall-04-rounded.svg", 1777447)
             }),
-            police_wall_int_6: w({
+            police_wall_int_6: T({
                 material: "wood",
-                extents: z.create(.5, 3),
-                img: c("img/map/map-wall-06-rounded.svg", 1777447)
+                extents: L.create(.5, 3),
+                img: m("img/map/map-wall-06-rounded.svg", 1777447)
             }),
-            police_wall_int_7: w({
+            police_wall_int_7: T({
                 material: "wood",
-                extents: z.create(.5, 3.5),
-                img: c("img/map/map-wall-07-rounded.svg", 1777447)
+                extents: L.create(.5, 3.5),
+                img: m("img/map/map-wall-07-rounded.svg", 1777447)
             }),
-            police_wall_int_8: w({
+            police_wall_int_8: T({
                 material: "wood",
-                extents: z.create(.5, 4),
-                img: c("img/map/map-wall-08-rounded.svg", 1777447)
+                extents: L.create(.5, 4),
+                img: m("img/map/map-wall-08-rounded.svg", 1777447)
             }),
-            police_wall_int_10: w({
+            police_wall_int_10: T({
                 material: "wood",
-                extents: z.create(.5, 5),
-                img: c("img/map/map-wall-10-rounded.svg", 1777447)
+                extents: L.create(.5, 5),
+                img: m("img/map/map-wall-10-rounded.svg", 1777447)
             }),
             police_01: {
                 type: "building",
                 map: {
                     display: !0,
                     shapes: [{
-                        collider: T.createAabbExtents(z.create(-24.5, 8.5), z.create(17.75, 9.75)),
+                        collider: A.createAabbExtents(L.create(-24.5, 8.5), L.create(17.75, 9.75)),
                         color: 3355970
                     }, {
-                        collider: T.createAabbExtents(z.create(-3.5, 12), z.create(3.5, 6.25)),
+                        collider: A.createAabbExtents(L.create(-3.5, 12), L.create(3.5, 6.25)),
                         color: 4278620
                     }, {
-                        collider: T.createAabbExtents(z.create(10.35, 0), z.create(10.5, 22)),
+                        collider: A.createAabbExtents(L.create(10.35, 0), L.create(10.5, 22)),
                         color: 3355970
                     }, {
-                        collider: T.createAabbExtents(z.create(31.25, 12.5), z.create(10.75, 9.5)),
+                        collider: A.createAabbExtents(L.create(31.25, 12.5), L.create(10.75, 9.5)),
                         color: 3355970
                     }]
                 },
@@ -10535,579 +10955,572 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 0,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(-24.5, 8.5), z.create(17.75, 9.75)), T.createAabbExtents(z.create(-3.5, 12), z.create(3.5, 6.25)), T.createAabbExtents(z.create(10.35, 0), z.create(10.5, 22)), T.createAabbExtents(z.create(31.25, 12.5), z.create(10.75, 9.5))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "tile",
+                        collision: [A.createAabbExtents(L.create(-24.5, 8.5), L.create(17.75, 9.75)), A.createAabbExtents(L.create(-3.5, 12), L.create(3.5, 6.25)), A.createAabbExtents(L.create(10.35, 0), L.create(10.5, 22)), A.createAabbExtents(L.create(31.25, 12.5), L.create(10.75, 9.5))]
+                    }, {
+                        type: "asphalt",
+                        collision: [A.createAabbExtents(L.create(-21.5, -13), L.create(21, 11.5)), A.createAabbExtents(L.create(-3.5, 2), L.create(3, 3.5))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-police-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "tile"
-                }, {
-                    collision: [T.createAabbExtents(z.create(-21.5, -13), z.create(21, 11.5)), T.createAabbExtents(z.create(-3.5, 2), z.create(3, 3.5))],
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 1,
-                        tint: 16777215
-                    },
-                    surface: "asphalt"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(-24.5, 8.5), z.create(17.75, 9.75)), T.createAabbExtents(z.create(-3.5, 12), z.create(3.5, 6.25)), T.createAabbExtents(z.create(10.35, 0), z.create(10.5, 22)), T.createAabbExtents(z.create(31.25, 12.5), z.create(10.75, 9.5))],
-                    scopeOut: [T.createAabbExtents(z.create(12, 0), z.create(12.75, 26))],
+                    scopeIn: [A.createAabbExtents(L.create(-24.5, 8.5), L.create(17.75, 9.75)), A.createAabbExtents(L.create(-3.5, 12), L.create(3.5, 6.25)), A.createAabbExtents(L.create(10.35, 0), L.create(10.5, 22)), A.createAabbExtents(L.create(31.25, 12.5), L.create(10.75, 9.5))],
+                    scopeOut: [A.createAabbExtents(L.create(12, 0), L.create(12.75, 26))],
                     vision: {
                         dist: 5.5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
                     },
-                    img: {
-                        sprite: "img/map/map-building-police-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    destroy: {
-                        destructible: !1
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "brick_wall_ext_20",
-                    pos: z.create(-42, 8.5),
+                    pos: L.create(-42, 8.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_41",
-                    pos: z.create(-21, 18),
+                    pos: L.create(-21, 18),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(-38, -1),
+                    pos: L.create(-38, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_21",
-                    pos: z.create(-18, -1),
+                    pos: L.create(-18, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(-7, 2),
+                    pos: L.create(-7, 2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(-4, 6),
+                    pos: L.create(-4, 6),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_16",
-                    pos: z.create(0, -1.5),
+                    pos: L.create(0, -1.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-.5, -11),
+                    pos: L.create(-.5, -11),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_10",
-                    pos: z.create(0, -17.5),
+                    pos: L.create(0, -17.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(3.5, -22),
+                    pos: L.create(3.5, -22),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(6.5, -22.5),
+                    pos: L.create(6.5, -22.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "house_door_01",
-                    pos: z.create(14.5, -22.5),
+                    pos: L.create(14.5, -22.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(17.5, -22),
+                    pos: L.create(17.5, -22),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_11",
-                    pos: z.create(21, -17),
+                    pos: L.create(21, -17),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(21.5, -11.5),
+                    pos: L.create(21.5, -11.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_11",
-                    pos: z.create(21, -2),
+                    pos: L.create(21, -2),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_20",
-                    pos: z.create(31.5, 3),
+                    pos: L.create(31.5, 3),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_20",
-                    pos: z.create(42, 12.5),
+                    pos: L.create(42, 12.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_33",
-                    pos: z.create(25, 22),
+                    pos: L.create(25, 22),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(4.5, 22.5),
+                    pos: L.create(4.5, 22.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(2.5, 22),
+                    pos: L.create(2.5, 22),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(0, 20),
+                    pos: L.create(0, 20),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "police_wall_int_2",
-                    pos: z.create(-40.5, 8),
+                    pos: L.create(-40.5, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_3",
-                    pos: z.create(-34, 8),
+                    pos: L.create(-34, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "cell_door_01",
-                    pos: z.create(-35.5, 8),
+                    pos: L.create(-35.5, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_8",
-                    pos: z.create(-35, 3.5),
+                    pos: L.create(-35, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "police_wall_int_3",
-                    pos: z.create(-27, 8),
+                    pos: L.create(-27, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_8",
-                    pos: z.create(-28, 3.5),
+                    pos: L.create(-28, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "cell_door_01",
-                    pos: z.create(-21.5, 8),
+                    pos: L.create(-21.5, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_3",
-                    pos: z.create(-20, 8),
+                    pos: L.create(-20, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_8",
-                    pos: z.create(-21, 3.5),
+                    pos: L.create(-21, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "cell_door_01",
-                    pos: z.create(-14.5, 8),
+                    pos: L.create(-14.5, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_3",
-                    pos: z.create(-13, 8),
+                    pos: L.create(-13, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_8",
-                    pos: z.create(-14, 3.5),
+                    pos: L.create(-14, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "cell_door_01",
-                    pos: z.create(-7.5, 8),
+                    pos: L.create(-7.5, 8),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_6",
-                    pos: z.create(-7, 9.5),
+                    pos: L.create(-7, 9.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "police_wall_int_7",
-                    pos: z.create(-4, 13),
+                    pos: L.create(-4, 13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_02",
-                    pos: z.create(-7, 17.5),
+                    pos: L.create(-7, 17.5),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "police_wall_int_4",
-                    pos: z.create(2.5, -1),
+                    pos: L.create(2.5, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_window_01",
-                    pos: z.create(6, -1),
+                    pos: L.create(6, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_6",
-                    pos: z.create(10.5, -1),
+                    pos: L.create(10.5, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "bank_window_01",
-                    pos: z.create(15, -1),
+                    pos: L.create(15, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "police_wall_int_4",
-                    pos: z.create(18.5, -1),
+                    pos: L.create(18.5, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(21, 3.5),
+                    pos: L.create(21, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "police_wall_int_10",
-                    pos: z.create(21, 12.5),
+                    pos: L.create(21, 12.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(21, 21.5),
+                    pos: L.create(21, 21.5),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "metal_wall_ext_10",
-                    pos: z.create(35.5, 4),
+                    pos: L.create(35.5, 4),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(33, 4.15),
+                    pos: L.create(33, 4.15),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
                     type: "metal_wall_ext_10",
-                    pos: z.create(35.5, 21),
+                    pos: L.create(35.5, 21),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(33, 20.85),
+                    pos: L.create(33, 20.85),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(38, 20.85),
+                    pos: L.create(38, 20.85),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "metal_wall_ext_18",
-                    pos: z.create(41, 12.5),
+                    pos: L.create(41, 12.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(40.85, 7.5),
+                    pos: L.create(40.85, 7.5),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(40.85, 17.5),
+                    pos: L.create(40.85, 17.5),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
                     type: "metal_wall_ext_thicker_10",
-                    pos: z.create(35.5, 12.5),
+                    pos: L.create(35.5, 12.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(38, 11.35),
+                    pos: L.create(38, 11.35),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         locker_01: 8,
                         locker_02: 1
                     }),
-                    pos: z.create(33, 13.65),
+                    pos: L.create(33, 13.65),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_03: 5,
                         toilet_04: 1
                     }),
-                    pos: z.create(-37, 1),
+                    pos: L.create(-37, 1),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_03: 5,
                         toilet_04: 1
                     }),
-                    pos: z.create(-23, 1),
+                    pos: L.create(-23, 1),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_03: 5,
                         toilet_04: 1
                     }),
-                    pos: z.create(-16, 1),
+                    pos: L.create(-16, 1),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_03: 5,
                         toilet_04: 1
                     }),
-                    pos: z.create(-9, 1),
+                    pos: L.create(-9, 1),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
                     type: "control_panel_01",
-                    pos: z.create(-4.5, 9.5),
+                    pos: L.create(-4.5, 9.5),
                     scale: 1,
                     ori: 1,
                     inheritOri: !0
                 }, {
                     type: "crate_06",
-                    pos: z.create(-24.5, 20.25),
+                    pos: L.create(-24.5, 20.25),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "crate_06",
-                    pos: z.create(14.5, 12.5),
+                    pos: L.create(14.5, 12.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "crate_06",
-                    pos: z.create(18.75, 12.5),
+                    pos: L.create(18.75, 12.5),
                     scale: 1,
                     ori: 1,
                     inheritOri: !0
                 }, {
                     type: "crate_06",
-                    pos: z.create(10.5, 1.25),
+                    pos: L.create(10.5, 1.25),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "vending_01",
-                    pos: z.create(2, -6.75),
+                    pos: L.create(2, -6.75),
                     scale: 1,
                     ori: 1,
                     inheritOri: !0
                 }, {
                     type: "stand_01",
-                    pos: z.create(2, -14.5),
+                    pos: L.create(2, -14.5),
                     scale: 1,
                     ori: 1,
                     inheritOri: !0
                 }, {
                     type: "bush_01",
-                    pos: z.create(2.5, -19.5),
+                    pos: L.create(2.5, -19.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "bush_01",
-                    pos: z.create(18.5, -19.5),
+                    pos: L.create(18.5, -19.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_police_floor: 1
                     }),
-                    pos: z.create(-38.5, 4),
+                    pos: L.create(-38.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1
                     }),
-                    pos: z.create(-31.5, 4),
+                    pos: L.create(-31.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1
                     }),
-                    pos: z.create(-24.5, 4),
+                    pos: L.create(-24.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1
                     }),
-                    pos: z.create(-17.5, 4),
+                    pos: L.create(-17.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         loot_tier_1: 1
                     }),
-                    pos: z.create(-10.5, 4),
+                    pos: L.create(-10.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "crate_01",
-                    pos: z.create(-3.5, 2.5),
+                    pos: L.create(-3.5, 2.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "sandbags_01",
-                    pos: z.create(-38.5, -7),
+                    pos: L.create(-38.5, -7),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
                     type: "sandbags_01",
-                    pos: z.create(-7.5, -19.5),
+                    pos: L.create(-7.5, -19.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "barrel_01",
-                    pos: z.create(-30.5, -18),
+                    pos: L.create(-30.5, -18),
                     scale: .9,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "barrel_01",
-                    pos: z.create(-20.5, -10.5),
+                    pos: L.create(-20.5, -10.5),
                     scale: .9,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "tree_01",
-                    pos: z.create(39, -6),
+                    pos: L.create(39, -6),
                     scale: .8,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "tree_01",
-                    pos: z.create(28, -17.5),
+                    pos: L.create(28, -17.5),
                     scale: .8,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "hedgehog_01",
-                    pos: z.create(39, -17.5),
+                    pos: L.create(39, -17.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "crate_01",
-                    pos: z.create(24.5, -.5),
+                    pos: L.create(24.5, -.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }]
             },
-            house_wall_int_3: w({
+            house_wall_int_3: T({
                 material: "wood",
-                extents: z.create(.5, 1.5),
+                extents: L.create(.5, 1.5),
                 hitParticle: "tanChip",
-                img: c("img/map/map-wall-03-rounded.svg", 10584424)
+                img: m("img/map/map-wall-03-rounded.svg", 10584424)
             }),
-            house_wall_int_4: w({
+            house_wall_int_4: T({
                 material: "wood",
-                extents: z.create(.5, 2),
+                extents: L.create(.5, 2),
                 hitParticle: "tanChip",
-                img: c("img/map/map-wall-04-rounded.svg", 10584424)
+                img: m("img/map/map-wall-04-rounded.svg", 10584424)
             }),
-            house_wall_int_5: w({
+            house_wall_int_5: T({
                 material: "wood",
-                extents: z.create(.5, 2.5),
+                extents: L.create(.5, 2.5),
                 hitParticle: "tanChip",
-                img: c("img/map/map-wall-05-rounded.svg", 10584424)
+                img: m("img/map/map-wall-05-rounded.svg", 10584424)
             }),
-            house_wall_int_8: w({
+            house_wall_int_8: T({
                 material: "wood",
-                extents: z.create(.5, 4),
+                extents: L.create(.5, 4),
                 hitParticle: "tanChip",
-                img: c("img/map/map-wall-08-rounded.svg", 10584424)
+                img: m("img/map/map-wall-08-rounded.svg", 10584424)
             }),
-            house_wall_int_9: w({
+            house_wall_int_9: T({
                 material: "wood",
-                extents: z.create(.5, 4.5),
+                extents: L.create(.5, 4.5),
                 hitParticle: "tanChip",
-                img: c("img/map/map-wall-09-rounded.svg", 10584424)
+                img: m("img/map/map-wall-09-rounded.svg", 10584424)
             }),
-            house_wall_int_11: w({
+            house_wall_int_11: T({
                 material: "wood",
-                extents: z.create(.5, 5.5),
+                extents: L.create(.5, 5.5),
                 hitParticle: "tanChip",
-                img: c("img/map/map-wall-11-rounded.svg", 10584424)
+                img: m("img/map/map-wall-11-rounded.svg", 10584424)
             }),
-            house_column_1: w({
+            house_column_1: T({
                 material: "concrete",
-                extents: z.create(1, 1),
+                extents: L.create(1, 1),
                 hitParticle: "tanChip",
-                img: c("img/map/map-column-01.svg", 5587506)
+                img: m("img/map/map-column-01.svg", 5587506)
             }),
             house_red_01: {
                 type: "building",
@@ -11121,319 +11534,321 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 0,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 0), z.create(14.5, 13))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "house",
+                        collision: [A.createAabbExtents(L.create(0, 0), L.create(14.5, 13))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-house-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "house"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 0), z.create(14.5, 13))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 0), z.create(16.5, 15))],
+                    scopeIn: [A.createAabbExtents(L.create(0, 0), L.create(14.5, 13))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 0), L.create(16.5, 15))],
                     vision: {
                         dist: 5.5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
                     },
-                    img: {
-                        sprite: "img/map/map-building-house-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "brick_wall_ext_12",
-                    pos: z.create(-9, 13),
+                    pos: L.create(-9, 13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_14",
-                    pos: z.create(8, 13),
+                    pos: L.create(8, 13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(1, 13.25),
+                    pos: L.create(1, 13.25),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(-14.5, 10.5),
+                    pos: L.create(-14.5, 10.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_10",
-                    pos: z.create(-14.5, -.5),
+                    pos: L.create(-14.5, -.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(-14.5, -10.5),
+                    pos: L.create(-14.5, -10.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-14.75, 6),
+                    pos: L.create(-14.75, 6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-14.75, -7),
+                    pos: L.create(-14.75, -7),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(-12.5, -13),
+                    pos: L.create(-12.5, -13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(-4.5, -13),
+                    pos: L.create(-4.5, -13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(4.5, -13),
+                    pos: L.create(4.5, -13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_5",
-                    pos: z.create(12.5, -13),
+                    pos: L.create(12.5, -13),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-8.5, -13.25),
+                    pos: L.create(-8.5, -13.25),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "house_window_01",
-                    pos: z.create(8.5, -13.25),
+                    pos: L.create(8.5, -13.25),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-2, -13.25),
+                    pos: L.create(-2, -13.25),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "brick_wall_ext_8",
-                    pos: z.create(14.5, 8.5),
+                    pos: L.create(14.5, 8.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_9",
-                    pos: z.create(14.5, -3),
+                    pos: L.create(14.5, -3),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_2",
-                    pos: z.create(14.5, -11.5),
+                    pos: L.create(14.5, -11.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(14.75, -9),
+                    pos: L.create(14.75, -9),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "house_window_01",
-                    pos: z.create(14.75, 3),
+                    pos: L.create(14.75, 3),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "house_wall_int_9",
-                    pos: z.create(-9.5, -1),
+                    pos: L.create(-9.5, -1),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_wall_int_5",
-                    pos: z.create(4.5, -6),
+                    pos: L.create(4.5, -6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_wall_int_9",
-                    pos: z.create(9.5, -4),
+                    pos: L.create(9.5, -4),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_wall_int_8",
-                    pos: z.create(5.5, 8.5),
+                    pos: L.create(5.5, 8.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_wall_int_4",
-                    pos: z.create(8, 7),
+                    pos: L.create(8, 7),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(4.5, -12.5),
+                    pos: L.create(4.5, -12.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(6, 2.5),
+                    pos: L.create(6, 2.5),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "house_door_01",
-                    pos: z.create(14, 7),
+                    pos: L.create(14, 7),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_column_1",
-                    pos: z.create(6, 3.5),
+                    pos: L.create(6, 3.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_column_1",
-                    pos: z.create(6, -2.5),
+                    pos: L.create(6, -2.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         toilet_01: 5,
                         toilet_02: 1
                     }),
-                    pos: z.create(8, 10),
+                    pos: L.create(8, 10),
                     scale: 1,
                     ori: 1,
                     inheritOri: !0
                 }, {
                     type: "stand_01",
-                    pos: z.create(12.25, -2),
+                    pos: L.create(12.25, -2),
                     scale: 1,
                     ori: 3,
                     inheritOri: !0
                 }, {
-                    type: l({
+                    type: d({
                         drawers_01: 7,
                         drawers_02: 1
                     }),
-                    pos: z.create(7.75, -6),
+                    pos: L.create(7.75, -6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "stand_01",
-                    pos: z.create(-12.25, -3),
+                    pos: L.create(-12.25, -3),
                     scale: 1,
                     ori: 1,
                     inheritOri: !0
                 }, {
                     type: "table_01",
-                    pos: z.create(-11.25, 1.75),
+                    pos: L.create(-11.25, 1.75),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "oven_01",
-                    pos: z.create(-7, 11),
+                    pos: L.create(-7, 11),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "refrigerator_01",
-                    pos: z.create(-7, 1),
+                    pos: L.create(-7, 1),
                     scale: 1,
                     ori: 2,
                     inheritOri: !0
                 }, {
                     type: "bush_02",
-                    pos: z.create(-12, -10.5),
+                    pos: L.create(-12, -10.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !0
                 }, {
                     type: "loot_tier_1",
-                    pos: z.create(0, 4.5),
+                    pos: L.create(0, 4.5),
                     scale: 1,
                     ori: 0
                 }]
             },
-            mansion_wall_int_1: w({
+            mansion_wall_int_1: T({
                 material: "wood",
-                extents: z.create(.5, .5),
+                extents: L.create(.5, .5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-01-rounded.svg", 16768917)
+                img: m("img/map/map-wall-01-rounded.svg", 16768917)
             }),
-            mansion_wall_int_4: w({
+            mansion_wall_int_4: T({
                 material: "wood",
-                extents: z.create(.5, 2),
+                extents: L.create(.5, 2),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-04-rounded.svg", 16768917)
+                img: m("img/map/map-wall-04-rounded.svg", 16768917)
             }),
-            mansion_wall_int_5: w({
+            mansion_wall_int_5: T({
                 material: "wood",
-                extents: z.create(.5, 2.5),
+                extents: L.create(.5, 2.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-05-rounded.svg", 16768917)
+                img: m("img/map/map-wall-05-rounded.svg", 16768917)
             }),
-            mansion_wall_int_6: w({
+            mansion_wall_int_6: T({
                 material: "wood",
-                extents: z.create(.5, 3),
+                extents: L.create(.5, 3),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-06-rounded.svg", 16768917)
+                img: m("img/map/map-wall-06-rounded.svg", 16768917)
             }),
-            mansion_wall_int_7: w({
+            mansion_wall_int_7: T({
                 material: "wood",
-                extents: z.create(.5, 3.5),
+                extents: L.create(.5, 3.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-07-rounded.svg", 16768917)
+                img: m("img/map/map-wall-07-rounded.svg", 16768917)
             }),
-            mansion_wall_int_8: w({
+            mansion_wall_int_8: T({
                 material: "wood",
-                extents: z.create(.5, 4),
+                extents: L.create(.5, 4),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-08-rounded.svg", 16768917)
+                img: m("img/map/map-wall-08-rounded.svg", 16768917)
             }),
-            mansion_wall_int_9: w({
+            mansion_wall_int_9: T({
                 material: "wood",
-                extents: z.create(.5, 4.5),
+                extents: L.create(.5, 4.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-09-rounded.svg", 16768917)
+                img: m("img/map/map-wall-09-rounded.svg", 16768917)
             }),
-            mansion_wall_int_10: w({
+            mansion_wall_int_10: T({
                 material: "wood",
-                extents: z.create(.5, 5),
+                extents: L.create(.5, 5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-10-rounded.svg", 16768917)
+                img: m("img/map/map-wall-10-rounded.svg", 16768917)
             }),
-            mansion_wall_int_11: w({
+            mansion_wall_int_11: T({
                 material: "wood",
-                extents: z.create(.5, 5.5),
+                extents: L.create(.5, 5.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-11-rounded.svg", 16768917)
+                img: m("img/map/map-wall-11-rounded.svg", 16768917)
             }),
-            mansion_wall_int_12: w({
+            mansion_wall_int_12: T({
                 material: "wood",
-                extents: z.create(.5, 6),
+                extents: L.create(.5, 6),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-12-rounded.svg", 16768917)
+                img: m("img/map/map-wall-12-rounded.svg", 16768917)
             }),
-            mansion_wall_int_13: w({
+            mansion_wall_int_13: T({
                 material: "wood",
-                extents: z.create(.5, 6.5),
+                extents: L.create(.5, 6.5),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-13-rounded.svg", 16768917)
+                img: m("img/map/map-wall-13-rounded.svg", 16768917)
             }),
-            mansion_wall_int_14: w({
+            mansion_wall_int_14: T({
                 material: "wood",
-                extents: z.create(.5, 7),
+                extents: L.create(.5, 7),
                 hitParticle: "ltgreenChip",
-                img: c("img/map/map-wall-14-rounded.svg", 16768917)
+                img: m("img/map/map-wall-14-rounded.svg", 16768917)
             }),
-            mansion_column_1: w({
+            mansion_column_1: T({
                 material: "concrete",
-                extents: z.create(1, 1),
+                extents: L.create(1, 1),
                 hitParticle: "tanChip",
-                img: c("img/map/map-column-01.svg", 7432016)
+                img: m("img/map/map-column-01.svg", 7432016)
             }),
             saferoom_01: {
                 type: "building",
@@ -11447,53 +11862,55 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 1,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 0), z.create(6, 4))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "container",
+                        collision: [A.createAabbExtents(L.create(0, 0), L.create(6, 4))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-saferoom-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 6250335
-                    },
-                    surface: "container"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 0), z.create(5, 3))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 0), z.create(5, 3))],
-                    img: {
-                        sprite: "img/map/map-building-saferoom-ceiling.svg",
+                    scopeIn: [A.createAabbExtents(L.create(0, 0), L.create(5, 3))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 0), L.create(5, 3))],
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 6250335
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "metal_wall_ext_7",
-                    pos: z.create(-5, 0),
+                    pos: L.create(-5, 0),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "metal_wall_ext_6",
-                    pos: z.create(1.5, 3),
+                    pos: L.create(1.5, 3),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_9",
-                    pos: z.create(0, -3),
+                    pos: L.create(0, -3),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_7",
-                    pos: z.create(5, 0),
+                    pos: L.create(5, 0),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         case_01: 1,
                         case_02: .025,
                         chest_02: 1
                     }),
-                    pos: z.create(2.5, 0),
+                    pos: L.create(2.5, 0),
                     scale: 1,
                     ori: 3
                 }]
@@ -11503,19 +11920,19 @@ webpackJsonp([0], {
                 map: {
                     display: !0,
                     shapes: [{
-                        collider: T.createAabbExtents(z.create(-1.5, 20.5), z.create(12.5, 4.5)),
+                        collider: A.createAabbExtents(L.create(-1.5, 20.5), L.create(12.5, 4.5)),
                         color: 8671554
                     }, {
-                        collider: T.createAabbExtents(z.create(-2, -23), z.create(3, 2.5)),
+                        collider: A.createAabbExtents(L.create(-2, -23), L.create(3, 2.5)),
                         color: 8671554
                     }, {
-                        collider: T.createAabbExtents(z.create(-20.5, -22.5), z.create(10, 2)),
+                        collider: A.createAabbExtents(L.create(-20.5, -22.5), L.create(10, 2)),
                         color: 7750457
                     }, {
-                        collider: T.createAabbExtents(z.create(28, 1.5), z.create(3.75, 3)),
+                        collider: A.createAabbExtents(L.create(28, 1.5), L.create(3.75, 3)),
                         color: 7237230
                     }, {
-                        collider: T.createAabbExtents(z.create(-3.5, -2), z.create(28, 18.5)),
+                        collider: A.createAabbExtents(L.create(-3.5, -2), L.create(28, 18.5)),
                         color: 6175023
                     }]
                 },
@@ -11524,497 +11941,478 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 0,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(-3.5, -2), z.create(28, 18.5)), T.createAabbExtents(z.create(-1.5, 20.5), z.create(12.5, 4.5)), T.createAabbExtents(z.create(0, 0), z.create(20, 20))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "tile",
+                        collision: [A.createAabbExtents(L.create(-3.5, -2), L.create(28, 18.5)), A.createAabbExtents(L.create(-1.5, 20.5), L.create(12.5, 4.5)), A.createAabbExtents(L.create(0, 0), L.create(20, 20))]
+                    }, {
+                        type: "asphalt",
+                        collision: [A.createAabbExtents(L.create(-21, -17), L.create(11, 8)), A.createAabbExtents(L.create(-23, -6), L.create(8, 3)), A.createAabbExtents(L.create(-2, -24), L.create(2, 3)), A.createAabbExtents(L.create(28, 1.5), L.create(3, 3))]
+                    }, {
+                        type: "grass",
+                        collision: [A.createAabbExtents(L.create(-2, 4), L.create(5, 5))]
+                    }, {
+                        type: "house",
+                        collision: [A.createAabbExtents(L.create(1, 13), L.create(2, 3.25))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-mansion-floor.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "tile"
-                }, {
-                    collision: [T.createAabbExtents(z.create(-21, -17), z.create(11, 8)), T.createAabbExtents(z.create(-23, -6), z.create(8, 3)), T.createAabbExtents(z.create(-2, -24), z.create(2, 3)), T.createAabbExtents(z.create(28, 1.5), z.create(3, 3))],
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 1,
-                        tint: 16777215
-                    },
-                    surface: "asphalt"
-                }, {
-                    collision: [T.createAabbExtents(z.create(-2, 4), z.create(5, 5))],
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 1,
-                        tint: 16777215
-                    },
-                    surface: "grass"
-                }, {
-                    collision: [T.createAabbExtents(z.create(1, 13), z.create(2, 3.25))],
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 1,
-                        tint: 16777215
-                    },
-                    surface: "house"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(-15, -22.4), z.create(17, 2.2)), T.createAabbExtents(z.create(-3.5, -2), z.create(28, 18.5)), T.createAabbExtents(z.create(-1.5, 20.6), z.create(12, 4.2))],
-                    scopeOut: [T.createAabbExtents(z.create(-15, -24.4), z.create(21, 4.2)), T.createAabbExtents(z.create(-3.5, -2), z.create(28, 18.5)), T.createAabbExtents(z.create(-9, 23.1), z.create(5, 6.7))],
+                    scopeIn: [A.createAabbExtents(L.create(-15, -22.4), L.create(17, 2.2)), A.createAabbExtents(L.create(-3.5, -2), L.create(28, 18.5)), A.createAabbExtents(L.create(-1.5, 20.6), L.create(12, 4.2))],
+                    scopeOut: [A.createAabbExtents(L.create(-15, -24.4), L.create(21, 4.2)), A.createAabbExtents(L.create(-3.5, -2), L.create(28, 18.5)), A.createAabbExtents(L.create(-9, 23.1), L.create(5, 6.7))],
                     vision: {
                         dist: 5.5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
                     },
-                    img: {
-                        sprite: "img/map/map-building-mansion-ceiling.svg",
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    destroy: {
-                        destructible: !1
-                    }
+                    }]
                 },
                 mapObjects: [{
                     type: "brick_wall_ext_9",
-                    pos: z.create(-31.5, -16.5),
+                    pos: L.create(-31.5, -16.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-31.75, -10.5),
+                    pos: L.create(-31.75, -10.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_19",
-                    pos: z.create(-31.5, .5),
+                    pos: L.create(-31.5, .5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(-31.75, 11.5),
+                    pos: L.create(-31.75, 11.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_4",
-                    pos: z.create(-31.5, 15),
+                    pos: L.create(-31.5, 15),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_17",
-                    pos: z.create(-22.5, 16.5),
+                    pos: L.create(-22.5, 16.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_9",
-                    pos: z.create(-13.5, 20.5),
+                    pos: L.create(-13.5, 20.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-13, 24.9),
+                    pos: L.create(-13, 24.9),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "brick_wall_ext_19",
-                    pos: z.create(.5, 24.5),
+                    pos: L.create(.5, 24.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_9",
-                    pos: z.create(10.5, 20.5),
+                    pos: L.create(10.5, 20.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_13",
-                    pos: z.create(17.5, 16.5),
+                    pos: L.create(17.5, 16.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(24.5, 14),
+                    pos: L.create(24.5, 14),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(24.75, 9.5),
+                    pos: L.create(24.75, 9.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_18",
-                    pos: z.create(24.5, -1),
+                    pos: L.create(24.5, -1),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_window_01",
-                    pos: z.create(24.75, -11.5),
+                    pos: L.create(24.75, -11.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_8",
-                    pos: z.create(24.5, -17),
+                    pos: L.create(24.5, -17),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_7",
-                    pos: z.create(20.5, -20.5),
+                    pos: L.create(20.5, -20.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_window_01",
-                    pos: z.create(15.5, -20.75),
+                    pos: L.create(15.5, -20.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_14",
-                    pos: z.create(7, -20.5),
+                    pos: L.create(7, -20.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-4, -21),
+                    pos: L.create(-4, -21),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(-7, -20.5),
+                    pos: L.create(-7, -20.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_short_7",
-                    pos: z.create(28.5, 4.5),
+                    pos: L.create(28.5, 4.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_short_7",
-                    pos: z.create(28.5, -1.5),
+                    pos: L.create(28.5, -1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(-7, -20.5),
+                    pos: L.create(-7, -20.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_column_1",
-                    pos: z.create(-5, -24),
+                    pos: L.create(-5, -24),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_column_1",
-                    pos: z.create(1, -24),
+                    pos: L.create(1, -24),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "saferoom_01",
-                    pos: z.create(-25.5, 1.5),
+                    pos: L.create(-25.5, 1.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "mansion_wall_int_12",
-                    pos: z.create(-25, -2.5),
+                    pos: L.create(-25, -2.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-19, -2.5),
+                    pos: L.create(-19, -2.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "mansion_wall_int_1",
-                    pos: z.create(-30.5, 5.5),
+                    pos: L.create(-30.5, 5.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_03",
-                    pos: z.create(-30.25, 5.5),
+                    pos: L.create(-30.25, 5.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "mansion_wall_int_13",
-                    pos: z.create(-20.5, 5.5),
+                    pos: L.create(-20.5, 5.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_wall_int_7",
-                    pos: z.create(-19.5, 1.5),
+                    pos: L.create(-19.5, 1.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(-14.5, 6),
+                    pos: L.create(-14.5, 6),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "mansion_wall_int_6",
-                    pos: z.create(-14.5, 13),
+                    pos: L.create(-14.5, 13),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "mansion_wall_int_6",
-                    pos: z.create(-14.5, -5),
+                    pos: L.create(-14.5, -5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "mansion_wall_int_10",
-                    pos: z.create(-10, -8.5),
+                    pos: L.create(-10, -8.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_wall_int_11",
-                    pos: z.create(-9.5, -14.5),
+                    pos: L.create(-9.5, -14.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_8",
-                    pos: z.create(-7.5, 14),
+                    pos: L.create(-7.5, 14),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_8",
-                    pos: z.create(-1.5, 14),
+                    pos: L.create(-1.5, 14),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_8",
-                    pos: z.create(3.5, 14),
+                    pos: L.create(3.5, 14),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_12",
-                    pos: z.create(-2, 9.5),
+                    pos: L.create(-2, 9.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "stairs_01",
-                    pos: z.create(-4.5, 12),
+                    pos: L.create(-4.5, 12),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "glass_wall_10",
-                    pos: z.create(-7.5, 4),
+                    pos: L.create(-7.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "glass_wall_10",
-                    pos: z.create(3.5, 4),
+                    pos: L.create(3.5, 4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "glass_wall_12",
-                    pos: z.create(-2, -1.5),
+                    pos: L.create(-2, -1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(10.5, 16),
+                    pos: L.create(10.5, 16),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "mansion_wall_int_9",
-                    pos: z.create(10.5, 7.5),
+                    pos: L.create(10.5, 7.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(10.5, -1),
+                    pos: L.create(10.5, -1),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "mansion_wall_int_8",
-                    pos: z.create(10.5, -5),
+                    pos: L.create(10.5, -5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "mansion_wall_int_9",
-                    pos: z.create(15.5, 4.5),
+                    pos: L.create(15.5, 4.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_wall_int_9",
-                    pos: z.create(15.5, -1.5),
+                    pos: L.create(15.5, -1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_wall_int_5",
-                    pos: z.create(19.5, 1.5),
+                    pos: L.create(19.5, 1.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "house_door_01",
-                    pos: z.create(24, 1.5),
+                    pos: L.create(24, 1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_wall_int_5",
-                    pos: z.create(3.5, -8.5),
+                    pos: L.create(3.5, -8.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_01",
-                    pos: z.create(6, -8.5),
+                    pos: L.create(6, -8.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "mansion_wall_int_11",
-                    pos: z.create(5.5, -14.5),
+                    pos: L.create(5.5, -14.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bookshelf_01: 7,
                         bookshelf_02: 1
                     }),
-                    pos: z.create(-27.25, 7.15),
+                    pos: L.create(-27.25, 7.15),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         bookshelf_01: 7,
                         bookshelf_02: 1
                     }),
-                    pos: z.create(-27.25, 14.85),
+                    pos: L.create(-27.25, 14.85),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         drawers_01: 7,
                         drawers_02: 1
                     }),
-                    pos: z.create(-11.5, -11.75),
+                    pos: L.create(-11.5, -11.75),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "stand_01",
-                    pos: z.create(-7.5, -10.5),
+                    pos: L.create(-7.5, -10.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "stand_01",
-                    pos: z.create(3.5, -10.5),
+                    pos: L.create(3.5, -10.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bookshelf_01: 7,
                         bookshelf_02: 1
                     }),
-                    pos: z.create(7.25, -16.25),
+                    pos: L.create(7.25, -16.25),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         bookshelf_01: 7,
                         bookshelf_02: 1
                     }),
-                    pos: z.create(14.75, -3.25),
+                    pos: L.create(14.75, -3.25),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "toilet_01",
-                    pos: z.create(17, 1.5),
+                    pos: L.create(17, 1.5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "refrigerator_01",
-                    pos: z.create(22.15, 14.4),
+                    pos: L.create(22.15, 14.4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "oven_01",
-                    pos: z.create(12.75, 6.75),
+                    pos: L.create(12.75, 6.75),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "oven_01",
-                    pos: z.create(12.75, 10.25),
+                    pos: L.create(12.75, 10.25),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "table_02",
-                    pos: z.create(15.75, -14.25),
+                    pos: L.create(15.75, -14.25),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "loot_tier_mansion_floor",
-                    pos: z.create(-2, -8.5),
+                    pos: L.create(-2, -8.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(-2, 4),
+                    pos: L.create(-2, 4),
                     scale: .6,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bush_01: 25,
                         bush_03: 1
                     }),
-                    pos: z.create(-4.75, 1.25),
+                    pos: L.create(-4.75, 1.25),
                     scale: .9,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bush_01: 25,
                         bush_03: 1
                     }),
-                    pos: z.create(.75, 1.25),
+                    pos: L.create(.75, 1.25),
                     scale: .9,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bush_01: 25,
                         bush_03: 1
                     }),
-                    pos: z.create(-4.75, 6.75),
+                    pos: L.create(-4.75, 6.75),
                     scale: .9,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bush_01: 25,
                         bush_03: 1
                     }),
-                    pos: z.create(.75, 6.75),
+                    pos: L.create(.75, 6.75),
                     scale: .9,
                     ori: 0
                 }, {
                     type: "bush_01",
-                    pos: z.create(-8, -23),
+                    pos: L.create(-8, -23),
                     scale: .95,
                     ori: 0
                 }, {
                     type: "bush_01",
-                    pos: z.create(4, -23),
+                    pos: L.create(4, -23),
                     scale: .95,
                     ori: 0
                 }, {
                     type: "shack_01",
-                    pos: z.create(-20.75, 22.5),
+                    pos: L.create(-20.75, 22.5),
                     scale: 1,
                     ori: 2
                 }, {
                     type: "crate_01",
-                    pos: z.create(13.25, 19.25),
+                    pos: L.create(13.25, 19.25),
                     scale: .9,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(24, 24),
+                    pos: L.create(24, 24),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "barrel_02",
-                    pos: z.create(27, -4),
+                    pos: L.create(27, -4),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(29, -17.25),
+                    pos: L.create(29, -17.25),
                     scale: .7,
                     ori: 0
                 }]
@@ -12029,199 +12427,193 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 0,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(18, 3), z.create(7, 13)), T.createAabbExtents(z.create(5, 0), z.create(6, 10))],
-                    img: {
+                floor: {
+                    surfaces: [{
+                        type: "brick",
+                        collision: [A.createAabbExtents(L.create(18, 3), L.create(7, 13)), A.createAabbExtents(L.create(5, 0), L.create(6, 10))]
+                    }],
+                    imgs: [{
                         sprite: "img/map/map-building-mansion-cellar.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "brick"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(18, 3), z.create(7, 13)), T.createAabbExtents(z.create(5, 1.5), z.create(6, 12))],
-                    scopeOut: [T.createAabbExtents(z.create(18, 3), z.create(7, 13)), T.createAabbExtents(z.create(5, 1.5), z.create(6, 12))],
+                    scopeIn: [A.createAabbExtents(L.create(18, 3), L.create(7, 13)), A.createAabbExtents(L.create(5, 1.5), L.create(6, 12))],
+                    scopeOut: [A.createAabbExtents(L.create(18, 3), L.create(7, 13)), A.createAabbExtents(L.create(5, 1.5), L.create(6, 12))],
                     vision: {
                         dist: 5.5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
                     },
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 1,
-                        tint: 16777215
-                    },
-                    destroy: {
-                        destructible: !1
-                    }
+                    imgs: []
                 },
                 mapObjects: [{
-                    type: "brick_wall_ext_thick_24",
-                    pos: z.create(-2, 6),
+                    type: "brick_wall_ext_thicker_24",
+                    pos: L.create(-2.5, 6),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_8",
-                    pos: z.create(1, -7),
+                    type: "brick_wall_ext_thicker_8",
+                    pos: L.create(0, -7.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "brick_wall_ext_thick_6",
-                    pos: z.create(6, -9),
+                    type: "brick_wall_ext_thicker_7",
+                    pos: L.create(5.5, -9.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_9",
-                    pos: z.create(11.5, -11),
+                    type: "brick_wall_ext_thicker_9",
+                    pos: L.create(11.5, -11.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "brick_wall_ext_thick_6",
-                    pos: z.create(17, -9),
+                    type: "brick_wall_ext_thicker_7",
+                    pos: L.create(17.5, -9.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_6",
-                    pos: z.create(21, -7),
+                    type: "brick_wall_ext_thicker_5",
+                    pos: L.create(21.5, -7.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "brick_wall_ext_thick_7",
-                    pos: z.create(25, -4.5),
+                    type: "brick_wall_ext_thicker_8",
+                    pos: L.create(25.5, -5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_14",
-                    pos: z.create(25, 11),
+                    type: "brick_wall_ext_thicker_15",
+                    pos: L.create(25.5, 11.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_15",
-                    pos: z.create(16.5, 17),
+                    type: "brick_wall_ext_thicker_16",
+                    pos: L.create(16, 17.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "brick_wall_ext_thick_7",
-                    pos: z.create(10, 12.5),
+                    type: "brick_wall_ext_thicker_7",
+                    pos: L.create(9.5, 12.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_6",
-                    pos: z.create(6, 10),
+                    type: "brick_wall_ext_thicker_5",
+                    pos: L.create(5.5, 10.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "brick_wall_ext_thick_6",
-                    pos: z.create(29, 5),
+                    type: "brick_wall_ext_thicker_5",
+                    pos: L.create(29.5, 5.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "brick_wall_ext_thick_6",
-                    pos: z.create(29, -2),
+                    type: "brick_wall_ext_thicker_5",
+                    pos: L.create(29.5, -2.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "concrete_wall_ext_7",
-                    pos: z.create(31.5, 1.5),
+                    pos: L.create(31.5, 1.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "brick_wall_ext_thick_7",
-                    pos: z.create(4, 14.5),
+                    type: "brick_wall_ext_thicker_6",
+                    pos: L.create(4.5, 15),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "brick_wall_ext_6",
-                    pos: z.create(1, 17.6),
+                    pos: L.create(1, 17.6),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: l({
+                    type: d({
                         barrel_03: 9,
                         barrel_04: 1
                     }),
-                    pos: z.create(8.5, -9.53),
+                    pos: L.create(8.5, -9.53),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         barrel_03: 9,
                         barrel_04: 1
                     }),
-                    pos: z.create(11.5, -9.53),
+                    pos: L.create(11.5, -9.53),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         barrel_03: 9,
                         barrel_04: 1
                     }),
-                    pos: z.create(14.5, -9.53),
+                    pos: L.create(14.5, -9.53),
                     scale: 1,
                     ori: 2
                 }, {
-                    type: l({
+                    type: d({
                         barrel_03: 9,
                         barrel_04: 1
                     }),
-                    pos: z.create(12.75, 15.5),
+                    pos: L.create(12.75, 15.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         barrel_03: 9,
                         barrel_04: 1
                     }),
-                    pos: z.create(15.75, 15.5),
+                    pos: L.create(15.75, 15.5),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         barrel_03: 9,
                         barrel_04: 1
                     }),
-                    pos: z.create(18.75, 15.5),
+                    pos: L.create(18.75, 15.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "crate_01",
-                    pos: z.create(22.25, 14.25),
+                    pos: L.create(22.25, 14.25),
                     scale: .75,
                     ori: 0
                 }, {
-                    type: l({
+                    type: d({
                         bookshelf_01: 7,
                         bookshelf_02: 1
                     }),
-                    pos: z.create(22.75, 8),
+                    pos: L.create(22.75, 8),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "mansion_column_1",
-                    pos: z.create(5.5, 1.5),
+                    pos: L.create(5.5, 1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "mansion_column_1",
-                    pos: z.create(17.5, 1.5),
+                    pos: L.create(17.5, 1.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "barrel_02",
-                    pos: z.create(8.5, 1.5),
+                    pos: L.create(8.5, 1.5),
                     scale: .8,
                     ori: 0
                 }, {
                     type: "barrel_01",
-                    pos: z.create(11.5, 1.5),
+                    pos: L.create(11.5, 1.5),
                     scale: .8,
                     ori: 0
                 }, {
                     type: "barrel_02",
-                    pos: z.create(14.5, 1.5),
+                    pos: L.create(14.5, 1.5),
                     scale: .8,
                     ori: 0
                 }]
@@ -12234,22 +12626,22 @@ webpackJsonp([0], {
                 },
                 layers: [{
                     type: "mansion_01",
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     ori: 0
                 }, {
                     type: "mansion_cellar_01",
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     ori: 0
                 }],
                 stairs: [{
-                    collision: T.createAabbExtents(z.create(28, 1.5), z.create(3, 2.55)),
-                    downDir: z.create(-1, 0),
+                    collision: A.createAabbExtents(L.create(28, 1.5), L.create(3, 2.55)),
+                    downDir: L.create(-1, 0),
                     noCeilingReveal: !0
                 }, {
-                    collision: T.createAabbExtents(z.create(1, 13.5), z.create(2, 3.5)),
-                    downDir: z.create(0, -1)
+                    collision: A.createAabbExtents(L.create(1, 13.5), L.create(2, 3.5)),
+                    downDir: L.create(0, -1)
                 }],
-                mask: [T.createAabbExtents(z.create(10, -.1), z.create(15, 10.1)), T.createAabbExtents(z.create(17.5, 13.5), z.create(7.5, 3.5))]
+                mask: [A.createAabbExtents(L.create(10, -.1), L.create(15, 10.1)), A.createAabbExtents(L.create(17.5, 13.5), L.create(7.5, 3.5))]
             },
             bunker_egg_01: {
                 type: "building",
@@ -12263,70 +12655,67 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 1,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, 7.75), z.create(2, 3.25))],
-                    img: {
-                        sprite: "img/map/map-building-bunker-egg-floor.svg",
+                floor: {
+                    surfaces: [{
+                        type: "container",
+                        collision: [A.createAabbExtents(L.create(0, 7.75), L.create(2, 3.25))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-egg-floor-01.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "container"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, 0), z.create(0, 0))],
-                    scopeOut: [T.createAabbExtents(z.create(0, 0), z.create(0, 0))],
-                    img: {
-                        sprite: "none",
-                        scale: .5,
-                        alpha: 0,
-                        tint: 16777215
-                    },
+                    scopeIn: [A.createAabbExtents(L.create(0, 0), L.create(0, 0))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 0), L.create(0, 0))],
                     vision: {
                         dist: 5,
                         width: 2.75,
                         linger: .5,
                         fadeRate: 6
-                    }
+                    },
+                    imgs: []
                 },
                 mapObjects: [{
                     type: "metal_wall_ext_short_6",
-                    pos: z.create(0, 5.3),
+                    pos: L.create(0, 5.3),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "metal_wall_ext_short_7",
-                    pos: z.create(-2.5, 8.5),
+                    pos: L.create(-2.5, 8.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "metal_wall_ext_short_7",
-                    pos: z.create(2.5, 8.5),
+                    pos: L.create(2.5, 8.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(5, 8),
+                    pos: L.create(5, 8),
                     scale: 1.05,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(-5, 7.5),
+                    pos: L.create(-5, 7.5),
                     scale: 1.1,
                     ori: 0
                 }, {
                     type: "tree_01",
-                    pos: z.create(-1.25, 15.75),
+                    pos: L.create(-1.25, 15.75),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "stone_01",
-                    pos: z.create(-5.75, -1.5),
+                    pos: L.create(-5.75, -1.5),
                     scale: 1,
                     ori: 0
                 }, {
                     type: "bush_01",
-                    pos: z.create(5.75, -6.75),
+                    pos: L.create(5.75, -6.75),
                     scale: 1,
                     ori: 0
                 }]
@@ -12343,84 +12732,86 @@ webpackJsonp([0], {
                     beach: !1
                 },
                 zIdx: 1,
-                floors: [{
-                    collision: [T.createAabbExtents(z.create(0, -4.5), z.create(10, 9))],
-                    img: {
-                        sprite: "img/map/map-building-bunker-egg-bottom.svg",
+                floor: {
+                    surfaces: [{
+                        type: "bunker",
+                        collision: [A.createAabbExtents(L.create(0, -4.5), L.create(10, 9))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-egg-chamber-floor-01.svg",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
-                    surface: "bunker"
-                }],
+                    }]
+                },
                 ceiling: {
-                    scopeIn: [T.createAabbExtents(z.create(0, -4.5), z.create(10, 9))],
-                    scopeOut: [T.createAabbExtents(z.create(0, -4.5), z.create(10, 9))],
-                    img: {
-                        sprite: "img/map/map-building-bunker-egg-ceiling.svg",
+                    scopeIn: [A.createAabbExtents(L.create(0, -4.5), L.create(10, 9))],
+                    scopeOut: [A.createAabbExtents(L.create(0, -4.5), L.create(10, 9))],
+                    imgs: [{
+                        sprite: "none",
                         scale: .5,
                         alpha: 1,
                         tint: 16777215
-                    },
+                    }],
                     vision: {
                         dist: 10,
-                        width: 5
+                        width: 3
                     }
                 },
                 mapObjects: [{
                     type: "concrete_wall_ext_6",
-                    pos: z.create(0, 11.5),
+                    pos: L.create(0, 11.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "metal_wall_ext_thick_8",
-                    pos: z.create(-3, 8),
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(-3.5, 8),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "metal_wall_ext_thick_8",
-                    pos: z.create(3, 8),
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(3.5, 8),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "metal_wall_ext_thick_5",
-                    pos: z.create(-6.5, 5),
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(-7, 5.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "metal_wall_ext_thick_5",
-                    pos: z.create(6.5, 5),
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(7, 5.5),
                     scale: 1,
                     ori: 1
                 }, {
-                    type: "metal_wall_ext_thick_19",
-                    pos: z.create(-10, -3.5),
+                    type: "metal_wall_ext_thicker_20",
+                    pos: L.create(-10.5, -3),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "metal_wall_ext_thick_19",
-                    pos: z.create(10, -3.5),
+                    type: "metal_wall_ext_thicker_20",
+                    pos: L.create(10.5, -3),
                     scale: 1,
                     ori: 0
                 }, {
-                    type: "metal_wall_ext_thick_22",
-                    pos: z.create(0, -14),
+                    type: "metal_wall_ext_thicker_24",
+                    pos: L.create(0, -14.5),
                     scale: 1,
                     ori: 1
                 }, {
                     type: "house_door_02",
-                    pos: z.create(-2, 5),
+                    pos: L.create(-2, 5),
                     scale: 1,
                     ori: 3
                 }, {
                     type: "crate_07",
-                    pos: z.create(0, -4.5),
+                    pos: L.create(0, -4.5),
                     scale: 1,
                     ori: 0,
                     inheritOri: !1
                 }, {
                     type: "barrel_01",
-                    pos: z.create(-7, -11),
+                    pos: L.create(-7, -11),
                     scale: .9,
                     ori: 0
                 }]
@@ -12431,57 +12822,1345 @@ webpackJsonp([0], {
                     grass: !0,
                     beach: !1
                 },
-                obstacleBound: T.createAabbExtents(z.create(0, 5), z.create(7, 12)),
+                mapObstacleBounds: [A.createAabbExtents(L.create(0, 5), L.create(7, 12))],
                 layers: [{
                     type: "bunker_egg_01",
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     ori: 0
                 }, {
                     type: "bunker_egg_sublevel_01",
-                    pos: z.create(0, 0),
+                    pos: L.create(0, 0),
                     ori: 0
                 }],
                 stairs: [{
-                    collision: T.createAabbExtents(z.create(0, 8.4), z.create(2, 2.6)),
-                    downDir: z.create(0, -1)
+                    collision: A.createAabbExtents(L.create(0, 8.4), L.create(2, 2.6)),
+                    downDir: L.create(0, -1)
                 }],
-                mask: [T.createAabbExtents(z.create(0, -3.7), z.create(10, 9.5))]
+                mask: [A.createAabbExtents(L.create(0, -3.7), L.create(10, 9.5))]
             },
-            container_wall_top: w({
+            bunker_hydra_01: {
+                type: "building",
+                map: {
+                    display: !0,
+                    shapes: [{
+                        collider: A.createAabbExtents(L.create(20.25, 3.5), L.create(6.25, 5.5)),
+                        color: 2894892
+                    }, {
+                        collider: A.createAabbExtents(L.create(32.25, 3.5), L.create(6.75, 9.25)),
+                        color: 3815994
+                    }]
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "tile",
+                        collision: [A.createAabbExtents(L.create(20.25, 3.5), L.create(6.25, 5.5)), A.createAabbExtents(L.create(32.25, 3.5), L.create(6.75, 9.25))]
+                    }, {
+                        type: "container",
+                        collision: [A.createAabbExtents(L.create(16.25, 3.5), L.create(3.25, 2)), A.createAabbExtents(L.create(-16.5, -90.75), L.create(2, 3.25)), A.createAabbExtents(L.create(40, -50.5), L.create(2, 3.25))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-hydra-floor-01.svg",
+                        pos: L.create(16.75, 3.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }, {
+                        sprite: "img/map/map-bunker-hydra-floor-02.svg",
+                        pos: L.create(-16.5, -85.25),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }, {
+                        sprite: "img/map/map-bunker-hydra-floor-03.svg",
+                        pos: L.create(36.75, -56.25),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }, {
+                        sprite: "img/map/map-bunker-hydra-floor-04.svg",
+                        pos: L.create(-5.75, -38.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(20.25, 3.5), L.create(6.25, 5.5)), A.createAabbExtents(L.create(32.25, 3.5), L.create(6.75, 9.25))],
+                    scopeOut: [A.createAabbExtents(L.create(20.25, 3.5), L.create(6.25, 5.5)), A.createAabbExtents(L.create(32.25, 3.5), L.create(6.75, 9.25))],
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(25.25, 3.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }],
+                    vision: {
+                        dist: 5,
+                        width: 2.75,
+                        linger: .5,
+                        fadeRate: 6
+                    }
+                },
+                mapObjects: [{
+                    type: "concrete_wall_ext_13",
+                    pos: L.create(18.75, 9.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "concrete_wall_ext_13",
+                    pos: L.create(18.75, -2.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "concrete_wall_ext_11",
+                    pos: L.create(12.75, 3.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "concrete_wall_ext_7",
+                    pos: L.create(25.75, 9),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "concrete_wall_ext_7",
+                    pos: L.create(25.75, -2),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "concrete_wall_ext_2",
+                    pos: L.create(26.25, 12.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "concrete_wall_ext_2",
+                    pos: L.create(26.25, -5.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "concrete_wall_ext_8",
+                    pos: L.create(35.25, 12.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "concrete_wall_ext_8",
+                    pos: L.create(35.25, -5.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "concrete_wall_ext_17",
+                    pos: L.create(38.75, 3.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "police_wall_int_7",
+                    pos: L.create(32.75, 8.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "police_wall_int_2",
+                    pos: L.create(33.25, 4.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "house_door_01",
+                    pos: L.create(38.25, 4.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: d({
+                        toilet_03: 5,
+                        toilet_04: 1
+                    }),
+                    pos: L.create(35.75, 10.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "crate_08",
+                    pos: L.create(35.75, -2.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_short_6",
+                    pos: L.create(13, 3.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(17, 6),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(17, 1),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_short_6",
+                    pos: L.create(-16.5, -87.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(-19, -91),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(-14, -91),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_short_6",
+                    pos: L.create(40, -53.25),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(37.5, -50),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(42.5, -50),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "tree_01",
+                    pos: L.create(-11.5, -94),
+                    scale: 1.05,
+                    ori: 0
+                }, {
+                    type: "tree_01",
+                    pos: L.create(-21.5, -94.5),
+                    scale: 1.1,
+                    ori: 0
+                }, {
+                    type: "tree_01",
+                    pos: L.create(-17.5, -84.25),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "tree_01",
+                    pos: L.create(45, -50),
+                    scale: 1.05,
+                    ori: 0
+                }, {
+                    type: "tree_01",
+                    pos: L.create(35, -50.5),
+                    scale: 1.1,
+                    ori: 0
+                }, {
+                    type: "tree_01",
+                    pos: L.create(38.75, -42.25),
+                    scale: 1,
+                    ori: 0
+                }]
+            },
+            bunker_hydra_sublevel_01: {
+                type: "building",
+                map: {
+                    display: !1,
+                    color: 6707790,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "bunker",
+                        collision: [A.createAabbExtents(L.create(3.5, 2), L.create(9.5, 10)), A.createAabbExtents(L.create(-15.5, -79.5), L.create(3, 8)), A.createAabbExtents(L.create(40.5, -62), L.create(9.5, 8))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-hydra-chamber-floor-01.svg",
+                        pos: L.create(7, 2.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }, {
+                        sprite: "img/map/map-bunker-hydra-chamber-floor-02.svg",
+                        pos: L.create(-15.5, -83),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }, {
+                        sprite: "img/map/map-bunker-hydra-chamber-floor-03.svg",
+                        pos: L.create(40.5, -58.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(4.5, 2.25), L.create(12, 10)), A.createAabbExtents(L.create(-15, -77), L.create(5.5, 10.5)), A.createAabbExtents(L.create(38, -62), L.create(11.5, 8))],
+                    scopeOut: [A.createAabbExtents(L.create(3, 2.25), L.create(9.5, 10))],
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(7, 2),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 6250335
+                    }, {
+                        sprite: "none",
+                        pos: L.create(-13.5, -76.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 6250335
+                    }, {
+                        sprite: "none",
+                        pos: L.create(38, -62),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 6250335
+                    }],
+                    vision: {
+                        dist: 10,
+                        width: 3
+                    }
+                },
+                mapObjects: [{
+                    type: "concrete_wall_ext_6",
+                    pos: L.create(20, 3.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(16.5, 7),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(16.5, 0),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_7",
+                    pos: L.create(14, 12),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_7",
+                    pos: L.create(14, -5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_21",
+                    pos: L.create(2, 13.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_21",
+                    pos: L.create(-7, 2.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_5",
+                    pos: L.create(-3, -6.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_5",
+                    pos: L.create(10, -6.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "house_door_02",
+                    pos: L.create(13.5, 5.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(-.5, -7.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(7.5, -7.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "sandbags_01",
+                    pos: L.create(0, 7.25),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "crate_01",
+                    pos: L.create(10.25, -2.75),
+                    scale: .9,
+                    ori: 0
+                }, {
+                    type: "crate_01",
+                    pos: L.create(10.25, 9.75),
+                    scale: .9,
+                    ori: 0
+                }, {
+                    type: "barrel_01",
+                    pos: L.create(-3.5, -3),
+                    scale: .9,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_23",
+                    pos: L.create(-20, -83),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_19",
+                    pos: L.create(-11, -79),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(-13, -90.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "concrete_wall_ext_6",
+                    pos: L.create(-16.5, -94),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "house_door_02",
+                    pos: L.create(-18.5, -87.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-12.15, -79),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-12.15, -74.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-12.15, -83.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "concrete_wall_ext_6",
+                    pos: L.create(40, -47),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(36.5, -50.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(43.5, -50.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(33, -53),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_7",
+                    pos: L.create(30, -55),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_7",
+                    pos: L.create(30, -66),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_16",
+                    pos: L.create(36.5, -71),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(48.25, -70),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_13",
+                    pos: L.create(50, -62),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(48.25, -54),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "house_door_02",
+                    pos: L.create(38, -53.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "crate_08",
+                    pos: L.create(34, -67),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "locker_01",
+                    pos: L.create(46.5, -55.15),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "locker_01",
+                    pos: L.create(48.9, -57.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "locker_01",
+                    pos: L.create(48.9, -62),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "locker_01",
+                    pos: L.create(48.9, -66.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "locker_01",
+                    pos: L.create(46.5, -68.85),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "bunker_hydra_compartment_01",
+                    pos: L.create(3.5, -18.95),
+                    scale: 1,
+                    ori: 0,
+                    inheritOri: !0
+                }, {
+                    type: "bunker_hydra_compartment_02",
+                    pos: L.create(6, -50),
+                    scale: 1,
+                    ori: 0,
+                    inheritOri: !0
+                }, {
+                    type: "bunker_hydra_compartment_03",
+                    pos: L.create(10.5, -74.95),
+                    scale: 1,
+                    ori: 0,
+                    inheritOri: !0
+                }]
+            },
+            vault_door_hydra: v({
                 material: "metal",
-                extents: z.create(2.75, .4)
+                hinge: L.create(1, 3.5),
+                extents: L.create(1, 3.5),
+                img: {
+                    sprite: "img/map/map-door-02.svg"
+                },
+                door: {
+                    interactionRad: 2.5,
+                    openSpeed: .23,
+                    openOneWay: -1,
+                    openDelay: 1,
+                    openOnce: !0,
+                    spriteAnchor: L.create(.2, 1),
+                    sound: {
+                        open: "none",
+                        close: "none",
+                        change: "vault_change_01"
+                    }
+                }
             }),
-            container_wall_side: w({
+            bunker_hydra_compartment_01: {
+                type: "building",
+                map: {
+                    display: !1,
+                    color: 6707790,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "bunker",
+                        collision: [A.createAabbExtents(L.create(0, 1), L.create(9.5, 10))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-hydra-compartment-floor-01.svg",
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(0, 1.25), L.create(10, 10))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 1.25), L.create(10, 10))],
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(0, 1.25),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 6250335
+                    }]
+                },
+                mapObjects: [{
+                    type: "metal_wall_ext_thicker_17",
+                    pos: L.create(-9.75, 3),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_5",
+                    pos: L.create(-6.5, 9.75),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_5",
+                    pos: L.create(6.5, 10.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_18",
+                    pos: L.create(10.5, 1.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_7",
+                    pos: L.create(-7.5, -6.75),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(8, -7.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "crate_08",
+                    pos: L.create(6.5, 6.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "sandbags_01",
+                    pos: L.create(4.75, 1.5),
+                    scale: 1,
+                    ori: 0,
+                    inheritOri: !0
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(-4, -8.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(4, -8.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-6, 8.4),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-8.35, 6),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-8.35, 1.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-8.35, -3),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "locker_01",
+                    pos: L.create(-6, -5.4),
+                    scale: 1,
+                    ori: 2
+                }]
+            },
+            metal_wall_column_5x12: T({
                 material: "metal",
-                extents: z.create(.4, 5.5)
+                extents: L.create(2.5, 6)
             }),
-            container_wall_side_open: w({
+            bunker_hydra_compartment_02: {
+                type: "building",
+                map: {
+                    display: !1,
+                    color: 6707790,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "bunker",
+                        collision: [A.createAabbExtents(L.create(-2.5, 16), L.create(22, 4)), A.createAabbExtents(L.create(-2.5, 9.5), L.create(6, 2.5))]
+                    }, {
+                        type: "tile",
+                        collision: [A.createAabbExtents(L.create(0, -4.5), L.create(25, 17))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-hydra-compartment-floor-02.svg",
+                        pos: L.create(0, 0),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(-2, 3), L.create(22.5, 19.5))],
+                    scopeOut: [A.createAabbExtents(L.create(-2, 3), L.create(22.5, 19.5))],
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(0, 1),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 6250335
+                    }]
+                },
+                mapObjects: [{
+                    type: "metal_wall_ext_thicker_21",
+                    pos: L.create(-17, 21.75),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_21",
+                    pos: L.create(12, 21.75),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_42",
+                    pos: L.create(-26, -.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_29",
+                    pos: L.create(21, 6),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_6",
+                    pos: L.create(-19, -18.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(-18.5, -14),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_5",
+                    pos: L.create(-15, -15),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_9",
+                    pos: L.create(-9, -16),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_9",
+                    pos: L.create(4, -16),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_5",
+                    pos: L.create(10, -15),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_11",
+                    pos: L.create(17, -14),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_column_5x12",
+                    pos: L.create(-14.5, 13),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_column_5x12",
+                    pos: L.create(9.5, 13),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "control_panel_03",
+                    pos: L.create(-7, 12),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "control_panel_03",
+                    pos: L.create(2, 12),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "lab_window_01",
+                    pos: L.create(-7, 7),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_window_01",
+                    pos: L.create(-4, 7),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_window_01",
+                    pos: L.create(-1, 7),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_window_01",
+                    pos: L.create(2, 7),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_4",
+                    pos: L.create(-9, 8.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_4",
+                    pos: L.create(4, 8.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(-20.5, 13),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(15.5, 13),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "crate_01",
+                    pos: L.create(-17.5, 7.75),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "vat_01",
+                    pos: L.create(-12.25, 7.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "vat_01",
+                    pos: L.create(-12, -2.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "vat_01",
+                    pos: L.create(-18, -2.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "vat_02",
+                    pos: L.create(-2.5, 1.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "power_box_01",
+                    pos: L.create(-2.5, -3),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "crate_01",
+                    pos: L.create(12.5, 7.75),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "vat_01",
+                    pos: L.create(7.25, 7.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "vat_01",
+                    pos: L.create(7, -2.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "vat_01",
+                    pos: L.create(13, -2.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "vat_01",
+                    pos: L.create(-10.75, -11.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(-4.5, -16.5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "vat_01",
+                    pos: L.create(5.75, -11.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_door_03",
+                    pos: L.create(-20.5, -16.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "lab_door_02",
+                    pos: L.create(20.5, -8.5),
+                    scale: 1,
+                    ori: 2
+                }]
+            },
+            bunker_hydra_compartment_03: {
+                type: "building",
+                map: {
+                    display: !1,
+                    color: 6707790,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "bunker",
+                        collision: [A.createAabbExtents(L.create(0, 2), L.create(9, 8.75))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-hydra-compartment-floor-03.svg",
+                        pos: L.create(0, -.5),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(0, .75), L.create(10, 7.75))],
+                    scopeOut: [A.createAabbExtents(L.create(0, .75), L.create(10, 7.75))],
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(0, 1),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 6250335
+                    }]
+                },
+                mapObjects: [{
+                    type: "metal_wall_ext_thicker_17",
+                    pos: L.create(-10.5, -1),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_18",
+                    pos: L.create(0, -8),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_18",
+                    pos: L.create(10.5, -1),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_14",
+                    pos: L.create(2, 6),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "crate_01",
+                    pos: L.create(-6.5, -1.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "crate_01",
+                    pos: L.create(-1.75, 2),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "barrel_01",
+                    pos: L.create(-2, -2),
+                    scale: .9,
+                    ori: 0
+                }, {
+                    type: "case_03",
+                    pos: L.create(7, -4),
+                    scale: 1,
+                    ori: 3
+                }]
+            },
+            bunker_structure_02: {
+                type: "structure",
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                mapObstacleBounds: [A.createAabbExtents(L.create(25.5, 3.5), L.create(16, 11.5)), A.createAabbExtents(L.create(-16.5, -89.5), L.create(7, 7.5)), A.createAabbExtents(L.create(40, -47.25), L.create(6.5, 7.25)), A.createAabbExtents(L.create(-5.75, -38.5), L.create(3, 3))],
+                layers: [{
+                    type: "bunker_hydra_01",
+                    pos: L.create(0, 0),
+                    ori: 0
+                }, {
+                    type: "bunker_hydra_sublevel_01",
+                    pos: L.create(0, 0),
+                    ori: 0
+                }],
+                stairs: [{
+                    collision: A.createAabbExtents(L.create(16.4, 3.5), L.create(2.6, 2)),
+                    downDir: L.create(-1, 0)
+                }, {
+                    collision: A.createAabbExtents(L.create(-16.5, -90.4), L.create(2, 3.1)),
+                    downDir: L.create(0, 1)
+                }, {
+                    collision: A.createAabbExtents(L.create(40, -50.5), L.create(2, 3.1)),
+                    downDir: L.create(0, -1)
+                }],
+                mask: [A.createAabbExtents(L.create(3.5, -7.2), L.create(10.5, 20)), A.createAabbExtents(L.create(-15, -79.75), L.create(5, 8.5)), A.createAabbExtents(L.create(39, -61.85), L.create(12, 9)), A.createAabbExtents(L.create(3.5, -49.2), L.create(23.5, 22)), A.createAabbExtents(L.create(10.5, -76.7), L.create(10, 5.5))]
+            },
+            bunker_storm_01: {
+                type: "building",
+                map: {
+                    display: !0,
+                    shapes: [{
+                        collider: A.createAabbExtents(L.create(0, 10), L.create(3.6, 5.8)),
+                        color: 6707790
+                    }]
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "container",
+                        collision: [A.createAabbExtents(L.create(0, 7.75), L.create(2, 3.25))]
+                    }, {
+                        type: "shack",
+                        collision: [A.createAabbExtents(L.create(0, 13.5), L.create(3.75, 2.5)), A.createAabbExtents(L.create(5, 13.75), L.create(1.25, 2.25))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-storm-floor-01.svg",
+                        pos: L.create(0, 1),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(0, 10), L.create(3.5, 5.6))],
+                    scopeOut: [A.createAabbExtents(L.create(0, 10), L.create(3.8, 5.9))],
+                    vision: {
+                        width: 4
+                    },
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(-1, 10),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215,
+                        rot: 1
+                    }],
+                    destroy: {
+                        wallCount: 2,
+                        particle: "shackFrag",
+                        particleCount: 25,
+                        residue: "none"
+                    }
+                },
+                mapObjects: [{
+                    type: "metal_wall_ext_short_6",
+                    pos: L.create(0, 5.3),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(-2.5, 8.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_short_7",
+                    pos: L.create(2.5, 8.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "shack_wall_bot",
+                    pos: L.create(3.39, 8.6),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "shack_wall_side_left",
+                    pos: L.create(.3, 4.52),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "shack_wall_top",
+                    pos: L.create(-3.39, 9.73),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "shack_wall_side_right",
+                    pos: L.create(0, 15.58),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "crate_01",
+                    pos: L.create(-2, 17.9),
+                    scale: .8,
+                    ori: 0,
+                    inheritOri: !1
+                }, {
+                    type: "barrel_01",
+                    pos: L.create(1.45, 17.7),
+                    scale: .85,
+                    ori: 0
+                }, {
+                    type: "stone_01",
+                    pos: L.create(-4.25, -1.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "bush_01",
+                    pos: L.create(3.75, -6.75),
+                    scale: 1,
+                    ori: 0
+                }]
+            },
+            bunker_storm_sublevel_01: {
+                type: "building",
+                map: {
+                    display: !1,
+                    color: 6707790,
+                    scale: 1
+                },
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                zIdx: 1,
+                floor: {
+                    surfaces: [{
+                        type: "bunker",
+                        collision: [A.createAabbExtents(L.create(8.5, -4.5), L.create(18, 9))]
+                    }],
+                    imgs: [{
+                        sprite: "img/map/map-bunker-storm-chamber-floor-01.svg",
+                        pos: L.create(8.5, -1),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }]
+                },
+                ceiling: {
+                    scopeIn: [A.createAabbExtents(L.create(8.5, -4.5), L.create(18, 9))],
+                    scopeOut: [A.createAabbExtents(L.create(8.5, -4.5), L.create(18, 9))],
+                    imgs: [{
+                        sprite: "none",
+                        pos: L.create(8.5, -1),
+                        scale: .5,
+                        alpha: 1,
+                        tint: 16777215
+                    }],
+                    vision: {
+                        dist: 10,
+                        width: 5
+                    }
+                },
+                mapObjects: [{
+                    type: "concrete_wall_ext_6",
+                    pos: L.create(0, 11.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(-3.5, 8),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_8",
+                    pos: L.create(3.5, 8),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(-7, 5.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(7, 5.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_20",
+                    pos: L.create(-10.5, -3),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_21",
+                    pos: L.create(-1.5, -14.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_10",
+                    pos: L.create(10.5, -11),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_10",
+                    pos: L.create(12.5, -11),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_15",
+                    pos: L.create(21.5, -14.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_15",
+                    pos: L.create(27.5, -5.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_17",
+                    pos: L.create(20.5, 3.5),
+                    scale: 1,
+                    ori: 1
+                }, {
+                    type: "metal_wall_ext_thicker_9",
+                    pos: L.create(10.5, 2.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "metal_wall_ext_thicker_4",
+                    pos: L.create(12.5, 0),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "house_door_02",
+                    pos: L.create(-2, 5),
+                    scale: 1,
+                    ori: 3
+                }, {
+                    type: "crate_01",
+                    pos: L.create(-6.5, 1.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "crate_04",
+                    pos: L.create(6, -1.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "crate_04",
+                    pos: L.create(4, -6.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "control_panel_03",
+                    pos: L.create(16, -11.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "control_panel_02",
+                    pos: L.create(20, -11.25),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "control_panel_03",
+                    pos: L.create(24, -11.5),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "crate_08",
+                    pos: L.create(23.5, -.5),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: d({
+                        case_03: 1,
+                        chest_02: 9
+                    }),
+                    pos: L.create(16.5, .25),
+                    scale: 1,
+                    ori: 0
+                }, {
+                    type: "lab_door_01",
+                    pos: L.create(11.5, -2),
+                    scale: 1,
+                    ori: 2
+                }, {
+                    type: "barrel_01",
+                    pos: L.create(-7, -11),
+                    scale: .9,
+                    ori: 0
+                }]
+            },
+            bunker_structure_03: {
+                type: "structure",
+                terrain: {
+                    grass: !0,
+                    beach: !1
+                },
+                mapObstacleBounds: [A.createAabbExtents(L.create(1, 6), L.create(7, 13.5))],
+                layers: [{
+                    type: "bunker_storm_01",
+                    pos: L.create(0, 0),
+                    ori: 0
+                }, {
+                    type: "bunker_storm_sublevel_01",
+                    pos: L.create(0, 0),
+                    ori: 0
+                }],
+                stairs: [{
+                    collision: A.createAabbExtents(L.create(0, 8.4), L.create(2, 2.6)),
+                    downDir: L.create(0, -1)
+                }],
+                mask: [A.createAabbExtents(L.create(8.5, -3.7), L.create(18, 9.5))]
+            },
+            container_wall_top: T({
                 material: "metal",
-                extents: z.create(.4, 6)
+                extents: L.create(2.75, .4)
             }),
-            container_01: g({
+            container_wall_side: T({
+                material: "metal",
+                extents: L.create(.4, 5.5)
+            }),
+            container_wall_side_open: T({
+                material: "metal",
+                extents: L.create(.4, 6)
+            }),
+            container_01: y({
                 open: !1,
                 tint: 3560807,
-                ceilingSprite: "map-building-container-ceiling-01.svg"
+                ceilingSprite: "none"
             }),
-            container_02: g({
+            container_02: y({
                 open: !1,
                 tint: 3560807,
-                ceilingSprite: "map-building-container-ceiling-02.svg"
+                ceilingSprite: "none"
             }),
-            container_03: g({
+            container_03: y({
                 open: !1,
                 tint: 3560807,
-                ceilingSprite: "map-building-container-ceiling-03.svg"
+                ceilingSprite: "none"
             }),
-            container_04: g({
+            container_04: y({
                 open: !0,
                 tint: 3560807,
-                ceilingSprite: "map-building-container-open-ceiling-01.svg"
+                ceilingSprite: "none"
             }),
             loot_tier_1: {
                 type: "loot_spawner",
-                collision: T.createCircle(z.create(0, 0), 3),
+                collision: A.createCircle(L.create(0, 0), 3),
                 tier: "tier_world",
                 terrain: {
                     grass: !0,
@@ -12490,7 +14169,7 @@ webpackJsonp([0], {
             },
             loot_tier_2: {
                 type: "loot_spawner",
-                collision: T.createCircle(z.create(0, 0), 3),
+                collision: A.createCircle(L.create(0, 0), 3),
                 tier: "tier_container",
                 terrain: {
                     grass: !0,
@@ -12499,7 +14178,7 @@ webpackJsonp([0], {
             },
             loot_tier_beach: {
                 type: "loot_spawner",
-                collision: T.createCircle(z.create(0, 0), 3),
+                collision: A.createCircle(L.create(0, 0), 3),
                 tier: "tier_world",
                 terrain: {
                     grass: !1,
@@ -12508,7 +14187,7 @@ webpackJsonp([0], {
             },
             loot_tier_vault_floor: {
                 type: "loot_spawner",
-                collision: T.createCircle(z.create(0, 0), 3),
+                collision: A.createCircle(L.create(0, 0), 3),
                 tier: "tier_vault_floor",
                 terrain: {
                     grass: !0,
@@ -12517,7 +14196,7 @@ webpackJsonp([0], {
             },
             loot_tier_police_floor: {
                 type: "loot_spawner",
-                collision: T.createCircle(z.create(0, 0), 3),
+                collision: A.createCircle(L.create(0, 0), 3),
                 tier: "tier_police_floor",
                 terrain: {
                     grass: !0,
@@ -12526,7 +14205,7 @@ webpackJsonp([0], {
             },
             loot_tier_mansion_floor: {
                 type: "loot_spawner",
-                collision: T.createCircle(z.create(0, 0), 3),
+                collision: A.createCircle(L.create(0, 0), 3),
                 tier: "tier_mansion_floor",
                 terrain: {
                     grass: !0,
@@ -12565,7 +14244,7 @@ webpackJsonp([0], {
             }
         };
         e.exports = {
-            Defs: I,
+            Defs: E,
             MinScale: .125,
             MaxScale: 2.5,
             oriToRad: o,
@@ -12749,7 +14428,7 @@ webpackJsonp([0], {
             "game-painkiller": "알약",
             "game-painkiller-tooltip": "레프트 클릭 하시면 아드레날린 50 증가합니다.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "M9, Glock, MP5, MAC-10, UMP9 탄약.",
+            "game-9mm-tooltip": "M9, Glock, MP5, MAC-10, UMP9, Vector 탄약.",
             "game-12gauge": "12 게이지",
             "game-12gauge-tooltip": "M870, SAIGA-12, MP220 탄약.",
             "game-762mm": "7.62mm",
@@ -12829,11 +14508,11 @@ webpackJsonp([0], {
           , s = a("0od3")
           , l = a("Tf6H")
           , c = a("/2+T")
-          , m = (a("zinx"),
+          , d = (a("zinx"),
         a("r4ug"),
         a("dT1u"))
-          , d = a("xgte")
-          , p = d.RenderType
+          , m = a("xgte")
+          , p = m.RenderType
           , u = function() {
             function e() {
                 i(this, e)
@@ -12865,7 +14544,7 @@ webpackJsonp([0], {
           , h = function() {
             function e() {
                 i(this, e);
-                var t = ["", ""];
+                var t = ["none", "none"];
                 this.active = !1,
                 this.zIdx = 0,
                 this.sprite = n.Sprite.fromImage(t[Math.floor(Math.random() * t.length)]),
@@ -12898,7 +14577,7 @@ webpackJsonp([0], {
           , g = function() {
             function e() {
                 i(this, e),
-                this.smokePool = new m.Pool(u),
+                this.smokePool = new d.Pool(u),
                 this.particles = [],
                 this.zIdx = 2147483647
             }
@@ -12922,27 +14601,27 @@ webpackJsonp([0], {
                     for (var n = this.smokePool.getPool(), c = 0; c < n.length; c++) {
                         n[c].active
                     }
-                    for (var m = 0; m < this.particles.length; m++) {
-                        var d = this.particles[m];
-                        if (d.active) {
-                            d.rad = s.lerp(3 * e, d.rad, d.radTarget),
-                            d.pos = s.v2lerp(3 * e, d.pos, d.posTarget);
-                            d.rotVel *= 1 / (1 + .1 * e),
-                            d.rot += d.rotVel * e,
-                            d.fadeTicker += d.fade ? e : 0,
-                            d.active = d.fadeTicker < d.fadeDuration;
-                            var u = .9 * s.clamp(1 - d.fadeTicker / d.fadeDuration, 0, 1)
-                              , h = d.layer;
-                            !(l.sameLayer(d.layer, a.layer) || 2 & a.layer) || 1 != d.layer && 2 & a.layer && i.insideStructureMask(r.createCircle(d.pos, 1)) || (h |= 2),
-                            o.addPIXIObj(d.sprite, p.World, h, 500, d.zIdx);
-                            var g = t.pointToScreen(d.pos)
-                              , f = t.pixels(2 * d.rad / t.ppu);
-                            d.sprite.position.set(g.x, g.y),
-                            d.sprite.scale.set(f, f),
-                            d.sprite.rotation = d.rot,
-                            d.sprite.tint = d.tint,
-                            d.sprite.alpha = u,
-                            d.sprite.visible = d.active
+                    for (var d = 0; d < this.particles.length; d++) {
+                        var m = this.particles[d];
+                        if (m.active) {
+                            m.rad = s.lerp(3 * e, m.rad, m.radTarget),
+                            m.pos = s.v2lerp(3 * e, m.pos, m.posTarget);
+                            m.rotVel *= 1 / (1 + .1 * e),
+                            m.rot += m.rotVel * e,
+                            m.fadeTicker += m.fade ? e : 0,
+                            m.active = m.fadeTicker < m.fadeDuration;
+                            var u = .9 * s.clamp(1 - m.fadeTicker / m.fadeDuration, 0, 1)
+                              , h = m.layer;
+                            !(l.sameLayer(m.layer, a.layer) || 2 & a.layer) || 1 != m.layer && 2 & a.layer && i.insideStructureMask(r.createCircle(m.pos, 1)) || (h |= 2),
+                            o.addPIXIObj(m.sprite, p.World, h, 500, m.zIdx);
+                            var g = t.pointToScreen(m.pos)
+                              , f = t.pixels(2 * m.rad / t.ppu);
+                            m.sprite.position.set(g.x, g.y),
+                            m.sprite.scale.set(f, f),
+                            m.sprite.rotation = m.rot,
+                            m.sprite.tint = m.tint,
+                            m.sprite.alpha = u,
+                            m.sprite.visible = m.active
                         }
                     }
                 }
@@ -12981,8 +14660,8 @@ webpackJsonp([0], {
           , s = a("Bk7F")
           , l = a("0od3")
           , c = a("Tf6H")
-          , m = a("/2+T")
-          , d = (a("zinx"),
+          , d = a("/2+T")
+          , m = (a("zinx"),
         a("r4ug"),
         a("EZ6M"))
           , p = a("xgte")
@@ -13005,77 +14684,103 @@ webpackJsonp([0], {
                 value: function() {
                     this.sprite.visible = !1,
                     this.sprite.parent && this.sprite.parent.removeChild(this.sprite),
+                    this.isDoor && this.door.casingSprite && (this.door.casingSprite.parent && this.door.casingSprite.parent.removeChild(this.door.casingSprite),
+                    this.door.casingSprite = null),
                     this.smokeEmitter && (this.smokeEmitter.stop(),
                     this.smokeEmitter = null)
                 }
             }, {
                 key: "updateData",
                 value: function(e, t, a, i) {
-                    var o = this.sprite;
                     t && (this.type = e.type,
                     this.layer = e.layer,
                     this.healthT = e.healthT,
                     this.dead = e.dead);
-                    var l = s.Defs[e.type];
-                    if (this.pos = m.copy(e.pos),
+                    var o = s.Defs[e.type];
+                    if (this.pos = d.copy(e.pos),
                     this.rot = s.oriToRad(e.ori),
                     this.scale = e.scale,
-                    this.imgScale = l.img.scale,
-                    this.collider = r.transform(l.collision, this.pos, this.rot, this.scale),
-                    a && (this.isNew = !0,
-                    this.exploded = -1 != i.map.deadObstacleIds.indexOf(this.__id),
-                    this.explodeParticle = l.explodeParticle,
-                    this.hitParticle = l.hitParticle,
-                    this.collidable = l.collidable,
-                    this.destructible = l.destructible,
-                    this.height = l.height,
-                    this.sound = l.sound,
-                    this.isWall = !!l.isWall,
-                    this.isWindow = !!l.isWindow,
-                    this.isBush = !!l.isBush,
-                    this.isDoor = void 0 !== l.door,
-                    this.isDoor && (this.door = {
-                        interactionRad: l.door.interactionRad,
-                        interpSpeed: l.door.openSpeed,
-                        interpRot: s.oriToRad(e.ori),
-                        doorOriOld: e.door.ori,
-                        doorOri: e.door.ori,
-                        seq: e.door.seq,
-                        seqOld: e.door.seq
-                    }),
-                    this.isButton = void 0 !== l.button,
-                    this.isButton && (this.button = {
-                        interactionRad: l.button.interactionRad,
-                        seq: e.button.seq,
-                        seqOld: e.button.seq
-                    })),
-                    this.isDoor && t && (this.door.canUse = e.door.canUse,
-                    this.door.doorOri = e.door.ori,
-                    this.door.open = 0 != this.door.doorOri,
-                    this.door.seq = e.door.seq),
-                    this.isButton && t && (this.button.onOff = e.button.onOff,
+                    this.imgScale = o.img.scale,
+                    this.collider = r.transform(o.collision, this.pos, this.rot, this.scale),
+                    a) {
+                        if (this.isNew = !0,
+                        this.exploded = -1 != i.map.deadObstacleIds.indexOf(this.__id),
+                        this.explodeParticle = o.explodeParticle,
+                        this.hitParticle = o.hitParticle,
+                        this.collidable = o.collidable,
+                        this.destructible = o.destructible,
+                        this.height = o.height,
+                        this.sound = o.sound,
+                        this.isWall = !!o.isWall,
+                        this.isWindow = !!o.isWindow,
+                        this.isBush = !!o.isBush,
+                        this.isDoor = void 0 !== o.door,
+                        this.isDoor) {
+                            this.door = {
+                                playErrorFx: o.door.slideToOpen && o.door.openOneWay,
+                                closedPos: d.copy(e.pos),
+                                autoOpen: o.door.autoOpen,
+                                interactionRad: o.door.interactionRad,
+                                interpSpeed: o.door.openSpeed,
+                                interpPos: d.copy(e.pos),
+                                interpRot: s.oriToRad(e.ori),
+                                seq: e.door.seq,
+                                seqOld: e.door.seq,
+                                open: e.door.open,
+                                wasOpen: e.door.open
+                            };
+                            var l = o.door.casingImg;
+                            if (void 0 !== l) {
+                                var c = l.pos || d.create(0, 0);
+                                c = d.rotate(c, this.rot + .5 * Math.PI);
+                                var m = new n.Sprite;
+                                m.texture = n.Texture.fromImage(l.sprite),
+                                m.anchor.set(.5, .5),
+                                m.posOffset = c,
+                                m.imgScale = l.scale,
+                                m.tint = l.tint,
+                                m.zIdx = l.zIdx,
+                                m.alpha = l.alpha,
+                                m.visible = !0,
+                                this.door.casingSprite = m
+                            }
+                        }
+                        this.isButton = void 0 !== o.button,
+                        this.isButton && (this.button = {
+                            interactionRad: o.button.interactionRad,
+                            seq: e.button.seq,
+                            seqOld: e.button.seq
+                        })
+                    }
+                    if (this.isDoor && t) {
+                        this.door.canUse = e.door.canUse,
+                        this.door.open = e.door.open,
+                        this.door.seq = e.door.seq;
+                        var p = d.rotate(d.create(o.door.slideOffset, 0), this.rot + .5 * Math.PI);
+                        this.door.closedPos = e.door.open ? d.add(e.pos, p) : d.copy(e.pos)
+                    }
+                    if (this.isButton && t && (this.button.onOff = e.button.onOff,
                     this.button.canUse = e.button.canUse,
                     this.button.seq = e.button.seq),
-                    void 0 !== l.explosion && !this.smokeEmitter && e.healthT < .5 && !e.dead) {
-                        var c = m.normalize(m.create(1, 1));
-                        this.smokeEmitter = i.particleBarn.addEmitter("smoke_barrel", this.pos, c, 1, this.layer, Number.MAX_VALUE)
+                    void 0 !== o.explosion && !this.smokeEmitter && e.healthT < .5 && !e.dead) {
+                        var u = d.normalize(d.create(1, 1));
+                        this.smokeEmitter = i.particleBarn.addEmitter("smoke_barrel", this.pos, u, 1, this.layer, Number.MAX_VALUE)
                     }
-                    var d = this.dead ? l.img.residue : l.img.sprite;
-                    if (this.isButton && this.button.onOff && !this.dead && (d = l.button.useImg),
-                    d != this.img) {
-                        var p = m.create(.5, .5);
-                        this.isDoor && (p = l.door.spriteAnchor);
-                        var u = void 0 !== d;
-                        !u && o.parent && o.parent.removeChild(o),
-                        u && (o.texture = "none" == d ? n.Texture.EMPTY : n.Texture.fromImage(d),
-                        o.anchor.x = p.x,
-                        o.anchor.y = p.y,
-                        o.tint = l.img.tint,
-                        o.imgAlpha = this.dead ? .75 : l.img.alpha,
-                        o.zIdx = l.img.zIdx,
-                        o.alpha = o.imgAlpha),
-                        o.visible = u,
-                        this.img = d
+                    var h = this.dead ? o.img.residue : o.img.sprite;
+                    if (this.isButton && this.button.onOff && !this.dead && (h = o.button.useImg),
+                    h != this.img) {
+                        var g = d.create(.5, .5);
+                        this.isDoor && (g = o.door.spriteAnchor);
+                        var f = void 0 !== h;
+                        !f && this.sprite.parent && this.sprite.parent.removeChild(this.sprite),
+                        f && (this.sprite.texture = "none" == h ? n.Texture.EMPTY : n.Texture.fromImage(h),
+                        this.sprite.anchor.set(g.x, g.y),
+                        this.sprite.tint = o.img.tint,
+                        this.sprite.imgAlpha = this.dead ? .75 : o.img.alpha,
+                        this.sprite.zIdx = o.img.zIdx,
+                        this.sprite.alpha = this.sprite.imgAlpha),
+                        this.sprite.visible = f,
+                        this.img = h
                     }
                 }
             }, {
@@ -13085,7 +14790,7 @@ webpackJsonp([0], {
                         rad: this.button.interactionRad,
                         action: "game-use",
                         object: "game-" + this.type
-                    } : this.isDoor && this.door.canUse ? {
+                    } : this.isDoor && this.door.canUse && !this.door.autoOpen ? {
                         rad: this.door.interactionRad,
                         action: this.door.open ? "game-close-door" : "game-open-door",
                         object: ""
@@ -13115,15 +14820,22 @@ webpackJsonp([0], {
                     }
                     if (this.isDoor) {
                         var k = this.door
-                          , w = Math.PI * k.interpSpeed
-                          , _ = l.angleDiff(k.interpRot, this.rot)
-                          , S = l.sign(_) * w * e;
-                        if (Math.abs(_) < Math.abs(S) && (S = _),
-                        k.interpRot += S,
+                          , _ = k.interpSpeed
+                          , w = d.sub(this.pos, k.interpPos)
+                          , S = d.length(w)
+                          , M = _ * e;
+                        S < M && (M = S);
+                        var T = S > 1e-4 ? d.div(w, S) : d.create(1, 0);
+                        k.interpPos = d.add(k.interpPos, d.mul(T, M));
+                        var P = Math.PI * k.interpSpeed
+                          , C = l.angleDiff(k.interpRot, this.rot)
+                          , z = l.sign(C) * P * e;
+                        if (Math.abs(C) < Math.abs(z) && (z = C),
+                        k.interpRot += z,
                         k.seq != k.seqOld) {
-                            var M = s.Defs[this.type]
-                              , T = M.door.sound.change || "";
-                            "" != T && i.playSound(T, {
+                            var I = s.Defs[this.type]
+                              , D = I.door.sound.change || "";
+                            "" != D && i.playSound(D, {
                                 channel: "sfx",
                                 soundPos: f,
                                 layer: this.layer,
@@ -13131,16 +14843,16 @@ webpackJsonp([0], {
                             }),
                             k.seqOld = k.seq
                         }
-                        if (k.doorOri != k.doorOriOld) {
-                            var P = s.Defs[this.type]
-                              , z = k.open ? P.door.sound.open : P.door.sound.close;
-                            i.playSound(z, {
+                        if (k.open != k.wasOpen) {
+                            var A = s.Defs[this.type]
+                              , O = k.open ? A.door.sound.open : A.door.sound.close;
+                            i.playSound(O, {
                                 channel: "sfx",
                                 soundPos: f,
                                 layer: this.layer,
                                 muffled: !0
                             }),
-                            k.doorOriOld = k.doorOri
+                            k.wasOpen = k.open
                         }
                     }
                     if (p && !h && (t.deadObstacleIds.push(this.__id),
@@ -13148,48 +14860,56 @@ webpackJsonp([0], {
                     this.smokeEmitter && (this.smokeEmitter.stop(),
                     this.smokeEmitter = null),
                     !g)) {
-                        for (var C = r.toAabb(this.collider), I = m.mul(m.sub(C.max, C.min), .5), A = m.add(C.min, I), D = Math.floor(c.random(5, 11)), O = 0; O < D; O++) {
-                            var L = m.mul(m.randomUnit(), c.random(5, 15))
-                              , B = Array.isArray(y) ? y[Math.floor(Math.random() * y.length)] : y;
-                            a.addParticle(d.Defs[B], this.layer, A, L)
+                        for (var L = r.toAabb(this.collider), B = d.mul(d.sub(L.max, L.min), .5), E = d.add(L.min, B), F = Math.floor(c.random(5, 11)), R = 0; R < F; R++) {
+                            var j = d.mul(d.randomUnit(), c.random(5, 15))
+                              , q = Array.isArray(y) ? y[Math.floor(Math.random() * y.length)] : y;
+                            a.addParticle(m.Defs[q], this.layer, E, j)
                         }
                         i.playSound(b.explode, {
                             channel: "sfx",
-                            soundPos: A,
+                            soundPos: E,
                             layer: this.layer,
                             muffled: !0
                         })
                     }
-                    if (this.smokeEmitter && (this.smokeEmitter.pos = m.copy(this.pos)),
+                    if (this.smokeEmitter && (this.smokeEmitter.pos = d.copy(this.pos)),
                     this.sprite.visible) {
-                        var E = this.dead ? 5 : this.sprite.zIdx
-                          , F = this.__id
-                          , R = this.layer;
-                        !this.dead && E >= 50 && 0 == this.layer && 0 == o.layer && (E += 100,
-                        R |= 2),
-                        n.addPIXIObj(this.sprite, u.World, R, E, F)
+                        var N = this.dead ? 5 : this.sprite.zIdx
+                          , U = this.__id
+                          , G = this.layer;
+                        !this.dead && N >= 50 && 0 == this.layer && 0 == o.layer && (N += 100,
+                        G |= 2),
+                        n.addPIXIObj(this.sprite, u.World, G, N, U),
+                        this.isDoor && this.door.casingSprite && n.addPIXIObj(this.door.casingSprite, u.World, G, N + this.door.casingSprite.zIdx, U)
                     }
                     this.isNew = !1
                 }
             }, {
                 key: "render",
                 value: function(e) {
-                    var t = this.pos
+                    var t = this.isDoor ? this.door.interpPos : this.pos
                       , a = this.isDoor ? this.door.interpRot : this.rot
                       , i = this.scale
                       , o = e.pointToScreen(t)
                       , n = e.pixels(i * this.imgScale);
-                    this.sprite.position.set(o.x, o.y),
+                    if (this.sprite.position.set(o.x, o.y),
                     this.sprite.scale.set(n, n),
                     this.sprite.rotation = -a,
-                    this.sprite.alpha = this.sprite.imgAlpha
+                    this.sprite.alpha = this.sprite.imgAlpha,
+                    this.isDoor && this.door.casingSprite) {
+                        var r = e.pointToScreen(d.add(this.door.closedPos, this.door.casingSprite.posOffset))
+                          , s = e.pixels(i * this.door.casingSprite.imgScale);
+                        this.door.casingSprite.position.set(r.x, r.y),
+                        this.door.casingSprite.scale.set(s, s),
+                        this.door.casingSprite.rotation = -a
+                    }
                 }
             }, {
                 key: "playHitFx",
                 value: function(e, t, a, i, o) {
-                    for (var n = s.Defs[this.type], r = Math.floor(c.random(1, 2)), l = m.mul(t, 9.5), p = 0; p < r; p++)
-                        l = m.rotate(l, (Math.random() - .5) * Math.PI / 3),
-                        i.addParticle(d.Defs[this.hitParticle], a, e, l);
+                    for (var n = s.Defs[this.type], r = Math.floor(c.random(1, 2)), l = d.mul(t, 9.5), p = 0; p < r; p++)
+                        l = d.rotate(l, (Math.random() - .5) * Math.PI / 3),
+                        i.addParticle(m.Defs[this.hitParticle], a, e, l);
                     o.playGroup(n.sound.bullet, {
                         channel: "hits",
                         soundPos: e,
@@ -13226,16 +14946,17 @@ webpackJsonp([0], {
         }()
           , n = a("DlZn")
           , r = {
-            Player: 0,
-            Obstacle: 1,
-            Loot: 2,
-            LootSpawner: 3,
-            DeadBody: 4,
-            Building: 5,
-            Structure: 6,
-            Decal: 7,
-            Projectile: 8,
-            Smoke: 9
+            Invalid: 0,
+            Player: 1,
+            Obstacle: 2,
+            Loot: 3,
+            LootSpawner: 4,
+            DeadBody: 5,
+            Building: 6,
+            Structure: 7,
+            Decal: 8,
+            Projectile: 9,
+            Smoke: 10
         }
           , s = 65535
           , l = function() {
@@ -13245,6 +14966,9 @@ webpackJsonp([0], {
                 this.idToObj = [];
                 for (var t = 0; t < s; t++)
                     this.idToObj[t] = null;
+                this.idToType = new Uint8Array(s),
+                this.dirtyPart = new Uint8Array(s),
+                this.dirtyFull = new Uint8Array(s),
                 this.idNext = 1,
                 this.freeLists = {}
             }
@@ -13269,28 +14993,30 @@ webpackJsonp([0], {
             }, {
                 key: "register",
                 value: function(e, t) {
-                    e.__id = this.allocId(t),
+                    var a = this.allocId(t);
+                    e.__id = a,
                     e.__type = t,
-                    e.__dirtyPart = !0,
-                    e.__dirtyFull = !0,
                     e.__arrayIdx = this.objects.length,
                     this.objects[e.__arrayIdx] = e,
-                    this.idToObj[e.__id] = e
+                    this.idToObj[a] = e,
+                    this.idToType[a] = t,
+                    this.dirtyPart[a] = 1,
+                    this.dirtyFull[a] = 1
                 }
             }, {
                 key: "unregister",
                 value: function(e) {
-                    n(void 0 !== e.__id);
+                    n(e.__id > 0);
                     var t = this.objects.pop();
                     e !== t && (this.objects[e.__arrayIdx] = t,
                     t.__arrayIdx = e.__arrayIdx),
                     this.idToObj[e.__id] = null,
                     this.freeId(e.__type, e.__id),
-                    delete e.__id,
-                    delete e.__type,
-                    delete e.__dirtyPart,
-                    delete e.__dirtyFull,
-                    delete e.__arrayIdx
+                    this.idToType[e.__id] = 0,
+                    this.dirtyPart[e.__id] = 0,
+                    this.dirtyFull[e.__id] = 0,
+                    e.__id = 0,
+                    e.__type = 0
                 }
             }]),
             e
@@ -13479,7 +15205,7 @@ webpackJsonp([0], {
             "game-painkiller": "Pigułki",
             "game-painkiller-tooltip": "Kliknij lewym przyciskiem myszy aby zwiększyć adrenalinę o 50.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Amunicja dla M9, Glock, MP5, MAC-10 i UMP9.",
+            "game-9mm-tooltip": "Amunicja dla M9, Glock, MP5, MAC-10, UMP9 i Vector.",
             "game-12gauge": "Kaliber 12",
             "game-12gauge-tooltip": "Amunicja dla M870, Saiga-12 i MP220.",
             "game-762mm": "7.62mm",
@@ -13548,7 +15274,7 @@ webpackJsonp([0], {
             this.active = !1,
             this.ticker = 0,
             this.def = {},
-            this.sprite = new m.Sprite,
+            this.sprite = new d.Sprite,
             this.sprite.anchor.set(.5, .5),
             this.sprite.scale.set(1, 1),
             this.sprite.visible = !1,
@@ -13561,12 +15287,12 @@ webpackJsonp([0], {
             this.renderer = e,
             this.particles = [],
             this.emitters = [];
-            for (var t = 0; t < 512; t++)
+            for (var t = 0; t < 256; t++)
                 this.particles[t] = new r(this.display)
         }
         var c = a("DlZn")
-          , m = a("gKxX")
-          , d = a("0od3")
+          , d = a("gKxX")
+          , m = a("0od3")
           , p = a("Tf6H")
           , u = a("/2+T")
           , h = a("xgte")
@@ -14395,8 +16121,8 @@ webpackJsonp([0], {
                 this.scaleEnd = o(t.scale.end) * s,
                 this.alphaStart = o(t.alpha.start),
                 this.alphaEnd = o(t.alpha.end);
-                var d = Array.isArray(t.image) ? t.image[Math.floor(Math.random() * t.image.length)] : t.image;
-                this.sprite.texture = m.Texture.fromImage(d),
+                var m = Array.isArray(t.image) ? t.image[Math.floor(Math.random() * t.image.length)] : t.image;
+                this.sprite.texture = d.Texture.fromImage(m),
                 this.sprite.tint = n(t.color),
                 this.sprite.visible = !0
             },
@@ -14429,9 +16155,9 @@ webpackJsonp([0], {
         l.prototype = {
             addParticle: function(e, t, a, i, o, n, s) {
                 c(void 0 !== e);
-                for (var l = null, m = 0; m < this.particles.length; m++)
-                    if (!this.particles[m].active) {
-                        l = this.particles[m];
+                for (var l = null, d = 0; d < this.particles.length; d++)
+                    if (!this.particles[d].active) {
+                        l = this.particles[d];
                         break
                     }
                 return l || (l = new r,
@@ -14464,8 +16190,8 @@ webpackJsonp([0], {
                               , s = u.add(i.pos, u.mul(u.randomUnit(), Math.random() * r))
                               , l = u.rotate(i.dir, (Math.random() - .5) * n.angle)
                               , c = u.mul(l, o(n.speed))
-                              , m = Math.random() * Math.PI * 2;
-                            this.addParticle(f[n.particle], i.layer, s, c, i.scale, m, null);
+                              , d = Math.random() * Math.PI * 2;
+                            this.addParticle(f[n.particle], i.layer, s, c, i.scale, d, null);
                             i.nextSpawn += o(n.rate),
                             i.spawnCount++
                         }
@@ -14482,8 +16208,8 @@ webpackJsonp([0], {
                         h.ticker += e;
                         var g = Math.min(h.ticker / h.life, 1)
                           , b = h.hasParent ? h.pos : t.pointToScreen(h.pos)
-                          , x = d.remap(g, h.def.scale.lerp.min, h.def.scale.lerp.max, h.scaleStart, h.scaleEnd)
-                          , v = d.remap(g, h.def.alpha.lerp.min, h.def.alpha.lerp.max, h.alphaStart, h.alphaEnd);
+                          , x = m.remap(g, h.def.scale.lerp.min, h.def.scale.lerp.max, h.scaleStart, h.scaleEnd)
+                          , v = m.remap(g, h.def.alpha.lerp.min, h.def.alpha.lerp.max, h.alphaStart, h.alphaEnd);
                         h.hasParent || (x = t.pixels(x)),
                         h.sprite.position.set(b.x, b.y),
                         h.sprite.scale.set(x, x),
@@ -14677,7 +16403,7 @@ webpackJsonp([0], {
             "game-painkiller": "Pillules",
             "game-painkiller-tooltip": "Clique gauche pour augmenter l'adrénaline de 50.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Balles pour M9, Glock, MP5, MAC-10 et UMP9.",
+            "game-9mm-tooltip": "Balles pour M9, Glock, MP5, MAC-10, UMP9 et Vector.",
             "game-12gauge": "Calibre 12",
             "game-12gauge-tooltip": "Balles pour M870, Saiga-12 et MP220.",
             "game-762mm": "7.62mm",
@@ -14764,8 +16490,8 @@ webpackJsonp([0], {
           , s = r.EmoteType
           , l = r.EmoteData
           , c = a("85i3")
-          , m = a("Jr6A")
-          , d = function() {
+          , d = a("Jr6A")
+          , m = function() {
             function e(t) {
                 i(this, e),
                 this.config = t,
@@ -14820,8 +16546,8 @@ webpackJsonp([0], {
                     for (var o in s)
                         for (var r = 0; r < a.length; r++)
                             s[o] != a[r] || i.push(o);
-                    for (var d = 0; d < a.length; d++) {
-                        var p = i[a[d]];
+                    for (var m = 0; m < a.length; m++) {
+                        var p = i[a[m]];
                         if (s.hasOwnProperty(p)) {
                             var u = l[s[p]]
                               , h = u.noCustom || !1;
@@ -14866,7 +16592,7 @@ webpackJsonp([0], {
                     }),
                     this.selectableSlots.on("dragstart", function(e) {
                         if (!n(this).hasClass("customize-list-item-locked") && (t.selectEmote(n(this)),
-                        !m.detectIE(!0))) {
+                        !d.detectIE(!0))) {
                             var a = document.createElement("img");
                             a.src = t.selectedEmote.img.replace("url(", "").replace(")", "").replace(/\"/gi, ""),
                             e.originalEvent.dataTransfer.setDragImage(a, 64, 64)
@@ -14981,7 +16707,7 @@ webpackJsonp([0], {
             }]),
             e
         }();
-        e.exports = d
+        e.exports = m
     },
     FyxX: function(e, t, a) {
         "use strict";
@@ -15012,8 +16738,8 @@ webpackJsonp([0], {
         a("zinx"),
         a("dT1u"))
           , c = a("xgte")
-          , m = c.RenderType
-          , d = function() {
+          , d = c.RenderType
+          , m = function() {
             function e() {
                 i(this, e),
                 this.sprite = new n.Sprite,
@@ -15048,7 +16774,7 @@ webpackJsonp([0], {
                         this.isNew = !0,
                         this.inWater = !1,
                         this.spriteAlpha = l.alpha,
-                        i.renderer.addPIXIObj(this.sprite, m.Decal, this.layer, 11, this.__id)
+                        i.renderer.addPIXIObj(this.sprite, d.Decal, this.layer, 11, this.__id)
                     }
                 }
             }]),
@@ -15057,7 +16783,7 @@ webpackJsonp([0], {
           , p = function() {
             function e() {
                 i(this, e),
-                this.decalPool = new l.Pool(d)
+                this.decalPool = new l.Pool(m)
             }
             return o(e, [{
                 key: "update",
@@ -15149,7 +16875,7 @@ webpackJsonp([0], {
         }
         function o(e) {
             var t = e.trim();
-            return t.length > w.kNameMaxLen && (t = t.substring(0, w.kNameMaxLen)),
+            return t.length > _.kNameMaxLen && (t = t.substring(0, _.kNameMaxLen)),
             t
         }
         function n(e) {
@@ -15169,12 +16895,12 @@ webpackJsonp([0], {
             return void 0 === e ? "undefined" : null === e ? "null" : JSON.stringify(e)
         }
         function l() {
-            for (var e = ["localhost", "surviv.io", "surviv2.io"], t = window.location.hostname, a = !1, i = 0; i < e.length; i++)
+            for (var e = ["localhost", "surviv.io", "surviv2.io", "2dbattleroyale.com", "2dbattleroyale.org"], t = window.location.hostname, a = !1, i = 0; i < e.length; i++)
                 if (-1 != t.indexOf(e[i])) {
                     a = !0;
                     break
                 }
-            return _.dev || a
+            return w.dev || a
         }
         function c() {
             var e = navigator.language || navigator.userLanguage;
@@ -15189,14 +16915,14 @@ webpackJsonp([0], {
                     return e = i[o];
             return ""
         }
-        function m() {
+        function d() {
             return !!navigator.userAgent.match(/Version\/[\d\.]+.*Safari/) && this.detectiOS()
         }
-        function d() {
+        function m() {
             return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream
         }
         function p() {
-            return d() && 375 == screen.width && 812 == screen.height
+            return m() && 375 == screen.width && 812 == screen.height
         }
         function u() {
             var e = arguments.length > 0 && void 0 !== arguments[0] && arguments[0]
@@ -15215,7 +16941,7 @@ webpackJsonp([0], {
         function f() {
             var e = window.innerWidth
               , t = window.innerHeight;
-            if (d()) {
+            if (m()) {
                 if (e = screen.width,
                 t = screen.height,
                 h()) {
@@ -15281,8 +17007,8 @@ webpackJsonp([0], {
             }(s)
         }
         var k = a("juYr")
-          , w = a("yp2f")
-          , _ = a("zinx")
+          , _ = a("yp2f")
+          , w = a("zinx")
           , S = (a("85i3"),
         document.createElement("canvas"));
         e.exports = {
@@ -15293,10 +17019,10 @@ webpackJsonp([0], {
             varToString: s,
             authLocation: l,
             detectLanguage: c,
-            detectiOS: d,
+            detectiOS: m,
             detectiPhoneX: p,
             detectIE: u,
-            detectMobileSafari: m,
+            detectMobileSafari: d,
             getOrientation: g,
             isLandscape: h,
             getScreenDimensions: f,
@@ -15481,7 +17207,7 @@ webpackJsonp([0], {
             "game-painkiller": "Schmerzmittel",
             "game-painkiller-tooltip": "Klicken Sie mit der linken Maustaste, um den Adrenalinspiegel um 50 zu erhöhen.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Munition für M9, Glock, MP5, MAC-10 und UMP9.",
+            "game-9mm-tooltip": "Munition für M9, Glock, MP5, MAC-10, UMP9 und Vector.",
             "game-12gauge": "12er Kaliber",
             "game-12gauge-tooltip": "Munition für M870, Saiga-12 und MP220.",
             "game-762mm": "7.62mm",
@@ -15645,30 +17371,22 @@ webpackJsonp([0], {
                     stat: a.find(".leaderboard-stat").val(),
                     interval: a.find(".leaderboard-interval").val()
                 }
-                  , n = this.populate.bind(this)
-                  , r = {}
-                  , s = i.mode;
-                r.mode = this.modeOptions[s];
-                var l = i.stat;
-                r.stat = this.statOptions[l];
-                var c = i.interval;
-                r.interval = this.intervalOptions[c];
-                var m = 0 == this.leaderboardActive ? 5 : 100
-                  , d = "/leaderboard?type=" + l + "&mode=" + s + "&interval=" + c + "&maxCount=" + m;
+                  , n = {}
+                  , r = i.mode;
+                n.mode = this.modeOptions[r];
+                var s = i.stat;
+                n.stat = this.statOptions[s];
+                var l = i.interval;
+                n.interval = this.intervalOptions[l];
+                var c = 0 == this.leaderboardActive ? 5 : 100
+                  , d = "/leaderboard?type=" + s + "&mode=" + r + "&interval=" + l + "&maxCount=" + c;
                 o.ajax({
                     type: "GET",
                     url: d,
                     timeout: this.timeout
                 }).done(function(e) {
-                    if (t.leaderboardLoading(!1),
-                    e)
-                        try {
-                            var o = JSON.parse(e);
-                            n(a, o, i)
-                        } catch (e) {
-                            t.leaderboardLoading(!1)
-                        }
-                }).fail(function(e) {
+                    e && t.populate(a, e, i)
+                }).always(function() {
                     t.leaderboardLoading(!1)
                 })
             },
@@ -15693,20 +17411,20 @@ webpackJsonp([0], {
                 for (var s = 0; s < t.length; s++) {
                     var l = t[s]
                       , c = l.name
-                      , m = l.val
-                      , d = (l.games,
+                      , d = l.val
+                      , m = (l.games,
                     "");
                     if (1 == n) {
-                        d = '<tr class="main"><td class="rank">#' + (s + 1) + "</td><td>";
+                        m = '<tr class="main"><td class="rank">#' + (s + 1) + "</td><td>";
                         for (var p = l.name.split(","), u = 0; u < p.length; u++) {
-                            d += '<span class="player-name-main">' + p[u] + "</span>"
+                            m += '<span class="player-name-main">' + p[u] + "</span>"
                         }
-                        d += "</td><td>" + l.val + "</td>",
-                        d += "most_kills" != a.stat ? "<td>" + l.games + "</td>" : "",
-                        d += "</tr>"
+                        m += "</td><td>" + l.val + "</td>",
+                        m += "most_kills" != a.stat ? "<td>" + l.games + "</td>" : "",
+                        m += "</tr>"
                     } else
-                        d = '<div><div class="front-name">' + c + '</div><div class="front-value">' + m + "</div></div>";
-                    r.append(d)
+                        m = '<div><div class="front-name">' + c + '</div><div class="front-value">' + d + "</div></div>";
+                    r.append(m)
                 }
                 var h = 1;
                 if ("top5_pct" == a.stat || "kdr" == a.stat)
@@ -15746,12 +17464,12 @@ webpackJsonp([0], {
             (t > 0 || a > 0) && (o += a + "m "),
             o += i + "s"
         }
-        function n(e, t, a, o, n, r, m) {
+        function n(e, t, a, o, n, r, d) {
             var u = this;
             this.game = e,
             this.particleBarn = o,
             this.localization = n,
-            this.touch = m,
+            this.touch = d,
             this.gameElem = l("#ui-game"),
             this.statsMain = l("#ui-stats"),
             this.statsElem = l("#ui-stats-bg"),
@@ -15826,11 +17544,11 @@ webpackJsonp([0], {
             this.bigmapCollision = l("#big-map-collision"),
             this.moveStyleButton = l("#btn-game-move-style"),
             this.moveStyleButton.on("touchstart", function() {
-                m.toggleMoveStyle()
+                d.toggleMoveStyle()
             }),
             this.aimStyleButton = l("#btn-game-aim-style"),
             this.aimStyleButton.on("touchstart", function() {
-                m.toggleAimStyle()
+                d.toggleAimStyle()
             }),
             l(document).on("keyup", function(e) {
                 76 != e.which || u.game.gameOver || k.toggleFullScreen()
@@ -15874,7 +17592,6 @@ webpackJsonp([0], {
                 e.stopPropagation()
             }),
             l("#btn-game-quit").on("click", function() {
-                window.history && window.history.replaceState("", "", "/"),
                 u.doQuitGame()
             }),
             this.specStatsButton = l("#btn-spectate-view-stats"),
@@ -15973,43 +17690,43 @@ webpackJsonp([0], {
             this.teamMemberHeight = 48,
             this.teamPlayerCount = 0,
             this.teamSelectors = [];
-            for (var _ = 0; _ < 4; _++) {
-                var S, M = this.topLeft, T = _, P = c.Sprite.fromImage("img/gui/ping-map-pulse.svg");
+            for (var w = 0; w < 4; w++) {
+                var S, M = this.topLeft, T = w, P = c.Sprite.fromImage("img/gui/ping-map-pulse.svg");
                 P.anchor = this.playerOuter.anchor,
                 P.scale = new c.Point(0,0),
-                P.tint = d.teamColors[_],
+                P.tint = m.teamColors[w],
                 P.visible = !1,
                 this.display.teammates.addChild(P);
-                var z = c.Sprite.fromImage("img/gui/ping-map-coming.svg");
-                z.anchor = this.player.anchor,
-                z.scale = this.playerBaseScale,
-                z.tint = d.teamColors[_],
-                z.visible = !1,
-                this.display.teammates.addChild(z);
-                var C = c.Sprite.fromImage("img/gui/ping-map-danger.svg");
+                var C = c.Sprite.fromImage("img/gui/ping-map-coming.svg");
                 C.anchor = this.player.anchor,
                 C.scale = this.playerBaseScale,
-                C.tint = d.teamColors[_],
+                C.tint = m.teamColors[w],
                 C.visible = !1,
                 this.display.teammates.addChild(C);
+                var z = c.Sprite.fromImage("img/gui/ping-map-danger.svg");
+                z.anchor = this.player.anchor,
+                z.scale = this.playerBaseScale,
+                z.tint = m.teamColors[w],
+                z.visible = !1,
+                this.display.teammates.addChild(z);
                 var I = c.Sprite.fromImage("img/gui/ping-map-help.svg");
                 I.anchor = this.player.anchor,
                 I.scale = this.playerBaseScale,
-                I.tint = d.teamColors[_],
+                I.tint = m.teamColors[w],
                 I.visible = !1,
                 this.display.teammates.addChild(I);
-                var A = c.Sprite.fromImage("img/gui/player-map-outer.svg");
-                A.anchor = this.playerOuter.anchor,
-                A.scale = this.playerOuterBaseScale,
-                A.tint = this.playerOuter.tint,
-                A.visible = !1,
-                this.display.teammates.addChild(A);
-                var D = c.Sprite.fromImage("img/gui/player-map-inner.svg");
-                D.anchor = this.player.anchor,
-                D.scale = this.playerBaseScale,
-                D.tint = d.teamColors[_],
+                var D = c.Sprite.fromImage("img/gui/player-map-outer.svg");
+                D.anchor = this.playerOuter.anchor,
+                D.scale = this.playerOuterBaseScale,
+                D.tint = this.playerOuter.tint,
                 D.visible = !1,
-                this.display.teammates.addChild(D),
+                this.display.teammates.addChild(D);
+                var A = c.Sprite.fromImage("img/gui/player-map-inner.svg");
+                A.anchor = this.player.anchor,
+                A.scale = this.playerBaseScale,
+                A.tint = m.teamColors[w],
+                A.visible = !1,
+                this.display.teammates.addChild(A),
                 this.teamSelectors.push({
                     teamNameHtml: "",
                     teamId: l(M).find("[data-id=" + T + "]"),
@@ -16033,14 +17750,14 @@ webpackJsonp([0], {
                     },
                     mapSprites: (S = {
                         outer: {
-                            sprite: A,
+                            sprite: D,
                             position: h.create(0, 0),
                             usePlayerPosition: !0,
                             showOnDeath: !1,
                             displayed: !0
                         },
                         inner: {
-                            sprite: D,
+                            sprite: A,
                             position: h.create(0, 0),
                             usePlayerPosition: !0,
                             showOnDeath: !0,
@@ -16059,16 +17776,7 @@ webpackJsonp([0], {
                             maxLife: 0
                         }
                     },
-                    i(S, w.Coming, {
-                        sprite: z,
-                        position: h.create(0, 0),
-                        usePlayerPosition: !1,
-                        showOnDeath: !0,
-                        displayed: !1,
-                        life: 0,
-                        maxLife: 0
-                    }),
-                    i(S, w.Danger, {
+                    i(S, _.Coming, {
                         sprite: C,
                         position: h.create(0, 0),
                         usePlayerPosition: !1,
@@ -16077,7 +17785,16 @@ webpackJsonp([0], {
                         life: 0,
                         maxLife: 0
                     }),
-                    i(S, w.Help, {
+                    i(S, _.Danger, {
+                        sprite: z,
+                        position: h.create(0, 0),
+                        usePlayerPosition: !1,
+                        showOnDeath: !0,
+                        displayed: !1,
+                        life: 0,
+                        maxLife: 0
+                    }),
+                    i(S, _.Help, {
                         sprite: I,
                         position: h.create(0, 0),
                         usePlayerPosition: !1,
@@ -16115,11 +17832,11 @@ webpackJsonp([0], {
         }
         var l = a("juYr")
           , c = a("gKxX")
-          , m = a("8iex")
-          , d = (a("9xSA"),
+          , d = a("8iex")
+          , m = (a("9xSA"),
         a("+0OL"))
-          , p = d.Action
-          , u = d.GasMode
+          , p = m.Action
+          , u = m.GasMode
           , h = (a("yp2f"),
         a("/2+T"))
           , g = a("0od3")
@@ -16131,9 +17848,9 @@ webpackJsonp([0], {
           , x = b.GasRenderer
           , v = b.GasSafeZoneRenderer
           , k = a("Jr6A")
-          , w = (a("EZ6M"),
+          , _ = (a("EZ6M"),
         a("moUH").Ping)
-          , _ = a("bkPR");
+          , w = a("bkPR");
         n.prototype = {
             free: function() {
                 this.clearUI(),
@@ -16181,7 +17898,7 @@ webpackJsonp([0], {
                 var x = this
                   , v = t.netData
                   , k = t.localData
-                  , w = t;
+                  , _ = t;
                 this.mapWidth = i.width,
                 this.mapHeight = i.height,
                 this.mapSprite.texture == c.Texture.EMPTY && null != i.getMapTexture() && (this.mapSprite.texture = i.getMapTexture(),
@@ -16200,25 +17917,25 @@ webpackJsonp([0], {
                     T && this.mapInfo.addClass("icon-pulse"),
                     this.gasIcon.addClass(T ? "danger-icon" : "gas-icon");
                     var P = Math.floor(this.gasState.time / 60)
-                      , z = this.gasState.time % 60
-                      , C = ("0" + z).slice(-2);
-                    this.gasTimer.html(P + ":" + C)
+                      , C = this.gasState.time % 60
+                      , z = ("0" + C).slice(-2);
+                    this.gasTimer.html(P + ":" + z)
                 }
                 this.spectatorCount = k.spectatorCount,
                 this.updateSpectatorCountDisplay(!1),
                 v.dead && !this.dead && (this.dead = !0,
                 this.pieTimer.free(!0));
                 var I = k.action
-                  , A = g.eqAbs(g.clamp(I.time, 0, I.duration), I.duration, .2);
-                if (!(this.curAction.type == I.type && this.curAction.item == I.item && this.curAction.duration == I.duration || A || this.displayingStats)) {
+                  , D = g.eqAbs(g.clamp(I.time, 0, I.duration), I.duration, .2);
+                if (!(this.curAction.type == I.type && this.curAction.item == I.item && this.curAction.duration == I.duration || D || this.displayingStats)) {
                     this.curAction = {
                         type: I.type,
                         item: I.item,
                         time: I.time,
                         duration: I.duration
                     };
-                    var D = I.type != p.Reload;
-                    if (this.pieTimer.free(D),
+                    var A = I.type != p.Reload;
+                    if (this.pieTimer.free(A),
                     this.actionSoundInstance && (this.audioManager.stopSound(this.actionSoundInstance),
                     this.actionSoundInstance = !1),
                     I.type != p.None) {
@@ -16230,7 +17947,7 @@ webpackJsonp([0], {
                         switch (I.type) {
                         case p.Reload:
                             if ("" != I.item) {
-                                var R = d.items[I.item];
+                                var R = m.items[I.item];
                                 L = this.localization.translate("game-reloading"),
                                 E = R.sound.reload,
                                 F = "reload" == R.caseTiming
@@ -16238,7 +17955,7 @@ webpackJsonp([0], {
                             break;
                         case p.UseItem:
                             if ("" != I.item) {
-                                var j = d.items[I.item];
+                                var j = m.items[I.item];
                                 L = this.localization.translate("game-using"),
                                 B = this.localization.translate("game-" + I.item),
                                 E = j.sound.use
@@ -16247,7 +17964,7 @@ webpackJsonp([0], {
                         case p.Revive:
                             var q = r.getPlayerInfo(I.targetId).nameUnEntity;
                             L = this.localization.translate("game-reviving"),
-                            B = w.downed ? "" : q
+                            B = _.downed ? "" : q
                         }
                         if ("" == L && "" == B || ("svo" == this.localization.translate("word-order") ? (O += L || "",
                         O += B ? " " + B : "") : "sov" == this.localization.translate("word-order") && (O += B ? B + " " : "",
@@ -16258,10 +17975,10 @@ webpackJsonp([0], {
                         E && (this.actionSoundInstance = this.audioManager.playSound(E),
                         this.audioManager.stopLocalActionSound()),
                         F && "" != I.item)
-                            for (var U = d.items[I.item], G = 0; G < U.maxClip; G++) {
-                                var V = G % 2 == 0 ? -1 : 1
-                                  , N = Math.PI + Math.PI / 4 * V;
-                                _.createCasingParticle(I.item, N, t.pos, t.dir, t.netData.layer, this.particleBarn)
+                            for (var N = m.items[I.item], U = 0; U < N.maxClip; U++) {
+                                var G = U % 2 == 0 ? -1 : 1
+                                  , V = Math.PI + Math.PI / 4 * G;
+                                w.createCasingParticle(I.item, V, t.pos, t.dir, t.netData.layer, this.particleBarn)
                             }
                     }
                 }
@@ -16288,7 +18005,7 @@ webpackJsonp([0], {
                     var $ = this.teamSelectors[Q]
                       , ee = X.playerIds[Q]
                       , te = r.getPlayerInfo(ee)
-                      , ae = ee == w.__id
+                      , ae = ee == _.__id
                       , ie = r.getTeammateData(ee);
                     if (ie) {
                         for (var oe in $.mapSprites)
@@ -16318,59 +18035,59 @@ webpackJsonp([0], {
                             }, !1);
                             for (var ce in $.indicators)
                                 if ($.indicators.hasOwnProperty(ce)) {
-                                    var me = $.indicators[ce]
-                                      , de = me.elem
+                                    var de = $.indicators[ce]
+                                      , me = de.elem
                                       , pe = !0;
-                                    if (!ae || me.displayAll) {
+                                    if (!ae || de.displayAll) {
                                         var ue = ie.pos
                                           , he = h.normalizeSafe(h.sub(ue, s.pos), h.create(1, 0))
-                                          , ge = m.intersectRayAabb(s.pos, he, W.min, W.max)
+                                          , ge = d.intersectRayAabb(s.pos, he, W.min, W.max)
                                           , fe = Math.atan2(he.y, -he.x) + .5 * Math.PI
                                           , ye = s.pointToScreen(ge)
-                                          , be = m.testCircleAabb(ue, d.player.radius, W.min, W.max);
+                                          , be = d.testCircleAabb(ue, m.player.radius, W.min, W.max);
                                         if (!ie.dead && !be) {
                                             var xe = 32
                                               , ve = "translate(-50%, -50%) rotate(" + fe + "rad)";
                                             Y && (xe = 16,
                                             ve += " scale(0.5)"),
                                             pe = !1,
-                                            de.css({
+                                            me.css({
                                                 left: g.clamp(ye.x, xe, s.screenWidth - xe),
                                                 top: g.clamp(ye.y, xe, s.screenHeight - xe),
                                                 transform: ve
                                             }),
-                                            me.displayed || (de.css("display", "block"),
-                                            me.displayed = !0)
+                                            de.displayed || (me.css("display", "block"),
+                                            de.displayed = !0)
                                         }
                                     }
-                                    pe && me.displayed && (de.css("display", "none"),
-                                    me.displayed = !1)
+                                    pe && de.displayed && (me.css("display", "none"),
+                                    de.displayed = !1)
                                 }
                         }
                     }
                 }
                 for (var ke = J; ke < this.teamSelectors.length; ke++) {
-                    var we = this.teamSelectors[ke];
-                    for (var _e in we.mapSprites)
-                        if (we.mapSprites.hasOwnProperty(_e)) {
-                            var Se = we.mapSprites[_e];
+                    var _e = this.teamSelectors[ke];
+                    for (var we in _e.mapSprites)
+                        if (_e.mapSprites.hasOwnProperty(we)) {
+                            var Se = _e.mapSprites[we];
                             Se.visible = !1
                         }
-                    for (var Me in we.indicators)
-                        if (we.indicators.hasOwnProperty(Me)) {
-                            var Te = we.indicators[Me];
+                    for (var Me in _e.indicators)
+                        if (_e.indicators.hasOwnProperty(Me)) {
+                            var Te = _e.indicators[Me];
                             Te.displayed && (Te.elem.css("display", "none"),
                             Te.displayed = !1)
                         }
-                    if (we.teamIdDisplayed) {
-                        for (var Pe in we.mapSprites)
-                            if (we.mapSprites.hasOwnProperty(Pe)) {
-                                var ze = we.mapSprites[Pe]
-                                  , Ce = ze.sprite;
-                                Ce.visible = !1
+                    if (_e.teamIdDisplayed) {
+                        for (var Pe in _e.mapSprites)
+                            if (_e.mapSprites.hasOwnProperty(Pe)) {
+                                var Ce = _e.mapSprites[Pe]
+                                  , ze = Ce.sprite;
+                                ze.visible = !1
                             }
-                        we.teamId.css("display", "none"),
-                        we.teamIdDisplayed = !1
+                        _e.teamId.css("display", "none"),
+                        _e.teamIdDisplayed = !1
                     }
                 }
                 l > 1 && this.teamPlayerCount != J && f.layout == f.Layout.Lg && (this.teamPlayerCount = J,
@@ -16431,10 +18148,10 @@ webpackJsonp([0], {
                     i = e.x > this.minimapPos.x - c && e.x < this.minimapPos.x + c && e.y > this.minimapPos.y - c && e.y < this.minimapPos.y + c
                 }
                 if (i) {
-                    var m = h.create(this.mapSprite.x - this.mapSprite.width / 2, this.mapSprite.y + this.mapSprite.height / 2)
-                      , d = (e.x - m.x) / this.mapSprite.width * this.mapWidth
-                      , p = (m.y - e.y) / this.mapSprite.height * this.mapHeight;
-                    return h.create(d, p)
+                    var d = h.create(this.mapSprite.x - this.mapSprite.width / 2, this.mapSprite.y + this.mapSprite.height / 2)
+                      , m = (e.x - d.x) / this.mapSprite.width * this.mapWidth
+                      , p = (d.y - e.y) / this.mapSprite.height * this.mapHeight;
+                    return h.create(m, p)
                 }
                 return !1
             },
@@ -16491,9 +18208,9 @@ webpackJsonp([0], {
                 var o = this
                   , n = i ? k.unEntity(t.name) : this.localization.translate("game-you").toUpperCase()
                   , r = k.unEntity(e.name);
-                e.damageType == d.DamageType.Gas && (r = this.localization.translate("game-the-red-zone")),
+                e.damageType == m.DamageType.Gas && (r = this.localization.translate("game-the-red-zone")),
                 this.killText.text(r + " knocked " + n + " out"),
-                a && e.damageType == d.DamageType.Player && this.killText.append(" " + this.localization.translate("game-with") + " " + a),
+                a && e.damageType == m.DamageType.Player && this.killText.append(" " + this.localization.translate("game-with") + " " + a),
                 this.killCount.text(""),
                 this.killTimeout && clearTimeout(this.killTimeout),
                 this.killElem.stop(!0),
@@ -16608,11 +18325,11 @@ webpackJsonp([0], {
                         }))
                     }
                       , c = f.layout == f.Layout.Sm ? 125 : 250
-                      , m = 0;
-                    m -= (e.stats.length - 1) * c / 2,
-                    m -= 10 * (e.stats.length - 1);
-                    for (var d = 0; d < e.stats.length; d++) {
-                        var p = e.stats[d]
+                      , d = 0;
+                    d -= (e.stats.length - 1) * c / 2,
+                    d -= 10 * (e.stats.length - 1);
+                    for (var m = 0; m < e.stats.length; m++) {
+                        var p = e.stats[m]
                           , u = t.getPlayerInfo(p.playerId)
                           , h = o(p.timeAlive)
                           , g = "ui-stats-info-player";
@@ -16622,18 +18339,17 @@ webpackJsonp([0], {
                                 class: e
                             })
                         }(g);
-                        y.css("left", m),
+                        y.css("left", d),
                         y.append(l("<div/>", {
                             class: "ui-stats-info-player-name",
                             html: u.name
                         })),
                         y.append(s(this.localization.translate("game-kills"), "" + p.kills)).append(s(this.localization.translate("game-damage-dealt"), p.damageGiven)).append(s(this.localization.translate("game-damage-taken"), p.damageTaken)).append(s(this.localization.translate("game-survived"), h)),
                         this.statsInfoBox.append(y),
-                        m += 10
+                        d += 10
                     }
                     var b = l("<a/>", {
-                        class: "btn-green btn-darken menu-option",
-                        id: "ui-stats-restart",
+                        class: "ui-stats-restart btn-green btn-darken menu-option",
                         html: this.localization.translate("game-play-new-game")
                     });
                     if (b.on("click", function() {
@@ -16672,16 +18388,16 @@ webpackJsonp([0], {
                         }, v)
                     }
                     var k = 0
-                      , w = 250 / Math.max(1, e.stats.length)
-                      , _ = 750 / Math.max(1, e.stats.length);
+                      , _ = 250 / Math.max(1, e.stats.length)
+                      , w = 750 / Math.max(1, e.stats.length);
                     this.statsInfoBox.children().each(function(e, t) {
                         var a = l(t);
                         a.css("opacity", 0),
-                        a.delay(i + _ + (k + e) * w).animate({
+                        a.delay(i + w + (k + e) * _).animate({
                             opacity: 1
                         }, 500, function() {
                             a.children().each(function(e, t) {
-                                l(t).delay(e * w).animate({
+                                l(t).delay(e * _).animate({
                                     opacity: 1
                                 }, 500)
                             })
@@ -16695,7 +18411,7 @@ webpackJsonp([0], {
                     this.statsOptions.children().each(function(e, t) {
                         var a = l(t);
                         a.hide(),
-                        a.delay(i + _ + (k + e) * w).fadeIn(500),
+                        a.delay(i + w + (k + e) * _).fadeIn(500),
                         k++
                     }),
                     this.statsElem.stop(),
@@ -16865,12 +18581,12 @@ webpackJsonp([0], {
                 this.gasRenderer.render(n, s, t.isActive());
                 var l = t.circleNew
                   , c = this.getMapPosFromWorldPos(l.pos, i)
-                  , m = this.getMapPosFromWorldPos(h.add(l.pos, h.create(l.rad, 0)), i)
-                  , d = h.length(h.sub(m, c))
+                  , d = this.getMapPosFromWorldPos(h.add(l.pos, h.create(l.rad, 0)), i)
+                  , m = h.length(h.sub(d, c))
                   , p = this.getMapPosFromWorldPos(e, i)
                   , u = t.isActive()
                   , g = t.isActive() && !this.bigmapDisplayed;
-                this.gasSafeZoneRenderer.render(c, d, p, u, g)
+                this.gasSafeZoneRenderer.render(c, m, p, u, g)
             },
             updateHealthBar: function(e, t, a, i) {
                 var o = e
@@ -16891,11 +18607,11 @@ webpackJsonp([0], {
                         c = this.healthGrey) : g.eqAbs(s, 75, .2) || s >= 75 ? (l = this.healthWhite,
                         c = this.healthWhite) : (l = this.healthDarkpink,
                         c = this.healthLightpink);
-                        var m = l.getColors()
-                          , d = c.getColors()
-                          , p = r(m.r, d.r, 45, s)
-                          , u = r(m.g, d.g, 45, s)
-                          , h = r(m.b, d.b, 45, s);
+                        var d = l.getColors()
+                          , m = c.getColors()
+                          , p = r(d.r, m.r, 45, s)
+                          , u = r(d.g, m.g, 45, s)
+                          , h = r(d.b, m.b, 45, s);
                         t.css({
                             backgroundColor: "rgba(" + p + "," + u + "," + h + ",1)"
                         })
@@ -16911,19 +18627,19 @@ webpackJsonp([0], {
                   , s = this.teamSelectors[e].prevStatus
                   , l = i.dead != s.dead || i.disconnected != s.disconnected || i.downed != s.downed;
                 if (this.teamSelectors[e].teamNameHtml != t || a != r || l) {
-                    var m = (this.teamSelectors[e].teamIcon,
+                    var d = (this.teamSelectors[e].teamIcon,
                     this.teamSelectors[e].teamStatus)
-                      , d = this.teamSelectors[e].teamHealthInner
+                      , m = this.teamSelectors[e].teamHealthInner
                       , p = this.teamSelectors[e].teamHealthDepleted;
                     this.teamSelectors[e].teamNameHtml = t,
                     n.html(t),
-                    this.updateHealthBar(this.teamMemberHealthBarWidth, d, p, {
+                    this.updateHealthBar(this.teamMemberHealthBarWidth, m, p, {
                         health: a,
                         dead: i.dead,
                         downed: i.downed
                     }),
-                    l && (m.attr("class", "ui-team-member-status"),
-                    i.disconnected ? m.addClass("ui-team-member-status-disconnected") : i.dead ? m.addClass("ui-team-member-status-dead") : i.downed && m.addClass("ui-team-member-status-downed").addClass("icon-pulse"),
+                    l && (d.attr("class", "ui-team-member-status"),
+                    i.disconnected ? d.addClass("ui-team-member-status-disconnected") : i.dead ? d.addClass("ui-team-member-status-dead") : i.downed && d.addClass("ui-team-member-status-downed").addClass("icon-pulse"),
                     i.dead && (this.teamSelectors[e].mapSprites.inner.sprite.texture = c.Texture.fromImage("img/gui/skull-team-outlined.svg"),
                     this.teamSelectors[e].mapSprites.inner.sprite.scale = h.mul(this.playerBaseScale, 1.5)),
                     (i.disconnected || i.dead) && n.css("opacity", .3)),
@@ -16971,32 +18687,32 @@ webpackJsonp([0], {
                     })
                 } else {
                     var l = 1600 * this.screenScaleFactor / 1.2
-                      , m = o * this.screenScaleFactor;
+                      , d = o * this.screenScaleFactor;
                     this.mapSprite.width = l,
                     this.mapSprite.height = l,
                     this.mapSprite.alpha = .8;
-                    var d = {
+                    var m = {
                         zoom: this.screenScaleFactor
                     };
-                    document.body && ("WebkitTransform"in document.body.style ? d = {
+                    document.body && ("WebkitTransform"in document.body.style ? m = {
                         "-webkit-transform": "scale(" + this.screenScaleFactor + ")"
-                    } : "transform"in document.body.style && (d = {
+                    } : "transform"in document.body.style && (m = {
                         transform: "scale(" + this.screenScaleFactor + ")"
                     })),
-                    this.mapContainer.css(d),
+                    this.mapContainer.css(m),
                     this.mapContainer.css("bottom", this.mapContainerBottom * this.screenScaleFactor);
-                    var p = r ? m / 2 + i : a - m / 2 - i;
-                    this.minimapPos.x = i + m / 2,
+                    var p = r ? d / 2 + i : a - d / 2 - i;
+                    this.minimapPos.x = i + d / 2,
                     this.minimapPos.y = p,
                     this.player.position = new c.Point(this.minimapPos.x,this.minimapPos.y),
                     this.display.border.lineStyle(n, 0),
                     this.display.border.beginFill(0, 0);
-                    var u = r ? i + n / 2 : a - m - i + n / 2;
-                    this.display.border.drawRect(i + n / 2, u, m - n, m - n),
+                    var u = r ? i + n / 2 : a - d - i + n / 2;
+                    this.display.border.drawRect(i + n / 2, u, d - n, d - n),
                     this.display.border.endFill();
-                    var h = r ? i : a - m - i;
+                    var h = r ? i : a - d - i;
                     this.container.mask.beginFill(16777215, 1),
-                    this.container.mask.drawRect(i, h - .5, m, m),
+                    this.container.mask.drawRect(i, h - .5, d, d),
                     this.container.mask.endFill()
                 }
             },
@@ -17203,7 +18919,7 @@ webpackJsonp([0], {
                     return a
                 }
                 ;
-                var m = function(e, t) {
+                var d = function(e, t) {
                     return function() {
                         if (this._index + t > this._length)
                             throw new Error("Trying to read past the end of the stream");
@@ -17212,7 +18928,7 @@ webpackJsonp([0], {
                         a
                     }
                 }
-                  , d = function(e, t) {
+                  , m = function(e, t) {
                     return function(a) {
                         this._view[e](this._index, a),
                         this._index += t
@@ -17289,24 +19005,24 @@ webpackJsonp([0], {
                     this._index += t
                 }
                 ,
-                p.prototype.readBoolean = m("getBoolean", 1),
-                p.prototype.readInt8 = m("getInt8", 8),
-                p.prototype.readUint8 = m("getUint8", 8),
-                p.prototype.readInt16 = m("getInt16", 16),
-                p.prototype.readUint16 = m("getUint16", 16),
-                p.prototype.readInt32 = m("getInt32", 32),
-                p.prototype.readUint32 = m("getUint32", 32),
-                p.prototype.readFloat32 = m("getFloat32", 32),
-                p.prototype.readFloat64 = m("getFloat64", 64),
-                p.prototype.writeBoolean = d("setBoolean", 1),
-                p.prototype.writeInt8 = d("setInt8", 8),
-                p.prototype.writeUint8 = d("setUint8", 8),
-                p.prototype.writeInt16 = d("setInt16", 16),
-                p.prototype.writeUint16 = d("setUint16", 16),
-                p.prototype.writeInt32 = d("setInt32", 32),
-                p.prototype.writeUint32 = d("setUint32", 32),
-                p.prototype.writeFloat32 = d("setFloat32", 32),
-                p.prototype.writeFloat64 = d("setFloat64", 64),
+                p.prototype.readBoolean = d("getBoolean", 1),
+                p.prototype.readInt8 = d("getInt8", 8),
+                p.prototype.readUint8 = d("getUint8", 8),
+                p.prototype.readInt16 = d("getInt16", 16),
+                p.prototype.readUint16 = d("getUint16", 16),
+                p.prototype.readInt32 = d("getInt32", 32),
+                p.prototype.readUint32 = d("getUint32", 32),
+                p.prototype.readFloat32 = d("getFloat32", 32),
+                p.prototype.readFloat64 = d("getFloat64", 64),
+                p.prototype.writeBoolean = m("setBoolean", 1),
+                p.prototype.writeInt8 = m("setInt8", 8),
+                p.prototype.writeUint8 = m("setUint8", 8),
+                p.prototype.writeInt16 = m("setInt16", 16),
+                p.prototype.writeUint16 = m("setUint16", 16),
+                p.prototype.writeInt32 = m("setInt32", 32),
+                p.prototype.writeUint32 = m("setUint32", 32),
+                p.prototype.writeFloat32 = m("setFloat32", 32),
+                p.prototype.writeFloat64 = m("setFloat64", 64),
                 p.prototype.readASCIIString = function(e) {
                     return i(this, e)
                 }
@@ -17370,11 +19086,11 @@ webpackJsonp([0], {
             return Math.abs(o) < .001 ? i : o
         }
         function n(e, t, a, i, o, n) {
-            for (var r = i, s = d.add(t, d.mul(a, i)), c = e.obstaclePool.getPool(), p = 0; p < c.length; p++) {
+            for (var r = i, s = m.add(t, m.mul(a, i)), c = e.obstaclePool.getPool(), p = 0; p < c.length; p++) {
                 var u = c[p];
-                if (!(!u.active || u.dead || !u.collidable || u.isWindow || u.height < o || !m.sameLayer(u.layer, n) || 2 & n && 0 == u.layer)) {
+                if (!(!u.active || u.dead || !u.collidable || u.isWindow || u.height < o || !d.sameLayer(u.layer, n) || 2 & n && 0 == u.layer)) {
                     var h = l.intersectSegment(u.collider, t, s);
-                    h && (r = Math.min(r, d.length(d.sub(h.point, t))))
+                    h && (r = Math.min(r, m.length(m.sub(h.point, t))))
                 }
             }
             return r
@@ -17400,8 +19116,8 @@ webpackJsonp([0], {
           , l = a("9xSA")
           , c = (a("0od3"),
         a("Bk7F"))
-          , m = a("Tf6H")
-          , d = a("/2+T")
+          , d = a("Tf6H")
+          , m = a("/2+T")
           , p = a("zinx")
           , u = a("r4ug")
           , h = a("EZ6M")
@@ -17452,7 +19168,7 @@ webpackJsonp([0], {
                 value: function(e, t, a, i) {
                     var o = this;
                     if (this.type = e.type,
-                    this.pos = d.copy(e.pos),
+                    this.pos = m.copy(e.pos),
                     this.rot = c.oriToRad(e.ori),
                     this.scale = 1,
                     this.layer = e.layer,
@@ -17462,28 +19178,29 @@ webpackJsonp([0], {
                         this.isNew = !0,
                         this.playedCeilingDeadFx = -1 != i.map.deadCeilingIds.indexOf(this.__id);
                         var r = function(e) {
-                            var t = o.allocSprite();
-                            return t.texture = "none" == e.sprite ? s.Texture.EMPTY : s.Texture.fromImage(e.sprite),
-                            t.tint = e.tint,
-                            t.imgAlpha = e.alpha,
-                            t.fadeAlpha = 1,
-                            t.alpha = t.imgAlpha,
-                            t.defScale = e.scale,
-                            t.visible = !0,
-                            t
+                            var t = e.pos || m.create(0, 0)
+                              , a = c.oriToRad(e.rot || 0)
+                              , i = o.allocSprite();
+                            return i.texture = s.Texture.fromImage(e.sprite),
+                            i.tint = e.tint,
+                            i.posOffset = m.rotate(t, o.rot),
+                            i.rotOffset = a,
+                            i.imgAlpha = e.alpha,
+                            i.alpha = i.imgAlpha,
+                            i.defScale = e.scale,
+                            i.visible = !0,
+                            i
                         };
                         this.bounds = l.transform(c.getBoundingCollider(this.type), this.pos, this.rot, this.scale),
                         this.zIdx = n.zIdx || 0,
-                        this.floors = [];
-                        for (var m = 0; m < n.floors.length; m++) {
-                            for (var p = n.floors[m], u = {
-                                colliders: [],
-                                sprite: r(p.img),
-                                surface: p.surface
+                        this.surfaces = [];
+                        for (var d = 0; d < n.floor.surfaces.length; d++) {
+                            for (var p = n.floor.surfaces[d], u = {
+                                surface: p.type,
+                                colliders: []
                             }, h = 0; h < p.collision.length; h++)
                                 u.colliders.push(l.transform(p.collision[h], this.pos, this.rot, this.scale));
-                            i.renderer.addPIXIObj(u.sprite, f.World, this.layer, this.zIdx, 100 * this.__id + m),
-                            this.floors.push(u)
+                            this.surfaces.push(u)
                         }
                         var g = Object.assign({}, {
                             dist: 5.5,
@@ -17496,59 +19213,74 @@ webpackJsonp([0], {
                             scopeOut: [],
                             vision: g,
                             visionTicker: 0,
-                            defaultAlpha: n.ceiling.img.alpha,
-                            sprite: r(n.ceiling.img)
+                            fadeAlpha: 1
                         };
-                        for (var y = 0; y < n.ceiling.scopeIn.length; y++)
-                            this.ceiling.scopeIn.push(l.transform(n.ceiling.scopeIn[y], this.pos, this.rot, this.scale));
-                        for (var b = 0; b < n.ceiling.scopeOut.length; b++)
-                            this.ceiling.scopeOut.push(l.transform(n.ceiling.scopeOut[b], this.pos, this.rot, this.scale))
+                        for (var f = 0; f < n.ceiling.scopeIn.length; f++)
+                            this.ceiling.scopeIn.push(l.transform(n.ceiling.scopeIn[f], this.pos, this.rot, this.scale));
+                        for (var y = 0; y < n.ceiling.scopeOut.length; y++)
+                            this.ceiling.scopeOut.push(l.transform(n.ceiling.scopeOut[y], this.pos, this.rot, this.scale));
+                        this.imgs = [];
+                        for (var b = 0; b < n.floor.imgs.length; b++)
+                            this.imgs.push({
+                                sprite: r(n.floor.imgs[b]),
+                                isCeiling: !1,
+                                zOrd: this.zIdx,
+                                zIdx: 100 * this.__id + b
+                            });
+                        for (var x = 0; x < n.ceiling.imgs.length; x++)
+                            this.imgs.push({
+                                sprite: r(n.ceiling.imgs[x]),
+                                isCeiling: !0,
+                                zOrd: 750 - this.zIdx,
+                                zIdx: 100 * this.__id + x
+                            })
                     }
                 }
             }, {
                 key: "update",
-                value: function(e, t, a, i, n, r) {
-                    var l = this.ceiling
-                      , m = this.ceilingDead
-                      , d = this.playedCeilingDeadFx
-                      , p = this.isNew;
-                    if (m && !d && (t.deadCeilingIds.push(this.__id),
+                value: function(e, t, a, i, n, r, l) {
+                    if (this.ceilingDead && !this.playedCeilingDeadFx && (t.deadCeilingIds.push(this.__id),
                     this.playedCeilingDeadFx = !0,
-                    p || this.destroyCeilingFx(a, i)),
+                    this.isNew || this.destroyCeilingFx(a, i)),
                     this.isNew = !1,
-                    m && !this.residue) {
-                        var u = c.Defs[this.type];
-                        if (void 0 !== u.ceiling.destroy.residue) {
-                            var h = this.allocSprite();
-                            h.texture = s.Texture.fromImage(u.ceiling.destroy.residue),
-                            h.position.set(0, 0),
-                            h.scale.set(1, 1),
-                            h.rotation = 0,
-                            h.visible = !0,
-                            this.floors[0].sprite.addChild(h),
-                            this.residue = h
+                    this.ceilingDead && !this.residue) {
+                        var d = c.Defs[this.type];
+                        if (void 0 !== d.ceiling.destroy) {
+                            var m = this.allocSprite();
+                            m.texture = s.Texture.fromImage(d.ceiling.destroy.residue),
+                            m.position.set(0, 0),
+                            m.scale.set(1, 1),
+                            m.rotation = 0,
+                            m.visible = !0,
+                            this.imgs[0].sprite.addChild(m),
+                            this.residue = m
                         }
                     }
-                    l.visionTicker -= e;
-                    for (var g = l.vision, y = 0; y < l.scopeIn.length; y++) {
-                        var b = l.scopeIn[y];
-                        if (this.canSeeInside(t, n.pos, n.layer, g, b)) {
-                            l.visionTicker = g.linger + 1e-4;
+                    var p = this.ceiling;
+                    p.visionTicker -= e;
+                    for (var u = p.vision, h = 0; h < p.scopeIn.length; h++) {
+                        var g = p.scopeIn[h];
+                        if (this.canSeeInside(t, n.pos, n.layer, u, g)) {
+                            p.visionTicker = u.linger + 1e-4;
                             break
                         }
                     }
-                    n.noCeilingRevealTicker > 0 && (l.visionTicker = 0);
-                    var x = l.visionTicker > 0
-                      , v = o(l.sprite.fadeAlpha, x ? 0 : l.defaultAlpha, e * (x ? 12 : g.fadeRate));
-                    l.sprite.fadeAlpha += v;
-                    var k = this.layer;
-                    (0 == this.layer && 0 == n.layer || 1 == this.layer && 2 & n.layer) && (k |= 2),
-                    r.addPIXIObj(this.ceiling.sprite, f.World, k, 750 - this.zIdx, 100 * this.__id)
+                    n.noCeilingRevealTicker > 0 && (p.visionTicker = 0);
+                    var y = p.visionTicker > 0
+                      , b = o(p.fadeAlpha, y ? 0 : 1, e * (y ? 12 : u.fadeRate));
+                    p.fadeAlpha += b;
+                    for (var x = 0; x < this.imgs.length; x++) {
+                        var v = this.imgs[x]
+                          , k = v.isCeiling ? p.fadeAlpha : 1;
+                        this.positionSprite(v.sprite, k, l);
+                        var _ = this.layer;
+                        v.isCeiling && (this.layer == n.layer || 2 & n.layer && 1 == this.layer) && (_ |= 2),
+                        r.addPIXIObj(v.sprite, f.World, _, v.zOrd, v.zIdx)
+                    }
                 }
             }, {
                 key: "canSeeInside",
                 value: function(e, t, a, i, o) {
-                    this.ceiling;
                     if (this.ceilingDead)
                         return !0;
                     var r = l.intersectCircle(o, t, i.dist);
@@ -17556,20 +19288,20 @@ webpackJsonp([0], {
                         return !1;
                     if (r.pen >= i.dist)
                         return !0;
-                    for (var s = [t, d.add(t, d.mul(d.perp(r.dir), i.width)), d.sub(t, d.mul(d.perp(r.dir), i.width)), d.add(t, d.mul(d.perp(r.dir), .5 * i.width)), d.sub(t, d.mul(d.perp(r.dir), .5 * i.width))], c = 0; c < s.length; c++) {
-                        var m = s[c]
-                          , h = d.sub(m, t)
-                          , g = d.length(h);
-                        h = g > 1e-4 ? d.div(h, g) : d.create(1, 0);
+                    for (var s = [t, m.add(t, m.mul(m.perp(r.dir), i.width)), m.sub(t, m.mul(m.perp(r.dir), i.width)), m.add(t, m.mul(m.perp(r.dir), .5 * i.width)), m.sub(t, m.mul(m.perp(r.dir), .5 * i.width))], c = 0; c < s.length; c++) {
+                        var d = s[c]
+                          , h = m.sub(d, t)
+                          , g = m.length(h);
+                        h = g > 1e-4 ? m.div(h, g) : m.create(1, 0);
                         var f = n(e, t, h, g, 0);
-                        m = d.add(t, d.mul(h, f));
-                        var y = l.intersectCircle(o, m, i.dist);
+                        d = m.add(t, m.mul(h, f));
+                        var y = l.intersectCircle(o, d, i.dist);
                         if (y) {
-                            var b = d.neg(y.dir)
-                              , x = n(e, m, b, i.dist, .5, a)
-                              , v = l.intersectSegment(o, m, d.add(m, d.mul(b, i.dist)))
-                              , k = v && d.length(d.sub(v.point, m)) <= x;
-                            if (p.debug && u.addRay(m, b, i.dist, k ? 65280 : 16711680),
+                            var b = m.neg(y.dir)
+                              , x = n(e, d, b, i.dist, .5, a)
+                              , v = l.intersectSegment(o, d, m.add(d, m.mul(b, i.dist)))
+                              , k = v && m.length(m.sub(v.point, d)) <= x;
+                            if (p.debug && u.addRay(d, b, i.dist, k ? 65280 : 16711680),
                             k)
                                 return !0
                         }
@@ -17579,12 +19311,11 @@ webpackJsonp([0], {
             }, {
                 key: "destroyCeilingFx",
                 value: function(e, t) {
-                    for (var a = this.type, i = this.floors, o = (this.ceiling,
-                    c.Defs[a].ceiling.destroy), n = i[0], r = 0; r < n.colliders.length; r++) {
-                        for (var s = l.toAabb(n.colliders[r]), p = 0; p < o.particleCount; p++) {
-                            var u = d.create(m.random(s.min.x, s.max.x), m.random(s.min.y, s.max.y))
-                              , g = d.mul(d.randomUnit(), m.random(0, 15));
-                            e.addParticle(h.Defs[o.particle], this.layer, u, g)
+                    for (var a = c.Defs[this.type].ceiling.destroy, i = this.surfaces[0], o = 0; o < i.colliders.length; o++) {
+                        for (var n = l.toAabb(i.colliders[o]), r = 0; r < a.particleCount; r++) {
+                            var s = m.create(d.random(n.min.x, n.max.x), d.random(n.min.y, n.max.y))
+                              , p = m.mul(m.randomUnit(), d.random(0, 15));
+                            e.addParticle(h.Defs[a.particle], this.layer, s, p)
                         }
                         break
                     }
@@ -17594,22 +19325,18 @@ webpackJsonp([0], {
                     })
                 }
             }, {
-                key: "renderSprite",
-                value: function(e, t, a, i, o) {
-                    var n = o.pointToScreen(t)
-                      , r = o.pixels(i * e.defScale);
-                    e.position.set(n.x, n.y),
-                    e.scale.set(r, r),
-                    e.rotation = -a,
-                    e.alpha = e.imgAlpha * e.fadeAlpha
+                key: "positionSprite",
+                value: function(e, t, a) {
+                    var i = a.pointToScreen(m.add(this.pos, e.posOffset))
+                      , o = a.pixels(this.scale * e.defScale);
+                    e.position.set(i.x, i.y),
+                    e.scale.set(o, o),
+                    e.rotation = -this.rot + e.rotOffset,
+                    e.alpha = e.imgAlpha * t
                 }
             }, {
                 key: "render",
-                value: function(e) {
-                    for (var t = 0; t < this.floors.length; t++)
-                        this.renderSprite(this.floors[t].sprite, this.pos, this.rot, this.scale, e);
-                    this.renderSprite(this.ceiling.sprite, this.pos, this.rot, this.scale, e)
-                }
+                value: function(e) {}
             }]),
             e
         }();
@@ -17790,7 +19517,7 @@ webpackJsonp([0], {
             "game-painkiller": "Pillole",
             "game-painkiller-tooltip": "Click sinistro per incrementare l'adrenalina del 50%.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Munizioni per M9, Glock, MP5, MAC-10 e UMP9.",
+            "game-9mm-tooltip": "Munizioni per M9, Glock, MP5, MAC-10, UMP9 e Vector.",
             "game-12gauge": "Calibro 12",
             "game-12gauge-tooltip": "Munizioni per M870, Saiga-12 e MP220.",
             "game-762mm": "7,62mm",
@@ -18009,7 +19736,7 @@ webpackJsonp([0], {
             "game-painkiller": "ยาเม็ด",
             "game-painkiller-tooltip": "คลิกซ้ายเพื่อเพิ่มอะดรีนาลีนภาย 50",
             "game-9mm": "9 มม.",
-            "game-9mm-tooltip": "กระสุนสำหรับ M9, Glock, MP5, MAC-10 และ UMP9",
+            "game-9mm-tooltip": "กระสุนสำหรับ M9, Glock, MP5, MAC-10, UMP9 และ Vector",
             "game-12gauge": "12 เกจ์",
             "game-12gauge-tooltip": "กระสุนสำหรับ M870, Saiga-12 และ MP220",
             "game-762mm": "7.62 มม.",
@@ -18232,7 +19959,7 @@ webpackJsonp([0], {
             "game-painkiller": "Piller",
             "game-painkiller-tooltip": "Vänsterklicka för att boosta adrenalin med 50.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Ammo för M9, Glock, MP5, MAC-10 och UMP9.",
+            "game-9mm-tooltip": "Ammo för M9, Glock, MP5, MAC-10, UMP9 och Vector.",
             "game-12gauge": "12 gauge",
             "game-12gauge-tooltip": "Ammo för M870, Saiga-12 och MP220.",
             "game-762mm": "7.62mm",
@@ -18300,6 +20027,7 @@ webpackJsonp([0], {
             this.musicVolume = 1,
             this.baseVolume = .5,
             this.audioChannels = s.Channels,
+            this.reverbs = s.Reverbs,
             this.totalSounds = 0,
             this.totalSoundsLoaded = 0,
             this.loadComplete = !1,
@@ -18330,18 +20058,25 @@ webpackJsonp([0], {
                         for (var i in a)
                             a.hasOwnProperty(i) && a[i] && (this.totalSounds += 1)
                     }
-                for (var n in this.audioChannels)
-                    if (this.audioChannels.hasOwnProperty(n)) {
-                        var r = this.audioChannels[n]
-                          , s = this.loadSounds(r.list);
-                        for (var l in s)
-                            if (s.hasOwnProperty(l) && s[l]) {
-                                var c = s[l]
+                for (var n in this.reverbs)
+                    this.reverbs.hasOwnProperty(n) && this.reverbs[n] && (this.totalSounds += 1);
+                for (var r in this.audioChannels)
+                    if (this.audioChannels.hasOwnProperty(r)) {
+                        var s = this.audioChannels[r]
+                          , l = this.loadSounds(s.list);
+                        for (var c in l)
+                            if (l.hasOwnProperty(c) && l[c]) {
+                                var d = l[c]
                                   , m = {};
-                                m.canCoalesce = c.canCoalesce,
-                                m.channels = c.maxInstances,
-                                o.Sound.registerSound(c.name, l + n, m)
+                                m.canCoalesce = d.canCoalesce,
+                                m.channels = d.maxInstances,
+                                o.Sound.registerSound(d.name, c + r, m)
                             }
+                    }
+                for (var p in this.reverbs)
+                    if (this.reverbs.hasOwnProperty(p) && this.reverbs[p]) {
+                        var u = this.reverbs[p];
+                        o.Sound.registerReverb(u.name, p, u)
                     }
             },
             loadHandler: function(e) {
@@ -18369,10 +20104,15 @@ webpackJsonp([0], {
                     var c = this.soundInstances[l];
                     "playFinished" != c.playState && "playInterrupted" != c.playState && "playFailed" != c.playState || this.soundInstances.splice(l, 1)
                 }
-                for (var m = this.musicInstances.length - 1; m >= 0; m--) {
-                    var d = this.musicInstances[m];
-                    "playFinished" != d.playState && "playInterrupted" != d.playState && "playFailed" != d.playState || this.musicInstances.splice(m, 1)
+                for (var d = this.musicInstances.length - 1; d >= 0; d--) {
+                    var m = this.musicInstances[d];
+                    "playFinished" != m.playState && "playInterrupted" != m.playState && "playFailed" != m.playState || this.musicInstances.splice(d, 1)
                 }
+                var p = [0, 1, 1 / 3, 2 / 3]
+                  , u = p[this.activeLayer];
+                o.Sound.setReverbs({
+                    cathedral: u
+                }),
                 o.Sound.update(e)
             },
             queueSound: function(e) {
@@ -18404,31 +20144,32 @@ webpackJsonp([0], {
                 if (a && (!this.mute || t.forceStart)) {
                     var i = !1
                       , s = 1 * this.baseVolume * this.getTypeVolume(a.type)
-                      , c = void 0 !== t.layer && !l.sameAudioLayer(t.layer, this.activeLayer);
+                      , c = void 0 !== t.layer && !l.sameAudioLayer(t.layer, this.activeLayer)
+                      , d = t.muffled ? c ? "muffled" : "reverb" : "none";
                     if ("activePlayer" != t.channel && t.soundPos) {
                         var m = n.sub(this.cameraPos, t.soundPos)
-                          , d = n.length(m)
-                          , p = r.clamp(Math.abs(d / a.maxRange), 0, 1)
-                          , u = Math.pow(1 - p, 1 + 2 * t.fallOff)
-                          , h = a.volume * u * s;
-                        if ((h = c ? .5 * h : h) > .003 || t.ignoreMinAllowable) {
-                            var g = r.clamp(m.x / a.maxRange * -1, -1, 1);
+                          , p = n.length(m)
+                          , u = r.clamp(Math.abs(p / a.maxRange), 0, 1)
+                          , h = Math.pow(1 - u, 1 + 2 * t.fallOff)
+                          , g = a.volume * h * s;
+                        if ((g = c ? .5 * g : g) > .003 || t.ignoreMinAllowable) {
+                            var f = r.clamp(m.x / a.maxRange * -1, -1, 1);
                             i = o.Sound.play(e + t.channel, {
+                                filter: d,
                                 loop: t.loop ? -1 : 0,
-                                volume: t.fadeIn || t.startSilent ? 0 : h,
-                                pan: g,
-                                muffled: c && t.muffled,
+                                volume: t.fadeIn || t.startSilent ? 0 : g,
+                                pan: f,
                                 delay: t.delay,
                                 interrupt: o.Sound.INTERRUPT_LATE
                             })
                         }
                     } else {
-                        var f = a.volume * s;
-                        f = c ? .5 * f : f,
+                        var y = a.volume * s;
+                        y = c ? .5 * y : y,
                         i = o.Sound.play(e + t.channel, {
+                            filter: d,
                             loop: t.loop ? -1 : 0,
-                            volume: t.fadeIn || t.startSilent ? 0 : f,
-                            muffled: c && t.muffled,
+                            volume: t.fadeIn || t.startSilent ? 0 : y,
                             delay: t.delay
                         })
                     }
@@ -18459,9 +20200,9 @@ webpackJsonp([0], {
                 if (e && o) {
                     var s = 1 * this.baseVolume * this.getTypeVolume(o.type)
                       , c = n.sub(this.cameraPos, a)
-                      , m = n.length(c)
-                      , d = r.clamp(Math.abs(m / o.maxRange), 0, 1)
-                      , p = Math.pow(1 - d, 1 + 2 * i.fallOff)
+                      , d = n.length(c)
+                      , m = r.clamp(Math.abs(d / o.maxRange), 0, 1)
+                      , p = Math.pow(1 - m, 1 + 2 * i.fallOff)
                       , u = o.volume * p * s;
                     if ((u = void 0 !== i.layer && !l.sameAudioLayer(i.layer, this.activeLayer) ? .5 * u : u) > .003) {
                         var h = r.clamp(c.x / o.maxRange * -1, -1, 1);
@@ -18788,27 +20529,27 @@ webpackJsonp([0], {
             onTouchShared: function(e, t) {
                 t != r.Cancel && e.preventDefault();
                 for (var a = e.timeStamp || performance.now(), o = 0; o < e.changedTouches.length; o++) {
-                    for (var n = e.changedTouches[o], s = n.identifier, l = n.clientX, c = n.clientY, m = null, d = 0; d < this.touches.length; d++)
-                        if (this.touches[d].osId == s && !this.touches[d].isDead) {
-                            m = this.touches[d];
+                    for (var n = e.changedTouches[o], s = n.identifier, l = n.clientX, c = n.clientY, d = null, m = 0; m < this.touches.length; m++)
+                        if (this.touches[m].osId == s && !this.touches[m].isDead) {
+                            d = this.touches[m];
                             break
                         }
-                    t != r.Start || m || (m = new i,
-                    this.touches.push(m),
+                    t != r.Start || d || (d = new i,
+                    this.touches.push(d),
                     ++this.touchIdCounter,
-                    m.id = this.touchIdCounter,
-                    m.osId = s,
-                    m.posOld.x = l,
-                    m.posOld.y = c,
-                    m.posDown.x = l,
-                    m.posDown.y = c,
-                    m.startTime = a,
-                    m.isNew = !0,
-                    m.isDead = !1),
-                    t != r.End && t != r.Cancel || !m || (m.isDead = !0),
-                    m && (m.pos.x = l,
-                    m.pos.y = c,
-                    m.lastUpdateTime = a)
+                    d.id = this.touchIdCounter,
+                    d.osId = s,
+                    d.posOld.x = l,
+                    d.posOld.y = c,
+                    d.posDown.x = l,
+                    d.posDown.y = c,
+                    d.startTime = a,
+                    d.isNew = !0,
+                    d.isDead = !1),
+                    t != r.End && t != r.Cancel || !d || (d.isDead = !0),
+                    d && (d.pos.x = l,
+                    d.pos.y = c,
+                    d.lastUpdateTime = a)
                 }
             },
             onTouchMove: function(e) {
@@ -18895,8 +20636,8 @@ webpackJsonp([0], {
             i("#player-name-input-solo").on("blur", function() {
                 document.body.scrollTop = 0
             }));
-            var m = i(".modal")
-              , d = i(".modal-content")
+            var d = i(".modal")
+              , m = i(".modal-content")
               , p = i("#start-bottom-right")
               , u = i("#start-top-left")
               , h = i("#modal-customize");
@@ -18920,10 +20661,10 @@ webpackJsonp([0], {
                 u.fadeOut(200),
                 !1
             }),
-            m.find(".close").click(function() {
+            d.find(".close").click(function() {
                 y()
             }),
-            d.on("click touchend", function(e) {
+            m.on("click touchend", function(e) {
                 e.stopPropagation()
             }),
             i(document).on("click touchend", function(e) {
@@ -18932,7 +20673,7 @@ webpackJsonp([0], {
                 })
             });
             var y = function(e) {
-                m.fadeOut(200),
+                d.fadeOut(200),
                 p.fadeIn(200),
                 u.fadeIn(200)
             };
@@ -18957,6 +20698,12 @@ webpackJsonp([0], {
             sameAudioLayer: function(e, t) {
                 return e == t || 2 & e || 2 & t
             },
+            toGroundLayer: function(e) {
+                return 1 & e
+            },
+            toStairsLayer: function(e) {
+                return 2 | e
+            },
             random: function(e, t) {
                 return i.lerp(Math.random(), e, t)
             },
@@ -18976,7 +20723,7 @@ webpackJsonp([0], {
                 return o.create(a * e * Math.cos(2 * Math.PI * t / a), a * e * Math.sin(2 * Math.PI * t / a))
             },
             hsv2rgb: function(e, t, a) {
-                var i, o, n, r, s, l, c, m;
+                var i, o, n, r, s, l, c, d;
                 switch (1 === arguments.length && (t = e.s,
                 a = e.v,
                 e = e.h),
@@ -18984,11 +20731,11 @@ webpackJsonp([0], {
                 s = 6 * e - r,
                 l = a * (1 - t),
                 c = a * (1 - s * t),
-                m = a * (1 - (1 - s) * t),
+                d = a * (1 - (1 - s) * t),
                 r % 6) {
                 case 0:
                     i = a,
-                    o = m,
+                    o = d,
                     n = l;
                     break;
                 case 1:
@@ -18999,7 +20746,7 @@ webpackJsonp([0], {
                 case 2:
                     i = l,
                     o = a,
-                    n = m;
+                    n = d;
                     break;
                 case 3:
                     i = l,
@@ -19007,7 +20754,7 @@ webpackJsonp([0], {
                     n = a;
                     break;
                 case 4:
-                    i = m,
+                    i = d,
                     o = l,
                     n = a;
                     break;
@@ -19219,7 +20966,7 @@ webpackJsonp([0], {
             "game-painkiller": "药片",
             "game-painkiller-tooltip": "左键点击可以增加50点的肾上腺素。",
             "game-9mm": "9毫米",
-            "game-9mm-tooltip": "给M9,MP5,格洛克18C,Mac-10 和 UMP9的弹药。",
+            "game-9mm-tooltip": "给M9,MP5,格洛克18C,Mac-10, Vector 和 UMP9的弹药。",
             "game-12gauge": "12口径",
             "game-12gauge-tooltip": "给M870, Saiga-12 和 MP220的弹药。",
             "game-762mm": "7.62毫米",
@@ -19297,8 +21044,11 @@ webpackJsonp([0], {
             "index-auto-fill": "Auto Fill",
             "index-no-fill": "No Fill",
             "index-waiting-for-leader": "Waiting for leader to start game",
+            "index-joining-game": "Joining game",
+            "index-game-in-progress": "Game in progress",
             "index-play": "Play",
             "index-featured-youtuber": "Featured YouTuber",
+            "index-streaming-live": "Streaming Live!",
             "index-settings": "Settings",
             "index-high-resolution": "High resolution (check to increase visual quality)",
             "index-screen-shake": "Screen shake",
@@ -19467,7 +21217,7 @@ webpackJsonp([0], {
             "game-painkiller": "Pills",
             "game-painkiller-tooltip": "Left-click to boost adrenaline by 50.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Ammo for M9, Glock, MP5, MAC-10 and UMP9.",
+            "game-9mm-tooltip": "Ammo for M9, Glock, MP5, MAC-10, UMP9 and Vector.",
             "game-12gauge": "12 gauge",
             "game-12gauge-tooltip": "Ammo for M870, Saiga-12 and MP220.",
             "game-762mm": "7.62mm",
@@ -19514,6 +21264,7 @@ webpackJsonp([0], {
             "game-mp5": "MP5",
             "game-mac10": "MAC-10",
             "game-ump9": "UMP9",
+            "game-vector": "Vector",
             "game-m870": "M870",
             "game-mp220": "MP220",
             "game-saiga": "Saiga-12",
@@ -19540,247 +21291,9 @@ webpackJsonp([0], {
             "game-barrel_01": "a barrel",
             "game-silo_01": "a silo",
             "game-oven_01": "an oven",
-            "game-control_panel_01": "Control Panel"
-        };
-        e.exports = i
-    },
-    XrLF: function(e, t, a) {
-        "use strict";
-        var i = {
-            Slith: {
-                name: "Slith",
-                link: "https://www.youtube.com/watch?v=ELQcaxMxykw",
-                weight: 50,
-                language: "ru"
-            },
-            "Мишка и Юля": {
-                name: "Мишка и Юля",
-                link: "https://www.youtube.com/watch?v=LMjviRhDIX8",
-                weight: 5,
-                language: "ru"
-            },
-            "Демастер": {
-                name: "Демастер",
-                link: "https://www.youtube.com/watch?v=gRkMeWKxpVE",
-                weight: 25,
-                language: "ru"
-            },
-            "KINGOFDARKNESSCERBERUS АИД": {
-                name: "KINGOFDARKNESSCERBERUS АИД",
-                link: "https://www.youtube.com/watch?v=q84ofnRjPe0",
-                weight: 25,
-                language: "ru"
-            },
-            "Vinni Biesiu": {
-                name: "Vinni Biesiu",
-                link: "https://www.youtube.com/watch?v=tCxedpa7alg",
-                weight: 25,
-                language: "pl"
-            },
-            Plepsu: {
-                name: "Plepsu",
-                link: "https://www.youtube.com/watch?v=DpenTcH93uk",
-                weight: 50,
-                language: "pl"
-            },
-            TheWillyrex: {
-                name: "TheWillyrex",
-                link: "https://www.youtube.com/watch?v=yKFA4o2TL6g",
-                weight: 25,
-                language: "es"
-            },
-            dedpoio: {
-                name: "dedpoio",
-                link: "https://www.youtube.com/watch?v=KxE1PnIfSzo",
-                weight: 5,
-                language: "es"
-            },
-            Dawgun: {
-                name: "Dawgun",
-                link: "https://www.youtube.com/watch?v=tK8AZU0Z6eI",
-                weight: 25,
-                language: "es"
-            },
-            Vikkstar123: {
-                name: "Vikkstar123",
-                link: "https://www.youtube.com/watch?v=2aJx6_nXF04",
-                weight: 5,
-                language: "en"
-            },
-            Pidyohago: {
-                name: "Pidyohago",
-                link: "https://www.youtube.com/watch?v=mEr1mmp6Vgs",
-                weight: 25,
-                language: "en"
-            },
-            iXPLODE: {
-                name: "iXPLODE",
-                link: "https://www.youtube.com/watch?v=Nzfuzuf85aA",
-                weight: 5,
-                language: "en"
-            },
-            CorruptX: {
-                name: "CorruptX",
-                link: "https://www.youtube.com/watch?v=d-HOWUR8fK8",
-                weight: 25,
-                language: "en"
-            },
-            "Baxtrix[EN]": {
-                name: "Baxtrix [EN]",
-                link: "https://www.youtube.com/watch?v=IeM_45GU_JE",
-                weight: 25,
-                language: "en"
-            },
-            Shyguymask: {
-                name: "Shyguymask",
-                link: "https://www.youtube.com/watch?v=2f1zIWVSi6Q",
-                weight: 25,
-                language: "en"
-            },
-            Yuukun: {
-                name: "Yuukun",
-                link: "https://www.youtube.com/watch?v=Ujqdpvpw_1I",
-                weight: 25,
-                language: "en"
-            },
-            iHASYOU: {
-                name: "iHASYOU",
-                link: "https://www.youtube.com/watch?v=g4ZQXS21ye4",
-                weight: 25,
-                language: "en"
-            },
-            "MasterOv Gaming": {
-                name: "MasterOv Gaming",
-                link: "https://www.youtube.com/watch?v=YBRXO571d4E",
-                weight: 5,
-                language: "en"
-            },
-            Duckio: {
-                name: "Duckio",
-                link: "https://www.youtube.com/watch?v=LAmkaLcI_Sg",
-                weight: 25,
-                language: "en"
-            },
-            JeromeASF: {
-                name: "JeromeASF",
-                link: "https://www.youtube.com/watch?v=e7P7EzhFouE",
-                weight: 25,
-                language: "en"
-            },
-            Godenot: {
-                name: "Godenot",
-                link: "https://www.youtube.com/watch?v=kICXbR9R5d0",
-                weight: 25,
-                language: "pt"
-            },
-            MaxPalaro: {
-                name: "MaxPalaro",
-                link: "https://www.youtube.com/watch?v=jk4jmvKBXPw",
-                weight: 5,
-                language: "pt"
-            },
-            TazerCraft: {
-                name: "TazerCraft",
-                link: "https://www.youtube.com/watch?v=_CfPEjsuGIo",
-                weight: 25,
-                language: "pt"
-            },
-            SkizzTV: {
-                name: "SkizzTV",
-                link: "https://www.youtube.com/watch?v=6EWokdQXCwI",
-                weight: 50,
-                language: "th"
-            },
-            "MR.CHAT. TV": {
-                name: "MR.CHAT. TV",
-                link: "https://www.youtube.com/watch?v=xRm7vQUxZoM",
-                weight: 25,
-                language: "th"
-            },
-            "TAEJK.TV": {
-                name: "TAEJK.TV",
-                link: "https://www.youtube.com/watch?v=0nDWyNu-oVQ",
-                weight: 25,
-                language: "th"
-            },
-            Zombey: {
-                name: "Zombey",
-                link: "https://www.youtube.com/watch?v=wFFgDfSNh6g",
-                weight: 25,
-                language: "de"
-            },
-            GermanLetsPlay: {
-                name: "GermanLetsPlay",
-                link: "https://www.youtube.com/watch?v=iVMXANq9GGc",
-                weight: 50,
-                language: "de"
-            },
-            "der Paedagoge": {
-                name: "der Paedagoge",
-                link: "https://www.youtube.com/watch?v=WdCNvlGbGSk",
-                weight: 25,
-                language: "de"
-            },
-            Dr_Horse: {
-                name: "Dr_Horse",
-                link: "https://www.youtube.com/watch?v=E0IPLNNxBNs",
-                weight: 50,
-                language: "fr"
-            },
-            FuriousJumper: {
-                name: "Furious Jumper",
-                link: "https://www.youtube.com/watch?v=sXQ34reKjFo",
-                weight: 25,
-                language: "fr"
-            },
-            Baxtrix: {
-                name: "Baxtrix",
-                link: "https://www.youtube.com/watch?v=wXPnNThOeOU",
-                weight: 25,
-                language: "cs"
-            },
-            "우왁굳의게임방송": {
-                name: "우왁굳의게임방송",
-                link: "https://www.youtube.com/watch?v=iUc-sqG8y-E",
-                weight: 25,
-                language: "ko"
-            },
-            "겜브링": {
-                name: "겜브링 (GGAM BRING)",
-                link: "https://www.youtube.com/watch?v=AOKh7T_4xPo",
-                weight: 25,
-                language: "ko"
-            },
-            "풍월량": {
-                name: "풍월량",
-                link: "https://www.youtube.com/watch?v=cSZqiP177Z0",
-                weight: 25,
-                language: "ko"
-            },
-            "똘똘똘이의 유튜브": {
-                name: "똘똘똘이의 유튜브",
-                link: "https://www.youtube.com/watch?v=y7VmbtOQNuM",
-                weight: 25,
-                language: "ko"
-            },
-            "さよドラ": {
-                name: "さよドラ",
-                link: "https://www.youtube.com/watch?v=IoCjtJ4Ox5A",
-                weight: 25,
-                language: "ja"
-            },
-            "あしあと": {
-                name: "あしあと",
-                link: "https://www.youtube.com/watch?v=KSptXhiwQEc",
-                weight: 50,
-                language: "ja"
-            },
-            "Lobo 蘿蔔": {
-                name: "Lobo 蘿蔔",
-                link: "https://www.youtube.com/watch?v=pF49hovkhJ0",
-                weight: 25,
-                language: "zh-tw"
-            }
+            "game-control_panel_01": "Control Panel",
+            "game-control_panel_02": "a power box",
+            "game-control_panel_03": "a computer terminal"
         };
         e.exports = i
     },
@@ -19801,7 +21314,7 @@ webpackJsonp([0], {
           , c = (a("zinx"),
         a("r4ug"),
         a("EZ6M"))
-          , m = {
+          , d = {
             frag: {
                 burst: {
                     particle: "explosionBurst",
@@ -19851,7 +21364,7 @@ webpackJsonp([0], {
         i.prototype = {
             init: function(e, t, a) {
                 var i = n.explosions[e].explosionType
-                  , o = m[i];
+                  , o = d[i];
                 this.active = !0,
                 this.done = !1,
                 this.type = e,
@@ -19866,8 +21379,8 @@ webpackJsonp([0], {
                 this.active = !1
             },
             update: function(e, t, a, i, o) {
-                var d = n.explosions[this.type].explosionType
-                  , p = m[d];
+                var m = n.explosions[this.type].explosionType
+                  , p = d[m];
                 if (0 == this.ticker) {
                     t.addParticle(c.Defs[p.burst.particle], this.layer, this.pos, l.create(0, 0), p.burst.scale, 0, null);
                     var u = i.getGroundSurface(this.pos, this.layer)
@@ -19922,7 +21435,7 @@ webpackJsonp([0], {
     YUyC: function(e, t, a) {
         "use strict";
         function i(e, t, a) {
-            for (var i = o.map, s = i.shoreDivisions, l = i.shoreInset, c = i.shoreVariation, m = i.grassInset, d = i.grassVariation, p = a, u = function(e, t) {
+            for (var i = o.map, s = i.shoreDivisions, l = i.shoreInset, c = i.shoreVariation, d = i.grassInset, m = i.grassVariation, p = a, u = function(e, t) {
                 p = 16807 * p % 2147483647;
                 var a = p / 2147483647;
                 return n.lerp(a, e, t)
@@ -19944,15 +21457,15 @@ webpackJsonp([0], {
                     y: h.y + u(-c, c)
                 });
             v.push(g);
-            for (var w = 1; w <= s; ++w)
-                v.push({
-                    x: g.x + u(-c, c),
-                    y: g.y + x * w
-                });
-            v.push(y);
             for (var _ = 1; _ <= s; ++_)
                 v.push({
-                    x: y.x - x * _,
+                    x: g.x + u(-c, c),
+                    y: g.y + x * _
+                });
+            v.push(y);
+            for (var w = 1; w <= s; ++w)
+                v.push({
+                    x: y.x - x * w,
                     y: y.y + u(-c, c)
                 });
             v.push(f);
@@ -19966,8 +21479,8 @@ webpackJsonp([0], {
                 shore: v,
                 grass: v.map(function(e) {
                     var t = r.normalize(r.sub(M, e))
-                      , a = u(-d, d)
-                      , i = m + a;
+                      , a = u(-m, m)
+                      , i = d + a;
                     return r.add(e, r.mul(t, i))
                 })
             }
@@ -20021,8 +21534,8 @@ webpackJsonp([0], {
           , l = (a("0od3"),
         a("gtMM"))
           , c = a("85i3")
-          , m = a("Jr6A")
-          , d = (a("zinx"),
+          , d = a("Jr6A")
+          , m = (a("zinx"),
         function() {
             function e(t, a, o, n, s) {
                 var l = this;
@@ -20047,7 +21560,7 @@ webpackJsonp([0], {
                 this.joiningGame = !1,
                 this.ws = null,
                 this.keepAliveTimeout = 0,
-                this.regionPops = {},
+                this.siteInfo = {},
                 this.playerData = {},
                 this.roomData = {},
                 this.players = [],
@@ -20100,7 +21613,7 @@ webpackJsonp([0], {
                       , i = r("<input>");
                     if (r("body").append(i),
                     i.val(a),
-                    m.detectiOS()) {
+                    d.detectiOS()) {
                         var o = i.get(0)
                           , n = o.contentEditable
                           , s = o.readOnly;
@@ -20123,8 +21636,8 @@ webpackJsonp([0], {
             return n(e, [{
                 key: "update",
                 value: function(e) {
-                    this.joined && (this.keepAliveTimeout -= e * this.msgStartOpacityDir,
-                    this.keepAliveTimeout < 0 && (this.keepAliveTimeout = 2e4,
+                    this.joined && (this.keepAliveTimeout -= e,
+                    this.keepAliveTimeout < 0 && (this.keepAliveTimeout = 30,
                     this.sendMessage("keepAlive", {})))
                 }
             }, {
@@ -20213,6 +21726,12 @@ webpackJsonp([0], {
                     }
                 }
             }, {
+                key: "onGameComplete",
+                value: function() {
+                    this.active && (this.joiningGame = !1,
+                    this.sendMessage("gameComplete"))
+                }
+            }, {
                 key: "onMessage",
                 value: function(e, t) {
                     var a = this
@@ -20262,11 +21781,6 @@ webpackJsonp([0], {
                             a.close()
                 }
             }, {
-                key: "setRegionPops",
-                value: function(e) {
-                    this.regionPops = e
-                }
-            }, {
                 key: "setRoomProperty",
                 value: function(e, t) {
                     this.isLeader && this.roomData[e] != t && (this.roomData[e] = t,
@@ -20281,10 +21795,10 @@ webpackJsonp([0], {
                     if (this.isLeader && !t.findingGame) {
                         var a = s.protocolVersion
                           , i = t.region
-                          , o = m.getParameterByName("region");
+                          , o = d.getParameterByName("region");
                         void 0 !== o && o.length > 0 && (i = o);
                         var n = e.getZones(i)
-                          , r = m.getParameterByName("zone");
+                          , r = d.getParameterByName("zone");
                         void 0 !== r && r.length > 0 && (n = [r]);
                         var l = {
                             version: a,
@@ -20299,114 +21813,137 @@ webpackJsonp([0], {
             }, {
                 key: "refreshUi",
                 value: function() {
-                    var e = this.playBtn
-                      , t = this.serverWarning
-                      , a = this.teamOptions
-                      , i = this.serverSelect
-                      , n = this.queueDuo
-                      , s = this.queueSquad
-                      , l = this.fillAuto
-                      , c = this.fillNone
+                    var e = this.localization
+                      , t = this.playBtn
+                      , a = this.serverWarning
+                      , i = this.teamOptions
+                      , n = this.serverSelect
+                      , s = this.queueDuo
+                      , l = this.queueSquad
+                      , c = this.fillAuto
+                      , d = this.fillNone
                       , m = this.active
-                      , d = this.joined
-                      , p = this.create
-                      , u = this.joiningGame
-                      , h = this.regionPops
-                      , g = (this.playerData,
+                      , p = this.joined
+                      , u = this.create
+                      , h = this.joiningGame
+                      , g = this.siteInfo
+                      , f = (this.playerData,
                     this.roomData)
-                      , f = this.players
-                      , y = this.localPlayerIdx
-                      , b = this.isLeader
-                      , x = this.audioManager;
+                      , y = this.players
+                      , b = this.localPlayerIdx
+                      , x = this.isLeader
+                      , v = this.audioManager;
                     r("#team-menu").css("display", m ? "block" : "none"),
                     r("#start-menu").css("display", m ? "none" : "block"),
                     r("#news-block").css("display", m ? "none" : "block"),
                     r("#social-share-block").css("display", m ? "none" : "block");
-                    var v = "" != g.lastError
-                      , k = o(g.lastError, this.localization);
-                    if (t.css("opacity", v ? 1 : 0),
-                    t.html(k),
-                    m && (r("#team-menu-joining-text").css("display", p ? "none" : "block"),
-                    r("#team-menu-creating-text").css("display", p ? "block" : "none"),
-                    r("#team-menu-connecting").css("display", d ? "none" : "block"),
-                    r("#team-menu-contents").css("display", d ? "block" : "none")),
-                    d) {
-                        for (var w = Object.keys(h), _ = 0; _ < w.length; _++) {
-                            var S = w[_]
-                              , M = h[S]
-                              , T = r("#team-server-opts").children('option[value="' + S + '"]');
-                            T.html(T.attr("data-label") + " [" + M + "]")
+                    var k = "" != f.lastError
+                      , _ = o(f.lastError, this.localization);
+                    if (a.css("opacity", k ? 1 : 0),
+                    a.html(_),
+                    m && (r("#team-menu-joining-text").css("display", u ? "none" : "block"),
+                    r("#team-menu-creating-text").css("display", u ? "block" : "none"),
+                    r("#team-menu-connecting").css("display", p ? "none" : "block"),
+                    r("#team-menu-contents").css("display", p ? "block" : "none")),
+                    p) {
+                        for (var w = g.pops || {}, S = Object.keys(w), M = 0; M < S.length; M++) {
+                            var T = S[M]
+                              , P = w[T]
+                              , C = r("#team-server-opts").children('option[value="' + T + '"]');
+                            C.html(C.attr("data-label") + " [" + P + "]")
                         }
-                        i.find("option").each(function() {
-                            this.selected = this.value == g.region
+                        n.find("option").each(function() {
+                            this.selected = this.value == f.region
                         }),
                         r(".btn-team-queue").removeClass("btn-hollow-selected");
-                        (2 == g.teamMode ? n : s).addClass("btn-hollow-selected"),
+                        (2 == f.teamMode ? s : l).addClass("btn-hollow-selected"),
                         r(".btn-team-fill").removeClass("btn-hollow-selected");
-                        if ((g.autoFill ? l : c).addClass("btn-hollow-selected"),
-                        g.roomUrl && (r("#team-url").html(window.location.origin + "/" + g.roomUrl),
-                        r("#team-code").html(g.roomUrl.substring(1)),
-                        window.history && window.history.replaceState("", "", g.roomUrl)),
-                        e.html(g.findingGame || u ? '<div class="ui-spinner"></div>' : e.attr("data-label")),
-                        b ? (a.addClass("btn-darken"),
-                        a.removeClass("btn-disabled"),
-                        a.removeClass("btn-opaque")) : (a.addClass("btn-disabled"),
+                        (f.autoFill ? c : d).addClass("btn-hollow-selected"),
+                        f.roomUrl && (r("#team-url").html(window.location.origin + "/" + f.roomUrl),
+                        r("#team-code").html(f.roomUrl.substring(1)),
+                        window.history && window.history.replaceState("", "", f.roomUrl)),
+                        t.html(f.findingGame || h ? '<div class="ui-spinner"></div>' : t.attr("data-label")),
+                        x ? (i.addClass("btn-darken"),
+                        i.removeClass("btn-disabled"),
+                        i.removeClass("btn-opaque")) : (i.addClass("btn-disabled"),
                         r(".team-menu-options-buttons .btn-hollow-selected").removeClass("btn-opaque"),
                         r('.team-menu-options-buttons a:not(".btn-hollow-selected")').addClass("btn-opaque"),
-                        a.removeClass("btn-darken")),
-                        a.prop("disabled", !b),
-                        i.prop("disabled", !b),
-                        r("#btn-start-team").css("display", b ? "block" : "none"),
-                        r("#msg-start-waiting").css("display", b ? "none" : "block"),
-                        r("#msg-start-waiting").html(g.findingGame || u ? '<div class="ui-spinner" style="margin-right:16px"></div>Joining game <span>...</span>' : r("#msg-start-waiting").attr("data-label") + "<span> ...</span>"),
-                        b) {
-                            var P = f.length <= 2;
-                            P || (n.addClass("btn-disabled btn-opaque"),
-                            n.removeClass("btn-darken btn-hollow-selected")),
-                            n.prop("disabled", !P)
+                        i.removeClass("btn-darken")),
+                        i.prop("disabled", !x),
+                        n.prop("disabled", !x),
+                        r("#btn-start-team").css("display", x ? "block" : "none");
+                        for (var z = !1, I = 0; I < y.length; I++)
+                            y[I].isLeader && (z = y[I].inGame);
+                        var D = r("#msg-wait-reason");
+                        if (D.css("display", x ? "none" : "block"),
+                        f.findingGame || h ? D.html('<div class="ui-spinner" style="margin-right:16px"></div>' + e.translate("index-joining-game") + "<span> ...</span>") : z ? D.html(e.translate("index-game-in-progress") + "<span> ...</span>") : D.html(e.translate("index-waiting-for-leader") + "<span> ...</span>"),
+                        x) {
+                            var A = y.length <= 2;
+                            A || (s.addClass("btn-disabled btn-opaque"),
+                            s.removeClass("btn-darken btn-hollow-selected")),
+                            s.prop("disabled", !A)
                         }
-                        var z = r("#team-menu-member-list");
-                        z.empty();
-                        for (var C = 0; C < f.length; C++) {
-                            var I = f[C]
-                              , A = r("<div/>", {
+                        var O = !0
+                          , L = r("#team-menu-member-list");
+                        L.empty();
+                        for (var B = 0; B < f.teamMode; B++) {
+                            var E = {
+                                name: "",
+                                isLocal: !1,
+                                isLeader: !1,
+                                inGame: !1
+                            };
+                            if (B < y.length) {
+                                var F = y[B];
+                                E = {
+                                    name: F.name,
+                                    isLocal: B === b,
+                                    isLeader: F.isLeader,
+                                    inGame: F.inGame
+                                }
+                            }
+                            var R = r("<div/>", {
                                 class: "team-menu-member"
                             })
-                              , D = "";
-                            I.isLeader && (D = " team-menu-member-leader");
-                            var O = "team-menu-member-name-text";
-                            C === y && (O += " team-menu-member-name-self"),
-                            A.append(r("<div/>", {
-                                class: "team-menu-member-icon" + D
+                              , j = "";
+                            E.isLeader && (j = " icon-leader");
+                            var q = "name-text";
+                            E.isLocal && (q += " name-self"),
+                            R.append(r("<div/>", {
+                                class: "icon" + j
                             })),
-                            A.append(r("<div/>", {
-                                class: "team-menu-member-name menu-option"
+                            R.append(r("<div/>", {
+                                class: "name menu-option"
                             }).append(r("<div/>", {
-                                class: O,
-                                html: I.name
+                                class: q,
+                                html: E.name
                             }))),
-                            z.append(A)
+                            R.append(r("<div/>", {
+                                class: "icon " + (E.inGame ? "icon-in-game" : "")
+                            })),
+                            L.append(R),
+                            E.isLocal && E.inGame && (O = !1)
                         }
-                        !document.hasFocus() && this.prevPlayerCount < f.length && f.length > 1 && x.playSound("notification_join_01", {
+                        !document.hasFocus() && this.prevPlayerCount < y.length && y.length > 1 && O && v.playSound("notification_join_01", {
                             channel: "ui"
                         }),
-                        this.prevPlayerCount = f.length
+                        this.prevPlayerCount = y.length
                     }
                 }
             }]),
             e
         }());
-        e.exports = d
+        e.exports = m
     },
     bkPR: function(e, t, a) {
         "use strict";
         function i(e, t, a, i, o, l) {
             var c = n.items[e]
-              , m = r.rotate(i, t)
-              , d = r.mul(m, 9.5);
-            d = r.rotate(d, (Math.random() - .5) * Math.PI / 3);
+              , d = r.rotate(i, t)
+              , m = r.mul(d, 9.5);
+            m = r.rotate(m, (Math.random() - .5) * Math.PI / 3);
             var p = r.add(a, r.mul(i, n.player.radius + c.particle.shellOffset));
-            l.addParticle(s.Defs[c.ammo], o, p, d, c.particle.shellScale, Math.atan2(-m.y, m.x))
+            l.addParticle(s.Defs[c.ammo], o, p, m, c.particle.shellScale, Math.atan2(-d.y, d.x))
         }
         function o() {
             this.shots = []
@@ -20442,22 +21979,22 @@ webpackJsonp([0], {
                     if (l.active) {
                         var c = n.items[l.weaponType];
                         if (0 == l.ticker) {
-                            var m = a.getPlayerById(l.playerId);
+                            var d = a.getPlayerById(l.playerId);
                             if (r.playSound(c.sound.shoot, {
                                 channel: l.playerId == t ? "activePlayer" : "otherPlayers",
                                 soundPos: l.pos,
-                                layer: m ? m.layer : l.layer,
+                                layer: d ? d.layer : l.layer,
                                 muffled: !0
                             }),
-                            m) {
-                                if (m.__id == t && "single" == c.fireMode && "single" == c.reloadMode) {
-                                    var d = m.localData.weapons[m.localData.curWeapIdx].ammo
-                                      , p = d > 0 ? c.sound.cycle : c.sound.pull;
+                            d) {
+                                if (d.__id == t && "single" == c.fireMode && "single" == c.reloadMode) {
+                                    var m = d.localData.weapons[d.localData.curWeapIdx].ammo
+                                      , p = m > 0 ? c.sound.cycle : c.sound.pull;
                                     r.localActionSoundInstance = r.playSound(p)
                                 }
                                 var u = l.offhand || !c.isDual
                                   , h = !l.offhand || !c.isDual;
-                                m.addRecoil(c.worldImg.recoil, u, h)
+                                d.addRecoil(c.worldImg.recoil, u, h)
                             }
                         }
                         if (l.ticker += e,
@@ -20481,7 +22018,7 @@ webpackJsonp([0], {
             var e = {
                 fontFamily: "Arial",
                 fontWeight: "bold",
-                fontSize: d.pixelRatio > 1 ? 30 : 24,
+                fontSize: m.pixelRatio > 1 ? 30 : 24,
                 align: "center",
                 fill: 16777215,
                 stroke: 0,
@@ -20499,7 +22036,7 @@ webpackJsonp([0], {
         }
         function o() {
             this.active = !1,
-            this.pos = m.create(0, 0),
+            this.pos = d.create(0, 0),
             this.container = new r.Container,
             this.sprite = r.Sprite.fromImage("img/gui/skull.svg"),
             this.sprite.anchor.set(.5, .5),
@@ -20522,8 +22059,8 @@ webpackJsonp([0], {
         a("0od3"),
         a("Tf6H"))
           , c = a("Jr6A")
-          , m = a("/2+T")
-          , d = a("zinx")
+          , d = a("/2+T")
+          , m = a("zinx")
           , p = (a("r4ug"),
         a("dT1u"))
           , u = a("xgte")
@@ -20534,7 +22071,7 @@ webpackJsonp([0], {
                 this.container.visible = !1
             },
             updateData: function(e, t, a, i) {
-                this.pos = m.copy(e.pos),
+                this.pos = d.copy(e.pos),
                 t && (this.layer = e.layer,
                 this.playerId = e.playerId),
                 a && (this.nameTextSet = !1,
@@ -20544,21 +22081,21 @@ webpackJsonp([0], {
         n.prototype = {
             update: function(e, t, a, i, o, n) {
                 for (var r = this.deadBodyPool.getPool(), l = 0; l < r.length; l++) {
-                    var m = r[l];
-                    if (m.active) {
-                        m.nameTextSet || (m.nameTextSet = !0,
-                        m.nameText.text = c.unEntity(t.getPlayerInfo(m.playerId).name));
-                        var d = s.createCircle(m.pos, 1)
-                          , p = i.insideStructureStairs(d)
-                          , u = m.layer
+                    var d = r[l];
+                    if (d.active) {
+                        d.nameTextSet || (d.nameTextSet = !0,
+                        d.nameText.text = c.unEntity(t.getPlayerInfo(d.playerId).name));
+                        var m = s.createCircle(d.pos, 1)
+                          , p = i.insideStructureStairs(m)
+                          , u = d.layer
                           , g = 12;
-                        0 == m.layer && 0 == a.layer && p && (u |= 2,
+                        0 == d.layer && 0 == a.layer && p && (u |= 2,
                         g += 100),
-                        n.addPIXIObj(m.container, h.DeadBody, u, g, m.__id);
-                        var f = o.pointToScreen(m.pos)
+                        n.addPIXIObj(d.container, h.DeadBody, u, g, d.__id);
+                        var f = o.pointToScreen(d.pos)
                           , y = o.pixels(1);
-                        m.container.position.set(f.x, f.y),
-                        m.container.scale.set(y, y)
+                        d.container.position.set(f.x, f.y),
+                        d.container.scale.set(y, y)
                     }
                 }
             },
@@ -20628,9 +22165,9 @@ webpackJsonp([0], {
                 return this.idToObj[e]
             },
             getTypeById: function(e, t, a, i, o, n, s, l, c) {
-                var m = this.getObjById(e);
-                if (!m) {
-                    var d = {
+                var d = this.getObjById(e);
+                if (!d) {
+                    var m = {
                         id: e,
                         dbgType: t,
                         seenCount: this.seenCount,
@@ -20643,11 +22180,11 @@ webpackJsonp([0], {
                         partCount: l,
                         stream: c._view._view
                     };
-                    return r.logError("getTypeById" + JSON.stringify(d)),
+                    return r.logError("getTypeById" + JSON.stringify(m)),
                     r.storeGeneric("objectPoolErr", "getTypeById"),
                     t
                 }
-                return m.__type
+                return d.__type
             },
             updateObjFull: function(e, t, a, i) {
                 var o = this.getObjById(t)
@@ -20858,7 +22395,7 @@ webpackJsonp([0], {
             "game-painkiller": "Haplar",
             "game-painkiller-tooltip": "50 adrenalin basmak için sol tıkla.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "M9, Glock, MP5, MAC-10 ve UMP9 için cephane.",
+            "game-9mm-tooltip": "M9, Glock, MP5, MAC-10, UMP9 ve Vector için cephane.",
             "game-12gauge": "12 kalibre",
             "game-12gauge-tooltip": "M870, Saiga-12 ve MP220 için cephane.",
             "game-762mm": "7.62mm",
@@ -20941,6 +22478,9 @@ webpackJsonp([0], {
             setLocale: function(e) {
                 this.locale = -1 != this.acceptedLocales.indexOf(e) ? e : "en"
             },
+            getLocale: function() {
+                return this.locale
+            },
             translate: function(e) {
                 return this.translations[this.locale][e] || this.translations.en[e] || ""
             },
@@ -20969,13 +22509,13 @@ webpackJsonp([0], {
             c(e >= 0);
             var t = [];
             do {
-                t.push(m[e % d]),
-                e = Math.floor(e / d)
+                t.push(d[e % m]),
+                e = Math.floor(e / m)
             } while (e > 0);return t.reverse().join("")
         }
         function o(e) {
             for (var t = 0, a = 0; a < e.length; a++)
-                t = t * d + m.indexOf(e.charAt(a));
+                t = t * m + d.indexOf(e.charAt(a));
             return t
         }
         function n(e, t) {
@@ -20994,11 +22534,11 @@ webpackJsonp([0], {
             return ("00" + e).slice(-2)
         }
         function l(e) {
-            return Math.min((Math.pow(d, e) >> 4) - 1, 134217727)
+            return Math.min((Math.pow(m, e) >> 4) - 1, 134217727)
         }
         var c = a("DlZn")
-          , m = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789".split("")
-          , d = m.length;
+          , d = "abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNOPQRSTUVWXYZ0123456789".split("")
+          , m = d.length;
         e.exports = {
             encodeUrl: n,
             decodeUrl: r,
@@ -21172,7 +22712,7 @@ webpackJsonp([0], {
             "game-painkiller": "Piller",
             "game-painkiller-tooltip": "Venstre-klik for at løfte adrenalinen med 50.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Ammo for M9, Glock, MP5, MAC-10 og UMP9.",
+            "game-9mm-tooltip": "Ammo for M9, Glock, MP5, MAC-10, UMP9 og Vector.",
             "game-12gauge": "12 gauge",
             "game-12gauge-tooltip": "Ammo for M870, Saiga-12 og MP220.",
             "game-762mm": "7.62mm",
@@ -21382,7 +22922,7 @@ webpackJsonp([0], {
             "game-painkiller": "藥片",
             "game-painkiller-tooltip": "左鍵點擊可使腎上腺素增加50。",
             "game-9mm": "9毫米",
-            "game-9mm-tooltip": "M9, Glock, MP5, MAC-10和UMP9彈藥。",
+            "game-9mm-tooltip": "M9, Glock, MP5, Vector, MAC-10和UMP9彈藥。",
             "game-12gauge": "12計",
             "game-12gauge-tooltip": "M870, Saiga-12 和 MP220彈藥。",
             "game-762mm": "7.62毫米",
@@ -21636,6 +23176,19 @@ webpackJsonp([0], {
                 },
                 ump9_switch_01: {
                     name: "audio/guns/ump9_switch_01.mp3",
+                    volume: 1
+                },
+                vector_01: {
+                    name: "audio/guns/vector_01.mp3",
+                    volume: 1,
+                    maxInstances: 5
+                },
+                vector_reload_01: {
+                    name: "audio/guns/vector_reload_01.mp3",
+                    volume: 1
+                },
+                vector_switch_01: {
+                    name: "audio/guns/vector_switch_01.mp3",
                     volume: 1
                 },
                 famas_01: {
@@ -22079,6 +23632,18 @@ webpackJsonp([0], {
                     name: "audio/sfx/door_close_02.mp3",
                     volume: 1
                 },
+                door_open_03: {
+                    name: "audio/sfx/door_open_03.mp3",
+                    volume: 1
+                },
+                door_close_03: {
+                    name: "audio/sfx/door_close_03.mp3",
+                    volume: 1
+                },
+                door_error_01: {
+                    name: "audio/sfx/door_error_01.mp3",
+                    volume: 1
+                },
                 vault_change_01: {
                     name: "audio/sfx/vault_change_01.mp3",
                     volume: 1
@@ -22367,11 +23932,27 @@ webpackJsonp([0], {
                 name: "music",
                 type: "music"
             }
+        }
+          , r = {
+            cathedral: {
+                name: "audio/reverb/cathedral_01.mp3",
+                volume: .7,
+                stereoSpread: .004
+            },
+            cave: {
+                name: "audio/reverb/cave_mono_01.mp3",
+                volume: .7,
+                echoVolume: .5,
+                echoDelay: .25,
+                echoLowPass: 800,
+                stereoSpread: .004
+            }
         };
         e.exports = {
             Sounds: i,
             Groups: o,
-            Channels: n
+            Channels: n,
+            Reverbs: r
         }
     },
     "m1+W": function(e, t, a) {
@@ -22405,8 +23986,8 @@ webpackJsonp([0], {
           , s = a("DM7t")
           , l = a("v8aM")
           , c = l.EmoteSlot
-          , m = l.EmoteData
-          , d = a("Bk7F")
+          , d = l.EmoteData
+          , m = a("Bk7F")
           , p = a("0od3")
           , u = a("yp2f")
           , h = a("/2+T")
@@ -22417,18 +23998,18 @@ webpackJsonp([0], {
           , x = a("GtPS")
           , v = a("ckCa")
           , k = a("r4ug")
-          , w = a("FyxX")
-          , _ = (a("6YQA"),
+          , _ = a("FyxX")
+          , w = (a("6YQA"),
         a("5dFr"))
           , S = a("YEz/")
           , M = a("85i3")
           , T = a("p/CU")
           , P = T.Gas
-          , z = a("S40U")
-          , C = a("pI87")
+          , C = a("S40U")
+          , z = a("pI87")
           , I = a("1JzZ")
-          , A = a("dT1u")
-          , D = a("EZ6M")
+          , D = a("dT1u")
+          , A = a("EZ6M")
           , O = a("/rj8")
           , L = a("pQi2")
           , B = a("vIPv")
@@ -22438,77 +24019,85 @@ webpackJsonp([0], {
           , j = a("CVWn")
           , q = (a("zgif"),
         a("4glI"))
-          , U = a("MWDq")
-          , G = a("09pV");
+          , N = a("MWDq")
+          , U = a("09pV");
         o.prototype = {
             tryJoinGame: function(e, t, a) {
                 var i = this;
-                this.ws && (this.ws.onerror = function() {}
-                ,
-                this.ws.onopen = function() {}
-                ,
-                this.ws.onmessage = function() {}
-                ,
-                this.ws.onclose = function() {}
-                ,
-                this.ws.close(),
-                this.ws = null),
-                this.connecting = !0,
-                this.connected = !1;
-                try {
-                    this.ws = new WebSocket(t),
-                    this.ws.binaryType = "arraybuffer",
-                    this.ws.onerror = function(e) {
-                        console.log("Connection error", e),
-                        i.ws && i.ws.close()
-                    }
+                if (!this.connecting && !this.connected) {
+                    y.logDebug() && console.log("Joining game", t, e),
+                    this.ws && (this.ws.onerror = function() {}
                     ,
-                    this.ws.onopen = function() {
-                        i.connecting = !1,
-                        i.connected = !0,
-                        i.init();
-                        var t = new u.JoinMsg;
-                        t.protocol = r.protocolVersion,
-                        t.teamUuid = e.teamUuid,
-                        t.teamMode = e.teamMode,
-                        t.playerCount = e.playerCount,
-                        t.autoFill = e.autoFill,
-                        t.name = e.name,
-                        t.bot = !1,
-                        t.emotes = i.emoteLoadout,
-                        t.useTouch = f.touch,
-                        i.sendMessage(u.Msg.Join, t)
-                    }
+                    this.ws.onopen = function() {}
                     ,
-                    this.ws.onmessage = function(e) {
-                        for (var t = new u.MsgStream(e.data); ; ) {
-                            var a = t.deserializeMsgType();
-                            if (a == u.Msg.None)
-                                break;
-                            i.onMessage(a, t.getStream())
+                    this.ws.onmessage = function() {}
+                    ,
+                    this.ws.onclose = function() {}
+                    ,
+                    this.ws.close(),
+                    this.ws = null),
+                    this.connecting = !0,
+                    this.connected = !1;
+                    try {
+                        this.ws = new WebSocket(t),
+                        this.ws.binaryType = "arraybuffer",
+                        this.ws.onerror = function(e) {
+                            i.ws && i.ws.close()
                         }
-                    }
-                    ,
-                    this.ws.onclose = function() {
-                        if (i.connecting)
-                            a();
-                        else if (i.connected && !i.gameOver) {
-                            var e = "";
-                            e = i.disconnectMsg && "" != i.disconnectMsg ? i.disconnectMsg : i.localization.translate("index-host-closed"),
-                            i.onQuit(e)
+                        ,
+                        this.ws.onopen = function() {
+                            i.connecting = !1,
+                            i.connected = !0,
+                            i.init();
+                            var t = new u.JoinMsg;
+                            t.protocol = r.protocolVersion,
+                            t.teamUuid = e.teamUuid,
+                            t.teamMode = e.teamMode,
+                            t.playerCount = e.playerCount,
+                            t.autoFill = e.autoFill,
+                            t.name = e.name,
+                            t.bot = !1,
+                            t.emotes = i.emoteLoadout,
+                            t.useTouch = f.touch,
+                            i.sendMessage(u.Msg.Join, t)
                         }
+                        ,
+                        this.ws.onmessage = function(e) {
+                            for (var t = new u.MsgStream(e.data); ; ) {
+                                var a = t.deserializeMsgType();
+                                if (a == u.Msg.None)
+                                    break;
+                                i.onMessage(a, t.getStream())
+                            }
+                        }
+                        ,
+                        this.ws.onclose = function() {
+                            var e = i.connecting
+                              , t = i.connected;
+                            if (i.connecting = !1,
+                            i.connected = !1,
+                            e)
+                                a();
+                            else if (t && !i.gameOver) {
+                                var o = "";
+                                o = i.disconnectMsg && "" != i.disconnectMsg ? i.disconnectMsg : i.localization.translate("index-host-closed"),
+                                i.onQuit(o)
+                            }
+                        }
+                    } catch (e) {
+                        this.connecting = !1,
+                        this.connected = !1,
+                        a()
                     }
-                } catch (e) {
-                    a()
                 }
             },
             init: function() {
                 var e, t = this.pixi.renderer.type == n.RENDERER_TYPE.CANVAS;
-                this.input = new z.InputHandler(this.pixi.view),
+                this.input = new C.InputHandler(this.pixi.view),
                 this.touch = new q.Touch(this.input,this.config),
                 this.camera = new x,
                 this.renderer = new F(t),
-                this.particleBarn = new D.ParticleBarn(this.renderer),
+                this.particleBarn = new A.ParticleBarn(this.renderer),
                 this.map = new I,
                 this.playerBarn = new L.PlayerBarn,
                 this.bulletBarn = new b.BulletBarn,
@@ -22516,13 +24105,13 @@ webpackJsonp([0], {
                 this.explosionBarn = new S.ExplosionBarn,
                 this.smokeBarn = new j.SmokeBarn,
                 this.deadBodyBarn = new v.DeadBodyBarn,
-                this.decalBarn = new w.DecalBarn,
-                this.lootBarn = new C.LootBarn,
+                this.decalBarn = new _.DecalBarn,
+                this.lootBarn = new z.LootBarn,
                 this.gas = new P(t),
                 this.pieTimer = new O.PieTimer,
-                this.uiManager = new U.UiManager(this,this.audioManager,this.pieTimer,this.particleBarn,this.localization,t,this.touch),
-                this.ui2Manager = new G.Ui2Manager(this.localization),
-                this.emoteManager = new _.EmoteManager(this,this.audioManager,this.uiManager,this.playerBarn,this.camera,this.map),
+                this.uiManager = new N.UiManager(this,this.audioManager,this.pieTimer,this.particleBarn,this.localization,t,this.touch),
+                this.ui2Manager = new U.Ui2Manager(this.localization),
+                this.emoteManager = new w.EmoteManager(this,this.audioManager,this.uiManager,this.playerBarn,this.camera,this.map),
                 this.shotBarn = new R.ShotBarn(this.particleBarn,this.audioManager,this.uiManager);
                 var a = (e = {},
                 i(e, s.Type.Player, this.playerBarn.playerPool),
@@ -22536,14 +24125,14 @@ webpackJsonp([0], {
                 i(e, s.Type.Projectile, this.projectileBarn.projectilePool),
                 i(e, s.Type.Smoke, this.smokeBarn.smokePool),
                 e);
-                this.objectCreator = new A.Creator;
+                this.objectCreator = new D.Creator;
                 for (var o in a)
                     a.hasOwnProperty(o) && this.objectCreator.registerType(o, a[o]);
                 this.debugDisplay = new n.Graphics;
                 for (var r = [this.map.display.water, this.map.display.background, this.renderer.layers[0], this.renderer.ground, this.renderer.layers[1], this.renderer.layers[2], this.renderer.layers[3], this.debugDisplay, this.gas.gasRenderer.display, this.touch.container, this.emoteManager.container, this.uiManager.container, this.emoteManager.indContainer, this.pieTimer.container], l = 0; l < r.length; l++) {
-                    var m = r[l];
-                    m && (m.interactiveChildren = !1,
-                    this.pixi.stage.addChild(m))
+                    var d = r[l];
+                    d && (d.interactiveChildren = !1,
+                    this.pixi.stage.addChild(d))
                 }
                 this.disconnectMsg = "",
                 this.playing = !1,
@@ -22565,7 +24154,7 @@ webpackJsonp([0], {
                 this.pings = [],
                 this.debugPingTime = 0,
                 this.camera.setShakeEnabled(this.config.get("screenShake"));
-                var d = {
+                var m = {
                     emoteTop: c.Top,
                     emoteRight: c.Right,
                     emoteBottom: c.Bottom,
@@ -22575,11 +24164,11 @@ webpackJsonp([0], {
                 };
                 this.emoteLoadout = [],
                 this.emoteLoadout[c.None] = 0;
-                for (var h = Object.keys(d), g = 0; g < h.length; g++) {
+                for (var h = Object.keys(m), g = 0; g < h.length; g++) {
                     var f = h[g]
                       , y = parseInt(this.config.get(f))
                       , k = p.clamp(y, 1, 255);
-                    this.emoteLoadout[d[f]] = k,
+                    this.emoteLoadout[m[f]] = k,
                     M.storeGeneric("loadouts", "emoteEquipped/" + k)
                 }
                 this.emoteManager.updateEmoteWheel(this.emoteLoadout),
@@ -22633,14 +24222,14 @@ webpackJsonp([0], {
                   , l = this.camera.targetZoom > this.camera.zoom ? n : s;
                 this.camera.zoom = p.lerp(e * l, this.camera.zoom, this.camera.targetZoom),
                 this.audioManager.cameraPos = h.copy(this.camera.pos),
-                (this.input.keyPressed(z.Key.M) || this.input.keyPressed(z.Key.G)) && this.uiManager.displayMapLarge(!1),
-                this.input.keyPressed(z.Key.Escape) && this.uiManager.toggleEscMenu(),
-                this.input.keyPressed(z.Key.V) && this.uiManager.cycleVisibilityMode();
+                (this.input.keyPressed(C.Key.M) || this.input.keyPressed(C.Key.G)) && this.uiManager.displayMapLarge(!1),
+                this.input.keyPressed(C.Key.Escape) && this.uiManager.toggleEscMenu(),
+                this.input.keyPressed(C.Key.V) && this.uiManager.cycleVisibilityMode();
                 var c = this.activePlayer.pos
-                  , m = this.camera.screenToPoint(this.input.mousePos)
-                  , d = h.sub(m, c)
-                  , g = h.length(d)
-                  , y = g > 1e-5 ? h.div(d, g) : h.create(1, 0);
+                  , d = this.camera.screenToPoint(this.input.mousePos)
+                  , m = h.sub(d, c)
+                  , g = h.length(m)
+                  , y = g > 1e-5 ? h.div(m, g) : h.create(1, 0);
                 this.emoteManager.wheelDisplayed && (g = this.prevMoveMsg.toMouseLen,
                 y = this.prevMoveMsg.toMouseDir);
                 var b = new u.MoveMsg;
@@ -22649,19 +24238,19 @@ webpackJsonp([0], {
                     var x = this.input
                       , v = this.uiManager
                       , k = this.ui2Manager
-                      , w = this.touch.getTouchMovement(this.camera);
+                      , _ = this.touch.getTouchMovement(this.camera);
                     if (this.touch.moveDetected) {
-                        var _ = 255 * p.clamp(w.moveLen, 0, 1);
-                        b.moveLeft = w.left,
-                        b.moveRight = w.right,
-                        b.moveUp = w.up,
-                        b.moveDown = w.down,
-                        b.moveLen = _
+                        var w = 255 * p.clamp(_.moveLen, 0, 1);
+                        b.moveLeft = _.left,
+                        b.moveRight = _.right,
+                        b.moveUp = _.up,
+                        b.moveDown = _.down,
+                        b.moveLen = w
                     } else
-                        b.moveLeft = this.input.keyDown(z.Key.Left) || this.input.keyDown(z.Key.A),
-                        b.moveRight = this.input.keyDown(z.Key.Right) || this.input.keyDown(z.Key.D),
-                        b.moveUp = this.input.keyDown(z.Key.Up) || this.input.keyDown(z.Key.W),
-                        b.moveDown = this.input.keyDown(z.Key.Down) || this.input.keyDown(z.Key.S),
+                        b.moveLeft = this.input.keyDown(C.Key.Left) || this.input.keyDown(C.Key.A),
+                        b.moveRight = this.input.keyDown(C.Key.Right) || this.input.keyDown(C.Key.D),
+                        b.moveUp = this.input.keyDown(C.Key.Up) || this.input.keyDown(C.Key.W),
+                        b.moveDown = this.input.keyDown(C.Key.Down) || this.input.keyDown(C.Key.S),
                         b.moveLen = 255;
                     if (f.touch) {
                         var S = this.activePlayer.localData.curWeapIdx == r.WeaponSlot.Throwable
@@ -22674,22 +24263,22 @@ webpackJsonp([0], {
                         b.toMouseLen = Math.min(g, u.kMouseMaxLen);
                     b.shootStart = x.mousePressed() || this.touch.shotDetected,
                     b.shootHold = x.mouseDown() || this.touch.shotDetected,
-                    b.reload = x.keyPressed(z.Key.R) || v.reloadTouched,
-                    b.interaction = x.keyPressed(z.Key.F) || v.interactionTouched,
-                    b.cancelAction = x.keyPressed(z.Key.X) || v.interactionTouched,
-                    b.equipPrimary = x.keyPressed(z.Key.One) || 0 == k.switchWeaponIdx,
-                    b.equipSecondary = x.keyPressed(z.Key.Two) || 1 == k.switchWeaponIdx,
-                    b.equipThrowable = x.keyPressed(z.Key.Four) || 3 == k.switchWeaponIdx,
-                    b.equipMelee = x.keyPressed(z.Key.Three) || x.keyPressed(z.Key.E) || 2 == k.switchWeaponIdx,
-                    b.equipLast = x.keyPressed(z.Key.Q),
+                    b.reload = x.keyPressed(C.Key.R) || v.reloadTouched,
+                    b.interaction = x.keyPressed(C.Key.F) || v.interactionTouched,
+                    b.cancelAction = x.keyPressed(C.Key.X) || v.interactionTouched,
+                    b.equipPrimary = x.keyPressed(C.Key.One) || 0 == k.switchWeaponIdx,
+                    b.equipSecondary = x.keyPressed(C.Key.Two) || 1 == k.switchWeaponIdx,
+                    b.equipThrowable = x.keyPressed(C.Key.Four) || 3 == k.switchWeaponIdx,
+                    b.equipMelee = x.keyPressed(C.Key.Three) || x.keyPressed(C.Key.E) || 2 == k.switchWeaponIdx,
+                    b.equipLast = x.keyPressed(C.Key.Q),
                     b.scrollDown = x.mouseWheel() > 0,
                     b.scrollUp = x.mouseWheel() < 0,
                     b.portrait = this.camera.screenWidth < this.camera.screenHeight;
                     for (var P = 0; P < k.uiEvents.length; P++) {
-                        var C = k.uiEvents[P];
-                        if ("use" == C.action)
-                            if ("weapon" == C.type)
-                                switch (C.data) {
+                        var z = k.uiEvents[P];
+                        if ("use" == z.action)
+                            if ("weapon" == z.type)
+                                switch (z.data) {
                                 case 0:
                                     b.equipPrimary = !0;
                                     break;
@@ -22703,20 +24292,20 @@ webpackJsonp([0], {
                                     b.equipThrowable = !0
                                 }
                             else
-                                "scope" == C.type ? b.useScope = C.data : b.useItem = C.data
+                                "scope" == z.type ? b.useScope = z.data : b.useItem = z.data
                     }
-                    "" === b.useItem && (b.useItem = x.keyPressed(z.Key.Seven) ? "bandage" : x.keyPressed(z.Key.Eight) ? "healthkit" : x.keyPressed(z.Key.Nine) ? "soda" : x.keyPressed(z.Key.Zero) ? "painkiller" : "");
-                    for (var I = !1, A = 0; A < k.uiEvents.length; A++) {
-                        var D = k.uiEvents[A];
-                        if ("drop" == D.action) {
+                    "" === b.useItem && (b.useItem = x.keyPressed(C.Key.Seven) ? "bandage" : x.keyPressed(C.Key.Eight) ? "healthkit" : x.keyPressed(C.Key.Nine) ? "soda" : x.keyPressed(C.Key.Zero) ? "painkiller" : "");
+                    for (var I = !1, D = 0; D < k.uiEvents.length; D++) {
+                        var A = k.uiEvents[D];
+                        if ("drop" == A.action) {
                             var O = new u.DropItemMsg;
-                            if ("weapon" == D.type) {
+                            if ("weapon" == A.type) {
                                 var L = this.activePlayer.localData.weapons;
-                                O.item = L[D.data].name,
-                                O.weapIdx = D.data
+                                O.item = L[A.data].name,
+                                O.weapIdx = A.data
                             } else {
                                 var B = "";
-                                B = "helmet" == D.data ? this.activePlayer.netData.helmet : "chest" == D.data ? this.activePlayer.netData.chest : D.data,
+                                B = "helmet" == A.data ? this.activePlayer.netData.helmet : "chest" == A.data ? this.activePlayer.netData.chest : A.data,
                                 O.item = B
                             }
                             "" != O.item && (this.sendMessage(u.Msg.DropItem, O),
@@ -22727,8 +24316,8 @@ webpackJsonp([0], {
                         channel: "ui"
                     })
                 }
-                var E = this.uiManager.specNext || this.spectating && this.input.keyPressed(z.Key.Right)
-                  , F = this.uiManager.specPrev || this.spectating && this.input.keyPressed(z.Key.Left);
+                var E = this.uiManager.specNext || this.spectating && this.input.keyPressed(C.Key.Right)
+                  , F = this.uiManager.specPrev || this.spectating && this.input.keyPressed(C.Key.Left);
                 if (this.uiManager.beginSpectating || E || F) {
                     this.gameOver = !1;
                     var R = new u.SpectateMsg;
@@ -22745,9 +24334,9 @@ webpackJsonp([0], {
                 for (var q in b)
                     if (b.hasOwnProperty(q)) {
                         if ("toMouseDir" == q) {
-                            var U = p.clamp(h.dot(b[q], this.prevMoveMsg[q]), -1, 1)
-                              , G = p.rad2deg(Math.acos(U));
-                            j = G > .4
+                            var N = p.clamp(h.dot(b[q], this.prevMoveMsg[q]), -1, 1)
+                              , U = p.rad2deg(Math.acos(N));
+                            j = U > .4
                         } else
                             "toMouseLen" == q ? j = Math.abs(this.prevMoveMsg[q] - b[q]) > .5 : "shootStart" == q ? j = b[q] || b[q] != this.prevMoveMsg[q] : this.prevMoveMsg[q] != b[q] && (j = !0);
                         if (j)
@@ -22778,11 +24367,11 @@ webpackJsonp([0], {
                 this.emoteManager.update(e, this.localId, this.activePlayer, this.input.mousePos, this.teamMode, this.deadBodyBarn, this.renderer),
                 this.touch.updateDisplay(),
                 this.renderer.update(e, this.camera, this.map);
-                for (var V = 0; V < this.emoteManager.newPings.length; V++) {
-                    var N = this.emoteManager.newPings[V]
+                for (var G = 0; G < this.emoteManager.newPings.length; G++) {
+                    var V = this.emoteManager.newPings[G]
                       , H = new u.EmoteMsg;
-                    H.type = N.type,
-                    H.pos = N.pos,
+                    H.type = V.type,
+                    H.pos = V.pos,
                     H.useLoadout = !1,
                     H.teamOnly = !0,
                     H.isPing = !0,
@@ -22860,9 +24449,9 @@ webpackJsonp([0], {
                 e.gasDirty && this.gas.setFullState(e.gasT, e.gasData, this.map, this.uiManager);
                 for (var s = 0; s < e.teams.length; s++)
                     this.playerBarn.setTeamInfo(e.teams[s]);
-                for (var l = this.playerBarn.getPlayerInfo(this.activeId).teamId, c = this.playerBarn.getTeamInfo(l), m = 0; m < e.teamData.length; m++) {
-                    var d = e.teamData[m];
-                    this.playerBarn.setTeammateData(c.playerIds[d.playerIdx], d)
+                for (var l = this.playerBarn.getPlayerInfo(this.activeId).teamId, c = this.playerBarn.getTeamInfo(l), d = 0; d < e.teamData.length; d++) {
+                    var m = e.teamData[d];
+                    this.playerBarn.setTeammateData(c.playerIds[m.playerIdx], m)
                 }
                 for (var p = 0; p < e.bullets.length; p++) {
                     var u = e.bullets[p];
@@ -22916,32 +24505,32 @@ webpackJsonp([0], {
                 case u.Msg.Kill:
                     var c = new u.KillMsg;
                     c.deserialize(t);
-                    var m = (this.playerBarn.getPlayerById(c.targetId),
+                    var d = (this.playerBarn.getPlayerById(c.targetId),
                     this.playerBarn.getPlayerInfo(c.targetId))
-                      , d = this.playerBarn.getPlayerInfo(c.killCreditId)
+                      , m = this.playerBarn.getPlayerInfo(c.killCreditId)
                       , p = c.itemSourceType || c.mapSourceType
                       , h = this.localization.translate("game-" + p);
                     c.killCreditId == this.activeId ? this.uiManager.showKill({
-                        name: d.name,
+                        name: m.name,
                         kills: c.killerKills,
                         completeKill: c.killerId == this.activeId
                     }, {
-                        name: m.name,
+                        name: d.name,
                         suicide: c.killerId == c.targetId || c.killCreditId == c.targetId,
                         killed: c.killed,
                         downed: c.downed,
-                        teamKill: m.teamId == d.teamId
+                        teamKill: d.teamId == m.teamId
                     }, h, this.spectating) : c.targetId == this.activeId && c.downed && !c.killed && this.uiManager.showDowned({
-                        name: d.name,
+                        name: m.name,
                         damageType: c.damageType
                     }, {
-                        name: m.name,
+                        name: d.name,
                         suicide: c.killerId == c.targetId || c.killCreditId == c.targetId
                     }, h, this.spectating);
-                    var g = c.downed && !c.killed || c.damageType == r.DamageType.Gas || c.damageType == r.DamageType.Bleeding ? d : this.playerBarn.getPlayerInfo(c.killerId)
+                    var g = c.downed && !c.killed || c.damageType == r.DamageType.Gas || c.damageType == r.DamageType.Bleeding ? m : this.playerBarn.getPlayerInfo(c.killerId)
                       , f = this.playerBarn.getPlayerInfo(this.activeId).teamId
-                      , y = this.ui2Manager.getKillFeedText(m.nameKillFeed, g.nameKillFeed, h, c.damageType, c.downed && !c.killed)
-                      , b = this.ui2Manager.getKillFeedColor(f, m.teamId, d.teamId);
+                      , y = this.ui2Manager.getKillFeedText(d.nameKillFeed, g.nameKillFeed, h, c.damageType, c.downed && !c.killed)
+                      , b = this.ui2Manager.getKillFeedColor(f, d.teamId, m.teamId);
                     this.ui2Manager.addKillFeed(y, b),
                     c.type == r.DamageType.Player && this.bulletBarn.createBulletHit(this.playerBarn, c.targetId, this.audioManager);
                     break;
@@ -22973,18 +24562,18 @@ webpackJsonp([0], {
                     var k = new u.PickupMsg;
                     if (k.deserialize(t),
                     k.type == u.PickupMsgType.Success && k.item) {
-                        var w = r.items[k.item];
-                        this.audioManager.playSound(w.sound.pickup, {
+                        var _ = r.items[k.item];
+                        this.audioManager.playSound(_.sound.pickup, {
                             channel: "ui"
                         }),
-                        "throwable" == w.type && (this.activePlayer.lastThrowablePickupSfxTicker = .3)
+                        "throwable" == _.type && (this.activePlayer.lastThrowablePickupSfxTicker = .3)
                     } else
                         this.ui2Manager.displayPickupMessage(k.type);
                     break;
                 case u.Msg.Disconnect:
-                    var _ = new u.DisconnectMsg;
-                    _.deserialize(t),
-                    this.disconnectMsg = this.localization.translate(_.reason)
+                    var w = new u.DisconnectMsg;
+                    w.deserialize(t),
+                    this.disconnectMsg = this.localization.translate(w.reason)
                 }
             },
             sendMessage: function(e, t) {
@@ -23003,41 +24592,46 @@ webpackJsonp([0], {
             }
         },
         o.preloadImages = function() {
-            var e = ["img/player/circle-base-01.svg", "img/player/player-base-01.svg", "img/player/armor-base-01.svg", "img/player/player-hands-01.svg", "img/player/bullet-trail-02.svg", "img/gui/skull.svg", "img/gui/player-map-outer.svg", "img/gui/pad.svg", "img/loot/loot-circle-outer-01.svg", "img/guns/gun-short-01.svg", "img/guns/gun-med-01.svg", "img/guns/gun-long-01.svg", "img/guns/gun-dp28-top-01.svg", "img/guns/gun-m249-bot-01.svg", "img/proj/frag-proj-nopin-nolever.svg", "img/proj/frag-proj-pin.svg", "img/proj/frag-proj-nopin.svg", "img/proj/frag-pin.svg"]
+            var e = ["img/player/circle-base-01.svg", "img/player/player-base-01.svg", "img/player/armor-base-01.svg", "img/player/player-hands-01.svg", "img/player/bullet-trail-02.svg", "img/loot/loot-circle-outer-01.svg", "img/gui/skull.svg", "img/gui/player-map-outer.svg", "img/gui/pad.svg", "img/guns/gun-short-01.svg", "img/guns/gun-med-01.svg", "img/guns/gun-long-01.svg", "img/guns/gun-dp28-top-01.svg", "img/guns/gun-m249-bot-01.svg", "img/proj/frag-proj-nopin-nolever.svg", "img/proj/frag-proj-pin.svg", "img/proj/frag-proj-nopin.svg", "img/proj/frag-pin.svg"]
               , t = function(t) {
                 "none" != t && -1 == e.indexOf(t) && e.push(t)
             };
-            for (var a in d.Defs)
-                if (d.Defs.hasOwnProperty(a)) {
-                    var i = d.Defs[a]
+            for (var a in m.Defs)
+                if (m.Defs.hasOwnProperty(a)) {
+                    var i = m.Defs[a]
                       , o = i.img;
                     if (void 0 !== o && (void 0 !== o.sprite && t(o.sprite),
                     void 0 !== o.residue && t(o.residue)),
                     i.button && i.button.useImg && t(i.button.useImg),
                     "building" == i.type) {
-                        for (var s = 0; s < i.floors.length; s++)
-                            t(i.floors[s].img.sprite);
-                        t(i.ceiling.img.sprite)
+                        for (var s = 0; s < i.floor.imgs.length; s++)
+                            t(i.floor.imgs[s].sprite);
+                        for (var l = 0; l < i.ceiling.imgs.length; l++)
+                            t(i.ceiling.imgs[l].sprite)
                     }
                 }
-            for (var l in r.items)
-                if (r.items.hasOwnProperty(l)) {
-                    var c = r.items[l];
-                    if (void 0 !== c.lootImg && t(c.lootImg.sprite),
-                    void 0 !== c.worldImg && t(c.worldImg.sprite),
-                    void 0 !== c.handImg)
-                        for (var p in c.handImg)
-                            void 0 !== c.handImg[p].right && "none" !== c.handImg[p].right && t(c.handImg[p].right.sprite),
-                            void 0 !== c.handImg[p].left && "none" !== c.handImg[p].left && t(c.handImg[p].left.sprite)
+            for (var c in r.items)
+                if (r.items.hasOwnProperty(c)) {
+                    var p = r.items[c];
+                    if (void 0 !== p.lootImg && t(p.lootImg.sprite),
+                    void 0 !== p.worldImg && t(p.worldImg.sprite),
+                    void 0 !== p.handImg)
+                        for (var u in p.handImg)
+                            void 0 !== p.handImg[u].right && "none" !== p.handImg[u].right && t(p.handImg[u].right.sprite),
+                            void 0 !== p.handImg[u].left && "none" !== p.handImg[u].left && t(p.handImg[u].left.sprite)
                 }
-            for (var u in D.Defs)
-                if (D.Defs.hasOwnProperty(u) && void 0 !== D.Defs[u].image)
-                    for (var h = D.Defs[u].image, g = 0; g < h.length; g++)
-                        t(h[g]);
-            for (var f in m)
-                m.hasOwnProperty(f) && void 0 !== m[f].texture && t(m[f].texture);
-            for (var y = 0; y < e.length; y++) {
-                n.Sprite.fromImage(e[y])
+            for (var h in A.Defs)
+                if (A.Defs.hasOwnProperty(h) && void 0 !== A.Defs[h].image)
+                    for (var g = A.Defs[h].image, f = 0; f < g.length; f++)
+                        t(g[f]);
+            for (var y in d)
+                d.hasOwnProperty(y) && void 0 !== d[y].texture && t(d[y].texture);
+            var b = Math.max(window.screen.width, window.screen.height)
+              , x = Math.min(window.screen.width, window.screen.height);
+            b *= window.devicePixelRatio,
+            x *= window.devicePixelRatio;
+            for (var v = b < 1366 && x < 768, k = v ? .5 : 1, _ = 0; _ < e.length; _++) {
+                n.Texture.fromImage(e[_], void 0, void 0, k).baseTexture.resolution = k
             }
         }
         ,
@@ -23106,6 +24700,7 @@ webpackJsonp([0], {
             "index-play-duo": "Jogar em Duplas",
             "index-play-squad": "Jogar em Tropas",
             "index-create-team": "Criar Equipe",
+            "index-join-team": "Junte-se à Equipe",
             "index-how-to-play": "Como Jogar",
             "index-leave-team": "Abandonar Equipe",
             "index-joining-team": "Entrando na Equipe",
@@ -23125,6 +24720,8 @@ webpackJsonp([0], {
             "index-master-volume": "Volume geral",
             "index-sfx-volume": "Volume de efeitos sonoros",
             "index-music-volume": "Volume da música",
+            "index-mobile-announce": "Agora disponível no celular!",
+            "index-mobile-tooltip": "Visite <span>surviv.io</span> no seu dispositivo móvel para jogar em qualquer lugar!",
             "index-team-is-full": "A equipe está cheia!",
             "index-failed-joining-team": "Falha ao entrar na equipe.",
             "index-failed-creating-team": "Falha ao criar a equipe.",
@@ -23252,7 +24849,7 @@ webpackJsonp([0], {
             "game-painkiller": "Pílulas",
             "game-painkiller-tooltip": "Clique com o botão esquerdo para aumentar a adrenalina em 50.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Munição para M9, Glock, MP5, MAC-10 e UMP9.",
+            "game-9mm-tooltip": "Munição para M9, Glock, MP5, MAC-10, UMP9 e Vector.",
             "game-12gauge": "Calibre 12",
             "game-12gauge-tooltip": "Munição para M870, Saiga-12 e MP220.",
             "game-762mm": "7.62mm",
@@ -23330,8 +24927,8 @@ webpackJsonp([0], {
           , s = r.GasMode
           , l = a("0od3")
           , c = a("Tf6H")
-          , m = a("/2+T")
-          , d = 1e5
+          , d = a("/2+T")
+          , m = 1e5
           , p = 720
           , u = function() {
             function e(t, a) {
@@ -23350,17 +24947,17 @@ webpackJsonp([0], {
                     var o = this.display;
                     o.clear(),
                     o.beginFill(a, .6),
-                    o.moveTo(-d, -d),
-                    o.lineTo(d, -d),
-                    o.lineTo(d, d),
-                    o.lineTo(-d, d),
+                    o.moveTo(-m, -m),
+                    o.lineTo(m, -m),
+                    o.lineTo(m, m),
+                    o.lineTo(-m, m),
                     o.closePath(),
                     o.moveTo(0, 1);
                     for (var r = 1; r < p; r++) {
                         var s = r / p
                           , l = Math.sin(2 * Math.PI * s)
-                          , m = Math.cos(2 * Math.PI * s);
-                        o.lineTo(l, m)
+                          , d = Math.cos(2 * Math.PI * s);
+                        o.lineTo(l, d)
                     }
                     o.closePath(),
                     o.addHole()
@@ -23387,10 +24984,10 @@ webpackJsonp([0], {
                         o.arc(e.x, e.y, t, 0, 2 * Math.PI, !0),
                         o.fill()
                     } else {
-                        var n = m.copy(e)
+                        var n = d.copy(e)
                           , r = t;
                         r < .1 && (r = 1,
-                        n.x += .5 * d);
+                        n.x += .5 * m);
                         var s = this.display;
                         s.position.set(n.x, n.y),
                         s.scale.set(r, r)
@@ -23410,9 +25007,9 @@ webpackJsonp([0], {
                 this.display.addChild(this.lineGfx),
                 this.circleGfx.visible = !1,
                 this.lineGfx.visible = !1,
-                this.safePos = m.create(0, 0),
+                this.safePos = d.create(0, 0),
                 this.safeRad = 0,
-                this.playerPos = m.create(0, 0)
+                this.playerPos = d.create(0, 0)
             }
             return o(e, [{
                 key: "render",
@@ -23420,9 +25017,9 @@ webpackJsonp([0], {
                     if (this.circleGfx.visible = i,
                     this.lineGfx.visible = o,
                     i || o) {
-                        var n = !m.eq(this.safePos, e, 1e-4)
+                        var n = !d.eq(this.safePos, e, 1e-4)
                           , r = Math.abs(this.safeRad - t) > 1e-4
-                          , s = !m.eq(this.playerPos, a, 1e-4);
+                          , s = !d.eq(this.playerPos, a, 1e-4);
                         if (n && (this.safePos.x = e.x,
                         this.safePos.y = e.y),
                         r && (this.safeRad = t),
@@ -23433,7 +25030,7 @@ webpackJsonp([0], {
                         this.circleGfx.lineStyle(1.5, 16777215),
                         this.circleGfx.drawCircle(0, 0, t)),
                         n || r || s) {
-                            var l = m.length(m.sub(a, e)) < t
+                            var l = d.length(d.sub(a, e)) < t
                               , c = l ? .5 : 1;
                             this.lineGfx.clear(),
                             this.lineGfx.lineStyle(2, 65280, c),
@@ -23453,11 +25050,11 @@ webpackJsonp([0], {
                 this.circleT = 0,
                 this.duration = 0,
                 this.circleOld = {
-                    pos: m.create(0, 0),
+                    pos: d.create(0, 0),
                     rad: a
                 },
                 this.circleNew = {
-                    pos: m.create(0, 0),
+                    pos: d.create(0, 0),
                     rad: a
                 },
                 this.gasRenderer = new u(t,16711680)
@@ -23477,7 +25074,7 @@ webpackJsonp([0], {
                 value: function() {
                     var e = this.mode == s.Moving ? this.circleT : 0;
                     return {
-                        pos: m.lerp(e, this.circleOld.pos, this.circleNew.pos),
+                        pos: d.lerp(e, this.circleOld.pos, this.circleNew.pos),
                         rad: l.lerp(e, this.circleOld.rad, this.circleNew.rad)
                     }
                 }
@@ -23497,9 +25094,9 @@ webpackJsonp([0], {
                     this.mode = t.mode,
                     this.duration = t.duration,
                     this.circleT = e,
-                    this.circleOld.pos = m.copy(t.posOld),
+                    this.circleOld.pos = d.copy(t.posOld),
                     this.circleOld.rad = t.radOld,
-                    this.circleNew.pos = m.copy(t.posNew),
+                    this.circleNew.pos = d.copy(t.posNew),
                     this.circleNew.rad = t.radNew
                 }
             }, {
@@ -23523,17 +25120,16 @@ webpackJsonp([0], {
         "use strict";
         function i() {
             this.ticker = 0,
-            this.container = new n.Container,
-            this.circleOuter = new n.Sprite.fromImage("img/loot/loot-circle-outer-01.svg"),
-            this.circleOuter.anchor.set(.5, .5),
-            this.circleOuter.tint = 0,
-            this.container.addChild(this.circleOuter),
+            this.container = new n.Sprite,
+            this.container.anchor.set(.5, .5),
+            this.container.scale.set(1, 1),
             this.sprite = new n.Sprite,
             this.sprite.anchor.set(.5, .5),
+            this.sprite.scale.set(.8, .8),
             this.container.addChild(this.sprite)
         }
         function o() {
-            this.lootPool = new m.Pool(i),
+            this.lootPool = new d.Pool(i),
             this.closestLoot = null
         }
         var n = a("gKxX")
@@ -23541,11 +25137,11 @@ webpackJsonp([0], {
           , s = a("0od3")
           , l = a("Tf6H")
           , c = a("/2+T")
-          , m = (a("zinx"),
+          , d = (a("zinx"),
         a("r4ug"),
         a("dT1u"))
-          , d = a("xgte")
-          , p = d.RenderType;
+          , m = a("xgte")
+          , p = m.RenderType;
         i.prototype = {
             init: function() {},
             free: function() {
@@ -23561,13 +25157,12 @@ webpackJsonp([0], {
                     this.ticker = 0,
                     this.isOld && (this.ticker = 10);
                     var o = r.items[this.name];
+                    this.imgScale = 1.25 * o.lootImg.scale,
                     this.sprite.texture = n.Texture.fromImage(o.lootImg.sprite),
-                    this.sprite.scale.set(o.lootImg.scale, o.lootImg.scale),
                     this.sprite.tint = o.lootImg.tint,
-                    this.circleOuter.scale.set(1.25 * o.lootImg.scale, 1.25 * o.lootImg.scale);
+                    this.container.texture = o.lootImg.border ? n.Texture.fromImage("img/loot/loot-circle-outer-01.svg") : n.Texture.EMPTY;
                     var s = r.items[o.ammo];
-                    this.circleOuter.tint = s ? s.lootImg.tintDark : 0,
-                    this.circleOuter.visible = o.lootImg.border,
+                    this.container.tint = s ? s.lootImg.tintDark : 0,
                     this.container.visible = !0
                 }
                 (a || t) && i.renderer.addPIXIObj(this.container, p.Loot, this.layer, 13, this.__id)
@@ -23577,23 +25172,23 @@ webpackJsonp([0], {
             update: function(e, t, a) {
                 this.closestLoot = null;
                 for (var i = Number.MAX_VALUE, o = this.lootPool.getPool(), n = 0; n < o.length; n++) {
-                    var m = o[n];
-                    if (m.active) {
-                        if (l.sameLayer(m.layer, t.layer)) {
-                            var d = m.pos
-                              , p = r.items[m.name].rad + r.player.radius
-                              , u = c.sub(t.pos, d)
+                    var d = o[n];
+                    if (d.active) {
+                        if (l.sameLayer(d.layer, t.layer)) {
+                            var m = d.pos
+                              , p = r.items[d.name].rad + r.player.radius
+                              , u = c.sub(t.pos, m)
                               , h = c.lengthSqr(u);
                             h < p * p && h < i && (i = h,
-                            this.closestLoot = m)
+                            this.closestLoot = d)
                         }
-                        m.ticker += e;
-                        var g = s.delerp(m.ticker, 0, 1)
+                        d.ticker += e;
+                        var g = s.delerp(d.ticker, 0, 1)
                           , f = s.easeOutElastic(g, .75)
-                          , y = a.pointToScreen(m.pos)
-                          , b = a.pixels(f);
-                        m.container.position.set(y.x, y.y),
-                        m.container.scale.set(b, b)
+                          , y = a.pointToScreen(d.pos)
+                          , b = a.pixels(d.imgScale * f);
+                        d.container.position.set(y.x, y.y),
+                        d.container.scale.set(b, b)
                     }
                 }
             },
@@ -23623,7 +25218,7 @@ webpackJsonp([0], {
             var e = {
                 fontFamily: "Arial",
                 fontWeight: "bold",
-                fontSize: w.pixelRatio > 1 ? 30 : 22,
+                fontSize: _.pixelRatio > 1 ? 30 : 22,
                 align: "center",
                 fill: 65535,
                 stroke: 0,
@@ -23635,17 +25230,17 @@ webpackJsonp([0], {
                 dropShadowDistance: 1
             }
               , t = new l.Text("",e);
-            return t.anchor = new l.Point(.5,.5),
-            t.scale = new l.Point(.5,.5),
-            t.position = new l.Point(0,30),
+            return t.anchor.set(.5, .5),
+            t.scale.set(.5, .5),
+            t.position.set(0, 30),
             t
         }
         function r(e, t, a, i, o, n) {
             for (var r = i, s = g.add(t, g.mul(a, i)), l = e.obstaclePool.getPool(), c = 0; c < l.length; c++) {
-                var m = l[c];
-                if (!(!m.active || m.dead || !m.collidable || m.isWindow || m.height < o) && h.sameLayer(m.layer, n)) {
-                    var d = b.intersectSegment(m.collider, t, s);
-                    d && (r = Math.min(r, g.length(g.sub(d.point, t))))
+                var d = l[c];
+                if (!(!d.active || d.dead || !d.collidable || d.isWindow || d.height < o) && h.sameLayer(d.layer, n)) {
+                    var m = b.intersectSegment(d.collider, t, s);
+                    m && (r = Math.min(r, g.length(g.sub(m.point, t))))
                 }
             }
             return r
@@ -23668,8 +25263,8 @@ webpackJsonp([0], {
         }()
           , l = a("gKxX")
           , c = a("+0OL")
-          , m = c.Action
-          , d = c.Anim
+          , d = c.Action
+          , m = c.Anim
           , p = a("Bk7F")
           , u = a("yp2f")
           , h = a("Tf6H")
@@ -23680,15 +25275,15 @@ webpackJsonp([0], {
           , x = a("K7EQ")
           , v = a("qwV+")
           , k = a("85i3")
-          , w = a("zinx")
-          , _ = a("Jr6A")
+          , _ = a("zinx")
+          , w = a("Jr6A")
           , S = (a("r4ug"),
         a("dT1u"))
           , M = a("EZ6M")
           , T = a("xgte")
           , P = T.RenderType
-          , z = .5
-          , C = function() {
+          , C = .5
+          , z = function() {
             function e() {
                 o(this, e),
                 this.container = new l.Container,
@@ -23697,117 +25292,115 @@ webpackJsonp([0], {
                 this.skinType = "outfitBase";
                 var t = c.items[this.skinType];
                 this.footSpriteName = "img/player/player-feet-01.svg",
-                this.foot_left_idle = new l.Point(-20,-35),
+                this.footLt = g.create(-20, -35),
+                this.footRt = g.create(20, -35),
                 this.foot_left = l.Sprite.fromImage(this.footSpriteName),
-                this.foot_left.anchor = new l.Point(.5,.5),
-                this.foot_left.scale = new l.Point(.45,.45),
-                this.foot_left.pivot = this.foot_left_idle,
+                this.foot_left.anchor.set(.5, .5),
+                this.foot_left.scale.set(.45, .45),
+                this.foot_left.pivot.set(this.footLt.x, this.footLt.y),
                 this.foot_left.tint = t.skinImg.handTint,
                 this.foot_left.visible = !1,
                 this.foot_left_submerge = l.Sprite.fromImage(this.footSpriteName),
-                this.foot_left_submerge.anchor = new l.Point(.5,.5),
+                this.foot_left_submerge.anchor.set(.5, .5),
                 this.foot_left_submerge.tint = x.water,
                 this.foot_left_submerge.visible = !1,
                 this.foot_left_submerge.alpha = 0,
                 this.foot_left.addChild(this.foot_left_submerge),
                 this.container.addChild(this.foot_left),
-                this.foot_right_idle = new l.Point(20,-35),
                 this.foot_right = l.Sprite.fromImage(this.footSpriteName),
-                this.foot_right.anchor = new l.Point(.5,.5),
-                this.foot_right.scale = new l.Point(.45,.45),
-                this.foot_right.pivot = this.foot_right_idle,
+                this.foot_right.anchor.set(.5, .5),
+                this.foot_right.scale.set(.45, .45),
+                this.foot_right.pivot.set(this.footRt.x, this.footRt.y),
                 this.foot_right.tint = t.skinImg.handTint,
                 this.foot_right.visible = !1,
                 this.foot_right_submerge = l.Sprite.fromImage(this.footSpriteName),
-                this.foot_right_submerge.anchor = new l.Point(.5,.5),
+                this.foot_right_submerge.anchor.set(.5, .5),
                 this.foot_right_submerge.tint = x.water,
                 this.foot_right_submerge.visible = !1,
                 this.foot_right_submerge.alpha = 0,
                 this.foot_right.addChild(this.foot_right_submerge),
                 this.container.addChild(this.foot_right),
-                this.footLt = this.foot_left_idle,
-                this.footRt = this.foot_right_idle,
                 this.backpack = l.Sprite.fromImage("img/player/circle-base-01.svg"),
-                this.backpack.anchor = new l.Point(.5,.5),
-                this.backpack.scale = new l.Point(.4,.4),
+                this.backpack.anchor.set(.5, .5),
+                this.backpack.scale.set(.4, .4),
                 this.backpack.tint = t.skinImg.backpackTint,
                 this.container.addChild(this.backpack),
                 this.baseSpriteName = t.skinImg.baseSprite,
                 this.sprite = l.Sprite.fromImage(this.baseSpriteName),
-                this.sprite.anchor = new l.Point(.5,.5),
-                this.sprite.scale = new l.Point(.5 * t.skinImg.baseScale,.5 * t.skinImg.baseScale),
+                this.sprite.anchor.set(.5, .5),
+                this.sprite.scale.set(.5 * t.skinImg.baseScale, .5 * t.skinImg.baseScale),
                 this.sprite.tint = t.skinImg.baseTint,
                 this.container.addChild(this.sprite),
                 this.gunBot = l.Sprite.fromImage("img/guns/gun-short-01.svg"),
-                this.gunBot.anchor = new l.Point(.5,.75),
-                this.gunBot.scale = new l.Point(.5,.5),
-                this.gunBot.pivot = new l.Point(0,110),
+                this.gunBot.anchor.set(.5, .75),
+                this.gunBot.scale.set(.5, .5),
+                this.gunBot.pivot.set(0, 110),
                 this.gunBot.visible = !1,
                 this.gunContainerL.addChild(this.gunBot),
                 this.gunBotVis = !1,
                 this.gunOffhand = l.Sprite.fromImage("img/guns/gun-short-01.svg"),
-                this.gunOffhand.anchor = new l.Point(.5,.75),
-                this.gunOffhand.scale = new l.Point(.5,.5),
-                this.gunOffhand.pivot = new l.Point(0,110),
+                this.gunOffhand.anchor.set(.5, .75),
+                this.gunOffhand.scale.set(.5, .5),
+                this.gunOffhand.pivot.set(0, 110),
                 this.gunOffhand.visible = !1,
                 this.gunContainerR.addChild(this.gunOffhand),
                 this.gunOffhandVis = !1,
                 this.gun = l.Sprite.fromImage("img/guns/gun-short-01.svg"),
-                this.gun.anchor = new l.Point(.5,.75),
-                this.gun.scale = new l.Point(.5,.5),
-                this.gun.pivot = new l.Point(0,110),
+                this.gun.anchor.set(.5, .75),
+                this.gun.scale.set(.5, .5),
+                this.gun.pivot.set(0, 110),
                 this.gunContainerL.addChild(this.gun),
                 this.gunVis = !1,
                 this.chest = l.Sprite.fromImage("img/player/armor-base-01.svg"),
-                this.chest.anchor = new l.Point(.5,.5),
-                this.chest.scale = new l.Point(.5,.5),
+                this.chest.anchor.set(.5, .5),
+                this.chest.scale.set(.5, .5),
                 this.container.addChild(this.chest),
                 this.submergedMask = l.Sprite.fromImage("img/player/player-base-01.svg"),
-                this.submergedMask.anchor = new l.Point(.5,.5),
-                this.submergedMask.scale = new l.Point(.6,.6),
+                this.submergedMask.anchor.set(.5, .5),
+                this.submergedMask.scale.set(.6, .6),
                 this.container.addChild(this.submergedMask),
                 this.submerged = l.Sprite.fromImage("img/player/player-wading-01.svg"),
-                this.submerged.anchor = new l.Point(.5,.5),
-                this.submerged.scale = new l.Point(.9,.9),
+                this.submerged.anchor.set(.5, .5),
+                this.submerged.scale.set(.9, .9),
                 this.submerged.alpha = 0,
                 this.submerged.tint = 2854052,
                 this.submerged.mask = this.submergedMask,
                 this.submerged.visible = !0,
                 this.container.addChild(this.submerged),
                 this.submergeTicker = 0,
-                this.rippleTicker = z,
+                this.rippleTicker = C,
                 this.handSpriteName = t.skinImg.handSprite,
                 this.hand_left = l.Sprite.fromImage(this.handSpriteName),
-                this.hand_left.anchor = new l.Point(.5,.5),
-                this.hand_left.scale = new l.Point(.35,.35),
-                this.hand_left.pivot = new l.Point(35,40),
+                this.hand_left.anchor.set(.5, .5),
+                this.hand_left.scale.set(.35, .35),
+                this.hand_left.pivot.set(35, 40),
                 this.hand_left.tint = t.skinImg.handTint,
                 this.hand_left_submerge = l.Sprite.fromImage(this.handSpriteName),
-                this.hand_left_submerge.anchor = new l.Point(.5,.5),
+                this.hand_left_submerge.anchor.set(.5, .5),
                 this.hand_left_submerge.tint = x.water,
                 this.hand_left_submerge.visible = !1,
                 this.hand_left_submerge.alpha = 0,
                 this.hand_left.addChild(this.hand_left_submerge),
                 this.gunContainerL.addChild(this.hand_left),
                 this.hand_right = l.Sprite.fromImage(this.handSpriteName),
-                this.hand_right.anchor = new l.Point(.5,.5),
-                this.hand_right.scale = new l.Point(.35,.35),
-                this.hand_right.pivot = new l.Point(-35,40),
+                this.hand_right.anchor.set(.5, .5),
+                this.hand_right.scale.set(.35, .35),
+                this.hand_right.pivot.set(-35, 40),
                 this.hand_right.tint = t.skinImg.handTint,
                 this.hand_right_submerge = l.Sprite.fromImage(this.handSpriteName),
-                this.hand_right_submerge.anchor = new l.Point(.5,.5),
+                this.hand_right_submerge.anchor.set(.5, .5),
                 this.hand_right_submerge.tint = x.water,
                 this.hand_right_submerge.visible = !1,
                 this.hand_right_submerge.alpha = 0,
                 this.hand_right.addChild(this.hand_right_submerge),
                 this.gunContainerR.addChild(this.hand_right),
                 this.object_left = l.Sprite.from(l.Texture.EMPTY),
-                this.object_left.anchor = new l.Point(.5,.5),
-                this.object_left.pivot = new l.Point(0,0),
+                this.object_left.anchor.set(.5, .5),
+                this.object_left.pivot.set(0, 0),
                 this.object_left.visible = !1,
                 this.hand_left.addChild(this.object_left),
                 this.object_right = l.Sprite.from(l.Texture.EMPTY),
-                this.object_right.anchor = new l.Point(.5,.5),
+                this.object_right.anchor.set(.5, .5),
                 this.object_right.visible = !1,
                 this.hand_right.addChild(this.object_right),
                 this.handLt = g.create(35, 40),
@@ -23821,45 +25414,48 @@ webpackJsonp([0], {
                 this.objLtVis = !1,
                 this.objRtVis = !1,
                 this.gunTop = l.Sprite.fromImage("img/guns/gun-short-01.svg"),
-                this.gunTop.anchor = new l.Point(.5,1),
-                this.gunTop.scale = new l.Point(.5,.5),
-                this.gunTop.pivot = new l.Point(0,110),
+                this.gunTop.anchor.set(.5, 1),
+                this.gunTop.scale.set(.5, .5),
+                this.gunTop.pivot.set(0, 110),
                 this.gunTop.visible = !1,
                 this.gunContainerL.addChild(this.gunTop),
                 this.gunTopVis = !1,
                 this.container.addChild(this.gunContainerL),
                 this.container.addChild(this.gunContainerR),
                 this.helmet = l.Sprite.fromImage("img/player/circle-base-01.svg"),
-                this.helmet.anchor = new l.Point(.5,.5),
-                this.helmet.scale = new l.Point(.3,.3),
+                this.helmet.anchor.set(.5, .5),
+                this.helmet.scale.set(.3, .3),
                 this.container.addChild(this.helmet),
                 this.nameText = n(),
                 this.nameText.visible = !1,
                 this.container.addChild(this.nameText),
                 this.anim = {
-                    type: d.None,
+                    type: m.None,
                     seq: 0,
                     frame: 0,
                     timer: 0,
                     duration: 0
                 },
+                this.isOnBrightSurface = !1,
                 this.weapType = "",
                 this.stepTicker = 0,
                 this.zoomFast = !1,
                 this.playedDryFire = !1,
                 this.curAction = {
-                    type: m.None
+                    type: d.None
                 },
                 this.actionSoundInstance = !1,
                 this.soundUpdateThrottle = 0,
                 this.downed = !1,
                 this.bleedTicker = 0,
                 this.lastThrowablePickupSfxTicker = 0,
+                this.isNearDoorError = !1,
+                this.doorErrorTicker = 0,
                 this.noCeilingRevealTicker = 0,
                 this.netData = {},
                 this.localData = {
                     action: {
-                        type: m.None
+                        type: d.None
                     },
                     spectatorCount: 0
                 },
@@ -23875,7 +25471,7 @@ webpackJsonp([0], {
                     this.wasInsideObstacle = !1,
                     this.insideObstacleType = "",
                     this.lastInsideObstacleTime = 0,
-                    this.playAnim(d.None, 0)
+                    this.playAnim(m.None, 0)
                 }
             }, {
                 key: "free",
@@ -23967,7 +25563,7 @@ webpackJsonp([0], {
                     this.baseSpriteName = t.baseSprite,
                     this.sprite.texture = l.Texture.fromImage(this.baseSpriteName),
                     this.sprite.tint = t.baseTint,
-                    this.sprite.scale = new l.Point(.5 * t.baseScale,.5 * t.baseScale),
+                    this.sprite.scale.set(.5 * t.baseScale, .5 * t.baseScale),
                     this.hand_left.tint = t.handTint,
                     this.hand_right.tint = t.handTint,
                     this.foot_left.tint = t.handTint,
@@ -23985,17 +25581,13 @@ webpackJsonp([0], {
                             var a = t.worldImg;
                             t.isDual ? (this.gun.texture = l.Texture.fromImage(a.sprite),
                             this.gun.tint = a.tint,
-                            this.gun.scale.x = a.scale.x,
-                            this.gun.scale.y = a.scale.y,
-                            this.gun.pivot.x = -17.5,
-                            this.gun.pivot.y = 20,
+                            this.gun.scale.set(a.scale.x, a.scale.y),
+                            this.gun.pivot.set(-17.5, 20),
                             this.gunVis = !0,
                             this.gunOffhand.texture = l.Texture.fromImage(a.sprite),
                             this.gunOffhand.tint = a.tint,
-                            this.gunOffhand.scale.x = a.scale.x,
-                            this.gunOffhand.scale.y = a.scale.y,
-                            this.gunOffhand.pivot.x = 17.5,
-                            this.gunOffhand.pivot.y = 20,
+                            this.gunOffhand.scale.set(a.scale.x, a.scale.y),
+                            this.gunOffhand.pivot.set(17.5, 20),
                             this.gunOffhandVis = !0,
                             this.gunTopVis = !1,
                             this.gunBotVis = !1,
@@ -24004,24 +25596,18 @@ webpackJsonp([0], {
                             this.gunHandLtVis = !0,
                             this.gunHandRtVis = !0) : (this.gun.texture = l.Texture.fromImage(a.sprite),
                             this.gun.tint = a.tint,
-                            this.gun.scale.x = a.scale.x,
-                            this.gun.scale.y = a.scale.y,
-                            this.gun.pivot.x = 0,
-                            this.gun.pivot.y = 20,
+                            this.gun.scale.set(a.scale.x, a.scale.y),
+                            this.gun.pivot.set(0, 20),
                             this.gunVis = !0,
                             this.gunOffhandVis = !1,
                             a.sprite_bot && (this.gunBot.texture = l.Texture.fromImage(a.sprite_bot),
                             this.gunBot.tint = 16777215,
-                            this.gunBot.scale.x = a.scale.x,
-                            this.gunBot.scale.y = a.scale.y,
-                            this.gunBot.pivot.x = 0,
-                            this.gunBot.pivot.y = 20),
+                            this.gunBot.scale.set(a.scale.x, a.scale.y),
+                            this.gunBot.pivot.set(0, 20)),
                             this.gunBotVis = void 0 !== a.sprite_bot,
                             a.sprite_top && (this.gunTop.texture = l.Texture.fromImage(a.sprite_top),
-                            this.gunTop.scale.x = a.scale.x,
-                            this.gunTop.scale.y = a.scale.y,
-                            this.gunTop.pivot.x = 0,
-                            this.gunTop.pivot.y = 20),
+                            this.gunTop.scale.set(a.scale.x, a.scale.y),
+                            this.gunTop.pivot.set(0, 20)),
                             this.gunTopVis = void 0 !== a.sprite_top,
                             this.gunHandLt = g.create(-15, 80 + a.leftHandOffset),
                             this.gunHandRt = g.create(-5, 40),
@@ -24063,10 +25649,8 @@ webpackJsonp([0], {
                     var a = t ? this.object_right : this.object_left
                       , i = e[t ? "right" : "left"];
                     a.texture = "none" == i.sprite ? l.Texture.EMPTY : l.Texture.fromImage(i.sprite),
-                    void 0 !== i.pos && (a.pivot.x = i.pos.x,
-                    a.pivot.y = i.pos.y),
-                    void 0 !== i.scale && (a.scale.x = i.scale,
-                    a.scale.y = i.scale)
+                    void 0 !== i.pos && a.pivot.set(i.pos.x, i.pos.y),
+                    void 0 !== i.scale && a.scale.set(i.scale, i.scale)
                 }
             }, {
                 key: "updateDownedState",
@@ -24084,7 +25668,7 @@ webpackJsonp([0], {
                     this.hand_left_submerge.visible = this.downed,
                     this.hand_right_submerge.visible = this.downed,
                     this.bleedTicker -= e,
-                    this.netData.downed && this.netData.actionType == m.None && this.bleedTicker < 0) {
+                    this.netData.downed && this.netData.actionType == d.None && this.bleedTicker < 0) {
                         this.bleedTicker = c.player.bleedTickRate;
                         var o = g.mul(this.dir, 1);
                         o = g.rotate(o, (Math.random() - .5) * Math.PI / 3),
@@ -24118,10 +25702,10 @@ webpackJsonp([0], {
                 value: function(e, t) {
                     this.anim.timer += e;
                     var a = v[this.anim.type];
-                    if (this.anim.type == d.Melee) {
+                    if (this.anim.type == m.Melee) {
                         var o = this.netData.curWeapType;
                         if (void 0 === a[o])
-                            return void this.playAnim(d.None, this.anim.seq);
+                            return void this.playAnim(m.None, this.anim.seq);
                         a = a[o]
                     }
                     for (var n = a.frames, r = this.anim.timer, s = -1, l = 0; r >= n[l].time && l < n.length - 1; )
@@ -24129,11 +25713,11 @@ webpackJsonp([0], {
                         s++,
                         l++;
                     var c = Math.min(r / n[l].time, 1)
-                      , m = s >= 0 ? n[s].handLt : this.anim.startHandLt
+                      , d = s >= 0 ? n[s].handLt : this.anim.startHandLt
                       , p = s >= 0 ? n[s].handRt : this.anim.startHandRt
                       , u = n[l].handLt
                       , h = n[l].handRt;
-                    if (this.handLt = f.v2lerp(c, m, u),
+                    if (this.handLt = f.v2lerp(c, d, u),
                     this.handRt = f.v2lerp(c, p, h),
                     a.mirror && this.anim.mirror) {
                         var y = g.copy(this.handLt);
@@ -24146,13 +25730,13 @@ webpackJsonp([0], {
                         var b = s >= 0 ? n[s].footLt : this.anim.startFootLt
                           , x = s >= 0 ? n[s].footRt : this.anim.startFootRt
                           , k = n[l].footLt
-                          , w = n[l].footRt;
+                          , _ = n[l].footRt;
                         if (this.footLt = f.v2lerp(c, b, k),
-                        this.footRt = f.v2lerp(c, x, w),
+                        this.footRt = f.v2lerp(c, x, _),
                         a.mirror && this.anim.mirror) {
-                            var _ = g.copy(this.footLt);
+                            var w = g.copy(this.footLt);
                             this.footLt = g.copy(this.footRt),
-                            this.footRt = g.copy(_),
+                            this.footRt = g.copy(w),
                             this.footLt.x *= -1,
                             this.footRt.x *= -1
                         }
@@ -24161,12 +25745,12 @@ webpackJsonp([0], {
                         var T = n[this.anim.fnFrame].done;
                         if (void 0 !== T)
                             for (var P = 0; P < T.length; P++) {
-                                var z = T[P];
-                                this[z.fn].apply(this, [t].concat(i(z.args)))
+                                var C = T[P];
+                                this[C.fn].apply(this, [t].concat(i(C.args)))
                             }
                         this.anim.fnFrame++
                     }
-                    S && (this.playAnim(d.None, this.anim.seq),
+                    S && (this.playAnim(m.None, this.anim.seq),
                     this.updateWeapon())
                 }
             }, {
@@ -24203,11 +25787,11 @@ webpackJsonp([0], {
             }, {
                 key: "doMeleeCollision",
                 value: function(e) {
-                    for (var t = c.items[this.netData.curWeapType], a = g.add(this.pos, g.mul(this.dir, t.rangeMult)), i = t.areaOfEffect, o = [], n = null, r = null, s = 0, l = e.map.obstaclePool.getPool(), m = 0; m < l.length; m++) {
-                        var d = l[m];
-                        if (!(!d.active || d.dead || d.height < c.player.meleeHeight) && h.sameLayer(d.layer, 1 & this.layer)) {
-                            var p = b.intersectCircle(d.collider, a, i);
-                            p && p.pen > s && (n = d,
+                    for (var t = c.items[this.netData.curWeapType], a = g.add(this.pos, g.mul(this.dir, t.rangeMult)), i = t.areaOfEffect, o = [], n = null, r = null, s = 0, l = e.map.obstaclePool.getPool(), d = 0; d < l.length; d++) {
+                        var m = l[d];
+                        if (!(!m.active || m.dead || m.height < c.player.meleeHeight) && h.sameLayer(m.layer, 1 & this.layer)) {
+                            var p = b.intersectCircle(m.collider, a, i);
+                            p && p.pen > s && (n = m,
                             r = p,
                             s = p.pen)
                         }
@@ -24228,11 +25812,11 @@ webpackJsonp([0], {
                         var k = x[v];
                         if (k.active && k.__id != this.__id && !k.netData.dead && h.sameLayer(k.layer, this.layer)) {
                             if (y.testCircleCircle(g.add(this.pos, g.mul(this.dir, t.rangeMult)), t.areaOfEffect, k.pos, c.player.radius)) {
-                                var w = g.mul(this.dir, 1);
-                                w = g.rotate(w, (Math.random() - .5) * Math.PI / 3),
+                                var _ = g.mul(this.dir, 1);
+                                _ = g.rotate(_, (Math.random() - .5) * Math.PI / 3),
                                 o.push({
                                     pos: k.pos,
-                                    vel: w,
+                                    vel: _,
                                     particle: "bloodSplat",
                                     sound: "punch_hit_01",
                                     soundFn: "playSound"
@@ -24241,8 +25825,8 @@ webpackJsonp([0], {
                             }
                         }
                     }
-                    for (var _ = 0; _ < o.length; _++) {
-                        var S = o[_];
+                    for (var w = 0; w < o.length; w++) {
+                        var S = o[w];
                         e.particleBarn.addParticle(M.Defs[S.particle], this.layer, S.pos, S.vel),
                         e.audioManager[S.soundFn](S.sound, {
                             channel: "hits",
@@ -24259,7 +25843,7 @@ webpackJsonp([0], {
                     e ? (this.submergeTicker = Math.min(this.submergeTicker + t, 2),
                     r = Math.min(1, a.distanceToShore(o) / 16),
                     this.rippleTicker += t,
-                    this.rippleTicker > z && i && (a.addRipple(this.pos, 0),
+                    this.rippleTicker > C && i && (a.addRipple(this.pos, 0),
                     this.rippleTicker = 0,
                     n.audioManager.playGroup("footstep_water", {
                         soundPos: o,
@@ -24267,17 +25851,17 @@ webpackJsonp([0], {
                         layer: this.layer,
                         muffled: !0
                     }))) : (this.submergeTicker = Math.max(0, this.submergeTicker - 3 * t * this.submergeTicker),
-                    this.rippleTicker = z);
+                    this.rippleTicker = C);
                     var s = Math.min(2, this.submergeTicker) / 2
-                      , c = f.lerp(.5, r, s)
-                      , m = .75 * c;
-                    this.submerged.alpha = m,
-                    this.foot_left_submerge.alpha = m,
-                    this.foot_right_submerge.alpha = m,
-                    this.hand_left_submerge.alpha = m,
-                    this.hand_right_submerge.alpha = m;
-                    var d = .9 - .4 * c;
-                    this.submerged.scale = new l.Point(d,d)
+                      , l = f.lerp(.5, r, s)
+                      , c = .75 * l;
+                    this.submerged.alpha = c,
+                    this.foot_left_submerge.alpha = c,
+                    this.foot_right_submerge.alpha = c,
+                    this.hand_left_submerge.alpha = c,
+                    this.hand_right_submerge.alpha = c;
+                    var d = .9 - .4 * l;
+                    this.submerged.scale.set(d, d)
                 }
             }, {
                 key: "addRecoil",
@@ -24291,7 +25875,7 @@ webpackJsonp([0], {
           , I = function() {
             function e() {
                 o(this, e),
-                this.playerPool = new S.Pool(C),
+                this.playerPool = new S.Pool(z),
                 this.playerInfo = {},
                 this.teamInfo = {},
                 this.teammateData = {}
@@ -24299,282 +25883,294 @@ webpackJsonp([0], {
             return s(e, [{
                 key: "update",
                 value: function(e, t, a, i, o, n, s, l, f, y, x) {
-                    for (var w = {
+                    for (var _ = {
                         playerBarn: this,
                         map: n,
                         audioManager: l,
                         particleBarn: i
-                    }, _ = this.playerPool.getPool(), S = 0; S < _.length; S++) {
-                        var T = _[S];
+                    }, w = this.playerPool.getPool(), S = 0; S < w.length; S++) {
+                        var T = w[S];
                         if (T.active) {
-                            var z = T.__id == t;
-                            if (z) {
-                                var C = this.playerPool.getPool()[0];
-                                C.sentinel && (C.pos = g.add(T.netData.pos, g.create(4, 3)),
-                                C.netData.pos = g.copy(C.pos))
+                            var C = T.__id == t;
+                            if (C) {
+                                var z = this.playerPool.getPool()[0];
+                                z.sentinel && (z.pos = g.add(T.netData.pos, g.create(4, 3)),
+                                z.netData.pos = g.copy(z.pos))
                             }
                             var I = T.pos;
                             T.pos = g.copy(T.netData.pos),
                             T.dir = g.copy(T.netData.dir),
                             T.layer = T.netData.layer,
                             T.lastThrowablePickupSfxTicker -= e;
-                            var A = this.playerInfo[t].teamId
-                              , D = this.playerInfo[T.__id].teamId == A;
+                            var D = this.playerInfo[t].teamId
+                              , A = this.playerInfo[T.__id].teamId == D;
                             if (T.isNew) {
                                 var O = this.getPlayerInfo(T.__id);
                                 T.nameText.text = O.nameUnEntity,
-                                T.nameText.visible = !z && D
+                                T.nameText.visible = !C && A
                             }
-                            for (var L = this.getPlayerById(t), B = null, E = n.obstaclePool.getPool(), F = 0; F < E.length; F++) {
-                                var R = E[F];
-                                if (R.active && !R.dead && R.isBush && R.layer == T.netData.layer) {
-                                    var j = .25 * c.player.radius;
-                                    if (b.intersectCircle(R.collider, T.pos, j)) {
-                                        B = R;
-                                        break
+                            for (var L = this.getPlayerById(t), B = null, E = null, F = n.obstaclePool.getPool(), R = 0; R < F.length; R++) {
+                                var j = F[R];
+                                if (j.active && !j.dead && j.layer == T.netData.layer)
+                                    if (j.isBush) {
+                                        var q = .25 * c.player.radius;
+                                        b.intersectCircle(j.collider, T.pos, q) && (B = j)
+                                    } else if (j.isDoor && !j.door.open && j.door.playErrorFx) {
+                                        var N = c.player.radius + .25
+                                          , U = g.rotate(g.create(1, 0), j.rot)
+                                          , G = g.sub(j.pos, T.pos);
+                                        g.dot(G, U) < 0 && b.intersectCircle(j.collider, T.pos, N) && (E = j)
                                     }
-                                }
                             }
-                            var q = null != B;
-                            if (q && (T.insideObstacleType = B.type),
+                            var V = null != B;
+                            if (V && (T.insideObstacleType = B.type),
                             T.lastInsideObstacleTime -= e,
-                            T.wasInsideObstacle != q && T.lastInsideObstacleTime < 0 && !T.isNew) {
-                                var U = p.Defs[T.insideObstacleType];
+                            T.wasInsideObstacle != V && T.lastInsideObstacleTime < 0 && !T.isNew) {
+                                var H = p.Defs[T.insideObstacleType];
                                 T.lastInsideObstacleTime = .2,
-                                l.playSound(U.sound.enter, {
+                                l.playSound(H.sound.enter, {
                                     channel: "sfx",
                                     soundPos: T.pos,
                                     falloff: 1,
                                     layer: T.layer,
                                     muffled: !0
                                 });
-                                for (var G = g.normalizeSafe(g.sub(I, T.pos), g.create(1, 0)), V = q ? 1 : -1, N = Math.floor(h.random(3, 5)), H = 0; H < N; H++) {
-                                    var W = g.mul(g.rotate(g.mul(G, V), (Math.random() - .5) * Math.PI / 1.5), h.random(6, 8));
-                                    i.addParticle(M.Defs[U.hitParticle], T.layer, T.pos, W)
+                                for (var W = g.normalizeSafe(g.sub(I, T.pos), g.create(1, 0)), K = V ? 1 : -1, X = Math.floor(h.random(3, 5)), Z = 0; Z < X; Z++) {
+                                    var Y = g.mul(g.rotate(g.mul(W, K), (Math.random() - .5) * Math.PI / 1.5), h.random(6, 8));
+                                    i.addParticle(M.Defs[H.hitParticle], T.layer, T.pos, Y)
                                 }
                             }
-                            T.wasInsideObstacle = q;
-                            var K = g.length(g.sub(I, T.pos));
-                            T.stepTicker += K;
-                            var X = n.getGroundSurface(T.pos, T.layer);
-                            if (z)
+                            T.wasInsideObstacle = V;
+                            var J = T.isNearDoorError;
+                            if (T.isNearDoorError = null != E,
+                            T.doorErrorTicker -= e,
+                            T.isNearDoorError && !J && T.doorErrorTicker <= 0) {
+                                T.doorErrorTicker = .5;
+                                var Q = p.Defs[E.type]
+                                  , $ = Q.door.sound.error;
+                                l.playSound($, {
+                                    channel: "sfx",
+                                    soundPos: T.pos,
+                                    falloff: 1,
+                                    layer: T.layer,
+                                    muffled: !0
+                                })
+                            }
+                            var ee = g.length(g.sub(I, T.pos));
+                            T.stepTicker += ee;
+                            var te = n.getGroundSurface(T.pos, T.layer);
+                            if (C)
                                 if (T.soundUpdateThrottle < 0) {
                                     T.soundUpdateThrottle = .2;
-                                    var Z = 0
-                                      , Y = 1;
-                                    if ("water" !== X) {
-                                        var J = n.distanceToShore(T.pos);
-                                        J < 50 && (Z = (50 - J) / 50,
-                                        Y = 1 - Z)
+                                    var ae = 0
+                                      , ie = 1;
+                                    if ("water" !== te) {
+                                        var oe = n.distanceToShore(T.pos);
+                                        oe < 50 && (ae = (50 - oe) / 50,
+                                        ie = 1 - ae)
                                     } else
-                                        Z = 1,
-                                        Y = 0;
-                                    l.setVolume(f.wavesInst, Z),
-                                    l.setVolume(f.windInst, Y)
+                                        ae = 1,
+                                        ie = 0;
+                                    l.setVolume(f.wavesInst, ae),
+                                    l.setVolume(f.windInst, ie)
                                 } else
                                     T.soundUpdateThrottle -= e;
-                            var Q = "water" === X
-                              , $ = K > 0;
-                            T.updateSubmersion(Q, e, n, $, T.pos, w),
-                            T.stepTicker > 4 && !Q && (T.stepTicker = 0,
-                            l.playGroup("footstep_" + X, {
+                            T.isOnBrightSurface = 1 == T.layer && "tile" == te;
+                            var ne = "water" === te
+                              , re = ee > 0;
+                            T.updateSubmersion(ne, e, n, re, T.pos, _),
+                            T.stepTicker > 4 && !ne && (T.stepTicker = 0,
+                            l.playGroup("footstep_" + te, {
                                 soundPos: T.pos,
                                 fallOff: 3,
                                 layer: T.layer,
                                 muffled: !0
                             })),
-                            T.netData.dead || T.updateDownedState(e, w, L, x);
-                            var ee = T.weapType != T.netData.curWeapType;
-                            ee && (T.weapType = T.netData.curWeapType,
+                            T.netData.dead || T.updateDownedState(e, _, L, x);
+                            var se = T.weapType != T.netData.curWeapType;
+                            se && (T.weapType = T.netData.curWeapType,
                             T.updateWeapon());
-                            var te = T.gunContainerL.pivot.y
-                              , ae = T.gunContainerR.pivot.y;
-                            if (te = Math.min(0, te - te * e * 5 + e),
-                            ae = Math.min(0, ae - ae * e * 5 + e),
-                            T.gunContainerL.pivot.y = te,
-                            T.gunContainerR.pivot.y = ae,
-                            z) {
-                                var ie = T.localData.curWeapIdx
-                                  , oe = T.localData.weapons[ie]
-                                  , ne = c.items[oe.name];
-                                if (!T.playedDryFire && "gun" == T.equippedWeaponType() && (s.mousePressed() || s.mouseDown() && "auto" == ne.fireMode) && 0 === T.localData.action.type && !y) {
-                                    var re = T.localData.inventory[ne.ammo]
-                                      , se = oe.ammo;
-                                    0 === re && 0 === se && (l.playSound(ne.sound.empty),
+                            var le = T.gunContainerL.pivot.y
+                              , ce = T.gunContainerR.pivot.y;
+                            if (le = Math.min(0, le - le * e * 5 + e),
+                            ce = Math.min(0, ce - ce * e * 5 + e),
+                            T.gunContainerL.pivot.y = le,
+                            T.gunContainerR.pivot.y = ce,
+                            C) {
+                                var de = T.localData.curWeapIdx
+                                  , me = T.localData.weapons[de]
+                                  , pe = c.items[me.name];
+                                if (!T.playedDryFire && "gun" == T.equippedWeaponType() && (s.mousePressed() || s.mouseDown() && "auto" == pe.fireMode) && 0 === T.localData.action.type && !y) {
+                                    var ue = T.localData.inventory[pe.ammo]
+                                      , he = me.ammo;
+                                    0 === ue && 0 === he && (l.playSound(pe.sound.empty),
                                     T.playedDryFire = !0)
                                 }
                                 s.mousePressed() || s.mouseDown() || (T.playedDryFire = !1)
                             }
-                            var le = T.netData.actionType;
-                            if (!z && T.curAction.type != le) {
+                            var ge = T.netData.actionType;
+                            if (!C && T.curAction.type != ge) {
                                 l.stopSound(this.actionSoundInstance);
-                                var ce = null;
-                                switch (le) {
-                                case m.Reload:
-                                    var me = T.netData.curWeapType;
-                                    if ("" != me) {
-                                        ce = c.items[me].sound.reload
+                                var fe = null;
+                                switch (ge) {
+                                case d.Reload:
+                                    var ye = T.netData.curWeapType;
+                                    if ("" != ye) {
+                                        fe = c.items[ye].sound.reload
                                     }
                                 }
-                                ce && (this.actionSoundInstance = l.playSound(ce, {
+                                fe && (this.actionSoundInstance = l.playSound(fe, {
                                     channel: "otherPlayers",
                                     soundPos: T.pos,
                                     fallOff: 2,
                                     layer: T.layer,
                                     muffled: !0
                                 })),
-                                T.curAction.type = le
+                                T.curAction.type = ge
                             }
                             if (T.gunSwitchCooldown -= e,
-                            z && (ee || T.curWeapIdx != T.localData.curWeapIdx)) {
+                            C && (se || T.curWeapIdx != T.localData.curWeapIdx)) {
                                 T.curWeapIdx = T.localData.curWeapIdx;
-                                var de = c.items[T.weapType];
-                                if ("melee" == de.type || "throwable" == de.type)
-                                    ("throwable" != de.type || T.lastThrowablePickupSfxTicker <= 0) && l.playSound(de.sound.deploy, {
+                                var be = c.items[T.weapType];
+                                if ("melee" == be.type || "throwable" == be.type)
+                                    ("throwable" != be.type || T.lastThrowablePickupSfxTicker <= 0) && l.playSound(be.sound.deploy, {
                                         channel: "sfx",
                                         soundPos: T.pos,
                                         fallOff: 3
                                     });
-                                else if ("gun" == de.type) {
-                                    var pe = "gun_switch_01";
-                                    T.gunSwitchCooldown > 0 ? pe = de.sound.deploy : T.gunSwitchCooldown = c.player.freeSwitchCooldown,
+                                else if ("gun" == be.type) {
+                                    var xe = "gun_switch_01";
+                                    T.gunSwitchCooldown > 0 ? xe = be.sound.deploy : T.gunSwitchCooldown = c.player.freeSwitchCooldown,
                                     l.stopLocalActionSound(),
-                                    l.playSound(pe, {
+                                    l.playSound(xe, {
                                         channel: "activePlayer"
                                     })
                                 }
                             }
-                            T.updateAnim(e, w);
-                            var ue = v[T.anim.type]
-                              , he = !ue || !ue.hideWeapon;
-                            (T.netData.downed || T.netData.dead) && (he = !1),
-                            T.gun.visible = !!he && T.gunVis,
-                            T.gunBot.visible = !!he && T.gunBotVis,
-                            T.gunOffhand.visible = !!he && T.gunOffhandVis,
-                            T.gunTop.visible = !!he && T.gunTopVis,
-                            T.hand_left.visible = !he || T.gunHandLtVis,
-                            T.hand_right.visible = !he || T.gunHandRtVis;
-                            var ge = T.anim.type == d.Throw;
-                            T.object_right.visible = !(!he || ge) && T.objRtVis,
-                            T.object_left.visible = !!he && T.objLtVis;
-                            var fe = c.items[T.netData.curWeapType].type
-                              , ye = T.handLt
-                              , be = T.handRt;
-                            if (he && ("gun" == fe ? (ye = T.gunHandLt,
-                            be = T.gunHandRt) : T.anim.type == d.None && "throwable" == fe && (ye = T.objHandLt,
-                            be = T.objHandRt)),
-                            !be) {
-                                var xe = {
-                                    handRt: void 0 !== be ? be : "undefined",
+                            T.updateAnim(e, _);
+                            var ve = v[T.anim.type]
+                              , ke = !ve || !ve.hideWeapon;
+                            (T.netData.downed || T.netData.dead) && (ke = !1),
+                            T.gun.visible = !!ke && T.gunVis,
+                            T.gunBot.visible = !!ke && T.gunBotVis,
+                            T.gunOffhand.visible = !!ke && T.gunOffhandVis,
+                            T.gunTop.visible = !!ke && T.gunTopVis,
+                            T.hand_left.visible = !ke || T.gunHandLtVis,
+                            T.hand_right.visible = !ke || T.gunHandRtVis;
+                            var _e = T.anim.type == m.Throw;
+                            T.object_right.visible = !(!ke || _e) && T.objRtVis,
+                            T.object_left.visible = !!ke && T.objLtVis;
+                            var we = c.items[T.netData.curWeapType].type
+                              , Se = T.handLt
+                              , Me = T.handRt;
+                            if (ke && ("gun" == we ? (Se = T.gunHandLt,
+                            Me = T.gunHandRt) : T.anim.type == m.None && "throwable" == we && (Se = T.objHandLt,
+                            Me = T.objHandRt)),
+                            !Me) {
+                                var Te = {
+                                    handRt: void 0 !== Me ? Me : "undefined",
                                     gunHandRt: void 0 !== T.gunHandRt ? T.gunHandRt : "undefined",
                                     objHandRt: void 0 !== T.objHandRt ? T.objHandRt : "undefined",
                                     pHandRt: void 0 !== T.handRt ? T.handRt : "undefined"
                                 };
-                                k.logError("hand_err: " + JSON.stringify(xe))
+                                k.logError("hand_err: " + JSON.stringify(Te))
                             }
-                            T.hand_left.pivot.x = ye.x,
-                            T.hand_left.pivot.y = ye.y,
-                            T.hand_right.pivot.x = be.x,
-                            T.hand_right.pivot.y = be.y,
-                            T.foot_left.pivot.x = T.footLt.x,
-                            T.foot_left.pivot.y = T.footLt.y,
-                            T.foot_right.pivot.x = T.footRt.x,
-                            T.foot_right.pivot.y = T.footRt.y;
-                            var ve = Math.atan2(T.dir.x, T.dir.y);
-                            T.foot_left.rotation = ve,
-                            T.foot_right.rotation = ve,
-                            T.gunContainerL.rotation = ve,
-                            T.gunContainerR.rotation = ve;
-                            var ke = c.items[T.skinType]
-                              , we = "camo" == ke.subtype;
+                            T.hand_left.pivot.set(Se.x, Se.y),
+                            T.hand_right.pivot.set(Me.x, Me.y),
+                            T.foot_left.pivot.set(T.footLt.x, T.footLt.y),
+                            T.foot_right.pivot.set(T.footRt.x, T.footRt.y);
+                            var Pe = Math.atan2(T.dir.x, T.dir.y);
+                            T.foot_left.rotation = Pe,
+                            T.foot_right.rotation = Pe,
+                            T.gunContainerL.rotation = Pe,
+                            T.gunContainerR.rotation = Pe;
+                            var Ce = c.items[T.skinType]
+                              , ze = "camo" == Ce.subtype;
                             T.skinType != T.netData.skin && (T.skinType = T.netData.skin,
                             T.updateSkin());
-                            var _e = T.getBagLevel();
-                            if (_e > 0 && !we && !T.downed) {
-                                var Se = (c.items[T.netData.backpack],
-                                _e > 0 ? .03 * _e + .4 : 0)
-                                  , Me = .5 * T.backpack.width + 8;
-                                T.backpack.scale.x = Se,
-                                T.backpack.scale.y = Se,
-                                T.backpack.pivot.x = T.dir.x * Me,
-                                T.backpack.pivot.y = T.dir.y * -Me,
+                            var Ie = T.getBagLevel();
+                            if (Ie > 0 && !ze && !T.downed) {
+                                var De = (c.items[T.netData.backpack],
+                                Ie > 0 ? .03 * Ie + .4 : 0)
+                                  , Ae = .5 * T.backpack.width + 8;
+                                T.backpack.scale.set(De, De),
+                                T.backpack.pivot.set(T.dir.x * Ae, T.dir.y * -Ae),
                                 T.backpack.visible = !0
                             } else
                                 T.backpack.visible = !1;
-                            if ("" == T.netData.chest || we)
+                            if ("" == T.netData.chest || ze)
                                 T.chest.visible = !1;
                             else {
-                                var Te = c.items[T.netData.chest];
-                                T.chest.tint = Te.tint,
+                                var Oe = c.items[T.netData.chest];
+                                T.chest.tint = Oe.tint,
                                 T.chest.visible = !0
                             }
-                            if ("" == T.netData.helmet || we)
+                            if ("" == T.netData.helmet || ze)
                                 T.helmet.visible = !1;
                             else {
-                                var Pe = c.items[T.netData.helmet]
-                                  , ze = .5 * T.helmet.width
-                                  , Ce = T.downed ? -1 : 1;
-                                T.helmet.pivot.x = T.dir.x * ze * Ce,
-                                T.helmet.pivot.y = T.dir.y * ze * -Ce,
-                                T.helmet.tint = Pe.tint,
+                                var Le = c.items[T.netData.helmet]
+                                  , Be = .5 * T.helmet.width
+                                  , Ee = T.downed ? -1 : 1;
+                                T.helmet.pivot.set(T.dir.x * Be * Ee, T.dir.y * Be * -Ee),
+                                T.helmet.tint = Le.tint,
                                 T.helmet.visible = !0
                             }
                             T.noCeilingRevealTicker -= e;
-                            for (var Ie = T.layer, Ae = b.createCircle(T.pos, c.player.maxVisualRadius), De = !1, Oe = !1, Le = !1, Be = n.structurePool.getPool(), Ee = 0; Ee < Be.length; Ee++) {
-                                var Fe = Be[Ee];
-                                if (Fe.active) {
-                                    for (var Re = 0; Re < Fe.stairs.length; Re++) {
-                                        var je = Fe.stairs[Re]
-                                          , qe = b.intersect(je.collision, Ae);
-                                        if (qe) {
-                                            Oe = !0;
-                                            var Ue = g.add(je.center, g.mul(je.downDir, -3))
-                                              , Ge = g.sub(Ue, T.pos)
-                                              , Ve = g.length(Ge);
-                                            Ge = Ve > 1e-4 ? g.div(Ge, Ve) : g.create(1, 0);
-                                            Le = r(n, T.pos, Ge, Ve, .5, T.layer) < Ve
+                            for (var Fe = T.layer, Re = b.createCircle(T.pos, c.player.maxVisualRadius), je = !1, qe = !1, Ne = !1, Ue = n.structurePool.getPool(), Ge = 0; Ge < Ue.length; Ge++) {
+                                var Ve = Ue[Ge];
+                                if (Ve.active) {
+                                    for (var He = 0; He < Ve.stairs.length; He++) {
+                                        var We = Ve.stairs[He]
+                                          , Ke = b.intersect(We.collision, Re);
+                                        if (Ke) {
+                                            qe = !0;
+                                            var Xe = g.add(We.center, g.mul(We.downDir, -3))
+                                              , Ze = g.sub(Xe, T.pos)
+                                              , Ye = g.length(Ze);
+                                            Ze = Ye > 1e-4 ? g.div(Ze, Ye) : g.create(1, 0);
+                                            Ne = r(n, T.pos, Ze, Ye, .5, T.layer) < Ye
                                         }
-                                        z && je.noCeilingReveal && qe && 0 != T.layer && (T.noCeilingRevealTicker = .25)
+                                        C && We.noCeilingReveal && Ke && 0 != T.layer && (T.noCeilingRevealTicker = .25)
                                     }
-                                    for (var Ne = 0; Ne < Fe.mask.length; Ne++)
-                                        if (b.intersect(Fe.mask[Ne], Ae)) {
-                                            De = !0;
+                                    for (var Je = 0; Je < Ve.mask.length; Je++)
+                                        if (b.intersect(Ve.mask[Je], Re)) {
+                                            je = !0;
                                             break
                                         }
                                 }
                             }
-                            var He = 18;
-                            Oe && (1 & Ie && (1 & L.layer || !Le) || 2 & L.layer && !De) && (Ie |= 2),
-                            (1 & Ie) != (1 & L.layer) || !Oe || De && 0 != L.layer || (Ie |= 2,
-                            He += 100);
-                            var We = T.__id + (T.netData.downed ? 0 : 131072) + (z ? 65536 : 0);
-                            a.addPIXIObj(T.container, P.Player, Ie, He, We),
+                            var Qe = 18;
+                            qe && (1 & Fe && (1 & L.layer || !Ne) || 2 & L.layer && !je) && (Fe |= 2),
+                            (1 & Fe) != (1 & L.layer) || !qe || je && 0 != L.layer || (Fe |= 2,
+                            Qe += 100);
+                            var $e = T.__id + (T.netData.downed ? 0 : 131072) + (C ? 65536 : 0);
+                            a.addPIXIObj(T.container, P.Player, Fe, Qe, $e),
                             T.isNew = !1
                         }
                     }
-                    for (var Ke = this.getPlayerInfo(t).teamId, Xe = this.getTeamInfo(Ke), Ze = 0; Ze < Xe.playerIds.length; Ze++) {
-                        var Ye = Xe.playerIds[Ze]
-                          , Je = this.getPlayerById(Ye);
-                        Je && Ye == t && this.setTeammateData(Ye, {
-                            pos: g.copy(Je.netData.pos),
-                            health: Je.localData.health,
+                    for (var et = this.getPlayerInfo(t).teamId, tt = this.getTeamInfo(et), at = 0; at < tt.playerIds.length; at++) {
+                        var it = tt.playerIds[at]
+                          , ot = this.getPlayerById(it);
+                        ot && it == t && this.setTeammateData(it, {
+                            pos: g.copy(ot.netData.pos),
+                            health: ot.localData.health,
                             disconnected: !1,
-                            dead: Je.netData.dead,
-                            downed: Je.netData.downed
+                            dead: ot.netData.dead,
+                            downed: ot.netData.downed
                         });
-                        var Qe = this.teammateData[Ye];
-                        if (Qe)
-                            if (Je) {
-                                var $e = this.teammateData[Ye];
-                                $e.pos = g.copy(Je.netData.pos),
-                                $e.posTarget = g.copy(Je.netData.pos)
-                            } else if (Qe) {
-                                var et = (c.player.moveSpeed,
-                                g.sub(Qe.posTarget, Qe.pos))
-                                  , tt = g.length(et)
-                                  , at = tt > 1e-4 ? g.div(et, tt) : g.create(1, 0)
-                                  , it = Math.min(tt, Qe.posDelta * e / u.kTeamUpdateRate);
-                                Qe.pos = g.add(Qe.pos, g.mul(at, it))
+                        var nt = this.teammateData[it];
+                        if (nt)
+                            if (ot) {
+                                var rt = this.teammateData[it];
+                                rt.pos = g.copy(ot.netData.pos),
+                                rt.posTarget = g.copy(ot.netData.pos)
+                            } else if (nt) {
+                                var st = (c.player.moveSpeed,
+                                g.sub(nt.posTarget, nt.pos))
+                                  , lt = g.length(st)
+                                  , ct = lt > 1e-4 ? g.div(st, lt) : g.create(1, 0)
+                                  , dt = Math.min(lt, nt.posDelta * e / u.kTeamUpdateRate);
+                                nt.pos = g.add(nt.pos, g.mul(ct, dt))
                             }
                     }
                 }
@@ -24586,10 +26182,8 @@ webpackJsonp([0], {
                         if (i.active) {
                             var o = e.pointToScreen(i.pos)
                               , n = e.pixels(i.scale);
-                            i.container.x = o.x,
-                            i.container.y = o.y,
-                            i.container.scale.x = n,
-                            i.container.scale.y = n,
+                            i.container.position.set(o.x, o.y),
+                            i.container.scale.set(n, n),
                             i.container.visible = !i.netData.dead
                         }
                     }
@@ -24609,10 +26203,10 @@ webpackJsonp([0], {
                 value: function(e) {
                     var t = e.name
                       , a = ((new Date).getTime(),
-                    _.truncateString(t, "bold 16px arial", 180));
+                    w.truncateString(t, "bold 16px arial", 180));
                     this.playerInfo[e.id] = {
                         name: t,
-                        nameUnEntity: _.unEntity(t),
+                        nameUnEntity: w.unEntity(t),
                         nameKillFeed: a,
                         teamId: e.teamId
                     }
@@ -24839,7 +26433,7 @@ webpackJsonp([0], {
             "game-painkiller": "Píldora",
             "game-painkiller-tooltip": "Click izquierdo para aumentar 50 de adrenalina.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Munición para la M9, Glock, MP5, MAC-10 y UMP9.",
+            "game-9mm-tooltip": "Munición para la M9, Glock, MP5, MAC-10, UMP9 y Vector.",
             "game-12gauge": "Calibre 12",
             "game-12gauge-tooltip": "Munición para la M870, Saiga-12 y MP220.",
             "game-762mm": "7,62mm",
@@ -25104,7 +26698,7 @@ webpackJsonp([0], {
             Circle: 2,
             Aabb: 3
         }
-          , m = function() {
+          , d = function() {
             function e() {
                 i(this, e),
                 this.shapes = []
@@ -25175,12 +26769,12 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , d = new m;
-        e.exports = d
+          , m = new d;
+        e.exports = m
     },
     tPA9: function(e, t, a) {
         t = e.exports = a("lcwS")(!1),
-        t.push([e.i, 'img{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;user-drag:none}#cvs{-webkit-filter:none;filter:none}.click-through{pointer-events:none}#game-area-wrapper{cursor:crosshair;left:0;position:absolute!important;top:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}#ui-game{-webkit-filter:none;filter:none;height:100%;left:0;position:absolute;top:0;width:100%}#ui-center{color:#fff;pointer-events:all;position:absolute;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%) scale(1);transform:translateX(-50%) translateY(-50%) scale(1);z-index:10}@media (max-width:1200px),screen and (min-width:851px) and (max-height:768px){#ui-center{-webkit-transform:translateX(-50%) translateY(-50%) scale(.85);transform:translateX(-50%) translateY(-50%) scale(.85)}}@media screen and (max-width:850px){#ui-center{pointer-events:all;-webkit-transform:translateX(-50%) translateY(-50%) scale(.85);transform:translateX(-50%) translateY(-50%) scale(.85);z-index:10}}@media (max-width:850px) and (max-height:300px){#ui-center{-webkit-transform:translateX(-50%) translateY(-50%) scale(.775);transform:translateX(-50%) translateY(-50%) scale(.775)}}#ui-center .movement-icon{background-image:url(../img/gui/movement.svg)}#ui-center .target-icon{background-image:url(../img/gui/target.svg)}#ui-center .btns-game-double-row{display:flex;position:relative}#ui-center .btns-game-double-row a{display:inline-block}#ui-center .btns-game-double-row div{display:inline-block;position:relative;width:100%}#ui-center .btns-game-double-row div:not(:last-child){margin-right:2px}#ui-center .btns-game-double-row .game-menu-icon{background-size:22px;background-position:50%;background-repeat:no-repeat;bottom:13px;display:inline-block;height:22px;left:55%;pointer-events:none;position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:22px}#ui-center .btn-game-touch-style{background-color:#50afab;background-position:4px 4px;background-repeat:no-repeat;background-size:20px;border:0;border-bottom:none;border-radius:5px;box-shadow:inset 0 -2px #387c79;box-sizing:border-box;color:#fff;cursor:pointer;display:block;font-size:14px;height:30px;line-height:30px;margin:auto;margin-top:2px;margin-bottom:4px;position:relative;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.25);width:100%}#ui-game-menu{background-color:rgba(0,0,0,.5);border-radius:5px;box-sizing:border-box;display:none;margin:10px auto;padding:10px 15px;width:250px}@media screen and (max-width:850px){#ui-game-menu{padding:4px 10px;width:190px}}@media (max-width:850px) and (max-height:300px){#ui-game-menu{margin-top:0}}#ui-game-menu p{bottom:4px;display:inline-block;font-size:14px;position:relative}@media screen and (max-width:850px){#ui-game-menu p{bottom:0;font-size:12px;margin-bottom:8px;margin-top:6px}}.ui-map-wrapper-mobile{bottom:auto;color:#fff;display:block;font-size:16px;left:6px;top:46px}.ui-map-wrapper-mobile #ui-map-container{position:absolute;bottom:52px}.ui-map-wrapper-mobile #ui-map-info{width:100px;left:0}.ui-map-wrapper-mobile #ui-alive-info,.ui-map-wrapper-mobile #ui-map-info{position:absolute;color:#fff;height:36px;top:174px;background:rgba(0,0,0,.4);border-radius:5px}.ui-map-wrapper-mobile #ui-alive-info{width:80px;left:106px}.ui-map-wrapper-mobile .ui-players-alive{left:4px}.ui-map-wrapper-mobile .ui-map-counter{position:relative;display:inline-block;font-size:24px;text-align:center;bottom:9px;left:2px}.ui-map-wrapper-mobile .ui-map-icon{padding:6px;display:inline-block;height:24px;width:24px;margin-left:2px;background-size:24px;background-repeat:no-repeat;background-position:6px 6px}.ui-map-wrapper-mobile .gas-icon{background-image:url(../img/gui/gas.svg)}.ui-map-wrapper-mobile .danger-icon{background-image:url(../img/gui/danger.svg)}.ui-map-wrapper-mobile .alive-icon{background-image:url(../img/gui/player.svg)}.ui-map-wrapper-mobile .icon-pulse{-webkit-animation:pulse 2s linear infinite;animation:pulse 2s linear infinite}.ui-map-wrapper-mobile #ui-spec-counter{position:absolute;color:#fff;width:68px;height:28px;top:135px;left:60px;background:rgba(0,0,0,.4);border-radius:5px}.ui-map-wrapper-mobile #ui-spec-counter-icon{padding:6px;display:inline-block;height:24px;width:18px;margin-left:2px;background-size:20px;background-repeat:no-repeat;background-position:6px 4px;background-image:url(../img/gui/eye.svg)}.ui-map-wrapper-mobile #ui-spec-counter-number{position:relative;display:inline-block;font-size:20px;width:24px;text-align:center;bottom:15px;left:0}.ui-map-wrapper-mobile .ui-settings-button{position:absolute;color:#fff;border-radius:5px;pointer-events:all}.ui-map-wrapper-mobile #ui-map-expand-mobile{height:190px;width:190px;left:-4px;top:-22px;z-index:0;background-color:transparent}.ui-map-wrapper-mobile #ui-map-expand img{display:none}.ui-map-wrapper-mobile #ui-map-minimize{left:124px}.ui-map-wrapper-mobile .ui-settings-button img{position:absolute;left:6px;top:6px;height:36px;width:36px;background-size:36px;background-repeat:no-repeat;transform:scale(1);-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-map-wrapper-mobile .ui-settings-button .map-img-after{display:none}.ui-map-wrapper-mobile .ui-settings-button:hover{-webkit-transform:scale(1);transform:scale(1)}.ui-map-wrapper-desktop{position:absolute;bottom:12px;left:12px}#ui-map-wrapper{position:absolute;z-index:1}#ui-map-wrapper #ui-settings-container-mobile{position:relative}#ui-map-wrapper #ui-menu-display{cursor:pointer;left:2px;top:-18px;height:48px;width:48px;opacity:.8;background-color:rgba(0,0,0,.4);background-size:48px;background-repeat:no-repeat;background-position:50%;background-image:url(../img/gui/cog.svg);z-index:1}#big-map{display:none;height:100%;width:100%}#big-map-collision{height:100%;left:50%;margin:auto;pointer-events:all;position:fixed;top:0;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#big-map-close{position:absolute;margin-left:auto;height:64px;width:64px;right:6px;top:6px;border-radius:6px;background-color:rgba(0,0,0,.5);background-repeat:no-repeat;background-size:48px;background-position:50%;background-image:url(../img/gui/close.svg);pointer-events:all}#ui-right-center{position:absolute;color:#fff;opacity:.75;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-right-center-desktop{top:40%;-webkit-transform:translateY(-50%);transform:translateY(-50%);right:12px}.ui-right-center-mobile{top:30px;-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:translateY(-50%) scale(.8);transform:translateY(-50%) scale(.8);right:6px}.ui-right-center-tablet{top:12px!important;-webkit-transform:scale(.85);transform:scale(.85)}@media (max-height:360px),(max-width:640px){.ui-right-center-mobile{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.85);transform:scale(.85);top:16px}}.ui-bottom-right-tablet{bottom:25%!important;-webkit-transform:scale(.8)!important;transform:scale(.8)!important;-webkit-transform-origin:right!important;transform-origin:right!important}.ui-bottom-center-right-tablet{left:72%!important;-webkit-transform:scale(.65)!important;transform:scale(.65)!important}#ui-emote-button{background:rgba(0,0,0,.4);background-image:url(../img/gui/emote.svg);background-position:50%;background-repeat:no-repeat;background-size:28px;border-radius:21px;display:none;height:42px;position:absolute;right:108px;top:0;width:42px}@media screen and (max-width:850px){#ui-emote-button{background-size:20px;border-radius:14px;height:28px;right:0;top:50px;width:28px}}.ui-top-left-tablet{left:120px!important}.ui-spectate-options-wrapper-tablet{bottom:12px!important;top:auto!important}.ui-killfeed-wrapper-tablet{top:60px!important}@media (max-width:850px) and (max-height:320px){.ui-slider-container{margin-bottom:0}}@media (max-width:850px) and (max-height:320px){.ui-slider-container p{width:75px}}@media (max-width:850px) and (max-height:320px){.ui-slider-container .slider{bottom:3px;width:85px}}@media (max-width:850px) and (max-height:320px){.ui-slider-container .slider::-webkit-slider-thumb{width:20px;height:20px}}@media (max-width:850px) and (max-height:320px){.ui-slider-container .slider::-moz-range-thumb{width:20px;height:20px}}.ui-hidden{display:none}.btn-game-menu{text-align:center;line-height:38px;display:block;width:100%;height:40px;border:0;border-radius:5px;box-sizing:border-box;position:relative;margin:auto;margin-top:5px;margin-bottom:5px;color:#fff;font-size:16px;text-shadow:0 1px 2px rgba(0,0,0,.25);background-color:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79;background-repeat:no-repeat;cursor:pointer}#btn-game-fullscreen{background-size:34px;background-position:4px 2px;background-image:url(../img/gui/minimize.svg)}#btn-game-sound{background-size:44px;background-position:2px -3px}#btn-game-quit{margin-top:40px;background-image:url(../img/gui/quit.svg)}#btn-game-quit,#btn-game-resume{background-size:44px;background-position:-2px -3px}#btn-game-resume{margin-top:30px;background-image:url(../img/gui/resume.svg)}#ui-top-center{position:absolute;color:#fff;top:80px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-top-center .top-center-text{text-align:center;width:100vw;padding:8px}#ui-waiting-text{display:none;color:#fff;text-shadow:2px 2px 0 #000}#ui-waiting-text,#ui-waiting-text span{font-size:32px;font-weight:700}.top-center-text .spectate-text{display:inline-block;text-shadow:2px 2px 0 #000;font-size:24px;font-weight:700;overflow:hidden;height:32px}@media (max-width:1024px){.top-center-text .spectate-text{font-size:18px}}.top-center-text .spectate-desc{color:#fff;margin-right:8px}.ui-spectate-mode{display:none}#ui-spectate-text{position:relative}#spectate-player{max-width:250px;white-space:nowrap;text-overflow:ellipsis;color:cyan}#ui-top-center-scopes-wrapper{position:absolute;color:#fff;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:100%}#ui-top-center-scopes{margin-top:12px;text-align:center}@media (max-height:768px),(max-width:1200px){#ui-top-center-scopes{-webkit-transform:scale(.85);transform:scale(.85)}}.ui-zoom{background:rgba(0,0,0,.3);border-radius:36px;width:64px;height:64px;opacity:.6;display:inline-block}.ui-zoom-hover:hover{opacity:1}.ui-zoom-active{vertical-align:baseline;opacity:1;transform:scale(1);-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-zoom .ui-zoom-image{width:64px;height:64px;opacity:.4;padding:2px}.ui-zoom .ui-zoom-text{margin-top:14px;width:100%}.ui-zoom .ui-zoom-level{font-size:32px;text-align:center;width:100%}.ui-zoom .ui-zoom-append{font-size:24px}.ui-zoom-inactive{display:none;margin-left:-8px;margin-right:-8px;-webkit-transition:all .1s ease-in;-webkit-transform:scale(.5);-ms-transition:all .1s ease-in;-ms-transform:scale(.5);-moz-transition:all .1s ease-in;-moz-transform:scale(.5);transition:all .1s ease-in;transform:scale(.5)}.ui-zoom-inactive:hover{cursor:pointer!important;opacity:1}.ui-emote-wheel{z-index:3;display:none;position:fixed}.ui-emote-parent{opacity:.75}.ui-emote-hl{z-index:2;display:none}.ui-emote{position:fixed;width:256px;height:256px;background-size:256px;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-bg-circle{opacity:.5;background-image:url(../img/gui/ping-part-circle.svg)}.ui-emote-bg-quarter{opacity:.5;background-image:url(../img/gui/ping-part-quarter.svg)}.ui-emote-bg-eighth{opacity:.5;background-image:url(../img/gui/ping-part-eighth.svg)}.ui-emote-middle .ui-emote-image{width:24px!important;height:24px!important;background-size:24px!important;background-image:url(../img/gui/close.svg)}.ui-emote-top .ui-emote-image{margin-top:-78px;background-image:url(../img/gui/ping-team-danger.svg)}.ui-emote-right .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(90deg);transform:translate(-50%,-50%) rotate(90deg)}.ui-emote-right .ui-emote-image{margin-left:78px;background-image:url(../img/gui/ping-team-coming.svg)}.ui-emote-bottom .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(180deg);transform:translate(-50%,-50%) rotate(180deg)}.ui-emote-bottom .ui-emote-image{margin-top:78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(270deg);transform:translate(-50%,-50%) rotate(270deg)}.ui-emote-left .ui-emote-image{margin-left:-78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-top-left .ui-emote-image{margin-left:-80px;margin-top:-30px;background-image:url(../img/loot/loot-ammo-box.svg)}.ui-emote-bottom-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(-45deg);transform:translate(-50%,-50%) rotate(-45deg)}.ui-emote-bottom-left .ui-emote-image{margin-left:-80px;margin-top:30px;background-image:url(../img/loot/loot-medical-healthkit.svg)}.ui-emote-circle .ui-emote-hl{background-image:url(../img/gui/ping-part-circle-highlight.svg)}.ui-emote-quarter .ui-emote-hl{background-image:url(../img/gui/ping-part-quarter-highlight.svg)}.ui-emote-eighth .ui-emote-hl{background-image:url(../img/gui/ping-part-eighth-highlight.svg)}.ui-emote-image{z-index:1;position:fixed;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-image-large{width:64px;height:64px;background-size:64px}.ui-emote-image-small{width:35px;height:35px;background-size:35px}.ui-team-indicator{z-index:2;display:none;position:fixed;top:0;left:0;border-radius:32px;width:64px;height:64px;background-size:64px;background-repeat:no-repeat;background-image:url(../img/gui/indicator.svg)}.ui-team-indicator,.ui-team-indicator-pos{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-team-indicator-pos{opacity:.75;position:relative;border-radius:24px;width:32px;height:32px;top:23px;left:32px}.ui-team-indicator-image{width:32px;height:32px;background-size:32px;background-repeat:no-repeat;background-image:url(../img/gui/ping-team-danger.svg)}.ui-indicator-ping-border{z-index:0;display:none;position:fixed;top:0;left:0;width:160px;height:160px;position:relative;background-size:160px;background-repeat:no-repeat;background-image:url(../img/gui/ping-border.svg);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#ui-top-left{position:absolute;color:#fff;font-size:16px;top:12px;left:12px;display:block}@media (max-height:768px),(max-width:1200px){#ui-top-left{-webkit-transform-origin:top left;transform-origin:top left;-webkit-transform:scale(.85);transform:scale(.85)}}.ui-bg-standard{background:rgba(0,0,0,.24);border-radius:5px}.ui-team-member{display:none;position:relative;width:200px;height:32px;padding:4px;margin-bottom:8px}.ui-team-member-name{font-weight:700;text-shadow:1px 1px 0 #000;font-size:16px;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-team-member-color{position:absolute;top:5px;right:5px;border-radius:7px;width:14px;height:14px}.ui-background-yellow{background-color:#ff0}.ui-background-blue{background-color:blue}.ui-background-red{background-color:red}.ui-background-purple{background-color:purple}.ui-background-cyan{background-color:cyan}.ui-team-member-status{display:none;position:absolute;top:4px;right:-38px;width:32px;height:32px;background-size:32px;background-repeat:no-repeat}.ui-team-member-status-downed{border-radius:16px;display:block!important;background-image:url(../img/gui/down.svg)!important}.ui-team-member-status-dead{display:block!important;background-image:url(../img/gui/skull-team.svg)!important;opacity:.5!important}.ui-team-member-status-disconnected{display:block!important;background-image:url(../img/gui/close.svg)!important;opacity:.5!important}.ui-team-member-health{margin-top:4px}.ui-team-member-health .ui-bar-inner{background-color:#fff;z-index:1;position:absolute;border-radius:4px;width:200px;height:10px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}.ui-team-member-health .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}.ui-team-member-health .ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}#ui-spectate-options-wrapper{color:#fff;display:block;left:12px;position:absolute;top:12px}@media (max-height:768px),(max-width:1200px){#ui-spectate-options-wrapper{-webkit-transform:scale(.85);transform:scale(.85);-webkit-transform-origin:top left;transform-origin:top left}}#ui-spectate-options{position:relative;pointer-events:all;width:100%}#ui-spectate-buttons{display:inline-block;padding:8px 8px 0;text-align:center;width:192px}#ui-spectate-options a{position:relative;color:#fff;font-size:16px;text-shadow:0 1px 2px rgba(0,0,0,.25);background:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79;cursor:pointer}#btn-spectate-prev-player{margin-bottom:24px}#ui-spectate-stats{vertical-align:top;display:none}#ui-spectate-stats-header{text-align:center;font-size:24px;font-weight:700;padding:8px}#ui-spectate-stats-table{width:100%;background-color:transparent;margin:auto;margin-right:0;border-collapse:collapse}#ui-spectate-stats tbody,#ui-spectate-stats td,#ui-spectate-stats th{padding:0 8px 8px 16px;font-size:18px}.ui-spectate-stats-category{width:130px;color:hsla(0,0%,100%,.75)}.ui-spectate-stats-value{width:75px;color:#fff}#ui-leaderboard{position:absolute;color:#fff;font-size:16px;top:12px;right:12px;display:flex;font-weight:700;text-align:center;width:85px;display:inline-block}@media (max-height:768px),(max-width:1200px){#ui-leaderboard{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.85);transform:scale(.85)}}#ui-leaderboard-alive{background:rgba(0,0,0,.4);border-radius:5px;margin-bottom:8px;padding:8px;height:64px;width:72px}.ui-players-alive{position:relative;font-size:54px}.ui-players-alive-pulse{-webkit-animation-name:pulseAlive;animation-name:pulseAlive;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0s;animation-delay:0s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}@-webkit-keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}@keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}.ui-leaderboard-header{font-size:24px;margin-bottom:8px}#ui-killfeed-wrapper{position:absolute;color:#fff;font-size:16px;top:12px;right:12px;display:flex}@media (max-width:1200px),screen and (min-width:851px) and (max-height:768px){#ui-killfeed-wrapper{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.85);transform:scale(.85)}}#ui-killfeed{display:inline-block;margin-left:24px;height:100px}#ui-killfeed-contents{width:800px}#ui-killfeed-contents .killfeed-div{position:absolute;right:100px;background-color:rgba(0,0,0,.4);padding:4px 8px;border-radius:2px;height:22px;line-height:24px}.killfeed-div div{float:left;font-size:16px;font-weight:700;color:#efeeee}#ui-killfeed .killfeed-text{max-width:550px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#ui-right-center:hover{opacity:1}.ui-ammo .ui-loot-image,.ui-ammo .ui-loot-overlay{position:absolute;height:22px;width:22px;right:5px;margin-top:5px;top:0;bottom:0}#ui-medical-interactive{margin-bottom:32px}.ui-medical .ui-loot-image{position:absolute;height:30px;width:30px;background-size:30px;background-repeat:no-repeat;right:5px;margin-top:1px;top:0;bottom:0}.ui-medical:hover{cursor:pointer!important}.ui-loot{background:rgba(0,0,0,.4);border-radius:5px;width:85px;height:32px;margin-left:auto;margin-bottom:5px}.ui-loot:hover{opacity:1!important}.ui-outline-hover{border:2px solid rgba(0,255,0,0)}.ui-outline-hover:hover{-webkit-transition:border .1s ease-out;-moz-transition:border .1s ease-out;-o-transition:border .1s ease-out;border:2px solid #0f0}.ui-scale-hover{transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1)}.ui-scale-hover,.ui-scale-hover:hover{-webkit-transition:all .1s ease-in;-ms-transition:all .1s ease-in;-moz-transition:all .1s ease-in;transition:all .1s ease-in}.ui-scale-hover:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);-moz-transform:scale(1.1);transform:scale(1.1)}.ui-loot .ui-loot-count{position:absolute;font-size:24px;font-weight:700;left:10px;top:2px;text-align:center}@media (max-height:768px),(max-width:1200px){.ui-right-center-desktop{top:42%;-webkit-transform-origin:right;transform-origin:right;-webkit-transform:translateY(-50%) scale(.8);transform:translateY(-50%) scale(.8)}#ui-medical-interactive{margin-bottom:8px}}#ui-upper-center{position:absolute;display:flex;color:#fff;top:180px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-announcement{display:none;color:#ff0;text-shadow:2px 2px 0 #000;font-size:32px;font-weight:700;text-align:center;width:100vw}#ui-lower-center{position:absolute;color:#fff;bottom:40%;left:50%}@media (max-width:1200px),screen and (min-width:851px) and (max-height:768px){#ui-lower-center{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:scale(.85);transform:scale(.85);bottom:33%}}#ui-interaction{display:flex}#ui-interaction-press{background:rgba(0,0,0,.4);border-radius:5px;margin-left:-24px;width:48px;height:48px;font-size:42px;font-weight:700;text-align:center;background-size:80%;background-position:50%;background-repeat:no-repeat}#ui-interaction-outer{background:rgba(0,0,0,.4);border-radius:5px;margin-left:10px;padding:0 15px;height:48px}#ui-interaction-outer #ui-interaction-description{margin-top:10px;font-size:24px;text-align:center}#ui-map-container{position:absolute;bottom:52px}#ui-map-info{position:absolute;color:#fff;width:100px;height:36px;bottom:218px;left:82px;background:rgba(0,0,0,.4);border-radius:5px}#ui-gas-icon{padding:6px;display:inline-block;height:24px;width:24px;margin-left:2px;background-size:24px;background-repeat:no-repeat;background-position:6px 6px}.gas-icon{background-image:url(../img/gui/gas.svg)}.danger-icon{background-image:url(../img/gui/danger.svg)}.icon-pulse{-webkit-animation:pulse 2s linear infinite;animation:pulse 2s linear infinite}#ui-gas-timer{position:relative;display:inline-block;font-size:24px;text-align:center;bottom:10px;left:2px}#ui-spec-counter{position:absolute;color:#fff;width:68px;height:28px;bottom:218px;left:6px;background:rgba(0,0,0,.4);border-radius:5px}#ui-spec-counter-icon{padding:6px;display:inline-block;height:24px;width:18px;margin-left:2px;background-size:20px;background-repeat:no-repeat;background-position:6px 4px;background-image:url(../img/gui/eye.svg)}#ui-spec-counter-number{position:relative;display:inline-block;font-size:20px;width:24px;text-align:center;bottom:15px;left:0}#ui-settings-container-desktop{position:relative;left:16px;bottom:12px}#ui-settings-container-desktop div{cursor:pointer}.ui-settings-button{position:absolute;color:#fff;border-radius:5px;height:48px;width:48px;pointer-events:all;opacity:.5;background:rgba(0,0,0,.4)}#ui-map-minimize{left:185px}.ui-settings-button img{position:absolute;left:6px;top:6px;height:36px;width:36px;background-size:36px;background-repeat:no-repeat;transform:scale(1);-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-settings-button .map-img-after{display:none}.ui-settings-button:hover{opacity:1;-webkit-transition:all .1s ease-in;-webkit-transform:scale(1.1);-ms-transition:all .1s ease-in;-ms-transform:scale(1.1);-moz-transition:all .1s ease-in;-moz-transform:scale(1.1);transition:all .1s ease-in;transform:scale(1.1)}#ui-bottom-center-0{position:absolute;color:#fff;bottom:12px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media (max-height:768px),(max-width:1200px){#ui-bottom-center-0{-webkit-transform-origin:bottom;transform-origin:bottom;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85)}}#ui-equipped-ammo-wrapper{position:absolute;color:#fff;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);bottom:62px}#ui-equipped-ammo{margin-bottom:12px;text-align:center;opacity:1}#ui-bullet-counter{display:inline-block;width:175px;height:56px;text-align:center;text-shadow:2px 2px #000}#ui-bullet-counter #ui-current-clip{background:rgba(0,0,0,.4);border-radius:5px;font-size:44px;font-weight:700;width:100px;height:50px;-webkit-transform:translateX(-50%);transform:translateX(-50%);left:50%;position:relative;text-align:center}#ui-bullet-counter #ui-ammo-divider{font-size:22px;left:53%;position:absolute;text-align:center;top:20px}#ui-bullet-counter #ui-remaining-ammo{background:rgba(0,0,0,.4);border-radius:5px;font-size:24px;font-weight:700;line-height:32px;width:65px;height:32px;left:82%;position:absolute;text-align:center;top:18px}#ui-boost-counter{display:inline-flex;width:412px}#ui-boost-counter .ui-boost-base{background:rgba(0,0,0,.4);height:10px;margin-bottom:8px}#ui-boost-counter-0{border-top-left-radius:3px;border-bottom-left-radius:3px;width:100px;margin-right:3px}#ui-boost-counter-0 .ui-bar-inner{background:#ff901a}#ui-boost-counter-1{width:100px;margin-left:3px;margin-right:3px}#ui-boost-counter-1 .ui-bar-inner{background:#ff751a}#ui-boost-counter-2{width:150px;margin-left:3px;margin-right:3px}#ui-boost-counter-2 .ui-bar-inner{background:#ff6616}#ui-boost-counter-3{border-top-right-radius:3px;border-bottom-right-radius:3px;width:50px;margin-left:3px}#ui-boost-counter-3 .ui-bar-inner{background:#ff5600}.ui-boost-base .ui-bar-inner{border-radius:inherit;width:0;height:10px}#ui-health-counter{background:rgba(0,0,0,.4);border-radius:5px;width:400px;height:32px;padding:6px}#ui-health-counter .ui-bar-inner{z-index:1;position:absolute;border-radius:5px;width:100%;height:32px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}#ui-health-container{width:400px;position:relative}#ui-health-counter .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}#ui-health-counter #ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}.health-bar-pulse{-webkit-animation:pulsewhite 1s linear infinite;animation:pulsewhite 1s linear infinite}@-webkit-keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@-webkit-keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}@keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}#ui-bottom-center-1{z-index:3;position:absolute;color:#fff;bottom:220px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media (max-height:768px),(max-width:1200px){#ui-bottom-center-1{-webkit-transform-origin:bottom;transform-origin:bottom;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85);bottom:138px}}#ui-kills{display:none;text-align:center;background:rgba(0,0,0,.4);color:#fff;border-radius:5px;padding:8px}#ui-kill-text{font-size:18px}#ui-kill-count{font-weight:700;color:#ff4100;font-size:32px;text-shadow:1px 1px 1px rgba(0,0,0,.3)}#ui-bottom-center-2{position:absolute;color:#fff;bottom:160px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-pickup-message{color:#fff;opacity:0;text-shadow:2px 2px 0 #000;font-size:32px;font-weight:700;text-align:center;width:100vw}#ui-bottom-center-right{position:absolute;color:#fff;bottom:12px;left:75%}@media (max-height:768px),(max-width:1200px){#ui-bottom-center-right{-webkit-transform:scale(.8);transform:scale(.8)}}.ui-armor-counter{position:absolute;bottom:0;display:block;width:48px;height:60px;background:rgba(0,0,0,.4);border-radius:5px;margin-left:4px}#ui-armor-helmet{right:4px}#ui-armor-backpack{left:60px;border:2px solid transparent}.ui-armor-level{position:relative;font-size:16px;font-weight:700;bottom:24px;text-align:center;text-shadow:1px 1px #000}.ui-armor-counter-inner{z-index:1;position:absolute;background:rgba(0,255,0,.5);border-radius:5px;width:100%;height:0;bottom:0;transition:height .5s;transition-property:height;transition-duration:.5s;transition-timing-function:ease-out;transition-delay:0s}.ui-armor-counter .ui-armor-count{z-index:2;text-shadow:2px 2px #000;position:relative;font-size:18px;font-weight:700;margin-top:-28px;text-align:center}.ui-armor-counter .ui-armor-image{margin:auto;left:0;right:0;bottom:0;top:0;z-index:0;position:absolute;height:36px;width:36px}#ui-bottom-right{position:absolute;color:#fff;bottom:12px;right:12px}@media (max-height:768px),(max-width:1200px){#ui-bottom-right{-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-transform:scale(.7);transform:scale(.7)}}#ui-weapon-container{width:192px}.ui-weapon-info{margin-bottom:5px}.ui-weapon-info,.ui-weapon-switch{border-radius:5px;border:2px solid transparent}.ui-weapon-switch{position:absolute;right:0;opacity:.6;width:160px;height:60px;margin-left:auto;pointer-events:all;cursor:pointer!important}#ui-weapon-id-1{bottom:210px}#ui-weapon-id-2{bottom:140px}#ui-weapon-id-3{bottom:70px}#ui-weapon-id-4{bottom:0}.ui-weapon-name{font-size:18px;margin-top:38px}.ui-weapon-name,.ui-weapon-number{position:absolute;font-weight:700;right:8px;text-align:center}.ui-weapon-number{font-size:24px}.ui-weapon-exp{display:none;position:absolute;height:32px;width:32px;font-size:18px;font-weight:700;line-height:34px;right:78px;margin-top:26px;text-align:center}.ui-weapon-image{display:none;position:relative;height:60px;width:60px;left:4px;background-size:60px;background-repeat:no-repeat}#ui-weapon-id-4 .ui-weapon-image{height:52px;width:52px;left:4px;top:4px;background-size:52px}#ui-stats{display:none}#ui-stats-bg{display:none;opacity:0;position:absolute;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.75);pointer-events:none;z-index:2}#ui-stats-contents{position:absolute;width:100%;top:10%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;color:#fff;border-radius:5px;z-index:3}@media (max-height:860px){#ui-stats-contents{top:3%}}@media (max-width:1024px){#ui-stats-contents{-webkit-transform:translateX(-50%) scale(.8);transform:translateX(-50%) scale(.8);-webkit-transform-origin:top;transform-origin:top}}.ui-stats-header-title{font-weight:700;font-size:48px;margin:20px;color:gold}.ui-stats-header-reason{font-size:24px}.ui-stats-header-overview{display:inline;margin:10px}.ui-stats-header-overview div{display:inline;padding-bottom:12px;border-bottom:2px solid hsla(0,0%,100%,.25)}.ui-stats-header-overview div:not(:first-child){margin-left:100px}span.ui-stats-header-stat{font-size:32px}span.ui-stats-header-value{margin-left:24px;font-size:48px;font-weight:700}#ui-stats-info-box{position:relative;left:50%;margin:auto;margin-top:50px;height:190px;display:flex}@media (max-height:768px),(max-width:1200px){#ui-stats-info-box{margin-top:25px}}@media (max-width:1024px){#ui-stats-info-box{-webkit-transform-origin:left;transform-origin:left;-webkit-transform:scale(.85);transform:scale(.85)}}.ui-stats-info-player{position:relative;width:250px;background-color:rgba(0,0,0,.75);border-radius:4px;border:2px solid #000;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.ui-stats-info-status:after{content:"";display:block;position:absolute;top:15%;left:25%;background-image:url(../img/gui/skull.svg);background-repeat:no-repeat;background-size:128px;width:100%;height:100%;opacity:.1;z-index:-1}.ui-stats-info-player-name{color:gold;font-size:24px;font-weight:700;font-style:italic;margin:8px auto;max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-stats-info{display:flex;height:36px;margin:auto}.ui-stats-info>div{padding:8px;font-size:18px;line-height:12px;text-align:left;font-weight:700}.ui-stats-info>div:first-child{width:55%;margin-right:4px;text-align:right;font-weight:400}.ui-stats-reason{display:flex;height:72px;margin:auto}.ui-stats-reason div{padding:8px;margin:auto;width:100%;text-align:center;font-size:16px}.ui-stats-reason .ui-stats-reason-dead{color:red}.ui-stats-reason .ui-stats-reason-alive{color:#7cfc00}#ui-stats-options{position:absolute;left:50%;margin-top:20px;min-height:60px;z-index:1}#ui-stats-restart{width:200px;margin:auto;margin-bottom:20px}#ui-stats-restart,#ui-stats-spectate{position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-stats-spectate{left:102px;width:125px;background:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79}.ui-stats-ad-container{display:none;margin-top:80px}#ui-spec-ad-container{z-index:1;position:absolute;top:0;left:50%}.tooltip{position:relative}.tooltip .tooltip-text{visibility:hidden;width:240px;background-color:#000;color:#fff;text-align:center;padding:5px 0;border-radius:6px;position:absolute;z-index:1;right:110%;opacity:.75;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.tooltip .tooltip-text:after{content:" ";position:absolute;top:50%;left:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent transparent transparent #000}.tooltip-title{font-size:18px;font-weight:700;padding:4px;color:#ff0}.tooltip-description{font-size:16px;padding:4px}.tooltip-description span{font-size:16px}.tooltip:hover .tooltip-text{visibility:visible}#ui-editor-top-center{position:absolute;color:#fff;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-editor-top-right{position:absolute;color:#fff;font-size:16px;top:12px;right:12px}.ui-editor-header{text-align:center;font-weight:700;font-size:16px;padding:8px}.ui-editor-info{background:rgba(0,0,0,.4);border-radius:5px;font-size:36px;margin-bottom:8px;padding:8px}.ui-editor-list{margin:0;padding:0;list-style:none}.ui-editor-list li div{font-family:monospace;font-size:14px}#ui-profiler-top-left{position:absolute;color:#fff;font-size:16px;top:12px;left:12px;text-align:center;display:flex}.ui-profiler-list{background:rgba(0,0,0,.4);border-radius:5px;margin-right:16px;padding:8px}.ui-profiler-list-header{font-size:16px;font-weight:700;margin-bottom:8px}.ui-profiler-list ul{list-style:none;text-align:left;padding:0;margin:0}.ui-profiler-list li{display:flex}.kv{font-family:monospace;font-size:14px;font-weight:400}.kv:last-child{width:100%;text-align:right}#ui-settings-container-mobile{display:none}@media screen and (max-width:850px){*{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.ui-touch-down{display:none;position:fixed;background-color:rgba(0,0,0,.5);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-touch-down-landscape{width:112px;height:112px;border-radius:56px}.ui-touch-down-portrait{width:96px;height:96px;border-radius:48px}.ui-touch-pos{display:none;position:fixed;background-color:rgba(0,0,0,.5);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-touch-pos-landscape{width:64px;height:64px;border-radius:32px}.ui-touch-pos-portrait{width:48px;height:48px;border-radius:24px}.btn-game-menu{position:relative;margin:auto;margin-top:2px;margin-bottom:4px;color:#fff;font-size:14px;text-shadow:0 1px 2px rgba(0,0,0,.25);background-color:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79;background-repeat:no-repeat;cursor:pointer;text-align:center;line-height:30px;display:block;width:100%;height:30px;border:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-sizing:border-box}#btn-game-fullscreen{background-size:22px;background-position:4px 2px;background-image:url(../img/gui/minimize.svg)}#btn-game-sound{background-size:30px;background-position:3px 0;margin-bottom:8px}#btn-game-quit{background-position:-2px -3px;background-image:url(../img/gui/quit.svg)}#btn-game-quit,#btn-game-resume{margin-top:20px;background-size:34px}#btn-game-resume{background-position:-1px -1px;background-image:url(../img/gui/resume.svg)}#ui-top-center{position:absolute;color:#fff;top:15%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-top-center .top-center-text{text-align:center;width:100vw;padding:4px}#ui-waiting-text{display:none;color:#fff;text-shadow:1px 1px 0 #000}#ui-waiting-text,#ui-waiting-text span{font-size:16px;font-weight:700}.top-center-text .spectate-text{display:inline-block;text-shadow:1px 1px 0 #000;font-size:16px;font-weight:700;overflow:hidden;height:32px}.top-center-text .spectate-desc{color:#fff;margin-right:8px}.ui-spectate-mode{display:none}#ui-spectate-text{position:relative}#spectate-player{max-width:250px;white-space:nowrap;text-overflow:ellipsis;color:cyan}#ui-top-center-scopes{margin-top:6px;text-align:center;color:#fff}.ui-zoom{display:inline-block;margin-left:-12px;margin-right:-12px;-webkit-transform:scale(.6);transform:scale(.6);background:rgba(0,0,0,.3);border-radius:32px;width:42px;height:42px;opacity:.6;pointer-events:all}.ui-zoom-active{vertical-align:baseline;opacity:1;margin-left:0;margin-right:0;-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-zoom .ui-zoom-image{width:48px;height:48px;opacity:.4;padding:2px}.ui-zoom .ui-zoom-text{margin-top:14px;width:100%}.ui-zoom .ui-zoom-level{font-size:24px;line-height:16px;text-align:center;width:100%}.ui-zoom .ui-zoom-append{font-size:24px}.ui-zoom-inactive{display:none;margin-left:-8px;margin-right:-8px;transition:all .1s ease-in;-webkit-transform:scale(.6);transform:scale(.6)}.ui-emote-wheel{z-index:3;display:none;position:fixed}.ui-emote-parent{opacity:1}.ui-emote-hl{z-index:2;display:none}.ui-emote{position:fixed;width:256px;height:256px;background-size:256px;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-bg-circle{opacity:.65;background-image:url(../img/gui/ping-part-circle.svg)}.ui-emote-bg-quarter{opacity:.65;background-image:url(../img/gui/ping-part-quarter.svg)}.ui-emote-bg-eighth{opacity:.65;background-image:url(../img/gui/ping-part-eighth.svg)}.ui-emote-middle .ui-emote-image{width:24px!important;height:24px!important;background-size:24px!important;background-image:none!important}.ui-emote-top .ui-emote-image{margin-top:-78px;background-image:url(../img/gui/ping-team-danger.svg)}.ui-emote-right .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(90deg);transform:translate(-50%,-50%) rotate(90deg)}.ui-emote-right .ui-emote-image{margin-left:78px;background-image:url(../img/gui/ping-team-coming.svg)}.ui-emote-bottom .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(180deg);transform:translate(-50%,-50%) rotate(180deg)}.ui-emote-bottom .ui-emote-image{margin-top:78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(270deg);transform:translate(-50%,-50%) rotate(270deg)}.ui-emote-left .ui-emote-image{margin-left:-78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-top-left .ui-emote-image{margin-left:-80px;margin-top:-30px;background-image:url(../img/loot/loot-ammo-box.svg)}.ui-emote-bottom-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(-45deg);transform:translate(-50%,-50%) rotate(-45deg)}.ui-emote-bottom-left .ui-emote-image{margin-left:-80px;margin-top:30px;background-image:url(../img/loot/loot-medical-healthkit.svg)}.ui-emote-circle .ui-emote-hl{background-image:url(../img/gui/ping-part-circle-highlight.svg)}.ui-emote-quarter .ui-emote-hl{background-image:url(../img/gui/ping-part-quarter-highlight.svg)}.ui-emote-eighth .ui-emote-hl{background-image:url(../img/gui/ping-part-eighth-highlight.svg)}.ui-emote-image{z-index:1;position:fixed;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-image-large{width:80px;height:80px;background-size:64px;background-position:50%}.ui-emote-image-small{width:35px;height:35px;background-size:35px}.ui-team-indicator{z-index:2;display:none;position:fixed;top:0;left:0;border-radius:32px;width:64px;height:64px;background-size:64px;background-repeat:no-repeat;background-image:url(../img/gui/indicator.svg)}.ui-team-indicator,.ui-team-indicator-pos{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-team-indicator-pos{opacity:.75;position:relative;border-radius:24px;width:32px;height:32px;top:23px;left:32px}.ui-team-indicator-image{width:32px;height:32px;background-size:32px;background-repeat:no-repeat;background-image:url(../img/gui/ping-team-danger.svg)}.ui-indicator-ping-border{z-index:0;display:none;position:fixed;top:0;left:0;width:160px;height:160px;position:relative;background-size:160px;background-repeat:no-repeat;background-image:url(../img/gui/ping-border.svg);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#ui-top-left{position:absolute;color:#fff;font-size:16px;top:6px;left:6px;display:block}.ui-bg-standard{background:rgba(0,0,0,.24);border-radius:5px}#ui-team{position:fixed;left:128px}.ui-team-member{display:none;position:relative;width:110px;height:20px;padding:4px;margin-bottom:4px}.ui-team-member-name{font-weight:700;text-shadow:1px 1px 0 #000;font-size:10px;max-width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-team-member-color{position:absolute;top:4px;right:4px;border-radius:9px;width:9px;height:9px}.ui-background-yellow{background-color:#ff0}.ui-background-blue{background-color:blue}.ui-background-red{background-color:red}.ui-background-purple{background-color:purple}.ui-background-cyan{background-color:cyan}.ui-team-member-status{display:none;position:absolute;top:2px;right:-24px;width:20px;height:20px;background-size:20px;background-repeat:no-repeat}.ui-team-member-status-downed{border-radius:16px;display:block!important;background-image:url(../img/gui/down.svg)!important}.ui-team-member-status-dead{display:block!important;background-image:url(../img/gui/skull-team.svg)!important;opacity:.5!important}.ui-team-member-status-disconnected{display:block!important;background-image:url(../img/gui/close.svg)!important;opacity:.5!important}.ui-team-member-health{margin-top:2px}.ui-team-member-health .ui-bar-inner{background-color:#fff;z-index:1;position:absolute;border-radius:4px;width:110px;height:5px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}.ui-team-member-health .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}.ui-team-member-health .ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}#ui-spectate-options-wrapper{bottom:6px;position:fixed;left:6px;top:auto!important}#ui-spectate-options{bottom:0;z-index:1;position:absolute;pointer-events:all;width:100%}#ui-spectate-buttons{display:inline-block;width:124px;padding:8px 8px 4px;text-align:center}#ui-spectate-options a{position:relative;color:#fff;height:24px;margin-bottom:2px;line-height:22px;font-size:12px;text-shadow:0 1px 2px rgba(0,0,0,.25);background:#50afab;border-bottom:2px solid #387c79;box-shadow:none;cursor:pointer}#btn-spectate-prev-player,#btn-spectate-view-stats{margin-bottom:12px!important}#ui-spectate-stats{position:absolute;top:0;left:146px;width:160px;display:none}#ui-spectate-stats-header{text-align:center;font-size:16px;font-weight:700;padding:6px;color:#fff}#ui-spectate-stats-table{width:100%;background-color:transparent;margin:auto;margin-right:0;margin-bottom:4px;border-collapse:collapse}#ui-spectate-stats tbody,#ui-spectate-stats td,#ui-spectate-stats th{padding:0 2px 2px 14px;font-size:10px}.ui-spectate-stats-category{width:75px;color:hsla(0,0%,100%,.75)}.ui-spectate-stats-value{width:75px;color:#fff}#ui-top-right{position:absolute;color:#fff;font-size:16px;top:6px;left:6px;display:flex}#ui-leaderboard{font-weight:700;text-align:center;width:56px;display:inline-block}#ui-leaderboard-alive{background:rgba(0,0,0,.4);border-radius:5px;margin-bottom:-16px;padding:8px;height:32px;width:40px}.ui-players-alive-pulse{-webkit-animation-name:pulseAlive;animation-name:pulseAlive;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0s;animation-delay:0s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}@-webkit-keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}@keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}.ui-leaderboard-header{font-size:12px}#ui-killfeed-wrapper{top:24px;left:6px;right:auto}#ui-killfeed{position:absolute;margin:initial;top:135px}#ui-killfeed-contents{width:800px}#ui-killfeed-contents .killfeed-div{position:absolute;background-color:rgba(0,0,0,.4);padding:3px;border-radius:2px;height:8px;line-height:8px;right:auto}.killfeed-div div,.killfeed-div span{float:left;font-size:8px;line-height:8px;font-weight:700;color:#efeeee}.killfeed-red div,.killfeed-red span{color:#d1777c!important}.killfeed-blue div,.killfeed-blue span{color:#00bfff!important}#ui-killfeed-contents .killfeed-red{color:#d1777c}#ui-killfeed-contents .killfeed-blue{color:#00bfff}#ui-killfeed .killfeed-name{max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-ammo .ui-loot-image,.ui-ammo .ui-loot-overlay{position:absolute;height:11px;width:11px;right:2px;margin-top:2px}#ui-ammo-interactive{position:absolute;right:0;top:25px}#ui-ammo-interactive .ui-loot{display:inline-block;background:rgba(0,0,0,.4);border-radius:5px;width:38px;height:14px;margin-left:auto;margin-bottom:2px}.ui-ammo .ui-loot-count{position:absolute;font-size:12px;font-weight:700;width:16px;left:3px;margin-top:-1px;text-align:center}#ui-medical-interactive .ui-loot{display:inline-block;background:rgba(0,0,0,.4);border-radius:5px;width:44px;height:16px;margin-left:auto;margin-bottom:2px}.ui-medical .ui-loot-image{position:absolute;height:16px;width:16px;background-size:16px;background-repeat:no-repeat;right:2px;margin-top:0}.ui-medical .ui-loot-count{position:absolute;font-size:16px;font-weight:700;left:4px;width:16px;margin-top:-3px;text-align:center}.ui-loot{background:rgba(0,0,0,.4);border-radius:5px;width:85px;height:32px;margin-left:auto;margin-bottom:5px}.ui-loot:hover{opacity:1!important}.ui-outline-hover,.ui-outline-hover:hover{border:2px solid rgba(0,255,0,0)}.ui-outline-hover:hover{-webkit-transition:border .1s ease-out;-moz-transition:border .1s ease-out;-o-transition:border .1s ease-out}.ui-scale-hover{transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1)}.ui-scale-hover,.ui-scale-hover:hover{-webkit-transition:all .1s ease-in;-ms-transition:all .1s ease-in;-moz-transition:all .1s ease-in;transition:all .1s ease-in}.ui-scale-hover:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);-moz-transform:scale(1.1);transform:scale(1.1)}#ui-debug-button{display:none;background:rgba(0,0,0,.4);position:absolute;border-radius:13px;height:26px;width:26px;background-size:18px;bottom:4px;right:4px;background-position:50%;background-image:url(../img/gui/mag-glass.svg);background-repeat:no-repeat;pointer-events:auto;z-index:1}#ui-upper-center{position:absolute;display:flex;color:#fff;top:84px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-announcement{display:none;color:#ff0;text-shadow:1px 1px 0 #000;font-size:16px;font-weight:700;text-align:center;width:100vw}#ui-lower-center{position:absolute;color:#fff;bottom:44%;left:60%}#ui-interaction{display:flex}#ui-interaction-press{background:rgba(0,0,0,.4);border-radius:5px;margin-left:-20px;font-size:34px;width:44px;height:44px;background-size:36px;background-position:50%;background-repeat:no-repeat}#ui-interaction-outer{background:rgba(0,0,0,.4);border-radius:5px;margin-left:6px;padding:0 6px;height:28px}#ui-interaction-outer #ui-interaction-description{margin-top:5px;font-size:16px;text-align:center}#ui-bottom-center-0{bottom:6px}#ui-bottom-center-0,#ui-equipped-ammo-wrapper{position:absolute;color:#fff;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-equipped-ammo-wrapper{bottom:78px}#ui-equipped-ammo{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;opacity:1}#ui-bullet-counter{display:inline-block;width:175px;height:28px;text-align:center;text-shadow:1px 1px #000}#ui-bullet-counter #ui-current-clip{background:rgba(0,0,0,.4);border-radius:5px;font-size:28px;font-weight:700;line-height:30px;width:60px;height:32px;-webkit-transform:translateX(-50%);transform:translateX(-50%);left:50%;position:relative;text-align:center}#ui-bullet-counter #ui-ammo-divider{font-size:22px;left:53%;position:absolute;text-align:center;top:20px}#ui-bullet-counter #ui-remaining-ammo{background:rgba(0,0,0,.4);border-radius:5px;font-size:16px;font-weight:700;line-height:22px;width:44px;height:22px;left:122px;position:absolute;text-align:center;top:10px}#ui-bullet-counter #ui-reload-button{background:rgba(0,0,0,.4);position:absolute;border-radius:11px;height:22px;width:22px;background-size:14px;top:10px;left:170px;background-position:4px 3px;background-image:url(../img/gui/bullets.svg);background-repeat:no-repeat}#ui-boost-counter{display:inline-flex;width:206px}#ui-boost-counter .ui-boost-base{background:rgba(0,0,0,.4);height:6px;margin-bottom:0}#ui-boost-counter-0{border-top-left-radius:3px;border-bottom-left-radius:3px;width:50px;margin-right:3px}#ui-boost-counter-0 .ui-bar-inner{background:#ff901a}#ui-boost-counter-1{width:50px;margin-left:3px;margin-right:3px}#ui-boost-counter-1 .ui-bar-inner{background:#ff751a}#ui-boost-counter-2{width:75px;margin-left:3px;margin-right:3px}#ui-boost-counter-2 .ui-bar-inner{background:#ff6616}#ui-boost-counter-3{border-top-right-radius:3px;border-bottom-right-radius:3px;width:25px;margin-left:3px}#ui-boost-counter-3 .ui-bar-inner{background:#ff5600}.ui-boost-base .ui-bar-inner{border-radius:inherit;width:0;height:6px}#ui-health-counter{background:rgba(0,0,0,.4);border-radius:5px;width:200px;height:18px;padding:4px}#ui-health-counter .ui-bar-inner{z-index:1;position:absolute;border-radius:5px;width:100%;height:18px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}#ui-health-container{width:200px;position:relative}#ui-health-counter .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}#ui-health-counter #ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}.health-bar-pulse{-webkit-animation:pulsewhite 1s linear infinite;animation:pulsewhite 1s linear infinite}@-webkit-keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@-webkit-keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}@keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}#ui-bottom-center-1{z-index:3;position:absolute;color:#fff;bottom:23%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-kills{display:none;text-align:center;background:rgba(0,0,0,.4);color:#fff;border-radius:5px;padding:6px}#ui-kill-text{font-size:10px}#ui-kill-count{font-weight:700;color:#ff4100;font-size:18px;margin-bottom:-3px;text-shadow:1px 1px 1px rgba(0,0,0,.3)}#ui-bottom-center-2{position:absolute;color:#fff;bottom:82px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-pickup-message{color:#fff;text-shadow:1px 1px 0 #000;font-size:16px;font-weight:700;text-align:center;width:100vw}#ui-bottom-center-right{position:absolute;color:#fff;bottom:6px;left:75%}.ui-armor-counter{position:absolute;bottom:0;display:block;width:20px;height:24px;background:rgba(0,0,0,.4);border-radius:5px;margin-left:2px}#ui-armor-helmet{right:0}#ui-armor-backpack{left:26px}.ui-armor-level{position:relative;font-size:8px;font-weight:700;bottom:12px;text-align:center;text-shadow:1px 1px #000}.ui-armor-counter-inner{z-index:1;position:absolute;background:rgba(0,255,0,.5);border-radius:5px;width:100%;height:0;bottom:0;transition:height .5s;transition-property:height;transition-duration:.5s;transition-timing-function:ease-out;transition-delay:0s}.ui-armor-counter .ui-armor-count{z-index:2;text-shadow:1px 1px #000;position:relative;font-size:18px;font-weight:700;margin-top:-28px;text-align:center}.ui-armor-counter .ui-armor-image{margin:auto;left:0;right:0;bottom:0;top:0;z-index:0;position:absolute;height:18px;width:18px}#ui-bottom-right{bottom:auto;color:#fff;position:absolute;right:6px;top:55%;-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-transform:scale(1);transform:scale(1)}#ui-weapon-container{width:84px}.ui-weapon-info{margin-bottom:5px}.ui-weapon-info,.ui-weapon-switch{border-radius:5px;border:2px solid transparent}.ui-weapon-switch{position:absolute;right:0;opacity:.6;width:68px;height:24px;margin-left:auto;pointer-events:all}#ui-weapon-id-1{bottom:90px}#ui-weapon-id-2{bottom:60px}#ui-weapon-id-3{bottom:30px}#ui-weapon-id-4{bottom:0}.ui-weapon-name{position:absolute;font-size:10px;font-weight:700;right:4px;width:48px;margin-top:12px;text-align:right;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.ui-weapon-number{font-size:24px;right:8px}.ui-weapon-exp,.ui-weapon-number{display:none;position:absolute;font-weight:700;text-align:center}.ui-weapon-exp{height:16px;width:16px;font-size:8px;line-height:18px;right:34px;margin-top:10px}.ui-weapon-image{display:none;position:relative;height:28px;width:28px;left:0;bottom:3px;-webkit-transform:rotate(10deg);transform:rotate(10deg)}#ui-weapon-id-4 .ui-weapon-image{height:24px;width:24px;left:0;top:0;background-size:24px}#ui-stats-contents{position:absolute;width:100%;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;color:#fff;border-radius:5px}#ui-stats-header{margin-top:14px}.ui-stats-header-title{font-weight:700;font-size:24px;margin:6px;color:gold}.ui-stats-header-reason{font-size:12px}.ui-stats-header-overview{position:fixed;top:4px;right:12px;margin:5px}.ui-stats-header-overview div{display:block;padding-bottom:6px;border-bottom:2px solid hsla(0,0%,100%,.25)}.ui-stats-header-overview div:not(:first-child){margin:initial}span.ui-stats-header-stat{font-size:22px}span.ui-stats-header-value{margin-left:12px;font-size:28px;font-weight:700}#ui-stats-info-box{position:relative;left:50%;margin:auto;margin-top:0;height:100px;display:flex}.ui-stats-info-player{position:relative;width:125px;background-color:rgba(0,0,0,.75);border-radius:4px;border:2px solid #000;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.ui-stats-info-status:after{background-image:url(../img/gui/skull.svg);background-position:50%;background-repeat:no-repeat;background-size:70px;content:"";display:block;height:100%;left:auto;opacity:.1;position:absolute;top:0;width:100%;z-index:-1}.ui-stats-info-player-name{color:gold;font-size:12px;font-weight:700;font-style:italic;margin:4px auto;max-width:120px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-stats-info{display:flex;height:18px;margin:auto}.ui-stats-info>div{padding:4px;font-size:9px;line-height:6px;text-align:left;font-weight:700}.ui-stats-info>div:first-child{width:55%;margin-right:4px;text-align:right;font-weight:400}.ui-stats-reason{display:flex;height:72px;margin:auto}.ui-stats-reason div{padding:8px;margin:auto;width:100%;text-align:center;font-size:16px}.ui-stats-reason .ui-stats-reason-dead{color:red}.ui-stats-reason .ui-stats-reason-alive{color:#7cfc00}#ui-stats-options{position:absolute;left:50%;margin-top:10px;min-height:30px;z-index:1}#ui-stats-restart{width:130px;margin:auto;margin-bottom:20px}#ui-stats-restart,#ui-stats-spectate{position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-stats-spectate{left:68px;width:88px;background:#50afab;border-bottom:2px solid #387c79;box-shadow:none}.ui-stats-ad-container{display:none;margin-top:8px;-webkit-transform:scale(.7);transform:scale(.7)}#ui-spec-ad-container{z-index:1;position:absolute;top:0;left:50%}#ad-block-stats-bottom{-webkit-transform:scale(.6);transform:scale(.6);-webkit-transform-origin:center;transform-origin:center;position:static}.tooltip{position:relative}.tooltip .tooltip-text{visibility:hidden!important;width:240px;background-color:#000;color:#fff;text-align:center;padding:5px 0;border-radius:6px;position:absolute;z-index:1;right:110%;opacity:.75;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.tooltip .tooltip-text:after{content:" ";position:absolute;top:50%;left:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent transparent transparent #000}.tooltip-title{font-size:18px;font-weight:700;padding:4px;color:#ff0}.tooltip-description{font-size:16px;padding:4px}.tooltip-description span{font-size:16px}#ui-editor-top-center{position:absolute;color:#fff;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-editor-top-right{position:absolute;color:#fff;font-size:16px;top:6px;right:6px}.ui-editor-header{text-align:center;font-weight:700;font-size:16px;padding:8px}.ui-editor-info{background:rgba(0,0,0,.4);border-radius:5px;font-size:36px;margin-bottom:8px;padding:8px}.ui-editor-list{margin:0;padding:0;list-style:none}.ui-editor-list li div{font-family:monospace;font-size:14px}#ui-profiler-top-left{position:absolute;color:#fff;font-size:16px;top:6px;left:6px;text-align:center;display:flex}.ui-profiler-list{background:rgba(0,0,0,.4);border-radius:5px;margin-right:16px;padding:8px}.ui-profiler-list-header{font-size:16px;font-weight:700;margin-bottom:8px}.ui-profiler-list ul{list-style:none;text-align:left;padding:0;margin:0}.ui-profiler-list li{display:flex}.kv{font-family:monospace;font-size:14px;font-weight:400}.kv:last-child{width:100%;text-align:right}#ui-leaderboard-wrapper,#ui-settings-container-desktop{display:none}#ui-settings-container-mobile{display:block}}@media screen and (max-width:850px) and (max-height:360px),screen and (max-width:850px) and (max-width:640px){#ui-top-center{-webkit-transform-origin:top;transform-origin:top;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85)}}@media screen and (max-width:850px) and screen and (max-width:850px){#ui-lower-center{-webkit-transform:scale(1);transform:scale(1)}}@media screen and (max-width:850px) and (max-height:360px),screen and (max-width:850px) and (max-width:640px){#ui-bottom-center-0{-webkit-transform-origin:bottom;transform-origin:bottom;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85)}}@media screen and (max-width:850px) and (max-height:360px),screen and (max-width:850px) and (max-width:640px){#ui-bottom-right{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.8);transform:scale(.8)}}@media screen and (max-width:850px) and (max-width:850px) and (orientation:landscape){.ui-stats-header-overview .ui-stats-header-left{position:fixed;top:6px;left:12px}.ui-stats-header-overview .ui-stats-header-right{position:fixed;top:6px;right:12px}}@media screen and (max-width:850px) and (max-height:360px) and (max-width:640px){.ui-stats-ad-container{margin-top:0;-webkit-transform:scale(.6);transform:scale(.6)}}@media screen and (max-width:850px) and (max-width:850px) and (max-height:320px){.ui-stats-ad-container{position:fixed;right:10px;top:24px;-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:bottom right;transform-origin:bottom right}}@media screen and (max-width:850px) and (orientation:portrait){#ui-stats-contents{margin-top:32px;margin-bottom:16px}#ui-stats-header-overview{position:static}#ui-stats-info-box{display:inline-block;left:auto;-webkit-transform:scale(.9);transform:scale(.9);-webkit-transform-origin:initial;transform-origin:initial;margin-top:2px;width:100%}.ui-stats-ad-container{width:100%}.ui-stats-info-player{display:inline-block;left:auto!important;margin:8px;-webkit-transform:none;transform:none}.ui-stats-header-overview{display:inline-block;position:static;width:175px}.ui-stats-header-overview div{position:static;margin-bottom:8px}#ui-top-center{top:134px;left:50%}#ui-top-center-scopes-wrapper{display:none;bottom:42px;top:auto}#ui-team{top:40px}.ui-team-member{height:18px;margin-bottom:4px}#ui-upper-center{top:180px}#ui-bottom-center-0{top:-15px;bottom:auto;left:100px;-webkit-transform:scale(.85);transform:scale(.85)}#ui-bottom-center-1{bottom:28%}#ui-bottom-center-2{bottom:218px}#ui-lower-center{bottom:38%;left:38%}#ui-boost-counter{position:relative;top:40px;left:2px}#ui-bottom-right{bottom:20px;right:6px;top:auto}#ui-weapon-id-1{right:240px;bottom:auto}#ui-weapon-id-2{right:160px;bottom:auto}#ui-weapon-id-3{right:80px;bottom:auto}#ui-weapon-id-4{bottom:auto}.ui-weapon-info{display:inline-block}#ui-bottom-center-right{bottom:9px;left:30px}.ui-right-center-mobile{top:6px}#ui-emote-button{top:175px}#ui-debug-button{top:190px}#ui-ammo-interactive{left:8px;margin-top:4px;top:88px}#ui-ammo-interactive .ui-loot,#ui-medical-interactive .ui-loot{display:block}#ui-equipped-ammo{position:static}#ui-equipped-ammo,#ui-equipped-ammo-wrapper{left:auto;-webkit-transform:none;transform:none}#ui-equipped-ammo-wrapper{bottom:auto;color:#fff;position:absolute;right:6px;top:44%}#ui-bullet-counter{width:auto}#ui-bullet-counter #ui-current-clip{left:50%}#ui-bullet-counter #ui-remaining-ammo{left:auto;right:0;top:36px}#ui-bullet-counter #ui-reload-button{left:auto;right:0;top:62px}#big-map-collision{left:auto;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}#big-map-close{bottom:auto;top:12px}#ui-spectate-options-wrapper{bottom:42px;-webkit-transform:scale(.7);transform:scale(.7)}#ui-spectate-options{position:absolute;bottom:12px}#ui-spectate-stats{bottom:0;top:auto}}@media screen and (max-width:850px) and (orientation:portrait) and (min-height:668px){#ui-stats-contents{margin-top:32px}#ui-stats-info-box,.ui-stats-ad-container{-webkit-transform:scale(1);transform:scale(1)}.ui-stats-ad-container{margin-top:20px}#ui-stats-options{display:block;left:auto;position:static;margin:auto;margin-top:24px;width:100%}#ui-stats-restart{margin-bottom:0}#ui-stats-restart,#ui-stats-spectate{display:block;position:static;-webkit-transform:initial;transform:none}#ui-stats-spectate{margin:auto;margin-top:6px}}@media screen and (max-width:850px) and (orientation:portrait) and (max-height:667px){#ui-stats-contents{margin-top:0;-webkit-transform:translateX(-50%) scale(.9);transform:translateX(-50%) scale(.9);-webkit-transform-origin:top;transform-origin:top}.ui-stats-ad-container{margin-top:20px}}@media screen and (max-width:850px) and (orientation:portrait) and (max-height:568px) and (max-width:360px){#ui-bottom-center-right{left:22px;-webkit-transform:scale(.8);transform:scale(.8)}#ui-bottom-right{right:0}#ui-bottom-center-0{top:-20px;left:84px;-webkit-transform:scale(.7);transform:scale(.7)}}', ""])
+        t.push([e.i, 'img{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;-khtml-user-drag:none;-moz-user-drag:none;-o-user-drag:none;user-drag:none}#cvs{-webkit-filter:none;filter:none}.click-through{pointer-events:none}#game-area-wrapper{cursor:crosshair;left:0;position:absolute!important;top:0;-webkit-tap-highlight-color:rgba(0,0,0,0)}#ui-game{-webkit-filter:none;filter:none;height:100%;left:0;position:absolute;top:0;width:100%}#ui-center{color:#fff;pointer-events:all;position:absolute;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%) scale(1);transform:translateX(-50%) translateY(-50%) scale(1);z-index:10}@media (max-width:1200px),screen and (min-width:851px) and (max-height:768px){#ui-center{-webkit-transform:translateX(-50%) translateY(-50%) scale(.85);transform:translateX(-50%) translateY(-50%) scale(.85)}}@media screen and (max-width:850px){#ui-center{pointer-events:all;-webkit-transform:translateX(-50%) translateY(-50%) scale(.85);transform:translateX(-50%) translateY(-50%) scale(.85);z-index:10}}@media (max-width:850px) and (max-height:300px){#ui-center{-webkit-transform:translateX(-50%) translateY(-50%) scale(.775);transform:translateX(-50%) translateY(-50%) scale(.775)}}#ui-center .movement-icon{background-image:url(../img/gui/movement.svg)}#ui-center .target-icon{background-image:url(../img/gui/target.svg)}#ui-center .btns-game-double-row{display:flex;position:relative}#ui-center .btns-game-double-row a{display:inline-block}#ui-center .btns-game-double-row div{display:inline-block;position:relative;width:100%}#ui-center .btns-game-double-row div:not(:last-child){margin-right:2px}#ui-center .btns-game-double-row .game-menu-icon{background-size:22px;background-position:50%;background-repeat:no-repeat;bottom:13px;display:inline-block;height:22px;left:55%;pointer-events:none;position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:22px}#ui-center .btn-game-touch-style{background-color:#50afab;background-position:4px 4px;background-repeat:no-repeat;background-size:20px;border:0;border-bottom:none;border-radius:5px;box-shadow:inset 0 -2px #387c79;box-sizing:border-box;color:#fff;cursor:pointer;display:block;font-size:14px;height:30px;line-height:30px;margin:auto;margin-top:2px;margin-bottom:4px;position:relative;text-align:center;text-shadow:0 1px 2px rgba(0,0,0,.25);width:100%}#ui-game-menu{background-color:rgba(0,0,0,.5);border-radius:5px;box-sizing:border-box;display:none;margin:10px auto;padding:10px 15px;width:250px}@media screen and (max-width:850px){#ui-game-menu{padding:4px 10px;width:190px}}@media (max-width:850px) and (max-height:300px){#ui-game-menu{margin-top:0}}#ui-game-menu p{bottom:4px;display:inline-block;font-size:14px;position:relative}@media screen and (max-width:850px){#ui-game-menu p{bottom:0;font-size:12px;margin-bottom:8px;margin-top:6px}}.ui-map-wrapper-mobile{bottom:auto;color:#fff;display:block;font-size:16px;left:6px;top:46px}.ui-map-wrapper-mobile #ui-map-container{position:absolute;bottom:52px}.ui-map-wrapper-mobile #ui-map-info{width:100px;left:0}.ui-map-wrapper-mobile #ui-alive-info,.ui-map-wrapper-mobile #ui-map-info{position:absolute;color:#fff;height:36px;top:174px;background:rgba(0,0,0,.4);border-radius:5px}.ui-map-wrapper-mobile #ui-alive-info{width:80px;left:106px}.ui-map-wrapper-mobile .ui-players-alive{left:4px}.ui-map-wrapper-mobile .ui-map-counter{position:relative;display:inline-block;font-size:24px;text-align:center;bottom:9px;left:2px}.ui-map-wrapper-mobile .ui-map-icon{padding:6px;display:inline-block;height:24px;width:24px;margin-left:2px;background-size:24px;background-repeat:no-repeat;background-position:6px 6px}.ui-map-wrapper-mobile .gas-icon{background-image:url(../img/gui/gas.svg)}.ui-map-wrapper-mobile .danger-icon{background-image:url(../img/gui/danger.svg)}.ui-map-wrapper-mobile .alive-icon{background-image:url(../img/gui/player.svg)}.ui-map-wrapper-mobile .icon-pulse{-webkit-animation:pulse 2s linear infinite;animation:pulse 2s linear infinite}.ui-map-wrapper-mobile #ui-spec-counter{position:absolute;color:#fff;width:68px;height:28px;top:135px;left:60px;background:rgba(0,0,0,.4);border-radius:5px}.ui-map-wrapper-mobile #ui-spec-counter-icon{padding:6px;display:inline-block;height:24px;width:18px;margin-left:2px;background-size:20px;background-repeat:no-repeat;background-position:6px 4px;background-image:url(../img/gui/eye.svg)}.ui-map-wrapper-mobile #ui-spec-counter-number{position:relative;display:inline-block;font-size:20px;width:24px;text-align:center;bottom:15px;left:0}.ui-map-wrapper-mobile .ui-settings-button{position:absolute;color:#fff;border-radius:5px;pointer-events:all}.ui-map-wrapper-mobile #ui-map-expand-mobile{height:190px;width:190px;left:-4px;top:-22px;z-index:0;background-color:transparent}.ui-map-wrapper-mobile #ui-map-expand img{display:none}.ui-map-wrapper-mobile #ui-map-minimize{left:124px}.ui-map-wrapper-mobile .ui-settings-button img{position:absolute;left:6px;top:6px;height:36px;width:36px;background-size:36px;background-repeat:no-repeat;transform:scale(1);-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-map-wrapper-mobile .ui-settings-button .map-img-after{display:none}.ui-map-wrapper-mobile .ui-settings-button:hover{-webkit-transform:scale(1);transform:scale(1)}.ui-map-wrapper-desktop{position:absolute;bottom:12px;left:12px}#ui-map-wrapper{position:absolute;z-index:1}#ui-map-wrapper #ui-settings-container-mobile{position:relative}#ui-map-wrapper #ui-menu-display{cursor:pointer;left:2px;top:-18px;height:48px;width:48px;opacity:.8;background-color:rgba(0,0,0,.4);background-size:48px;background-repeat:no-repeat;background-position:50%;background-image:url(../img/gui/cog.svg);z-index:1}#big-map{display:none;height:100%;width:100%}#big-map-collision{height:100%;left:50%;margin:auto;pointer-events:all;position:fixed;top:0;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#big-map-close{position:absolute;margin-left:auto;height:64px;width:64px;right:6px;top:6px;border-radius:6px;background-color:rgba(0,0,0,.5);background-repeat:no-repeat;background-size:48px;background-position:50%;background-image:url(../img/gui/close.svg);pointer-events:all}#ui-right-center{position:absolute;color:#fff;opacity:.75;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-right-center-desktop{top:40%;-webkit-transform:translateY(-50%);transform:translateY(-50%);right:12px}.ui-right-center-mobile{top:30px;-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:translateY(-50%) scale(.8);transform:translateY(-50%) scale(.8);right:6px}.ui-right-center-tablet{top:12px!important;-webkit-transform:scale(.85);transform:scale(.85)}@media (max-height:360px),(max-width:640px){.ui-right-center-mobile{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.85);transform:scale(.85);top:16px}}.ui-bottom-right-tablet{bottom:25%!important;-webkit-transform:scale(.8)!important;transform:scale(.8)!important;-webkit-transform-origin:right!important;transform-origin:right!important}.ui-bottom-center-right-tablet{left:72%!important;-webkit-transform:scale(.65)!important;transform:scale(.65)!important}#ui-emote-button{background:rgba(0,0,0,.4);background-image:url(../img/gui/emote.svg);background-position:50%;background-repeat:no-repeat;background-size:28px;border-radius:21px;display:none;height:42px;position:absolute;right:108px;top:0;width:42px}@media screen and (max-width:850px){#ui-emote-button{background-size:20px;border-radius:14px;height:28px;right:0;top:50px;width:28px}}.ui-top-left-tablet{left:120px!important}.ui-spectate-options-wrapper-tablet{bottom:12px!important;top:auto!important}.ui-killfeed-wrapper-tablet{top:60px!important}@media (max-width:850px) and (max-height:320px){.ui-slider-container{margin-bottom:0}}@media (max-width:850px) and (max-height:320px){.ui-slider-container p{width:75px}}@media (max-width:850px) and (max-height:320px){.ui-slider-container .slider{bottom:3px;width:85px}}@media (max-width:850px) and (max-height:320px){.ui-slider-container .slider::-webkit-slider-thumb{width:20px;height:20px}}@media (max-width:850px) and (max-height:320px){.ui-slider-container .slider::-moz-range-thumb{width:20px;height:20px}}.ui-hidden{display:none}.btn-game-menu{text-align:center;line-height:38px;display:block;width:100%;height:40px;border:0;border-radius:5px;box-sizing:border-box;position:relative;margin:auto;margin-top:5px;margin-bottom:5px;color:#fff;font-size:16px;text-shadow:0 1px 2px rgba(0,0,0,.25);background-color:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79;background-repeat:no-repeat;cursor:pointer}#btn-game-fullscreen{background-size:34px;background-position:4px 2px;background-image:url(../img/gui/minimize.svg)}#btn-game-sound{background-size:44px;background-position:2px -3px}#btn-game-quit{margin-top:40px;background-image:url(../img/gui/quit.svg)}#btn-game-quit,#btn-game-resume{background-size:44px;background-position:-2px -3px}#btn-game-resume{margin-top:30px;background-image:url(../img/gui/resume.svg)}#ui-top-center{position:absolute;color:#fff;top:80px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-top-center .top-center-text{text-align:center;width:100vw;padding:8px}#ui-waiting-text{display:none;color:#fff;text-shadow:2px 2px 0 #000}#ui-waiting-text,#ui-waiting-text span{font-size:32px;font-weight:700}.top-center-text .spectate-text{display:inline-block;text-shadow:2px 2px 0 #000;font-size:24px;font-weight:700;overflow:hidden;height:32px}@media (max-width:1024px){.top-center-text .spectate-text{font-size:18px}}.top-center-text .spectate-desc{color:#fff;margin-right:8px}.ui-spectate-mode{display:none}#ui-spectate-text{position:relative}#spectate-player{max-width:250px;white-space:nowrap;text-overflow:ellipsis;color:cyan}#ui-top-center-scopes-wrapper{position:absolute;color:#fff;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:100%}#ui-top-center-scopes{margin-top:12px;text-align:center}@media (max-height:768px),(max-width:1200px){#ui-top-center-scopes{-webkit-transform:scale(.85);transform:scale(.85)}}.ui-zoom{background:rgba(0,0,0,.3);border-radius:36px;width:64px;height:64px;opacity:.6;display:inline-block}.ui-zoom-hover:hover{opacity:1}.ui-zoom-active{vertical-align:baseline;opacity:1;transform:scale(1);-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-zoom .ui-zoom-image{width:64px;height:64px;opacity:.4;padding:2px}.ui-zoom .ui-zoom-text{margin-top:14px;width:100%}.ui-zoom .ui-zoom-level{font-size:32px;text-align:center;width:100%}.ui-zoom .ui-zoom-append{font-size:24px}.ui-zoom-inactive{display:none;margin-left:-8px;margin-right:-8px;-webkit-transition:all .1s ease-in;-webkit-transform:scale(.5);-ms-transition:all .1s ease-in;-ms-transform:scale(.5);-moz-transition:all .1s ease-in;-moz-transform:scale(.5);transition:all .1s ease-in;transform:scale(.5)}.ui-zoom-inactive:hover{cursor:pointer!important;opacity:1}.ui-emote-wheel{z-index:3;display:none;position:fixed}.ui-emote-parent{opacity:.75}.ui-emote-hl{z-index:2;display:none}.ui-emote{position:fixed;width:256px;height:256px;background-size:256px;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-bg-circle{opacity:.5;background-image:url(../img/gui/ping-part-circle.svg)}.ui-emote-bg-quarter{opacity:.5;background-image:url(../img/gui/ping-part-quarter.svg)}.ui-emote-bg-eighth{opacity:.5;background-image:url(../img/gui/ping-part-eighth.svg)}.ui-emote-middle .ui-emote-image{width:24px!important;height:24px!important;background-size:24px!important;background-image:url(../img/gui/close.svg)}.ui-emote-top .ui-emote-image{margin-top:-78px;background-image:url(../img/gui/ping-team-danger.svg)}.ui-emote-right .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(90deg);transform:translate(-50%,-50%) rotate(90deg)}.ui-emote-right .ui-emote-image{margin-left:78px;background-image:url(../img/gui/ping-team-coming.svg)}.ui-emote-bottom .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(180deg);transform:translate(-50%,-50%) rotate(180deg)}.ui-emote-bottom .ui-emote-image{margin-top:78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(270deg);transform:translate(-50%,-50%) rotate(270deg)}.ui-emote-left .ui-emote-image{margin-left:-78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-top-left .ui-emote-image{margin-left:-80px;margin-top:-30px;background-image:url(../img/loot/loot-ammo-box.svg)}.ui-emote-bottom-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(-45deg);transform:translate(-50%,-50%) rotate(-45deg)}.ui-emote-bottom-left .ui-emote-image{margin-left:-80px;margin-top:30px;background-image:url(../img/loot/loot-medical-healthkit.svg)}.ui-emote-circle .ui-emote-hl{background-image:url(../img/gui/ping-part-circle-highlight.svg)}.ui-emote-quarter .ui-emote-hl{background-image:url(../img/gui/ping-part-quarter-highlight.svg)}.ui-emote-eighth .ui-emote-hl{background-image:url(../img/gui/ping-part-eighth-highlight.svg)}.ui-emote-image{z-index:1;position:fixed;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-image-large{width:64px;height:64px;background-size:64px}.ui-emote-image-small{width:35px;height:35px;background-size:35px}.ui-team-indicator{z-index:2;display:none;position:fixed;top:0;left:0;border-radius:32px;width:64px;height:64px;background-size:64px;background-repeat:no-repeat;background-image:url(../img/gui/indicator.svg)}.ui-team-indicator,.ui-team-indicator-pos{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-team-indicator-pos{opacity:.75;position:relative;border-radius:24px;width:32px;height:32px;top:23px;left:32px}.ui-team-indicator-image{width:32px;height:32px;background-size:32px;background-repeat:no-repeat;background-image:url(../img/gui/ping-team-danger.svg)}.ui-indicator-ping-border{z-index:0;display:none;position:fixed;top:0;left:0;width:160px;height:160px;position:relative;background-size:160px;background-repeat:no-repeat;background-image:url(../img/gui/ping-border.svg);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#ui-top-left{position:absolute;color:#fff;font-size:16px;top:12px;left:12px;display:block}@media (max-height:768px),(max-width:1200px){#ui-top-left{-webkit-transform-origin:top left;transform-origin:top left;-webkit-transform:scale(.85);transform:scale(.85)}}.ui-bg-standard{background:rgba(0,0,0,.24);border-radius:5px}.ui-team-member{display:none;position:relative;width:200px;height:32px;padding:4px;margin-bottom:8px}.ui-team-member-name{font-weight:700;text-shadow:1px 1px 0 #000;font-size:16px;max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-team-member-color{position:absolute;top:5px;right:5px;border-radius:7px;width:14px;height:14px}.ui-background-yellow{background-color:#ff0}.ui-background-blue{background-color:blue}.ui-background-red{background-color:red}.ui-background-purple{background-color:purple}.ui-background-cyan{background-color:cyan}.ui-team-member-status{display:none;position:absolute;top:4px;right:-38px;width:32px;height:32px;background-size:32px;background-repeat:no-repeat}.ui-team-member-status-downed{border-radius:16px;display:block!important;background-image:url(../img/gui/down.svg)!important}.ui-team-member-status-dead{display:block!important;background-image:url(../img/gui/skull-team.svg)!important;opacity:.5!important}.ui-team-member-status-disconnected{display:block!important;background-image:url(../img/gui/close.svg)!important;opacity:.5!important}.ui-team-member-health{margin-top:4px}.ui-team-member-health .ui-bar-inner{background-color:#fff;z-index:1;position:absolute;border-radius:4px;width:200px;height:10px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}.ui-team-member-health .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}.ui-team-member-health .ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}#ui-spectate-options-wrapper{color:#fff;display:block;left:12px;position:absolute;top:12px}@media (max-height:768px),(max-width:1200px){#ui-spectate-options-wrapper{-webkit-transform:scale(.85);transform:scale(.85);-webkit-transform-origin:top left;transform-origin:top left}}#ui-spectate-options{position:relative;pointer-events:all;width:100%}#ui-spectate-buttons{display:inline-block;padding:8px 8px 0;text-align:center;width:192px}#ui-spectate-options a{position:relative;color:#fff;font-size:16px;text-shadow:0 1px 2px rgba(0,0,0,.25);background:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79;cursor:pointer}#btn-spectate-prev-player{margin-bottom:24px}#ui-spectate-stats{vertical-align:top;display:none}#ui-spectate-stats-header{text-align:center;font-size:24px;font-weight:700;padding:8px}#ui-spectate-stats-table{width:100%;background-color:transparent;margin:auto;margin-right:0;border-collapse:collapse}#ui-spectate-stats tbody,#ui-spectate-stats td,#ui-spectate-stats th{padding:0 8px 8px 16px;font-size:18px}.ui-spectate-stats-category{width:130px;color:hsla(0,0%,100%,.75)}.ui-spectate-stats-value{width:75px;color:#fff}#ui-leaderboard{position:absolute;color:#fff;font-size:16px;top:12px;right:12px;display:flex;font-weight:700;text-align:center;width:85px;display:inline-block}@media (max-height:768px),(max-width:1200px){#ui-leaderboard{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.85);transform:scale(.85)}}#ui-leaderboard-alive{background:rgba(0,0,0,.4);border-radius:5px;margin-bottom:8px;padding:8px;height:64px;width:72px}.ui-players-alive{position:relative;font-size:54px}.ui-players-alive-pulse{-webkit-animation-name:pulseAlive;animation-name:pulseAlive;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0s;animation-delay:0s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}@-webkit-keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}@keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}.ui-leaderboard-header{font-size:24px;margin-bottom:8px}#ui-killfeed-wrapper{position:absolute;color:#fff;font-size:16px;top:12px;right:12px;display:flex}@media (max-width:1200px),screen and (min-width:851px) and (max-height:768px){#ui-killfeed-wrapper{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.85);transform:scale(.85)}}#ui-killfeed{display:inline-block;margin-left:24px;height:100px}#ui-killfeed-contents{width:800px}#ui-killfeed-contents .killfeed-div{position:absolute;right:100px;background-color:rgba(0,0,0,.4);padding:4px 8px;border-radius:2px;height:22px;line-height:24px}.killfeed-div div{float:left;font-size:16px;font-weight:700;color:#efeeee}#ui-killfeed .killfeed-text{max-width:550px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}#ui-right-center:hover{opacity:1}.ui-ammo .ui-loot-image,.ui-ammo .ui-loot-overlay{position:absolute;height:22px;width:22px;right:5px;margin-top:5px;top:0;bottom:0}#ui-medical-interactive{margin-bottom:32px}.ui-medical .ui-loot-image{position:absolute;height:30px;width:30px;background-size:30px;background-repeat:no-repeat;right:5px;margin-top:1px;top:0;bottom:0}.ui-medical:hover{cursor:pointer!important}.ui-loot{background:rgba(0,0,0,.4);border-radius:5px;width:85px;height:32px;margin-left:auto;margin-bottom:5px}.ui-loot:hover{opacity:1!important}.ui-outline-hover{border:2px solid rgba(0,255,0,0)}.ui-outline-hover:hover{-webkit-transition:border .1s ease-out;-moz-transition:border .1s ease-out;-o-transition:border .1s ease-out;border:2px solid #0f0}.ui-scale-hover{transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1)}.ui-scale-hover,.ui-scale-hover:hover{-webkit-transition:all .1s ease-in;-ms-transition:all .1s ease-in;-moz-transition:all .1s ease-in;transition:all .1s ease-in}.ui-scale-hover:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);-moz-transform:scale(1.1);transform:scale(1.1)}.ui-loot .ui-loot-count{position:absolute;font-size:24px;font-weight:700;left:10px;top:2px;text-align:center}@media (max-height:768px),(max-width:1200px){.ui-right-center-desktop{top:42%;-webkit-transform-origin:right;transform-origin:right;-webkit-transform:translateY(-50%) scale(.8);transform:translateY(-50%) scale(.8)}#ui-medical-interactive{margin-bottom:8px}}#ui-upper-center{position:absolute;display:flex;color:#fff;top:180px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-announcement{display:none;color:#ff0;text-shadow:2px 2px 0 #000;font-size:32px;font-weight:700;text-align:center;width:100vw}#ui-lower-center{position:absolute;color:#fff;bottom:40%;left:50%}@media (max-width:1200px),screen and (min-width:851px) and (max-height:768px){#ui-lower-center{-webkit-transform-origin:left bottom;transform-origin:left bottom;-webkit-transform:scale(.85);transform:scale(.85);bottom:33%}}#ui-interaction{display:flex}#ui-interaction-press{background:rgba(0,0,0,.4);border-radius:5px;margin-left:-24px;width:48px;height:48px;font-size:42px;font-weight:700;text-align:center;background-size:80%;background-position:50%;background-repeat:no-repeat}#ui-interaction-outer{background:rgba(0,0,0,.4);border-radius:5px;margin-left:10px;padding:0 15px;height:48px}#ui-interaction-outer #ui-interaction-description{margin-top:10px;font-size:24px;text-align:center}#ui-map-container{position:absolute;bottom:52px}#ui-map-info{position:absolute;color:#fff;width:100px;height:36px;bottom:218px;left:82px;background:rgba(0,0,0,.4);border-radius:5px}#ui-gas-icon{padding:6px;display:inline-block;height:24px;width:24px;margin-left:2px;background-size:24px;background-repeat:no-repeat;background-position:6px 6px}.gas-icon{background-image:url(../img/gui/gas.svg)}.danger-icon{background-image:url(../img/gui/danger.svg)}.icon-pulse{-webkit-animation:pulse 2s linear infinite;animation:pulse 2s linear infinite}#ui-gas-timer{position:relative;display:inline-block;font-size:24px;text-align:center;bottom:10px;left:2px}#ui-spec-counter{position:absolute;color:#fff;width:68px;height:28px;bottom:218px;left:6px;background:rgba(0,0,0,.4);border-radius:5px}#ui-spec-counter-icon{padding:6px;display:inline-block;height:24px;width:18px;margin-left:2px;background-size:20px;background-repeat:no-repeat;background-position:6px 4px;background-image:url(../img/gui/eye.svg)}#ui-spec-counter-number{position:relative;display:inline-block;font-size:20px;width:24px;text-align:center;bottom:15px;left:0}#ui-settings-container-desktop{position:relative;left:16px;bottom:12px}#ui-settings-container-desktop div{cursor:pointer}.ui-settings-button{position:absolute;color:#fff;border-radius:5px;height:48px;width:48px;pointer-events:all;opacity:.5;background:rgba(0,0,0,.4)}#ui-map-minimize{left:185px}.ui-settings-button img{position:absolute;left:6px;top:6px;height:36px;width:36px;background-size:36px;background-repeat:no-repeat;transform:scale(1);-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-settings-button .map-img-after{display:none}.ui-settings-button:hover{opacity:1;-webkit-transition:all .1s ease-in;-webkit-transform:scale(1.1);-ms-transition:all .1s ease-in;-ms-transform:scale(1.1);-moz-transition:all .1s ease-in;-moz-transform:scale(1.1);transition:all .1s ease-in;transform:scale(1.1)}#ui-bottom-center-0{position:absolute;color:#fff;bottom:12px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media (max-height:768px),(max-width:1200px){#ui-bottom-center-0{-webkit-transform-origin:bottom;transform-origin:bottom;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85)}}#ui-equipped-ammo-wrapper{position:absolute;color:#fff;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);bottom:62px}#ui-equipped-ammo{margin-bottom:12px;text-align:center;opacity:1}#ui-bullet-counter{display:inline-block;width:175px;height:56px;text-align:center;text-shadow:2px 2px #000}#ui-bullet-counter #ui-current-clip{background:rgba(0,0,0,.4);border-radius:5px;font-size:44px;font-weight:700;width:100px;height:50px;-webkit-transform:translateX(-50%);transform:translateX(-50%);left:50%;position:relative;text-align:center}#ui-bullet-counter #ui-ammo-divider{font-size:22px;left:53%;position:absolute;text-align:center;top:20px}#ui-bullet-counter #ui-remaining-ammo{background:rgba(0,0,0,.4);border-radius:5px;font-size:24px;font-weight:700;line-height:32px;width:65px;height:32px;left:82%;position:absolute;text-align:center;top:18px}#ui-boost-counter{display:inline-flex;width:412px}#ui-boost-counter .ui-boost-base{background:rgba(0,0,0,.4);height:10px;margin-bottom:8px}#ui-boost-counter-0{border-top-left-radius:3px;border-bottom-left-radius:3px;width:100px;margin-right:3px}#ui-boost-counter-0 .ui-bar-inner{background:#ff901a}#ui-boost-counter-1{width:100px;margin-left:3px;margin-right:3px}#ui-boost-counter-1 .ui-bar-inner{background:#ff751a}#ui-boost-counter-2{width:150px;margin-left:3px;margin-right:3px}#ui-boost-counter-2 .ui-bar-inner{background:#ff6616}#ui-boost-counter-3{border-top-right-radius:3px;border-bottom-right-radius:3px;width:50px;margin-left:3px}#ui-boost-counter-3 .ui-bar-inner{background:#ff5600}.ui-boost-base .ui-bar-inner{border-radius:inherit;width:0;height:10px}#ui-health-counter{background:rgba(0,0,0,.4);border-radius:5px;width:400px;height:32px;padding:6px}#ui-health-counter .ui-bar-inner{z-index:1;position:absolute;border-radius:5px;width:100%;height:32px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}#ui-health-container{width:400px;position:relative}#ui-health-counter .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}#ui-health-counter #ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}.health-bar-pulse{-webkit-animation:pulsewhite 1s linear infinite;animation:pulsewhite 1s linear infinite}@-webkit-keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@-webkit-keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}@keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}#ui-bottom-center-1{z-index:3;position:absolute;color:#fff;bottom:220px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}@media (max-height:768px),(max-width:1200px){#ui-bottom-center-1{-webkit-transform-origin:bottom;transform-origin:bottom;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85);bottom:138px}}#ui-kills{display:none;text-align:center;background:rgba(0,0,0,.4);color:#fff;border-radius:5px;padding:8px}#ui-kill-text{font-size:18px}#ui-kill-count{font-weight:700;color:#ff4100;font-size:32px;text-shadow:1px 1px 1px rgba(0,0,0,.3)}#ui-bottom-center-2{position:absolute;color:#fff;bottom:160px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-pickup-message{color:#fff;opacity:0;text-shadow:2px 2px 0 #000;font-size:32px;font-weight:700;text-align:center;width:100vw}#ui-bottom-center-right{position:absolute;color:#fff;bottom:12px;left:75%}@media (max-height:768px),(max-width:1200px){#ui-bottom-center-right{-webkit-transform:scale(.8);transform:scale(.8)}}.ui-armor-counter{position:absolute;bottom:0;display:block;width:48px;height:60px;background:rgba(0,0,0,.4);border-radius:5px;margin-left:4px}#ui-armor-helmet{right:4px}#ui-armor-backpack{left:60px;border:2px solid transparent}.ui-armor-level{position:relative;font-size:16px;font-weight:700;bottom:24px;text-align:center;text-shadow:1px 1px #000}.ui-armor-counter-inner{z-index:1;position:absolute;background:rgba(0,255,0,.5);border-radius:5px;width:100%;height:0;bottom:0;transition:height .5s;transition-property:height;transition-duration:.5s;transition-timing-function:ease-out;transition-delay:0s}.ui-armor-counter .ui-armor-count{z-index:2;text-shadow:2px 2px #000;position:relative;font-size:18px;font-weight:700;margin-top:-28px;text-align:center}.ui-armor-counter .ui-armor-image{margin:auto;left:0;right:0;bottom:0;top:0;z-index:0;position:absolute;height:36px;width:36px}#ui-bottom-right{position:absolute;color:#fff;bottom:12px;right:12px}@media (max-height:768px),(max-width:1200px){#ui-bottom-right{-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-transform:scale(.7);transform:scale(.7)}}#ui-weapon-container{width:192px}.ui-weapon-info{margin-bottom:5px}.ui-weapon-info,.ui-weapon-switch{border-radius:5px;border:2px solid transparent}.ui-weapon-switch{position:absolute;right:0;opacity:.6;width:160px;height:60px;margin-left:auto;pointer-events:all;cursor:pointer!important}#ui-weapon-id-1{bottom:210px}#ui-weapon-id-2{bottom:140px}#ui-weapon-id-3{bottom:70px}#ui-weapon-id-4{bottom:0}.ui-weapon-name{font-size:18px;margin-top:38px}.ui-weapon-name,.ui-weapon-number{position:absolute;font-weight:700;right:8px;text-align:center}.ui-weapon-number{font-size:24px}.ui-weapon-exp{display:none;position:absolute;height:32px;width:32px;font-size:18px;font-weight:700;line-height:34px;right:78px;margin-top:26px;text-align:center}.ui-weapon-image{display:none;position:relative;height:60px;width:60px;left:4px;background-size:60px;background-repeat:no-repeat}#ui-weapon-id-4 .ui-weapon-image{height:52px;width:52px;left:4px;top:4px;background-size:52px}#ui-stats{display:none}#ui-stats-bg{display:none;opacity:0;position:absolute;top:0;left:0;width:100vw;height:100vh;background:rgba(0,0,0,.75);pointer-events:none;z-index:2}#ui-stats-contents{position:absolute;width:100%;top:10%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;color:#fff;border-radius:5px;z-index:3}@media (max-height:860px){#ui-stats-contents{top:3%}}@media (max-width:1024px){#ui-stats-contents{-webkit-transform:translateX(-50%) scale(.8);transform:translateX(-50%) scale(.8);-webkit-transform-origin:top;transform-origin:top}}.ui-stats-header-title{font-weight:700;font-size:48px;margin:20px;color:gold}.ui-stats-header-reason{font-size:24px}.ui-stats-header-overview{display:inline;margin:10px}.ui-stats-header-overview div{display:inline;padding-bottom:12px;border-bottom:2px solid hsla(0,0%,100%,.25)}.ui-stats-header-overview div:not(:first-child){margin-left:100px}span.ui-stats-header-stat{font-size:32px}span.ui-stats-header-value{margin-left:24px;font-size:48px;font-weight:700}#ui-stats-info-box{position:relative;left:50%;margin:auto;margin-top:50px;height:190px;display:flex}@media (max-height:768px),(max-width:1200px){#ui-stats-info-box{margin-top:25px}}@media (max-width:1024px){#ui-stats-info-box{-webkit-transform-origin:left;transform-origin:left;-webkit-transform:scale(.85);transform:scale(.85)}}.ui-stats-info-player{position:relative;width:250px;background-color:rgba(0,0,0,.75);border-radius:4px;border:2px solid #000;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.ui-stats-info-status:after{content:"";display:block;position:absolute;top:15%;left:25%;background-image:url(../img/gui/skull.svg);background-repeat:no-repeat;background-size:128px;width:100%;height:100%;opacity:.1;z-index:-1}.ui-stats-info-player-name{color:gold;font-size:24px;font-weight:700;font-style:italic;margin:8px auto;max-width:240px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-stats-info{display:flex;height:36px;margin:auto}.ui-stats-info>div{padding:8px;font-size:18px;line-height:12px;text-align:left;font-weight:700}.ui-stats-info>div:first-child{width:55%;margin-right:4px;text-align:right;font-weight:400}.ui-stats-reason{display:flex;height:72px;margin:auto}.ui-stats-reason div{padding:8px;margin:auto;width:100%;text-align:center;font-size:16px}.ui-stats-reason .ui-stats-reason-dead{color:red}.ui-stats-reason .ui-stats-reason-alive{color:#7cfc00}#ui-stats-options{position:absolute;left:50%;margin-top:20px;min-height:60px;z-index:1}.ui-stats-restart{width:200px;margin:auto;margin-bottom:20px}#ui-stats-spectate,.ui-stats-restart{position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-stats-spectate{left:102px;width:125px;background:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79}.ui-stats-ad-container{display:none;margin-top:80px}#ui-spec-ad-container{z-index:1;position:absolute;top:0;left:50%}.tooltip{position:relative}.tooltip .tooltip-text{visibility:hidden;width:240px;background-color:#000;color:#fff;text-align:center;padding:5px 0;border-radius:6px;position:absolute;z-index:1;right:110%;opacity:.75;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.tooltip .tooltip-text:after{content:" ";position:absolute;top:50%;left:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent transparent transparent #000}.tooltip-title{font-size:18px;font-weight:700;padding:4px;color:#ff0}.tooltip-description{font-size:16px;padding:4px}.tooltip-description span{font-size:16px}.tooltip:hover .tooltip-text{visibility:visible}#ui-editor-top-center{position:absolute;color:#fff;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-editor-top-right{position:absolute;color:#fff;font-size:16px;top:12px;right:12px}.ui-editor-header{text-align:center;font-weight:700;font-size:16px;padding:8px}.ui-editor-info{background:rgba(0,0,0,.4);border-radius:5px;font-size:36px;margin-bottom:8px;padding:8px}.ui-editor-list{margin:0;padding:0;list-style:none}.ui-editor-list li div{font-family:monospace;font-size:14px}#ui-profiler-top-left{position:absolute;color:#fff;font-size:16px;top:12px;left:12px;text-align:center;display:flex}.ui-profiler-list{background:rgba(0,0,0,.4);border-radius:5px;margin-right:16px;padding:8px}.ui-profiler-list-header{font-size:16px;font-weight:700;margin-bottom:8px}.ui-profiler-list ul{list-style:none;text-align:left;padding:0;margin:0}.ui-profiler-list li{display:flex}.kv{font-family:monospace;font-size:14px;font-weight:400}.kv:last-child{width:100%;text-align:right}#ui-settings-container-mobile{display:none}@media screen and (max-width:850px){*{-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.ui-touch-down{display:none;position:fixed;background-color:rgba(0,0,0,.5);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-touch-down-landscape{width:112px;height:112px;border-radius:56px}.ui-touch-down-portrait{width:96px;height:96px;border-radius:48px}.ui-touch-pos{display:none;position:fixed;background-color:rgba(0,0,0,.5);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-touch-pos-landscape{width:64px;height:64px;border-radius:32px}.ui-touch-pos-portrait{width:48px;height:48px;border-radius:24px}.btn-game-menu{position:relative;margin:auto;margin-top:2px;margin-bottom:4px;color:#fff;font-size:14px;text-shadow:0 1px 2px rgba(0,0,0,.25);background-color:#50afab;border-bottom:2px solid #387c79;box-shadow:inset 0 -2px #387c79;background-repeat:no-repeat;cursor:pointer;text-align:center;line-height:30px;display:block;width:100%;height:30px;border:0;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;box-sizing:border-box}#btn-game-fullscreen{background-size:22px;background-position:4px 2px;background-image:url(../img/gui/minimize.svg)}#btn-game-sound{background-size:30px;background-position:3px 0;margin-bottom:8px}#btn-game-quit{background-position:-2px -3px;background-image:url(../img/gui/quit.svg)}#btn-game-quit,#btn-game-resume{margin-top:20px;background-size:34px}#btn-game-resume{background-position:-1px -1px;background-image:url(../img/gui/resume.svg)}#ui-top-center{position:absolute;color:#fff;top:15%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-top-center .top-center-text{text-align:center;width:100vw;padding:4px}#ui-waiting-text{display:none;color:#fff;text-shadow:1px 1px 0 #000}#ui-waiting-text,#ui-waiting-text span{font-size:16px;font-weight:700}.top-center-text .spectate-text{display:inline-block;text-shadow:1px 1px 0 #000;font-size:16px;font-weight:700;overflow:hidden;height:32px}.top-center-text .spectate-desc{color:#fff;margin-right:8px}.ui-spectate-mode{display:none}#ui-spectate-text{position:relative}#spectate-player{max-width:250px;white-space:nowrap;text-overflow:ellipsis;color:cyan}#ui-top-center-scopes{margin-top:6px;text-align:center;color:#fff}.ui-zoom{display:inline-block;margin-left:-12px;margin-right:-12px;-webkit-transform:scale(.6);transform:scale(.6);background:rgba(0,0,0,.3);border-radius:32px;width:42px;height:42px;opacity:.6;pointer-events:all}.ui-zoom-active{vertical-align:baseline;opacity:1;margin-left:0;margin-right:0;-webkit-transition:all .1s ease-in;-webkit-transform:scale(1);-ms-transition:all .1s ease-in;-ms-transform:scale(1);-moz-transition:all .1s ease-in;-moz-transform:scale(1);transition:all .1s ease-in;transition:opacity .25s ease-out;-moz-transition:opacity .25s ease-out;-webkit-transition:opacity .25s ease-out;-o-transition:opacity .25s ease-out}.ui-zoom .ui-zoom-image{width:48px;height:48px;opacity:.4;padding:2px}.ui-zoom .ui-zoom-text{margin-top:14px;width:100%}.ui-zoom .ui-zoom-level{font-size:24px;line-height:16px;text-align:center;width:100%}.ui-zoom .ui-zoom-append{font-size:24px}.ui-zoom-inactive{display:none;margin-left:-8px;margin-right:-8px;transition:all .1s ease-in;-webkit-transform:scale(.6);transform:scale(.6)}.ui-emote-wheel{z-index:3;display:none;position:fixed}.ui-emote-parent{opacity:1}.ui-emote-hl{z-index:2;display:none}.ui-emote{position:fixed;width:256px;height:256px;background-size:256px;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-bg-circle{opacity:.65;background-image:url(../img/gui/ping-part-circle.svg)}.ui-emote-bg-quarter{opacity:.65;background-image:url(../img/gui/ping-part-quarter.svg)}.ui-emote-bg-eighth{opacity:.65;background-image:url(../img/gui/ping-part-eighth.svg)}.ui-emote-middle .ui-emote-image{width:24px!important;height:24px!important;background-size:24px!important;background-image:none!important}.ui-emote-top .ui-emote-image{margin-top:-78px;background-image:url(../img/gui/ping-team-danger.svg)}.ui-emote-right .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(90deg);transform:translate(-50%,-50%) rotate(90deg)}.ui-emote-right .ui-emote-image{margin-left:78px;background-image:url(../img/gui/ping-team-coming.svg)}.ui-emote-bottom .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(180deg);transform:translate(-50%,-50%) rotate(180deg)}.ui-emote-bottom .ui-emote-image{margin-top:78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(270deg);transform:translate(-50%,-50%) rotate(270deg)}.ui-emote-left .ui-emote-image{margin-left:-78px;background-image:url(../img/gui/ping-team-help.svg)}.ui-emote-top-left .ui-emote-image{margin-left:-80px;margin-top:-30px;background-image:url(../img/loot/loot-ammo-box.svg)}.ui-emote-bottom-left .ui-emote{-webkit-transform:translate(-50%,-50%) rotate(-45deg);transform:translate(-50%,-50%) rotate(-45deg)}.ui-emote-bottom-left .ui-emote-image{margin-left:-80px;margin-top:30px;background-image:url(../img/loot/loot-medical-healthkit.svg)}.ui-emote-circle .ui-emote-hl{background-image:url(../img/gui/ping-part-circle-highlight.svg)}.ui-emote-quarter .ui-emote-hl{background-image:url(../img/gui/ping-part-quarter-highlight.svg)}.ui-emote-eighth .ui-emote-hl{background-image:url(../img/gui/ping-part-eighth-highlight.svg)}.ui-emote-image{z-index:1;position:fixed;background-repeat:no-repeat;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-emote-image-large{width:80px;height:80px;background-size:64px;background-position:50%}.ui-emote-image-small{width:35px;height:35px;background-size:35px}.ui-team-indicator{z-index:2;display:none;position:fixed;top:0;left:0;border-radius:32px;width:64px;height:64px;background-size:64px;background-repeat:no-repeat;background-image:url(../img/gui/indicator.svg)}.ui-team-indicator,.ui-team-indicator-pos{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ui-team-indicator-pos{opacity:.75;position:relative;border-radius:24px;width:32px;height:32px;top:23px;left:32px}.ui-team-indicator-image{width:32px;height:32px;background-size:32px;background-repeat:no-repeat;background-image:url(../img/gui/ping-team-danger.svg)}.ui-indicator-ping-border{z-index:0;display:none;position:fixed;top:0;left:0;width:160px;height:160px;position:relative;background-size:160px;background-repeat:no-repeat;background-image:url(../img/gui/ping-border.svg);-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}#ui-top-left{position:absolute;color:#fff;font-size:16px;top:6px;left:6px;display:block}.ui-bg-standard{background:rgba(0,0,0,.24);border-radius:5px}#ui-team{position:fixed;left:128px}.ui-team-member{display:none;position:relative;width:110px;height:20px;padding:4px;margin-bottom:4px}.ui-team-member-name{font-weight:700;text-shadow:1px 1px 0 #000;font-size:10px;max-width:100px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-team-member-color{position:absolute;top:4px;right:4px;border-radius:9px;width:9px;height:9px}.ui-background-yellow{background-color:#ff0}.ui-background-blue{background-color:blue}.ui-background-red{background-color:red}.ui-background-purple{background-color:purple}.ui-background-cyan{background-color:cyan}.ui-team-member-status{display:none;position:absolute;top:2px;right:-24px;width:20px;height:20px;background-size:20px;background-repeat:no-repeat}.ui-team-member-status-downed{border-radius:16px;display:block!important;background-image:url(../img/gui/down.svg)!important}.ui-team-member-status-dead{display:block!important;background-image:url(../img/gui/skull-team.svg)!important;opacity:.5!important}.ui-team-member-status-disconnected{display:block!important;background-image:url(../img/gui/close.svg)!important;opacity:.5!important}.ui-team-member-health{margin-top:2px}.ui-team-member-health .ui-bar-inner{background-color:#fff;z-index:1;position:absolute;border-radius:4px;width:110px;height:5px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}.ui-team-member-health .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}.ui-team-member-health .ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}#ui-spectate-options-wrapper{bottom:6px;position:fixed;left:6px;top:auto!important}#ui-spectate-options{bottom:0;z-index:1;position:absolute;pointer-events:all;width:100%}#ui-spectate-buttons{display:inline-block;width:124px;padding:8px 8px 4px;text-align:center}#ui-spectate-options a{position:relative;color:#fff;height:24px;margin-bottom:2px;line-height:22px;font-size:12px;text-shadow:0 1px 2px rgba(0,0,0,.25);background:#50afab;border-bottom:2px solid #387c79;box-shadow:none;cursor:pointer}#btn-spectate-prev-player,#btn-spectate-view-stats{margin-bottom:12px!important}#ui-spectate-stats{position:absolute;top:0;left:146px;width:160px;display:none}#ui-spectate-stats-header{text-align:center;font-size:16px;font-weight:700;padding:6px;color:#fff}#ui-spectate-stats-table{width:100%;background-color:transparent;margin:auto;margin-right:0;margin-bottom:4px;border-collapse:collapse}#ui-spectate-stats tbody,#ui-spectate-stats td,#ui-spectate-stats th{padding:0 2px 2px 14px;font-size:10px}.ui-spectate-stats-category{width:75px;color:hsla(0,0%,100%,.75)}.ui-spectate-stats-value{width:75px;color:#fff}#ui-top-right{position:absolute;color:#fff;font-size:16px;top:6px;left:6px;display:flex}#ui-leaderboard{font-weight:700;text-align:center;width:56px;display:inline-block}#ui-leaderboard-alive{background:rgba(0,0,0,.4);border-radius:5px;margin-bottom:-16px;padding:8px;height:32px;width:40px}.ui-players-alive-pulse{-webkit-animation-name:pulseAlive;animation-name:pulseAlive;-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0s;animation-delay:0s;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}@-webkit-keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}@keyframes pulseAlive{0%{color:#fff}20%{color:red}40%{color:#fff}to{color:#fff}}.ui-leaderboard-header{font-size:12px}#ui-killfeed-wrapper{top:24px;left:6px;right:auto}#ui-killfeed{position:absolute;margin:initial;top:135px}#ui-killfeed-contents{width:800px}#ui-killfeed-contents .killfeed-div{position:absolute;background-color:rgba(0,0,0,.4);padding:3px;border-radius:2px;height:8px;line-height:8px;right:auto}.killfeed-div div,.killfeed-div span{float:left;font-size:8px;line-height:8px;font-weight:700;color:#efeeee}.killfeed-red div,.killfeed-red span{color:#d1777c!important}.killfeed-blue div,.killfeed-blue span{color:#00bfff!important}#ui-killfeed-contents .killfeed-red{color:#d1777c}#ui-killfeed-contents .killfeed-blue{color:#00bfff}#ui-killfeed .killfeed-name{max-width:180px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-ammo .ui-loot-image,.ui-ammo .ui-loot-overlay{position:absolute;height:11px;width:11px;right:2px;margin-top:2px}#ui-ammo-interactive{position:absolute;right:0;top:25px}#ui-ammo-interactive .ui-loot{display:inline-block;background:rgba(0,0,0,.4);border-radius:5px;width:38px;height:14px;margin-left:auto;margin-bottom:2px}.ui-ammo .ui-loot-count{position:absolute;font-size:12px;font-weight:700;width:16px;left:3px;margin-top:-1px;text-align:center}#ui-medical-interactive .ui-loot{display:inline-block;background:rgba(0,0,0,.4);border-radius:5px;width:44px;height:16px;margin-left:auto;margin-bottom:2px}.ui-medical .ui-loot-image{position:absolute;height:16px;width:16px;background-size:16px;background-repeat:no-repeat;right:2px;margin-top:0}.ui-medical .ui-loot-count{position:absolute;font-size:16px;font-weight:700;left:4px;width:16px;margin-top:-3px;text-align:center}.ui-loot{background:rgba(0,0,0,.4);border-radius:5px;width:85px;height:32px;margin-left:auto;margin-bottom:5px}.ui-loot:hover{opacity:1!important}.ui-outline-hover,.ui-outline-hover:hover{border:2px solid rgba(0,255,0,0)}.ui-outline-hover:hover{-webkit-transition:border .1s ease-out;-moz-transition:border .1s ease-out;-o-transition:border .1s ease-out}.ui-scale-hover{transform:scale(1);-webkit-transform:scale(1);-ms-transform:scale(1);-moz-transform:scale(1)}.ui-scale-hover,.ui-scale-hover:hover{-webkit-transition:all .1s ease-in;-ms-transition:all .1s ease-in;-moz-transition:all .1s ease-in;transition:all .1s ease-in}.ui-scale-hover:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);-moz-transform:scale(1.1);transform:scale(1.1)}#ui-debug-button{display:none;background:rgba(0,0,0,.4);position:absolute;border-radius:13px;height:26px;width:26px;background-size:18px;bottom:4px;right:4px;background-position:50%;background-image:url(../img/gui/mag-glass.svg);background-repeat:no-repeat;pointer-events:auto;z-index:1}#ui-upper-center{position:absolute;display:flex;color:#fff;top:84px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-announcement{display:none;color:#ff0;text-shadow:1px 1px 0 #000;font-size:16px;font-weight:700;text-align:center;width:100vw}#ui-lower-center{position:absolute;color:#fff;bottom:44%;left:60%}#ui-interaction{display:flex}#ui-interaction-press{background:rgba(0,0,0,.4);border-radius:5px;margin-left:-20px;font-size:34px;width:44px;height:44px;background-size:36px;background-position:50%;background-repeat:no-repeat}#ui-interaction-outer{background:rgba(0,0,0,.4);border-radius:5px;margin-left:6px;padding:0 6px;height:28px}#ui-interaction-outer #ui-interaction-description{margin-top:5px;font-size:16px;text-align:center}#ui-bottom-center-0{bottom:6px}#ui-bottom-center-0,#ui-equipped-ammo-wrapper{position:absolute;color:#fff;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-equipped-ammo-wrapper{bottom:78px}#ui-equipped-ammo{position:absolute;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;opacity:1}#ui-bullet-counter{display:inline-block;width:175px;height:28px;text-align:center;text-shadow:1px 1px #000}#ui-bullet-counter #ui-current-clip{background:rgba(0,0,0,.4);border-radius:5px;font-size:28px;font-weight:700;line-height:30px;width:60px;height:32px;-webkit-transform:translateX(-50%);transform:translateX(-50%);left:50%;position:relative;text-align:center}#ui-bullet-counter #ui-ammo-divider{font-size:22px;left:53%;position:absolute;text-align:center;top:20px}#ui-bullet-counter #ui-remaining-ammo{background:rgba(0,0,0,.4);border-radius:5px;font-size:16px;font-weight:700;line-height:22px;width:44px;height:22px;left:122px;position:absolute;text-align:center;top:10px}#ui-bullet-counter #ui-reload-button{background:rgba(0,0,0,.4);position:absolute;border-radius:11px;height:22px;width:22px;background-size:14px;top:10px;left:170px;background-position:4px 3px;background-image:url(../img/gui/bullets.svg);background-repeat:no-repeat}#ui-boost-counter{display:inline-flex;width:206px}#ui-boost-counter .ui-boost-base{background:rgba(0,0,0,.4);height:6px;margin-bottom:0}#ui-boost-counter-0{border-top-left-radius:3px;border-bottom-left-radius:3px;width:50px;margin-right:3px}#ui-boost-counter-0 .ui-bar-inner{background:#ff901a}#ui-boost-counter-1{width:50px;margin-left:3px;margin-right:3px}#ui-boost-counter-1 .ui-bar-inner{background:#ff751a}#ui-boost-counter-2{width:75px;margin-left:3px;margin-right:3px}#ui-boost-counter-2 .ui-bar-inner{background:#ff6616}#ui-boost-counter-3{border-top-right-radius:3px;border-bottom-right-radius:3px;width:25px;margin-left:3px}#ui-boost-counter-3 .ui-bar-inner{background:#ff5600}.ui-boost-base .ui-bar-inner{border-radius:inherit;width:0;height:6px}#ui-health-counter{background:rgba(0,0,0,.4);border-radius:5px;width:200px;height:18px;padding:4px}#ui-health-counter .ui-bar-inner{z-index:1;position:absolute;border-radius:5px;width:100%;height:18px;transition:width 0s;transition-property:width;transition-duration:0s;transition-timing-function:ease-out;transition-delay:0s}#ui-health-container{width:200px;position:relative}#ui-health-counter .ui-bar-danger{background:rgba(255,0,0,.8);-webkit-animation-name:pulse;animation-name:pulse;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;-webkit-animation-delay:0;animation-delay:0;-webkit-animation-direction:alternate;animation-direction:alternate;-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite;-webkit-animation-fill-mode:none;animation-fill-mode:none;-webkit-animation-play-state:running;animation-play-state:running}#ui-health-counter #ui-health-depleted{z-index:0;background:#fff;transition:width 1s;transition-property:width;transition-duration:1s;transition-timing-function:ease-out;transition-delay:0s}.health-bar-pulse{-webkit-animation:pulsewhite 1s linear infinite;animation:pulsewhite 1s linear infinite}@-webkit-keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@keyframes pulsewhite{0%{background-color:rgba(0,0,0,.6)}50%{background-color:hsla(0,0%,100%,.6)}to{background-color:rgba(0,0,0,.6)}}@-webkit-keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}@keyframes pulse{0%{background-color:rgba(0,0,0,.8)}50%{background-color:rgba(255,0,0,.8)}to{background-color:rgba(0,0,0,.8)}}#ui-bottom-center-1{z-index:3;position:absolute;color:#fff;bottom:23%;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-kills{display:none;text-align:center;background:rgba(0,0,0,.4);color:#fff;border-radius:5px;padding:6px}#ui-kill-text{font-size:10px}#ui-kill-count{font-weight:700;color:#ff4100;font-size:18px;margin-bottom:-3px;text-shadow:1px 1px 1px rgba(0,0,0,.3)}#ui-bottom-center-2{position:absolute;color:#fff;bottom:82px;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-pickup-message{color:#fff;text-shadow:1px 1px 0 #000;font-size:16px;font-weight:700;text-align:center;width:100vw}#ui-bottom-center-right{position:absolute;color:#fff;bottom:6px;left:75%}.ui-armor-counter{position:absolute;bottom:0;display:block;width:20px;height:24px;background:rgba(0,0,0,.4);border-radius:5px;margin-left:2px}#ui-armor-helmet{right:0}#ui-armor-backpack{left:26px}.ui-armor-level{position:relative;font-size:8px;font-weight:700;bottom:12px;text-align:center;text-shadow:1px 1px #000}.ui-armor-counter-inner{z-index:1;position:absolute;background:rgba(0,255,0,.5);border-radius:5px;width:100%;height:0;bottom:0;transition:height .5s;transition-property:height;transition-duration:.5s;transition-timing-function:ease-out;transition-delay:0s}.ui-armor-counter .ui-armor-count{z-index:2;text-shadow:1px 1px #000;position:relative;font-size:18px;font-weight:700;margin-top:-28px;text-align:center}.ui-armor-counter .ui-armor-image{margin:auto;left:0;right:0;bottom:0;top:0;z-index:0;position:absolute;height:18px;width:18px}#ui-bottom-right{bottom:auto;color:#fff;position:absolute;right:6px;top:55%;-webkit-transform-origin:bottom right;transform-origin:bottom right;-webkit-transform:scale(1);transform:scale(1)}#ui-weapon-container{width:84px}.ui-weapon-info{margin-bottom:5px}.ui-weapon-info,.ui-weapon-switch{border-radius:5px;border:2px solid transparent}.ui-weapon-switch{position:absolute;right:0;opacity:.6;width:68px;height:24px;margin-left:auto;pointer-events:all}#ui-weapon-id-1{bottom:90px}#ui-weapon-id-2{bottom:60px}#ui-weapon-id-3{bottom:30px}#ui-weapon-id-4{bottom:0}.ui-weapon-name{position:absolute;font-size:10px;font-weight:700;right:4px;width:48px;margin-top:12px;text-align:right;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.ui-weapon-number{font-size:24px;right:8px}.ui-weapon-exp,.ui-weapon-number{display:none;position:absolute;font-weight:700;text-align:center}.ui-weapon-exp{height:16px;width:16px;font-size:8px;line-height:18px;right:34px;margin-top:10px}.ui-weapon-image{display:none;position:relative;height:28px;width:28px;left:0;bottom:3px;-webkit-transform:rotate(10deg);transform:rotate(10deg)}#ui-weapon-id-4 .ui-weapon-image{height:24px;width:24px;left:0;top:0;background-size:24px}#ui-stats-contents{position:absolute;width:100%;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);text-align:center;color:#fff;border-radius:5px}#ui-stats-header{margin-top:14px}.ui-stats-header-title{font-weight:700;font-size:24px;margin:6px;color:gold}.ui-stats-header-reason{font-size:12px}.ui-stats-header-overview{position:fixed;top:4px;right:12px;margin:5px}.ui-stats-header-overview div{display:block;padding-bottom:6px;border-bottom:2px solid hsla(0,0%,100%,.25)}.ui-stats-header-overview div:not(:first-child){margin:initial}span.ui-stats-header-stat{font-size:22px}span.ui-stats-header-value{margin-left:12px;font-size:28px;font-weight:700}#ui-stats-info-box{position:relative;left:50%;margin:auto;margin-top:0;height:100px;display:flex}.ui-stats-info-player{position:relative;width:125px;background-color:rgba(0,0,0,.75);border-radius:4px;border:2px solid #000;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.ui-stats-info-status:after{background-image:url(../img/gui/skull.svg);background-position:50%;background-repeat:no-repeat;background-size:70px;content:"";display:block;height:100%;left:auto;opacity:.1;position:absolute;top:0;width:100%;z-index:-1}.ui-stats-info-player-name{color:gold;font-size:12px;font-weight:700;font-style:italic;margin:4px auto;max-width:120px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ui-stats-info{display:flex;height:18px;margin:auto}.ui-stats-info>div{padding:4px;font-size:9px;line-height:6px;text-align:left;font-weight:700}.ui-stats-info>div:first-child{width:55%;margin-right:4px;text-align:right;font-weight:400}.ui-stats-reason{display:flex;height:72px;margin:auto}.ui-stats-reason div{padding:8px;margin:auto;width:100%;text-align:center;font-size:16px}.ui-stats-reason .ui-stats-reason-dead{color:red}.ui-stats-reason .ui-stats-reason-alive{color:#7cfc00}#ui-stats-options{position:absolute;left:50%;margin-top:10px;min-height:30px;z-index:1}.ui-stats-restart{width:130px;margin:auto;margin-bottom:20px}#ui-stats-spectate,.ui-stats-restart{position:absolute;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-stats-spectate{left:68px;width:88px;background:#50afab;border-bottom:2px solid #387c79;box-shadow:none}.ui-stats-ad-container{display:none;margin-top:8px;-webkit-transform:scale(.7);transform:scale(.7)}#ui-spec-ad-container{z-index:1;position:absolute;top:0;left:50%}#ad-block-stats-bottom{-webkit-transform:scale(.6);transform:scale(.6);-webkit-transform-origin:center;transform-origin:center;position:static}.tooltip{position:relative}.tooltip .tooltip-text{visibility:hidden!important;width:240px;background-color:#000;color:#fff;text-align:center;padding:5px 0;border-radius:6px;position:absolute;z-index:1;right:110%;opacity:.75;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.tooltip .tooltip-text:after{content:" ";position:absolute;top:50%;left:100%;margin-top:-5px;border-width:5px;border-style:solid;border-color:transparent transparent transparent #000}.tooltip-title{font-size:18px;font-weight:700;padding:4px;color:#ff0}.tooltip-description{font-size:16px;padding:4px}.tooltip-description span{font-size:16px}#ui-editor-top-center{position:absolute;color:#fff;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}#ui-editor-top-right{position:absolute;color:#fff;font-size:16px;top:6px;right:6px}.ui-editor-header{text-align:center;font-weight:700;font-size:16px;padding:8px}.ui-editor-info{background:rgba(0,0,0,.4);border-radius:5px;font-size:36px;margin-bottom:8px;padding:8px}.ui-editor-list{margin:0;padding:0;list-style:none}.ui-editor-list li div{font-family:monospace;font-size:14px}#ui-profiler-top-left{position:absolute;color:#fff;font-size:16px;top:6px;left:6px;text-align:center;display:flex}.ui-profiler-list{background:rgba(0,0,0,.4);border-radius:5px;margin-right:16px;padding:8px}.ui-profiler-list-header{font-size:16px;font-weight:700;margin-bottom:8px}.ui-profiler-list ul{list-style:none;text-align:left;padding:0;margin:0}.ui-profiler-list li{display:flex}.kv{font-family:monospace;font-size:14px;font-weight:400}.kv:last-child{width:100%;text-align:right}#ui-leaderboard-wrapper,#ui-settings-container-desktop{display:none}#ui-settings-container-mobile{display:block}}@media screen and (max-width:850px) and (max-height:360px),screen and (max-width:850px) and (max-width:640px){#ui-top-center{-webkit-transform-origin:top;transform-origin:top;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85)}}@media screen and (max-width:850px) and screen and (max-width:850px){#ui-lower-center{-webkit-transform:scale(1);transform:scale(1)}}@media screen and (max-width:850px) and (max-height:360px),screen and (max-width:850px) and (max-width:640px){#ui-bottom-center-0{-webkit-transform-origin:bottom;transform-origin:bottom;-webkit-transform:translateX(-50%) scale(.85);transform:translateX(-50%) scale(.85)}}@media screen and (max-width:850px) and (max-height:360px),screen and (max-width:850px) and (max-width:640px){#ui-bottom-right{-webkit-transform-origin:top right;transform-origin:top right;-webkit-transform:scale(.8);transform:scale(.8)}}@media screen and (max-width:850px) and (max-width:850px) and (orientation:landscape){.ui-stats-header-overview .ui-stats-header-left{position:fixed;top:6px;left:12px}.ui-stats-header-overview .ui-stats-header-right{position:fixed;top:6px;right:12px}}@media screen and (max-width:850px) and (max-height:360px) and (max-width:640px){.ui-stats-ad-container{margin-top:0;-webkit-transform:scale(.6);transform:scale(.6)}}@media screen and (max-width:850px) and (max-width:850px) and (max-height:320px){.ui-stats-ad-container{position:fixed;right:10px;top:24px;-webkit-transform:scale(.5);transform:scale(.5);-webkit-transform-origin:bottom right;transform-origin:bottom right}}@media screen and (max-width:850px) and (orientation:portrait){#ui-stats-contents{margin-top:32px;margin-bottom:16px}#ui-stats-header-overview{position:static}#ui-stats-info-box{display:inline-block;left:auto;-webkit-transform:scale(.9);transform:scale(.9);-webkit-transform-origin:initial;transform-origin:initial;margin-top:2px;width:100%}.ui-stats-ad-container{width:100%}.ui-stats-info-player{display:inline-block;left:auto!important;margin:8px;-webkit-transform:none;transform:none}.ui-stats-header-overview{display:inline-block;position:static;width:175px}.ui-stats-header-overview div{position:static;margin-bottom:8px}#ui-top-center{top:134px;left:50%}#ui-top-center-scopes-wrapper{display:none;bottom:42px;top:auto}#ui-team{top:40px}.ui-team-member{height:18px;margin-bottom:4px}#ui-upper-center{top:180px}#ui-bottom-center-0{top:-15px;bottom:auto;left:100px;-webkit-transform:scale(.85);transform:scale(.85)}#ui-bottom-center-1{bottom:28%}#ui-bottom-center-2{bottom:218px}#ui-lower-center{bottom:38%;left:38%}#ui-boost-counter{position:relative;top:40px;left:2px}#ui-bottom-right{bottom:20px;right:6px;top:auto}#ui-weapon-id-1{right:240px;bottom:auto}#ui-weapon-id-2{right:160px;bottom:auto}#ui-weapon-id-3{right:80px;bottom:auto}#ui-weapon-id-4{bottom:auto}.ui-weapon-info{display:inline-block}#ui-bottom-center-right{bottom:9px;left:30px}.ui-right-center-mobile{top:6px}#ui-emote-button{top:175px}#ui-debug-button{top:190px}#ui-ammo-interactive{left:8px;margin-top:4px;top:88px}#ui-ammo-interactive .ui-loot,#ui-medical-interactive .ui-loot{display:block}#ui-equipped-ammo{position:static}#ui-equipped-ammo,#ui-equipped-ammo-wrapper{left:auto;-webkit-transform:none;transform:none}#ui-equipped-ammo-wrapper{bottom:auto;color:#fff;position:absolute;right:6px;top:44%}#ui-bullet-counter{width:auto}#ui-bullet-counter #ui-current-clip{left:50%}#ui-bullet-counter #ui-remaining-ammo{left:auto;right:0;top:36px}#ui-bullet-counter #ui-reload-button{left:auto;right:0;top:62px}#big-map-collision{left:auto;top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}#big-map-close{bottom:auto;top:12px}#ui-spectate-options-wrapper{bottom:42px;-webkit-transform:scale(.7);transform:scale(.7)}#ui-spectate-options{position:absolute;bottom:12px}#ui-spectate-stats{bottom:0;top:auto}}@media screen and (max-width:850px) and (orientation:portrait) and (min-height:668px){#ui-stats-contents{margin-top:32px}#ui-stats-info-box,.ui-stats-ad-container{-webkit-transform:scale(1);transform:scale(1)}.ui-stats-ad-container{margin-top:20px}#ui-stats-options{display:block;left:auto;position:static;margin:auto;margin-top:24px;width:100%}.ui-stats-restart{margin-bottom:0}#ui-stats-spectate,.ui-stats-restart{display:block;position:static;-webkit-transform:initial;transform:none}#ui-stats-spectate{margin:auto;margin-top:6px}}@media screen and (max-width:850px) and (orientation:portrait) and (max-height:667px){#ui-stats-contents{margin-top:0;-webkit-transform:translateX(-50%) scale(.9);transform:translateX(-50%) scale(.9);-webkit-transform-origin:top;transform-origin:top}.ui-stats-ad-container{margin-top:20px}}@media screen and (max-width:850px) and (orientation:portrait) and (max-height:568px) and (max-width:360px){#ui-bottom-center-right{left:22px;-webkit-transform:scale(.8);transform:scale(.8)}#ui-bottom-right{right:0}#ui-bottom-center-0{top:-20px;left:84px;-webkit-transform:scale(.7);transform:scale(.7)}}', ""])
     },
     v8aM: function(e, t, a) {
         "use strict";
@@ -25858,8 +27452,8 @@ webpackJsonp([0], {
           , s = a("Bk7F")
           , l = a("9xSA")
           , c = a("0od3")
-          , m = a("Tf6H")
-          , d = a("/2+T")
+          , d = a("Tf6H")
+          , m = a("/2+T")
           , p = (a("zinx"),
         a("r4ug"),
         a("dT1u"))
@@ -25895,9 +27489,9 @@ webpackJsonp([0], {
                         this.type = e.type,
                         this.rad = s.projRad
                     }
-                    if (this.posOld = a ? d.copy(e.pos) : d.copy(this.pos),
+                    if (this.posOld = a ? m.copy(e.pos) : m.copy(this.pos),
                     this.posZOld = a ? e.posZ : this.posZ,
-                    this.pos = d.copy(e.pos),
+                    this.pos = m.copy(e.pos),
                     this.posZ = e.posZ,
                     a) {
                         var l = r.items[e.type]
@@ -25905,7 +27499,7 @@ webpackJsonp([0], {
                         this.imgScale = c.scale,
                         this.rot = 0,
                         this.rotVel = 10 * Math.PI,
-                        this.rotDrag = m.random(1, 2),
+                        this.rotDrag = d.random(1, 2),
                         this.velZ = 0,
                         this.grounded = !1,
                         this.inWater = !1,
@@ -25940,9 +27534,9 @@ webpackJsonp([0], {
                             }, v = {
                                 obj: null,
                                 pen: 0
-                            }, k = l.createCircle(y.pos, y.rad), w = o.obstaclePool.getPool(), _ = 0; _ < w.length; _++) {
-                                var S = w[_];
-                                if (S.active && !S.dead && m.sameLayer(S.layer, y.layer)) {
+                            }, k = l.createCircle(y.pos, y.rad), _ = o.obstaclePool.getPool(), w = 0; w < _.length; w++) {
+                                var S = _[w];
+                                if (S.active && !S.dead && d.sameLayer(S.layer, y.layer)) {
                                     var M = l.intersect(S.collider, k);
                                     if (M) {
                                         var T = S.height > y.posZ ? x : v;
@@ -25951,20 +27545,20 @@ webpackJsonp([0], {
                                     }
                                 }
                             }
-                            var P = d.div(d.sub(y.pos, y.posOld), e)
-                              , z = d.length(P);
-                            if (x.obj && x.obj.__id != y.lastSoundObjId && z > 7.5) {
+                            var P = m.div(m.sub(y.pos, y.posOld), e)
+                              , C = m.length(P);
+                            if (x.obj && x.obj.__id != y.lastSoundObjId && C > 7.5) {
                                 y.lastSoundObjId = x.obj.__id;
-                                var C = d.mul(d.normalizeSafe(P, d.create(1, 0)), -1);
-                                x.obj.playHitFx(y.pos, C, y.layer, t, a)
+                                var z = m.mul(m.normalizeSafe(P, m.create(1, 0)), -1);
+                                x.obj.playHitFx(y.pos, z, y.layer, t, a)
                             }
                             var I = o.getGroundSurface(y.pos, y.layer);
                             y.posZ <= .01 && !y.inWater && "water" == I && (o.addRipple(y.pos, 0),
                             y.inWater = !0);
-                            var A = y.velZ;
+                            var D = y.velZ;
                             if (y.velZ = (y.posZ - y.posZOld) / e,
-                            !y.isNew && !y.grounded && y.velZ >= 0 && A < 0) {
-                                var D = {
+                            !y.isNew && !y.grounded && y.velZ >= 0 && D < 0) {
+                                var A = {
                                     fn: "playGroup",
                                     channel: "hits",
                                     name: ""
@@ -25973,16 +27567,16 @@ webpackJsonp([0], {
                                     if (y.lastSoundObjId != v.obj.__id) {
                                         y.lastSoundObjId = v.obj.__id;
                                         var O = s.Defs[v.obj.type];
-                                        D.name = O.sound.bullet
+                                        A.name = O.sound.bullet
                                     }
                                 } else
                                     y.grounded = !0,
-                                    D.name = g[I],
-                                    void 0 === D.name && (D.name = "footstep_" + I,
-                                    D.fn = "playGroup",
-                                    D.channel = "sfx");
-                                "" != D.name && a[D.fn](D.name, {
-                                    channel: D.channel,
+                                    A.name = g[I],
+                                    void 0 === A.name && (A.name = "footstep_" + I,
+                                    A.fn = "playGroup",
+                                    A.channel = "sfx");
+                                "" != A.name && a[A.fn](A.name, {
+                                    channel: A.channel,
                                     soundPos: y.pos,
                                     layer: y.layer,
                                     muffled: !0
@@ -25998,9 +27592,9 @@ webpackJsonp([0], {
                             n.addPIXIObj(y.sprite, h.World, L, B);
                             var j = y.imgScale * c.remap(y.posZ, 0, r.projectile.maxHeight, 1, 2.5)
                               , q = p.pointToScreen(y.pos)
-                              , U = p.pixels(j);
+                              , N = p.pixels(j);
                             y.sprite.position.set(q.x, q.y),
-                            y.sprite.scale.set(U, U),
+                            y.sprite.scale.set(N, N),
                             y.sprite.rotation = y.rot,
                             y.sprite.alpha = y.inWater ? .3 : 1
                         }
@@ -26186,7 +27780,7 @@ webpackJsonp([0], {
             "game-painkiller": "Pillen",
             "game-painkiller-tooltip": "Linker klik om je adrenaline met 50 te stimuleren.",
             "game-9mm": "9mm",
-            "game-9mm-tooltip": "Ammunitie voor M9, Glock, MP5, MAC-10 en UMP9.",
+            "game-9mm-tooltip": "Ammunitie voor M9, Glock, MP5, MAC-10, UMP9 en Vector.",
             "game-12gauge": "12 gauge",
             "game-12gauge-tooltip": "Ammunitie voor M870, Saiga-12 en MP220.",
             "game-762mm": "7.62mm",
@@ -26290,12 +27884,12 @@ webpackJsonp([0], {
                 key: "transform",
                 value: function(t, a, i) {
                     if (this.type == e.Type.Aabb) {
-                        for (var o = r.mul(r.sub(this.max, this.min), .5), n = r.add(this.min, o), s = [r.create(n.x - o.x, n.y - o.y), r.create(n.x - o.x, n.y + o.y), r.create(n.x + o.x, n.y - o.y), r.create(n.x + o.x, n.y + o.y)], l = r.create(Number.MAX_VALUE, Number.MAX_VALUE), c = r.create(-Number.MAX_VALUE, -Number.MAX_VALUE), m = 0; m < s.length; m++) {
-                            var d = r.add(r.rotate(r.mul(s[m], i), a), t);
-                            l.x = Math.min(l.x, d.x),
-                            l.y = Math.min(l.y, d.y),
-                            c.x = Math.max(c.x, d.x),
-                            c.y = Math.max(c.y, d.y)
+                        for (var o = r.mul(r.sub(this.max, this.min), .5), n = r.add(this.min, o), s = [r.create(n.x - o.x, n.y - o.y), r.create(n.x - o.x, n.y + o.y), r.create(n.x + o.x, n.y - o.y), r.create(n.x + o.x, n.y + o.y)], l = r.create(Number.MAX_VALUE, Number.MAX_VALUE), c = r.create(-Number.MAX_VALUE, -Number.MAX_VALUE), d = 0; d < s.length; d++) {
+                            var m = r.add(r.rotate(r.mul(s[d], i), a), t);
+                            l.x = Math.min(l.x, m.x),
+                            l.y = Math.min(l.y, m.y),
+                            c.x = Math.max(c.x, m.x),
+                            c.y = Math.max(c.y, m.y)
                         }
                         this.min = l,
                         this.max = c
@@ -26478,9 +28072,17 @@ webpackJsonp([0], {
             zone: "chi",
             url: "na-chi-p1.surviv.io"
         }, {
+            region: "sa",
+            zone: "sao",
+            url: "sa-sao-p1.surviv.io"
+        }, {
             region: "eu",
             zone: "fra",
             url: "eu-fra-p1.surviv.io"
+        }, {
+            region: "eu",
+            zone: "waw",
+            url: "eu-waw-p1.surviv.io"
         }, {
             region: "as",
             zone: "sgp",
@@ -26493,59 +28095,85 @@ webpackJsonp([0], {
             region: "as",
             zone: "hkg",
             url: "as-hkg-p1.surviv.io"
+        }, {
+            region: "as",
+            zone: "syd",
+            url: "as-syd-p1.surviv.io"
         }]
-          , s = 9999
-          , l = function() {
+          , s = function() {
             function e() {
                 i(this, e),
+                this.ptcDataBuf = new ArrayBuffer(1),
                 this.tests = r.map(function(e) {
                     return {
                         region: e.region,
                         zone: e.zone,
                         url: e.url,
-                        sent: 0,
-                        ping: s
+                        ping: 9999,
+                        active: !1,
+                        ws: null,
+                        sendDelay: 0,
+                        sendTime: 0,
+                        sendCount: 0,
+                        recvCount: 0
                     }
                 })
             }
             return o(e, [{
                 key: "start",
                 value: function(e) {
-                    var t = this
-                      , a = function(e) {
-                        var t = "https:" == window.location.protocol ? "wss://" : "ws://"
-                          , a = new WebSocket(t + e.url + "/ptc");
-                        n.logDebug() && console.log("Pinging", e.url);
-                        var i = 0;
-                        a.onerror = function(e) {
-                            a.close()
-                        }
-                        ,
-                        a.onopen = function() {
-                            i = (new Date).getTime(),
-                            a.send("ptc")
-                        }
-                        ,
-                        a.onmessage = function(t) {
-                            var o = ((new Date).getTime() - i) / 1e3;
-                            e.ping = Math.min(e.ping, o),
-                            a.close(),
-                            n.logDebug() && console.log("Ping test onmessage", e.url, o, t.data)
-                        }
-                        ,
-                        a.onclose = function() {
-                            n.logDebug() && console.log("Ping test complete", e.url, e.ping)
-                        }
-                    };
                     if ("WebSocket"in window)
-                        for (var i = 0; i < 2; i++)
-                            for (var o = 0; o < this.tests.length; o++)
-                                !function(o) {
-                                    var n = t.tests[o];
-                                    n.region == e && n.ping == s && setTimeout(function() {
-                                        a(n)
-                                    }, 500 * i)
-                                }(o)
+                        for (var t = 0; t < this.tests.length; t++) {
+                            var a = this.tests[t];
+                            a.active = a.region == e
+                        }
+                }
+            }, {
+                key: "update",
+                value: function(e) {
+                    for (var t = this, a = 0; a < this.tests.length; a++) {
+                        (function(a) {
+                            var i = t.tests[a];
+                            if (!i.active)
+                                return "continue";
+                            if (!i.ws) {
+                                var o = "https:" == window.location.protocol ? "wss://" : "ws://"
+                                  , r = new WebSocket(o + i.url + "/ptc");
+                                r.binaryType = "arraybuffer",
+                                r.onopen = function() {}
+                                ,
+                                r.onmessage = function(e) {
+                                    var t = ((new Date).getTime() - i.sendTime) / 1e3;
+                                    i.ping = Math.min(i.ping, t),
+                                    i.recvCount++,
+                                    i.sendDelay = .35,
+                                    n.logDebug() && console.log("Ptc recv", i.url, t)
+                                }
+                                ,
+                                r.onerror = function(e) {
+                                    r.close()
+                                }
+                                ,
+                                r.onclose = function() {
+                                    n.logDebug() && console.log("Ptc complete", i.url, i.ping),
+                                    i.active = !1,
+                                    i.ws = null
+                                }
+                                ,
+                                i.ws = r,
+                                i.sendDelay = 0,
+                                i.sendCount = 0,
+                                i.recvCount = 0
+                            }
+                            i.ws.readyState == i.ws.OPEN && (i.sendDelay -= e,
+                            i.sendCount == i.recvCount && i.sendDelay < 0 && (i.sendTime = (new Date).getTime(),
+                            i.sendCount++,
+                            i.ws.send(t.ptcDataBuf),
+                            n.logDebug() && console.log("Ptc send", i.url)),
+                            i.recvCount >= 10 && i.ws.close())
+                        }
+                        )(a)
+                    }
                 }
             }, {
                 key: "getZones",
@@ -26561,7 +28189,7 @@ webpackJsonp([0], {
             }]),
             e
         }();
-        e.exports = l
+        e.exports = s
     },
     xgte: function(e, t, a) {
         "use strict";
@@ -26623,9 +28251,9 @@ webpackJsonp([0], {
         }
           , c = (a("DlZn"),
         a("gKxX"))
-          , m = (a("9xSA"),
+          , d = (a("9xSA"),
         a("K7EQ"))
-          , d = (a("Bk7F"),
+          , m = (a("Bk7F"),
         a("0od3"),
         a("Tf6H"),
         a("/2+T"))
@@ -26708,7 +28336,7 @@ webpackJsonp([0], {
                 key: "resize",
                 value: function(e) {
                     this.ground.clear(),
-                    this.ground.beginFill(m.underground),
+                    this.ground.beginFill(d.underground),
                     this.ground.drawRect(0, 0, e.screenWidth, e.screenHeight),
                     this.ground.endFill(),
                     this.layerMaskDirty = !0
@@ -26722,15 +28350,18 @@ webpackJsonp([0], {
                         this.layerMaskActive) {
                             a.beginFill(16777215, 1),
                             a.drawRect(0, 0, e.screenWidth, e.screenHeight);
-                            for (var i = t.structurePool.getPool(), o = 0; o < i.length; o++)
-                                for (var n = i[o], r = 0; r < n.mask.length; r++) {
-                                    var s = n.mask[r]
-                                      , l = d.mul(d.sub(s.max, s.min), .5)
-                                      , c = d.add(s.min, l)
-                                      , m = e.pointToScreen(d.sub(c, l))
-                                      , p = e.pointToScreen(d.add(c, l));
-                                    a.drawRect(m.x, m.y, p.x - m.x, p.y - m.y)
-                                }
+                            for (var i = t.structurePool.getPool(), o = 0; o < i.length; o++) {
+                                var n = i[o];
+                                if (n.active)
+                                    for (var r = 0; r < n.mask.length; r++) {
+                                        var s = n.mask[r]
+                                          , l = m.mul(m.sub(s.max, s.min), .5)
+                                          , c = m.add(s.min, l)
+                                          , d = e.pointToScreen(m.sub(c, l))
+                                          , p = e.pointToScreen(m.add(c, l));
+                                        a.drawRect(d.x, d.y, p.x - d.x, p.y - d.y)
+                                    }
+                            }
                             a.endFill()
                         }
                     } else {
@@ -26740,17 +28371,20 @@ webpackJsonp([0], {
                             a.beginFill(16777215, 1),
                             a.drawRect(0, 0, e.screenWidth, e.screenHeight),
                             a.beginFill(0, 1);
-                            for (var u = t.structurePool.getPool(), h = 0; h < u.length; h++)
-                                for (var g = u[h], f = 0; f < g.mask.length; f++) {
-                                    var y = g.mask[f]
-                                      , b = d.mul(d.sub(y.max, y.min), .5)
-                                      , x = d.add(y.min, b);
-                                    a.drawRect(x.x - b.x, x.y - b.y, 2 * b.x, 2 * b.y)
-                                }
+                            for (var u = t.structurePool.getPool(), h = 0; h < u.length; h++) {
+                                var g = u[h];
+                                if (g.active)
+                                    for (var f = 0; f < g.mask.length; f++) {
+                                        var y = g.mask[f]
+                                          , b = m.mul(m.sub(y.max, y.min), .5)
+                                          , x = m.add(y.min, b);
+                                        a.drawRect(x.x - b.x, x.y - b.y, 2 * b.x, 2 * b.y)
+                                    }
+                            }
                             a.endFill()
                         }
-                        var v = e.pointToScreen(d.create(0, 0))
-                          , k = (e.pointToScreen(d.create(1, 0)),
+                        var v = e.pointToScreen(m.create(0, 0))
+                          , k = (e.pointToScreen(m.create(1, 0)),
                         e.scaleToScreen(1));
                         a.position.set(v.x, v.y),
                         a.scale.set(k, -k)
@@ -26801,8 +28435,8 @@ webpackJsonp([0], {
           , s = a("8iex")
           , l = a("9xSA")
           , c = a("0od3")
-          , m = a("Tf6H")
-          , d = a("/2+T")
+          , d = a("Tf6H")
+          , m = a("/2+T")
           , p = (a("zinx"),
         a("r4ug"),
         a("EZ6M"))
@@ -26825,33 +28459,37 @@ webpackJsonp([0], {
                 i.container.addChild(i.bulletTrail),
                 this.bullets.push(i));
                 var s = n.bullets[e.bulletType]
-                  , l = 1 + e.varianceT * s.variance;
+                  , l = 1 + e.varianceT * s.variance
+                  , d = c.remap(e.distAdjIdx, 0, 32, -1, 1)
+                  , p = s.distance / Math.pow(n.bullet.reflectDistDecay, e.reflectCount);
                 i.alive = !0,
                 i.isNew = !0,
                 i.collided = !1,
                 i.scale = 1,
                 i.playerId = e.playerId,
-                i.startPos = d.copy(e.pos),
-                i.pos = d.copy(e.pos),
-                i.dir = d.copy(e.dir),
+                i.startPos = m.copy(e.pos),
+                i.pos = m.copy(e.pos),
+                i.dir = m.copy(e.dir),
                 i.layer = e.layer,
                 i.speed = s.speed * l,
-                i.distance = s.distance * l / Math.pow(n.bullet.reflectDistDecay, e.reflectCount),
+                i.distance = p * l + d,
                 i.damageSelf = s.shrapnel || e.reflectCount > 0,
                 i.reflectCount = e.reflectCount,
                 i.reflectObjId = e.reflectObjId,
-                i.tracerColor = s.tracerColor,
                 i.whizHeard = !1,
                 i.whizInstance = null;
-                var c = Math.atan2(i.dir.x, i.dir.y);
-                i.container.rotation = c - Math.PI / 2,
-                i.bulletTrail.scale.set(s.tracerLength, s.tracerWidth),
-                i.bulletTrail.tint = i.tracerColor,
-                i.bulletTrail.alpha = s.tracerAlpha,
-                i.reflectCount > 0 && (i.bulletTrail.alpha *= .5),
+                var u = Math.atan2(i.dir.x, i.dir.y);
+                i.container.rotation = u - Math.PI / 2,
                 i.layer = e.layer;
-                var m = t.getPlayerById(i.playerId);
-                m && 2 & m.layer && (i.layer |= 2),
+                var g = t.getPlayerById(i.playerId);
+                g && 2 & g.layer && (i.layer |= 2);
+                var f = n.tracerColors[s.tracerColor]
+                  , y = f.regular;
+                g && g.isOnBrightSurface && (y = f.saturated),
+                i.bulletTrail.scale.set(s.tracerLength, s.tracerWidth),
+                i.bulletTrail.tint = y,
+                i.bulletTrail.alpha = 1,
+                i.reflectCount > 0 && (i.bulletTrail.alpha *= .5),
                 i.container.visible = !0,
                 a.addPIXIObj(i.container, h.Bullet, i.layer, 19)
             },
@@ -26862,13 +28500,13 @@ webpackJsonp([0], {
                     x.scale <= 0 && (x.collided = !1,
                     x.container.visible = !1)),
                     x.alive) {
-                        var v = x.distance - d.length(d.sub(x.startPos, x.pos))
+                        var v = x.distance - m.length(m.sub(x.startPos, x.pos))
                           , k = Math.min(v, e * x.speed)
-                          , w = d.copy(x.pos);
-                        if (x.pos = d.add(x.pos, d.mul(x.dir, k)),
-                        !o.netData.dead && m.sameAudioLayer(o.layer, x.layer)) {
-                            var _ = d.length(d.sub(i.pos, x.pos));
-                            x.whizHeard && x.whizInstance || _ < 7.5 && !x.whizHeard && x.playerId != o.__id && (x.whizInstance = f.playGroup("bullet_whiz", {
+                          , _ = m.copy(x.pos);
+                        if (x.pos = m.add(x.pos, m.mul(x.dir, k)),
+                        !o.netData.dead && d.sameAudioLayer(o.layer, x.layer)) {
+                            var w = m.length(m.sub(i.pos, x.pos));
+                            x.whizHeard && x.whizInstance || w < 7.5 && !x.whizHeard && x.playerId != o.__id && (x.whizInstance = f.playGroup("bullet_whiz", {
                                 soundPos: x.pos,
                                 fallOff: 4
                             }),
@@ -26876,29 +28514,29 @@ webpackJsonp([0], {
                         }
                         for (var S = [], M = a.obstaclePool.getPool(), T = 0; T < M.length; T++) {
                             var P = M[T];
-                            if (!(!P.active || P.dead || !m.sameLayer(P.layer, x.layer) || P.height < n.bullet.height || x.reflectCount > 0 && P.__id == x.reflectObjId)) {
-                                var z = l.intersectSegment(P.collider, w, x.pos);
-                                z && S.push({
+                            if (!(!P.active || P.dead || !d.sameLayer(P.layer, x.layer) || P.height < n.bullet.height || x.reflectCount > 0 && P.__id == x.reflectObjId)) {
+                                var C = l.intersectSegment(P.collider, _, x.pos);
+                                C && S.push({
                                     type: r.Type.Obstacle,
                                     obj: P,
-                                    res: z
+                                    res: C
                                 })
                             }
                         }
-                        for (var C = 0; C < y.length; C++) {
-                            var I = y[C];
-                            if (I.active && !I.netData.dead && (m.sameLayer(I.netData.layer, x.layer) || 2 & I.netData.layer) && (I.__id != x.playerId || x.damageSelf)) {
-                                var A = s.intersectSegmentCircle(w, x.pos, I.pos, n.player.radius);
-                                A && S.push({
+                        for (var z = 0; z < y.length; z++) {
+                            var I = y[z];
+                            if (I.active && !I.netData.dead && (d.sameLayer(I.netData.layer, x.layer) || 2 & I.netData.layer) && (I.__id != x.playerId || x.damageSelf)) {
+                                var D = s.intersectSegmentCircle(_, x.pos, I.pos, n.player.radius);
+                                D && S.push({
                                     type: r.Type.Player,
                                     obj: I,
-                                    res: A
+                                    res: D
                                 })
                             }
                         }
-                        for (var D = 0; D < S.length; D++) {
-                            var O = S[D];
-                            O.dist = d.length(d.sub(O.res.point, w))
+                        for (var A = 0; A < S.length; A++) {
+                            var O = S[A];
+                            O.dist = m.length(m.sub(O.res.point, _))
                         }
                         S.sort(function(e, t) {
                             return e.dist - t.dist
@@ -26915,9 +28553,9 @@ webpackJsonp([0], {
                             else if (R.type == r.Type.Player) {
                                 if (!L) {
                                     var q = R.obj
-                                      , U = d.sub(j.point, q.pos);
-                                    U.y *= -1,
-                                    g.addParticle(p.Defs.bloodSplat, q.layer, d.mul(U, i.ppu), d.create(0, 0), 1, 1, q.container),
+                                      , N = m.sub(j.point, q.pos);
+                                    N.y *= -1,
+                                    g.addParticle(p.Defs.bloodSplat, q.layer, m.mul(N, i.ppu), m.create(0, 0), 1, 1, q.container),
                                     f.playGroup("player_bullet_hit", {
                                         soundPos: q.pos,
                                         fallOff: 1,
@@ -26933,25 +28571,23 @@ webpackJsonp([0], {
                             }
                         }
                         if (!(2 & x.layer)) {
-                            for (var G = a.structurePool.getPool(), V = x.layer, N = 0; N < G.length; N++) {
-                                var H = G[N]
-                                  , W = !1
-                                  , K = !1;
+                            for (var U = a.structurePool.getPool(), G = x.layer, V = 0; V < U.length; V++) {
+                                var H = U[V];
                                 if (H.active) {
-                                    for (var X = 0; X < H.stairs.length; X++)
-                                        if (l.intersectSegment(H.stairs[X].collision, x.pos, w)) {
+                                    for (var W = !1, K = !1, X = 0; X < H.stairs.length; X++)
+                                        if (l.intersectSegment(H.stairs[X].collision, x.pos, _)) {
                                             W = !0;
                                             break
                                         }
                                     for (var Z = 0; Z < H.mask.length; Z++)
-                                        if (l.intersectSegment(H.mask[Z], x.pos, w)) {
+                                        if (l.intersectSegment(H.mask[Z], x.pos, _)) {
                                             K = !0;
                                             break
                                         }
-                                    W && !K && (V |= 2)
+                                    W && !K && (G |= 2)
                                 }
                             }
-                            V != x.layer && (x.layer = V,
+                            G != x.layer && (x.layer = G,
                             u.addPIXIObj(x.container, h.Bullet, x.layer, 19))
                         }
                         (E || c.eqAbs(v, k)) && (x.collided = !0,
@@ -26974,7 +28610,7 @@ webpackJsonp([0], {
                 0); t < this.bullets.length; t++) {
                     var a = this.bullets[t];
                     if (a.alive || a.collided) {
-                        var i = d.length(d.sub(a.pos, a.startPos))
+                        var i = m.length(m.sub(a.pos, a.startPos))
                           , o = e.pointToScreen(a.pos);
                         a.container.position.set(o.x, o.y);
                         var n = e.pixels(1)
@@ -27023,8 +28659,8 @@ webpackJsonp([0], {
         s.utils.skipHello();
         var l = a("+0OL")
           , c = a("0od3")
-          , m = a("yp2f")
-          , d = a("S1KI")
+          , d = a("yp2f")
+          , m = a("S1KI")
           , p = a("zinx")
           , u = (a("5dFr"),
         a("85i3"))
@@ -27036,8 +28672,7 @@ webpackJsonp([0], {
           , x = (a("SEs0"),
         a("xGI0"))
           , v = a("YfyY")
-          , k = a("XrLF")
-          , w = function() {
+          , k = function() {
             function e() {
                 i(this, e),
                 this.useLocalStorage = !0,
@@ -27126,17 +28761,18 @@ webpackJsonp([0], {
                 this.languageSelect = r(".language-select"),
                 this.startMenuWrapper = r("#start-menu-wrapper"),
                 this.gameAreaWrapper = r("#game-area-wrapper"),
-                this.config = new w,
+                this.config = new k,
                 this.config.onModified = function() {
                     t.onConfigModified()
                 }
                 ,
+                this.siteInfo = {},
                 this.localization = new b,
                 this.localization.setLocale("en"),
                 this.localization.localizeIndex(),
                 this.leaderboard = new f(this.localization),
                 this.pingTest = new x,
-                this.audioManager = new d,
+                this.audioManager = new m,
                 this.teamMenu = new v(this.config,this.pingTest,this.localization,this.joinGame.bind(this),this.audioManager),
                 this.teamMenu.onLeave = this.onTeamMenuLeave.bind(this),
                 this.loadoutMenu = new y(this.config),
@@ -27170,20 +28806,20 @@ webpackJsonp([0], {
                       , n = this.serverSelect
                       , l = this.createTeamBtn
                       , c = this.joinTeamBtn
-                      , d = this.leaveTeamBtn
+                      , m = this.leaveTeamBtn
                       , f = this.config
                       , y = this.leaderboard
                       , b = this.teamMenu
                       , x = this.muteBtns
                       , v = this.masterSliders
-                      , w = this.soundSliders
+                      , k = this.soundSliders
                       , _ = this.musicSliders
-                      , S = this.fullscreenBtn
-                      , M = this.audioManager
-                      , T = this.localization
-                      , P = this.languageSelect;
+                      , w = this.fullscreenBtn
+                      , S = this.audioManager
+                      , M = this.localization
+                      , T = this.languageSelect;
                     if (!this.initialized) {
-                        t.maxLength = m.kNameMaxLen,
+                        t.maxLength = d.kNameMaxLen,
                         a.on("click", function() {
                             e.tryQuickStartGame(1)
                         }),
@@ -27197,40 +28833,39 @@ webpackJsonp([0], {
                             var t = n.find(":selected").val();
                             e.pingTest.start(t)
                         });
-                        var z = function(e) {
-                            for (var t = Object.keys(e), a = 0; a < t.length; a++) {
-                                var i = t[a]
-                                  , o = e[i]
-                                  , n = r("#server-opts").children('option[value="' + i + '"]');
-                                n.text(n.data("label") + " [" + o + "]")
+                        if (r.ajax("/site_info?language=" + this.localization.getLocale()).done(function(t, a) {
+                            e.siteInfo = t,
+                            e.teamMenu.siteInfo = t;
+                            for (var i = t.pops, o = Object.keys(i), n = 0; n < o.length; n++) {
+                                var s = o[n]
+                                  , l = i[s]
+                                  , c = r("#server-opts").children('option[value="' + s + '"]');
+                                c.text(c.data("label") + " [" + l + "]")
                             }
-                        };
-                        !function e(t, a) {
-                            var i = function() {
-                                t + 1 < a && setTimeout(function() {
-                                    e(t + 1, a)
-                                }, 500)
-                            };
-                            r.ajax("/region_pops").done(function(e, t) {
-                                e.err ? i() : (z(e),
-                                b.setRegionPops(e))
-                            }).fail(function(e) {
-                                i()
-                            })
-                        }(0, 3),
-                        p.mobile && !p.tablet || y.startLeaderboardRotation();
-                        for (var C = function(e) {
-                            var t = k[e].language == T.locale ? 100 : 1;
-                            return k[e].weight * t
-                        }, I = Object.keys(k), A = I.reduce(function(e, t) {
-                            return e + Math.floor(C(t))
-                        }, 0), D = Math.random() * A, O = 0; D > C(I[O]); )
-                            D -= C(I[O]),
-                            O++;
-                        var L = k[I[O]];
-                        if (r(".btn-youtuber").attr("href", L.link).html(L.name),
+                            var d = !1
+                              , m = r("#featured-streamers")
+                              , u = r(".streamer-list");
+                            if (!p.mobile)
+                                for (var h = 0; h < t.twitch.length; h++) {
+                                    var g = t.twitch[h]
+                                      , f = r("#featured-streamer-template").clone();
+                                    f.attr("class", "featured-streamer streamer-tooltip").attr("id", "");
+                                    var y = f.find("a");
+                                    y.html(g.name + " <span>" + g.viewers + " " + (1 != g.viewers ? "viewers" : "viewer") + "</span>"),
+                                    y.css("background-image", "url(" + g.img + ")"),
+                                    y.attr("href", g.url),
+                                    u.append(f),
+                                    d = !0
+                                }
+                            m.css("display", d ? "block" : "none");
+                            var b = r("#featured-youtuber")
+                              , x = t.youtube && !d;
+                            x && r(".btn-youtuber").attr("href", t.youtube.link).html(t.youtube.name),
+                            b.css("display", x ? "block" : "none")
+                        }),
+                        p.mobile && !p.tablet || y.startLeaderboardRotation(),
                         r(".btn-youtuber").on("click", function() {
-                            u.storeGeneric("navOut", "youtuber/" + L.name)
+                            u.storeGeneric("navOut", "youtube")
                         }),
                         r("#btn-more").on("click", function() {
                             u.storeGeneric("navOut", "iogamesspace")
@@ -27243,17 +28878,17 @@ webpackJsonp([0], {
                         }),
                         v.on("input", function() {
                             var e = r(this).val() / 100;
-                            M.setMasterVolume(e),
+                            S.setMasterVolume(e),
                             f.set("masterVolume", e)
                         }),
-                        w.on("input", function() {
+                        k.on("input", function() {
                             var e = r(this).val() / 100;
-                            M.setSoundVolume(e),
+                            S.setSoundVolume(e),
                             f.set("soundVolume", e)
                         }),
                         _.on("input", function() {
                             var e = r(this).val() / 100;
-                            M.setMusicVolume(e),
+                            S.setMusicVolume(e),
                             f.set("musicVolume", e)
                         }),
                         r(".modal-settings-item").children("input").each(function(e, t) {
@@ -27264,10 +28899,10 @@ webpackJsonp([0], {
                             var t = r(e.target);
                             f.set(t.prop("id"), t.is(":checked"))
                         }),
-                        S.on("click", function() {
+                        w.on("click", function() {
                             g.toggleFullScreen()
                         }),
-                        P.on("change", function() {
+                        T.on("change", function() {
                             this.value && f.set("language", this.value)
                         }),
                         l.on("click", function() {
@@ -27281,7 +28916,7 @@ webpackJsonp([0], {
                             e.tryJoinTeam(!1, t)) : (r("#team-mobile-link-desc").css("display", "none"),
                             r("#team-mobile-link-warning").css("display", "none").fadeIn(100))
                         }),
-                        d.on("click", function() {
+                        m.on("click", function() {
                             window.history && window.history.replaceState("", "", "/"),
                             e.game && e.game.free(),
                             b.leave()
@@ -27289,58 +28924,59 @@ webpackJsonp([0], {
                         "WebSocket"in window)
                             if (g.authLocation()) {
                                 if (g.detectIE()) {
-                                    var B = 'Please use the <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Chrome browser</a> for a better playing experience!';
-                                    B += '<br><br>¡Usa el <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">navegador Chrome</a> para una mejor experiencia de juego!',
-                                    B += '<br><br><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">구글 크롬</a> 브라우저로이 게임을 즐겨보세요.';
-                                    var E = r("#modal-notification");
-                                    E.find(".modal-settings-text").html(B),
-                                    E.fadeIn(200)
+                                    var P = 'Please use the <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Chrome browser</a> for a better playing experience!';
+                                    P += '<br><br>¡Usa el <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">navegador Chrome</a> para una mejor experiencia de juego!',
+                                    P += '<br><br><a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">구글 크롬</a> 브라우저로이 게임을 즐겨보세요.';
+                                    var C = r("#modal-notification");
+                                    C.find(".modal-settings-text").html(P),
+                                    C.fadeIn(200)
                                 }
                             } else {
                                 u.storeGeneric("proxy", "used"),
                                 u.logProxy(window.location.hostname);
-                                var F = r("#modal-notification");
-                                F.find(".modal-settings-text").html('Please use the <a href="https://surviv.io" target="_blank">official surviv.io site</a> for a better playing experience!'),
-                                F.find(".modal-footer").remove(),
+                                var z = r("#modal-notification");
+                                z.find(".modal-settings-text").html('Please use the <a href="https://surviv.io" target="_blank">official surviv.io site</a> for a better playing experience!'),
+                                z.find(".modal-footer").remove(),
                                 r(document).off("click"),
-                                F.fadeIn(200)
+                                z.fadeIn(200)
                             }
                         else {
                             u.storeGeneric("compatibility", "no_websocket");
-                            var R = r("#modal-notification");
-                            R.find(".modal-settings-text").html('WebSockets are required to play.<br><br>Please use the <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Chrome browser</a> for a better playing experience!'),
-                            R.find(".modal-footer").remove(),
+                            var I = r("#modal-notification");
+                            I.find(".modal-settings-text").html('WebSockets are required to play.<br><br>Please use the <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Chrome browser</a> for a better playing experience!'),
+                            I.find(".modal-footer").remove(),
                             r(document).off("click"),
-                            R.fadeIn(200)
+                            I.fadeIn(200)
                         }
                         this.playEnabled = !0,
                         this.setDOMFromConfig(),
                         this.setAppActive(!0);
-                        var j = this.getConfigResolution()
-                          , q = new s.Application({
+                        var D = this.getConfigResolution()
+                          , A = new s.Application({
                             width: window.innerWidth,
                             height: window.innerHeight,
                             view: this.gameCanvas[0],
                             antialias: !1,
-                            resolution: j
+                            resolution: D
                         });
-                        q.renderer.plugins.interaction.destroy(),
-                        q.ticker.add(this.update, this),
-                        this.pixi = q,
+                        A.renderer.plugins.interaction.destroy(),
+                        A.ticker.add(this.update, this),
+                        this.pixi = A,
                         h.preloadImages();
-                        var U = function() {
-                            e.teamMenu.leave(),
+                        var O = function() {
                             e.setAppActive(!1)
                         }
-                          , G = function(t) {
+                          , L = function(t) {
                             e.game.free(),
                             e.errorMessage = t || "",
+                            e.teamMenu.onGameComplete(),
                             e.setAppActive(!0)
                         };
-                        this.game = new h(q,M,T,f,U,G),
+                        this.game = new h(A,S,M,f,O,L),
                         this.onResize(),
+                        this.tryJoinTeam(!1),
                         this.audioManager.preloadSounds(),
-                        this.menuMusicIdx = M.queueSound("menu_music", {
+                        this.menuMusicIdx = S.queueSound("menu_music", {
                             channel: "music",
                             fadeIn: !0,
                             loop: !1,
@@ -27391,8 +29027,7 @@ webpackJsonp([0], {
                 value: function(e) {
                     this.active = e,
                     this.quickPlayPendingMode = 0,
-                    this.refreshUi(),
-                    this.tryJoinTeam(!1)
+                    this.refreshUi()
                 }
             }, {
                 key: "onTeamMenuLeave",
@@ -27442,12 +29077,12 @@ webpackJsonp([0], {
                     c != t.mute && (o.removeClass(c ? "audio-on-icon" : "audio-off-icon"),
                     o.addClass(c ? "audio-off-icon" : "audio-on-icon"),
                     t.setMute(c));
-                    var m = e.get("masterVolume");
-                    n.val(100 * m),
-                    t.setMasterVolume(m);
-                    var d = e.get("soundVolume");
-                    r.val(100 * d),
-                    t.setSoundVolume(d);
+                    var d = e.get("masterVolume");
+                    n.val(100 * d),
+                    t.setMasterVolume(d);
+                    var m = e.get("soundVolume");
+                    r.val(100 * m),
+                    t.setSoundVolume(m);
                     var p = e.get("musicVolume");
                     s.val(100 * p),
                     t.setMusicVolume(p);
@@ -27477,9 +29112,9 @@ webpackJsonp([0], {
                       , s = this.serverWarning
                       , l = this.active
                       , c = this.quickPlayPendingMode
-                      , m = (this.playArgs,
+                      , d = (this.playArgs,
                     this.errorMessage)
-                      , d = this.teamMenu;
+                      , m = this.teamMenu;
                     o.css("display", l ? "flex" : "none"),
                     n.css({
                         display: "block",
@@ -27491,17 +29126,26 @@ webpackJsonp([0], {
                     r(".leaderboard").stop(!0),
                     r("#btn-leaderboard-to-front").trigger("click"),
                     document.addEventListener("contextmenu", this.contextListener)),
-                    r("#ad-block-left").css("display", !g.isLandscape() && d.active ? "none" : "block"),
+                    r("#ad-block-left").css("display", !g.isLandscape() && m.active ? "none" : "block"),
                     e && r("#btn-leaderboard-to-front").trigger("click");
-                    var p = l && "" != m;
+                    var p = l && "" != d;
                     s.css({
                         display: "block",
                         opacity: p ? 1 : 0
                     }),
-                    s.html(m),
+                    s.html(d),
                     t.html(1 == c ? '<div class="ui-spinner"></div>' : t.attr("data-label")),
                     a.html(2 == c ? '<div class="ui-spinner"></div>' : a.attr("data-label")),
-                    i.html(4 == c ? '<div class="ui-spinner"></div>' : i.attr("data-label"))
+                    i.html(4 == c ? '<div class="ui-spinner"></div>' : i.attr("data-label"));
+                    var u = m.active
+                      , h = window.innerHeight <= 768
+                      , f = {
+                        x: u && h ? "-60px" : 0,
+                        y: u ? h ? 0 : "40px" : 0
+                    };
+                    r("#surviv-io_728x90").css({
+                        transform: "translate(" + f.x + ", " + f.y + ")"
+                    })
                 }
             }, {
                 key: "tryJoinTeam",
@@ -27535,15 +29179,15 @@ webpackJsonp([0], {
                         this.refreshUi();
                         var s = l.protocolVersion
                           , c = a.get("region")
-                          , m = g.getParameterByName("region");
-                        void 0 !== m && m.length > 0 && (c = m);
-                        var d = this.pingTest.getZones(c)
+                          , d = g.getParameterByName("region");
+                        void 0 !== d && d.length > 0 && (c = d);
+                        var m = this.pingTest.getZones(c)
                           , p = g.getParameterByName("zone");
-                        void 0 !== p && p.length > 0 && (d = [p]);
+                        void 0 !== p && p.length > 0 && (m = [p]);
                         var u = {
                             version: s,
                             region: c,
-                            zones: d,
+                            zones: m,
                             teamMode: e,
                             playerCount: 1,
                             autoFill: !0
@@ -27616,25 +29260,27 @@ webpackJsonp([0], {
             }, {
                 key: "update",
                 value: function() {
-                    var e = this.pixi
-                      , t = this.game
-                      , a = this.audioManager
-                      , i = this.teamMenu
-                      , o = this.menuMusicIdx
-                      , n = this.windInst
-                      , r = c.clamp(e.ticker.elapsedMS / 1e3, .001, 1 / 8);
-                    a.update(r),
-                    i.update(r);
-                    var s = a.getQueuedInstance(o);
-                    !s || a.isSoundPlaying(s) || a.isSoundPlaying(n) || (this.windInst = this.audioManager.playSound("ambient_wind_01", {
+                    var e = this.pingTest
+                      , t = this.pixi
+                      , a = this.game
+                      , i = this.audioManager
+                      , o = this.teamMenu
+                      , n = this.menuMusicIdx
+                      , r = this.windInst
+                      , s = c.clamp(t.ticker.elapsedMS / 1e3, .001, 1 / 8);
+                    e.update(s),
+                    i.update(s),
+                    o.update(s);
+                    var l = i.getQueuedInstance(n);
+                    !l || i.isSoundPlaying(l) || i.isSoundPlaying(r) || (this.windInst = this.audioManager.playSound("ambient_wind_01", {
                         channel: "ambient",
                         fadeIn: !0,
                         loop: !0,
                         forceStart: !0
                     }),
-                    t.ambientSounds.windInst = this.windInst),
-                    a.isSoundPlaying(s) && t.playing && a.stopSound(s),
-                    t.initialized && t.playing ? t.update(r) : e.renderer.backgroundColor = 7378501
+                    a.ambientSounds.windInst = this.windInst),
+                    i.isSoundPlaying(l) && a.playing && i.stopSound(l),
+                    a.initialized && a.playing ? a.update(s) : t.renderer.backgroundColor = 7378501
                 }
             }]),
             e
@@ -27648,25 +29294,25 @@ webpackJsonp([0], {
                 document.body.appendChild(t)
             }(e)
         }();
-        var S = new _;
+        var w = new _;
         document.addEventListener("DOMContentLoaded", function(e) {
             setTimeout(function() {
-                S.init()
+                w.init()
             }, 0)
         }),
         window.addEventListener("load", function() {
             setTimeout(function() {
-                S.init()
+                w.init()
             }, 0)
         }),
         window.addEventListener("resize", function() {
-            S.onResize()
+            w.onResize()
         }),
         window.addEventListener("hashchange", function() {
-            S.tryJoinTeam(!1)
+            w.tryJoinTeam(!1)
         }),
         window.addEventListener("beforeunload", function(e) {
-            if (S.game && S.game.warnPageReload()) {
+            if (w.game && w.game.warnPageReload()) {
                 var t = "Do you want to reload the game?";
                 return e.returnValue = t,
                 t
@@ -27692,7 +29338,7 @@ webpackJsonp([0], {
                 throw new TypeError("Cannot call a class as a function")
         }
         function o(e, t, a, i, o) {
-            z[e] = {
+            C[e] = {
                 serializePart: t,
                 serializeFull: a,
                 deserializePart: i,
@@ -27760,11 +29406,11 @@ webpackJsonp([0], {
             e.writeString(t.name),
             e.writeVec(t.pos, 0, 0, 1024, 1024, 16)
         }
-        function m(e, t) {
+        function d(e, t) {
             t.name = e.readString(),
             t.pos = e.readVec(0, 0, 1024, 1024, 16)
         }
-        function d(e, t) {
+        function m(e, t) {
             e.writeMapType(t.type),
             e.writeVec(t.pos, 0, 0, 1024, 1024, 16),
             e.writeBits(t.ori, 2),
@@ -27808,8 +29454,8 @@ webpackJsonp([0], {
           , v = (b.Action,
         a("Bk7F"))
           , k = a("0od3")
-          , w = a("/2+T")
-          , _ = function() {
+          , _ = a("/2+T")
+          , w = function() {
             function e() {
                 i(this, e),
                 this._typeToId = {},
@@ -27843,8 +29489,8 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , S = new _
-          , M = new _;
+          , S = new w
+          , M = new w;
         !function() {
             for (var e = Object.keys(b.items), t = 0; t < e.length; t++)
                 S.addType(e[t]);
@@ -27887,7 +29533,7 @@ webpackJsonp([0], {
         }
         ,
         T.BitStream.prototype.readVec = function(e, t, a, i, o) {
-            return w.create(this.readFloat(e, a, o), this.readFloat(t, i, o))
+            return _.create(this.readFloat(e, a, o), this.readFloat(t, i, o))
         }
         ;
         T.BitStream.prototype.writeUnitVec = function(e, t) {
@@ -27904,7 +29550,7 @@ webpackJsonp([0], {
         }
         ,
         T.BitStream.prototype.readVec32 = function() {
-            return w.create(this.readFloat32(), this.readFloat32())
+            return _.create(this.readFloat32(), this.readFloat32())
         }
         ,
         T.BitStream.prototype.writeItemType = function(e) {
@@ -27952,20 +29598,19 @@ webpackJsonp([0], {
             }, {
                 key: "serializeMsgStream",
                 value: function(e, t) {
-                    g(this.stream.index % 8 == 0),
-                    g(t.index % 8 == 0),
+                    g(this.stream.index % 8 == 0 && t.index % 8 == 0),
                     this.stream.writeUint8(e),
                     this.stream.writeBytes(t, 0, t.index / 8)
                 }
             }, {
                 key: "deserializeMsgType",
                 value: function() {
-                    return this.stream.length - 8 * this.stream.byteIndex >= 1 ? this.stream.readUint8() : C.None
+                    return this.stream.length - 8 * this.stream.byteIndex >= 1 ? this.stream.readUint8() : z.None
                 }
             }]),
             e
         }()
-          , z = {};
+          , C = {};
         o(x.Type.Player, function(e, t) {
             e.writeVec(t.pos, 0, 0, 1024, 1024, 16),
             e.writeUnitVec(t.dir, 8)
@@ -28010,9 +29655,9 @@ webpackJsonp([0], {
             e.writeBits(t.layer, 2),
             e.writeBoolean(t.dead),
             e.writeBoolean(t.isDoor),
-            t.isDoor && (e.writeBits(t.door.relativeOri, 2),
-            e.writeBits(t.door.canUse, 1),
-            e.writeBits(t.door.seq, 5)),
+            t.isDoor && (e.writeBoolean(t.door.open),
+            e.writeBoolean(t.door.canUse),
+            e.writeBits(t.door.seq, 6)),
             e.writeBoolean(t.isButton),
             t.isButton && (e.writeBoolean(t.button.onOff),
             e.writeBoolean(t.button.canUse),
@@ -28030,9 +29675,9 @@ webpackJsonp([0], {
             t.dead = e.readBoolean(),
             t.isDoor = e.readBoolean(),
             t.isDoor && (t.door = {},
-            t.door.ori = e.readBits(2),
+            t.door.open = e.readBoolean(),
             t.door.canUse = e.readBoolean(),
-            t.door.seq = e.readBits(5)),
+            t.door.seq = e.readBits(6)),
             t.isButton = e.readBoolean(),
             t.isButton && (t.button = {},
             t.button.onOff = e.readBoolean(),
@@ -28136,7 +29781,7 @@ webpackJsonp([0], {
         }, function(e, t) {
             t.layer = e.readUint8()
         });
-        var C = {
+        var z = {
             None: 0,
             Join: 1,
             Disconnect: 2,
@@ -28200,7 +29845,7 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , A = function() {
+          , D = function() {
             function e() {
                 i(this, e),
                 this.reason = ""
@@ -28218,7 +29863,7 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , D = function() {
+          , A = function() {
             function e() {
                 i(this, e),
                 this.seq = 0,
@@ -28240,7 +29885,7 @@ webpackJsonp([0], {
                 this.scrollUp = !1,
                 this.useItem = "",
                 this.useScope = "",
-                this.toMouseDir = w.create(1, 0),
+                this.toMouseDir = _.create(1, 0),
                 this.toMouseLen = 0,
                 this.portrait = !1,
                 this.editMode = !1,
@@ -28351,7 +29996,7 @@ webpackJsonp([0], {
             function e() {
                 i(this, e),
                 this.type = 0,
-                this.pos = w.create(0, 0),
+                this.pos = _.create(0, 0),
                 this.useLoadout = !1,
                 this.teamOnly = !1,
                 this.isPing = !1
@@ -28458,7 +30103,7 @@ webpackJsonp([0], {
                     }
                     e.writeUint16(this.objects.length);
                     for (var a = 0; a < this.objects.length; a++) {
-                        d(e, this.objects[a])
+                        m(e, this.objects[a])
                     }
                 }
             }, {
@@ -28469,7 +30114,7 @@ webpackJsonp([0], {
                     this.seed = e.readUint32();
                     for (var t = e.readUint16(), a = 0; a < t; a++) {
                         var i = {};
-                        m(e, i),
+                        d(e, i),
                         this.places.push(i)
                     }
                     for (var o = e.readUint16(), n = 0; n < o; n++) {
@@ -28521,18 +30166,18 @@ webpackJsonp([0], {
                       , c = 0;
                     if (0 != (o & j.DeletedObjects)) {
                         c = e.readUint16();
-                        for (var m = 0; m < c; m++)
+                        for (var d = 0; d < c; d++)
                             this.delObjIds.push(e.readUint16())
                     }
-                    var d = 0;
+                    var m = 0;
                     if (0 != (o & j.FullObjects)) {
-                        d = e.readUint16();
-                        for (var p = 0; p < d; p++) {
+                        m = e.readUint16();
+                        for (var p = 0; p < m; p++) {
                             var u = {};
                             u.__type = e.readUint8(),
                             u.__id = e.readUint16(),
-                            z[u.__type].deserializePart(e, u),
-                            z[u.__type].deserializeFull(e, u),
+                            C[u.__type].deserializePart(e, u),
+                            C[u.__type].deserializeFull(e, u),
                             this.fullObjects.push(u)
                         }
                     }
@@ -28540,8 +30185,8 @@ webpackJsonp([0], {
                         var f = {};
                         f.__id = e.readUint16();
                         var y = e.readUint8()
-                          , b = t.getTypeById(f.__id, y, a, i, o, c, d, h, e);
-                        z[b].deserializePart(e, f),
+                          , b = t.getTypeById(f.__id, y, a, i, o, c, m, h, e);
+                        C[b].deserializePart(e, f),
                         this.partObjects.push(f)
                     }
                     0 != (o & j.ActivePlayerId) && (this.activePlayerId = e.readUint16(),
@@ -28559,10 +30204,10 @@ webpackJsonp([0], {
                         this.gasDirty = !0
                     }
                     if (0 != (o & j.TeamInfos))
-                        for (var k = e.readUint8(), w = 0; w < k; w++) {
-                            var _ = {};
-                            s(e, _),
-                            this.teams.push(_)
+                        for (var k = e.readUint8(), _ = 0; _ < k; _++) {
+                            var w = {};
+                            s(e, w),
+                            this.teams.push(w)
                         }
                     if (0 != (o & j.TeamData))
                         for (var S = e.readUint8(), M = 0; M < S; M++) {
@@ -28572,25 +30217,26 @@ webpackJsonp([0], {
                             this.teamData.push(T)
                         }
                     if (0 != (o & j.Bullets))
-                        for (var P = e.readUint8(), C = 0; C < P; C++) {
+                        for (var P = e.readUint8(), z = 0; z < P; z++) {
                             var I = {};
                             I.playerId = e.readUint16(),
                             I.bulletType = e.readItemType(),
                             I.pos = e.readVec(0, 0, 1024, 1024, 16),
-                            I.dir = e.readUnitVec(10),
+                            I.dir = e.readUnitVec(8),
                             I.layer = e.readBits(2),
-                            I.varianceT = e.readFloat(0, 1, 6),
+                            I.varianceT = e.readFloat(0, 1, 5),
+                            I.distAdjIdx = e.readBits(5),
                             I.shotFx = e.readBoolean(),
                             I.shotFx && (I.shotSourceType = e.readItemType(),
                             I.shotOffhand = e.readUint8()),
                             I.reflectCount = e.readBits(2),
                             I.reflectObjId = 0;
-                            var A = e.readBits(1);
-                            A && (I.reflectObjId = e.readUint16()),
+                            var D = e.readBoolean();
+                            D && (I.reflectObjId = e.readUint16()),
                             this.bullets.push(I)
                         }
                     if (0 != (o & j.Explosions))
-                        for (var D = e.readUint8(), O = 0; O < D; O++) {
+                        for (var A = e.readUint8(), O = 0; O < A; O++) {
                             var L = {};
                             L.pos = e.readVec(0, 0, 1024, 1024, 16),
                             L.type = e.readItemType(),
@@ -28611,7 +30257,7 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , U = function() {
+          , N = function() {
             function e() {
                 i(this, e),
                 this.itemSourceType = "",
@@ -28653,7 +30299,7 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , G = function() {
+          , U = function() {
             function e() {
                 i(this, e),
                 this.playerId = 0,
@@ -28685,7 +30331,7 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , V = function() {
+          , G = function() {
             function e() {
                 i(this, e),
                 this.teamId = 0,
@@ -28703,7 +30349,7 @@ webpackJsonp([0], {
                     e.writeUint8(this.victory),
                     e.writeUint8(this.playerStats.length);
                     for (var t = 0; t < this.playerStats.length; t++) {
-                        var a = new G;
+                        var a = new U;
                         a.playerStats = this.playerStats[t],
                         a.serialize(e)
                     }
@@ -28716,7 +30362,7 @@ webpackJsonp([0], {
                     this.gameOver = e.readUint8(),
                     this.victory = e.readUint8();
                     for (var t = e.readUint8(), a = 0; a < t; a++) {
-                        var i = new G;
+                        var i = new U;
                         i.deserialize(e),
                         this.playerStats.push(i.playerStats)
                     }
@@ -28724,7 +30370,7 @@ webpackJsonp([0], {
             }]),
             e
         }()
-          , N = {
+          , V = {
             Full: 0,
             AlreadyOwned: 1,
             AlreadyEquipped: 2,
@@ -28782,20 +30428,20 @@ webpackJsonp([0], {
             kTeamUpdateRate: .25,
             kSmokeMaxRad: 10,
             MsgStream: P,
-            Msg: C,
+            Msg: z,
             JoinMsg: I,
             PlayerInfoMsg: E,
-            DisconnectMsg: A,
-            MoveMsg: D,
+            DisconnectMsg: D,
+            MoveMsg: A,
             EditMsg: O,
             DropItemMsg: L,
             JoinedMsg: F,
             UpdateMsg: q,
             MapMsg: R,
-            KillMsg: U,
-            PlayerStatsMsg: G,
-            GameOverMsg: V,
-            PickupMsgType: N,
+            KillMsg: N,
+            PlayerStatsMsg: U,
+            GameOverMsg: G,
+            PickupMsgType: V,
             PickupMsg: H,
             SpectateMsg: W,
             EmoteMsg: B
@@ -28851,21 +30497,22 @@ webpackJsonp([0], {
                         this.aabb = r.transform(s.getBoundingCollider(this.type), this.pos, this.rot, 1),
                         this.stairs = [];
                         for (var o = s.Defs[this.type], c = 0; c < o.stairs.length; c++) {
-                            var m = o.stairs[c]
-                              , d = r.transform(m.collision, this.pos, this.rot, 1)
-                              , p = n.splitAabb(d, m.downDir);
+                            var d = o.stairs[c]
+                              , m = r.transform(d.collision, this.pos, this.rot, 1)
+                              , p = l.rotate(d.downDir, this.rot)
+                              , u = n.splitAabb(m, p);
                             this.stairs.push({
-                                collision: d,
-                                center: l.add(d.min, l.mul(l.sub(d.max, d.min), .5)),
-                                downDir: l.rotate(m.downDir, this.rot),
-                                downAabb: r.createAabb(p[0].min, p[0].max),
-                                upAabb: r.createAabb(p[1].min, p[1].max),
-                                noCeilingReveal: !!m.noCeilingReveal
+                                collision: m,
+                                center: l.add(m.min, l.mul(l.sub(m.max, m.min), .5)),
+                                downDir: p,
+                                downAabb: r.createAabb(u[0].min, u[0].max),
+                                upAabb: r.createAabb(u[1].min, u[1].max),
+                                noCeilingReveal: !!d.noCeilingReveal
                             })
                         }
                         this.mask = [];
-                        for (var u = 0; u < o.mask.length; u++)
-                            this.mask.push(r.transform(o.mask[u], this.pos, this.rot, 1));
+                        for (var h = 0; h < o.mask.length; h++)
+                            this.mask.push(r.transform(o.mask[h], this.pos, this.rot, 1));
                         i.renderer.layerMaskDirty = !0
                     }
                 }
@@ -28927,4 +30574,4 @@ webpackJsonp([0], {
         e.exports = r
     }
 }, ["yZ5m"]);
-//# sourceMappingURL=app.0ca5c0d7.js.map
+//# sourceMappingURL=app.05d704f7.js.map
